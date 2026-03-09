@@ -1,14 +1,43 @@
 {
   "event": "Inspirations of Dance 2026",
-  "session": "Senior Jazz Solo",
   "last_update": "2026-03-09 14:32",
-  "results": [
-    { "place": 1, "entry": 142, "title": "Shine", "studio": "ABC Dance" },
-    { "place": 2, "entry": 118, "title": "Rise", "studio": "XYZ Academy" },
-    { "place": 3, "entry": 130, "title": "Gravity", "studio": "Momentum Dance" }
+  "days": [
+    {
+      "id": "friday",
+      "label": "Friday",
+      "groups": [
+        {
+          "group_id": "fri-jazz-solo-sr",
+          "group_name": "Senior Jazz Solo",
+          "results": [
+            { "place": 1, "entry": 142, "title": "Shine", "studio": "ABC Dance" },
+            { "place": 2, "entry": 118, "title": "Rise", "studio": "XYZ Academy" }
+          ]
+        },
+        {
+          "group_id": "fri-lyrical-duo-jr",
+          "group_name": "Junior Lyrical Duo/Trio",
+          "results": [
+            { "place": 1, "entry": 201, "title": "Wings", "studio": "North Star Dance" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saturday",
+      "label": "Saturday",
+      "groups": [
+        {
+          "group_id": "sat-contemp-group-teen",
+          "group_name": "Teen Contemporary Small Group",
+          "results": [
+            { "place": 1, "entry": 305, "title": "Gravity", "studio": "Momentum Dance" }
+          ]
+        }
+      ]
+    }
   ],
   "awards": [
-    { "award": "Judges Choice", "entry": 142, "title": "Shine" },
-    { "award": "Full Throttle Award", "entry": 130, "title": "Gravity" }
+    { "award": "Judges Choice", "entry": 142, "title": "Shine" }
   ]
 }
