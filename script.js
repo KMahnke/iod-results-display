@@ -1,19 +1,20 @@
 let pageData = null;
 let activeTab = null;
 
-function getDayLabelsInFileOrder() {
-  const seen = new Set();
-  const out = [];
+const DAY_TABS = ["Wed", "Thu", "Fri", "Sat", "Sun"];
 
-  (pageData?.categories || []).forEach((category) => {
-    const day = category.day_label;
-    if (!seen.has(day)) {
-      seen.add(day);
-      out.push(day);
-    }
+function getDayShortLabel(dayLabel) {
+  if (!dayLabel) return "";
+  const short = String(dayLabel).split(",")[0].trim();
+  return short;
+}
+
+function getCategoriesForTab(tabLabel) {
+  if (!pageData || !pageData.categories) return [];
+
+  return pageData.categories.filter((category) => {
+    return getDayShortLabel(category.day_label) === tabLabel;
   });
-
-  return out;
 }
 
 async function loadResults() {
@@ -25,10 +26,10 @@ async function loadResults() {
     document.getElementById("lastUpdate").textContent =
       `Last updated: ${pageData.last_update || ""}`;
 
-    const dayLabels = getDayLabelsInFileOrder();
-
     if (!activeTab) {
-      activeTab = dayLabels[0] || "awards";
+      const firstAvailable =
+        DAY_TABS.find((day) => getCategoriesForTab(day).length > 0) || "Wed";
+      activeTab = firstAvailable;
     }
 
     renderTabs();
@@ -42,11 +43,14 @@ function renderTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = "";
 
-  const dayLabels = getDayLabelsInFileOrder();
-
-  dayLabels.forEach((dayLabel) => {
+  DAY_TABS.forEach((dayLabel) => {
     const btn = document.createElement("button");
     btn.className = "tab-btn" + (activeTab === dayLabel ? " active" : "");
+
+    if (getCategoriesForTab(dayLabel).length === 0) {
+      btn.className += " tab-btn-empty";
+    }
+
     btn.textContent = dayLabel;
     btn.onclick = () => {
       activeTab = dayLabel;
@@ -95,14 +99,12 @@ function renderContent() {
     return;
   }
 
-  const categories = (pageData.categories || []).filter(
-    (c) => c.day_label === activeTab
-  );
+  const categories = getCategoriesForTab(activeTab);
 
   if (!categories.length) {
     const empty = document.createElement("div");
     empty.className = "group-card";
-    empty.innerHTML = "<h2>No categories found for this day.</h2>";
+    empty.innerHTML = `<h2>No published categories for ${activeTab}.</h2>`;
     content.appendChild(empty);
     return;
   }
@@ -118,7 +120,7 @@ function renderContent() {
 
     const sub = document.createElement("div");
     sub.className = "group-subtitle";
-    sub.textContent = `${category.session_label}`;
+    sub.textContent = `${category.day_label} • ${category.session_label}`;
     card.appendChild(sub);
 
     const table = document.createElement("table");
@@ -188,7 +190,7 @@ function searchEntry() {
     );
 
     if (found) {
-      activeTab = category.day_label;
+      activeTab = getDayShortLabel(category.day_label);
       renderTabs();
       renderContent();
 
