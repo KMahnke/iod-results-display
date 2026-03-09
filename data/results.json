@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 17022,
-    "last_update": "2026-03-09 23:48:27",
+    "last_update": "2026-03-09 23:50:02",
     "categories": [
         {
             "category_id": 1715901680,
@@ -714,6 +714,202 @@
                     "studio": "Dance Plus EP",
                     "score": 76,
                     "program_order": 49
+                }
+            ]
+        },
+        {
+            "category_id": 1397817055,
+            "category_name": "Novice Ages 15-17 Lyrical Duet\/Trio",
+            "day_label": "Fri, Mar 14, 2025",
+            "session_label": "Session 93395",
+            "publish_state": "published",
+            "program_sort": 544,
+            "day_sort": "2025-03-14",
+            "session_sort": 93395,
+            "entries": [
+                {
+                    "entry": "539",
+                    "title": "He Is",
+                    "studio": "Dance Plus EP",
+                    "program_order": 544
+                },
+                {
+                    "entry": "541",
+                    "title": "Trauma",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 545
+                },
+                {
+                    "entry": "542",
+                    "title": "Call Your Mom",
+                    "studio": "Diva Dance",
+                    "program_order": 546
+                }
+            ],
+            "results": [
+                {
+                    "display_place": "1st",
+                    "entry": "539",
+                    "title": "He Is",
+                    "studio": "Dance Plus EP",
+                    "score": 82,
+                    "program_order": 544
+                },
+                {
+                    "display_place": "2nd",
+                    "entry": "541",
+                    "title": "Trauma",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 80,
+                    "program_order": 545
+                },
+                {
+                    "display_place": "3rd",
+                    "entry": "542",
+                    "title": "Call Your Mom",
+                    "studio": "Diva Dance",
+                    "score": 78,
+                    "program_order": 546
+                }
+            ]
+        },
+        {
+            "category_id": 1065645644,
+            "category_name": "Beginner Ages 9-11 Tap Duet\/Trio",
+            "day_label": "Fri, Mar 14, 2025",
+            "session_label": "Session 93395",
+            "publish_state": "published",
+            "program_sort": 547,
+            "day_sort": "2025-03-14",
+            "session_sort": 93395,
+            "entries": [
+                {
+                    "entry": "543",
+                    "title": "Itty Bitty Pretty One",
+                    "studio": "Minton Dance Club",
+                    "program_order": 547
+                },
+                {
+                    "entry": "544",
+                    "title": "Who Says",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 548
+                },
+                {
+                    "entry": "545",
+                    "title": "Cotton Eyed Joe",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 549
+                }
+            ],
+            "results": [
+                {
+                    "display_place": "1st",
+                    "entry": "543",
+                    "title": "Itty Bitty Pretty One",
+                    "studio": "Minton Dance Club",
+                    "score": 80,
+                    "program_order": 547
+                },
+                {
+                    "display_place": "3rd",
+                    "entry": "544",
+                    "title": "Who Says",
+                    "studio": "Pangman Dance Club",
+                    "score": 78,
+                    "program_order": 548
+                },
+                {
+                    "display_place": "2nd",
+                    "entry": "545",
+                    "title": "Cotton Eyed Joe",
+                    "studio": "Marley's Dance Effex",
+                    "score": 79,
+                    "program_order": 549
+                }
+            ]
+        },
+        {
+            "category_id": 200163309,
+            "category_name": "Novice Ages 12-14 Lyrical Duet\/Trio",
+            "day_label": "Fri, Mar 14, 2025",
+            "session_label": "Session 93395",
+            "publish_state": "published",
+            "program_sort": 556,
+            "day_sort": "2025-03-14",
+            "session_sort": 93395,
+            "entries": [
+                {
+                    "entry": "552",
+                    "title": "Never Grow Up",
+                    "studio": "Valley Dance",
+                    "program_order": 556
+                },
+                {
+                    "entry": "553",
+                    "title": "Say Something",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 557
+                },
+                {
+                    "entry": "554",
+                    "title": "Rescue",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 558
+                },
+                {
+                    "entry": "555",
+                    "title": "Brighter Days",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 559
+                },
+                {
+                    "entry": "556",
+                    "title": "Next to Me",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 560
+                }
+            ],
+            "results": [
+                {
+                    "display_place": "1st",
+                    "entry": "552",
+                    "title": "Never Grow Up",
+                    "studio": "Valley Dance",
+                    "score": 85,
+                    "program_order": 556
+                },
+                {
+                    "display_place": "3rd",
+                    "entry": "553",
+                    "title": "Say Something",
+                    "studio": "Estevan Recreational Dance Club",
+                    "score": 78,
+                    "program_order": 557
+                },
+                {
+                    "display_place": "2nd",
+                    "entry": "554",
+                    "title": "Rescue",
+                    "studio": "Ogema Dance Club",
+                    "score": 80,
+                    "program_order": 558
+                },
+                {
+                    "display_place": "",
+                    "entry": "555",
+                    "title": "Brighter Days",
+                    "studio": "Ogema Dance Club",
+                    "score": 76,
+                    "program_order": 559
+                },
+                {
+                    "display_place": "",
+                    "entry": "556",
+                    "title": "Next to Me",
+                    "studio": "Marley's Dance Effex",
+                    "score": 75,
+                    "program_order": 560
                 }
             ]
         }
