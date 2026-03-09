@@ -9,30 +9,17 @@
 <body>
   <div class="container">
     <h1 id="eventTitle">Inspirations of Dance</h1>
-    <h2 id="sessionTitle">Loading session...</h2>
-
-    <div class="panel">
-      <table id="resultsTable">
-        <thead>
-          <tr>
-            <th>Place</th>
-            <th>Entry</th>
-            <th>Title</th>
-            <th>Studio</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+    <div class="topbar">
+      <div id="tabs" class="tabs"></div>
+      <div class="searchbox">
+        <input type="text" id="entrySearch" placeholder="Search entry number" />
+        <button id="searchBtn">Search</button>
+      </div>
     </div>
 
-    <div class="panel awards">
-      <h3>Awards</h3>
-      <ul id="awardsList"></ul>
-    </div>
+    <div id="lastUpdate" class="updated"></div>
 
-    <div class="updated">
-      Last updated: <span id="updatedTime">--</span>
-    </div>
+    <div id="content"></div>
   </div>
 
   <script src="script.js"></script>
