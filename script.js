@@ -1,6 +1,54 @@
 let pageData = null;
 let activeTab = null;
 
+function getDaySortValue(dayLabel) {
+  const categories = (pageData?.categories || []).filter(
+    (c) => c.day_label === dayLabel
+  );
+
+  let minEntry = Number.MAX_SAFE_INTEGER;
+
+  categories.forEach((category) => {
+    const rows = [
+      ...(category.entries || []),
+      ...(category.results || [])
+    ];
+
+    rows.forEach((r) => {
+      const entryNum = Number(r.entry);
+      if (!Number.isNaN(entryNum) && entryNum < minEntry) {
+        minEntry = entryNum;
+      }
+    });
+  });
+
+  return minEntry;
+}
+
+function getSortedDayLabels() {
+  const uniqueDays = [...new Set((pageData?.categories || []).map(c => c.day_label))];
+
+  return uniqueDays.sort((a, b) => getDaySortValue(a) - getDaySortValue(b));
+}
+
+function getCategorySortValue(category) {
+  const rows = [
+    ...(category.entries || []),
+    ...(category.results || [])
+  ];
+
+  let minEntry = Number.MAX_SAFE_INTEGER;
+
+  rows.forEach((r) => {
+    const entryNum = Number(r.entry);
+    if (!Number.isNaN(entryNum) && entryNum < minEntry) {
+      minEntry = entryNum;
+    }
+  });
+
+  return minEntry;
+}
+
 async function loadResults() {
   try {
     const response = await fetch("data/results.json?" + Date.now());
@@ -10,10 +58,10 @@ async function loadResults() {
     document.getElementById("lastUpdate").textContent =
       `Last updated: ${pageData.last_update || ""}`;
 
-    const dayLabels = [...new Set((pageData.categories || []).map(c => c.day_label))];
+    const sortedDays = getSortedDayLabels();
 
     if (!activeTab) {
-      activeTab = dayLabels[0] || "awards";
+      activeTab = sortedDays[0] || "awards";
     }
 
     renderTabs();
@@ -27,9 +75,9 @@ function renderTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = "";
 
-  const dayLabels = [...new Set((pageData.categories || []).map(c => c.day_label))];
+  const sortedDays = getSortedDayLabels();
 
-  dayLabels.forEach((dayLabel) => {
+  sortedDays.forEach((dayLabel) => {
     const btn = document.createElement("button");
     btn.className = "tab-btn" + (activeTab === dayLabel ? " active" : "");
     btn.textContent = dayLabel;
@@ -80,17 +128,11 @@ function renderContent() {
     return;
   }
 
-  const categories = (pageData.categories || []).filter(
-    (c) => c.day_label === activeTab
-  );
+  const categories = (pageData.categories || [])
+    .filter((c) => c.day_label === activeTab)
+    .sort((a, b) => getCategorySortValue(a) - getCategorySortValue(b));
 
-  if (!categories.length) {
-    const empty = document.createElement("div");
-    empty.className = "group-card";
-    empty.innerHTML = "<h2>No categories found for this day.</h2>";
-    content.appendChild(empty);
-    return;
-  }
+  if (!categories.length) return;
 
   categories.forEach((category) => {
     const card = document.createElement("div");
@@ -121,14 +163,16 @@ function renderContent() {
 
     const tbody = table.querySelector("tbody");
 
-    const rows = (category.results && category.results.length)
-      ? category.results
-      : (category.entries || []).map(e => ({
+    let rows = (category.results && category.results.length)
+      ? [...category.results]
+      : [...(category.entries || []).map(e => ({
           display_place: "",
           entry: e.entry,
           title: e.title,
           studio: e.studio
-        }));
+        }))];
+
+    rows.sort((a, b) => Number(a.entry) - Number(b.entry));
 
     rows.forEach((r) => {
       const row = document.createElement("tr");
@@ -155,7 +199,11 @@ function searchEntry() {
     el.classList.remove("highlight");
   });
 
-  for (const category of (pageData.categories || [])) {
+  const categories = [...(pageData.categories || [])].sort(
+    (a, b) => getCategorySortValue(a) - getCategorySortValue(b)
+  );
+
+  for (const category of categories) {
     const searchPool = [
       ...(category.results || []),
       ...(category.entries || [])
