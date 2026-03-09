@@ -1,52 +1,19 @@
 let pageData = null;
 let activeTab = null;
 
-function getDaySortValue(dayLabel) {
-  const categories = (pageData?.categories || []).filter(
-    (c) => c.day_label === dayLabel
-  );
+function getDayLabelsInFileOrder() {
+  const seen = new Set();
+  const out = [];
 
-  let minEntry = Number.MAX_SAFE_INTEGER;
-
-  categories.forEach((category) => {
-    const rows = [
-      ...(category.entries || []),
-      ...(category.results || [])
-    ];
-
-    rows.forEach((r) => {
-      const entryNum = Number(r.entry);
-      if (!Number.isNaN(entryNum) && entryNum < minEntry) {
-        minEntry = entryNum;
-      }
-    });
-  });
-
-  return minEntry;
-}
-
-function getSortedDayLabels() {
-  const uniqueDays = [...new Set((pageData?.categories || []).map(c => c.day_label))];
-
-  return uniqueDays.sort((a, b) => getDaySortValue(a) - getDaySortValue(b));
-}
-
-function getCategorySortValue(category) {
-  const rows = [
-    ...(category.entries || []),
-    ...(category.results || [])
-  ];
-
-  let minEntry = Number.MAX_SAFE_INTEGER;
-
-  rows.forEach((r) => {
-    const entryNum = Number(r.entry);
-    if (!Number.isNaN(entryNum) && entryNum < minEntry) {
-      minEntry = entryNum;
+  (pageData?.categories || []).forEach((category) => {
+    const day = category.day_label;
+    if (!seen.has(day)) {
+      seen.add(day);
+      out.push(day);
     }
   });
 
-  return minEntry;
+  return out;
 }
 
 async function loadResults() {
@@ -58,10 +25,10 @@ async function loadResults() {
     document.getElementById("lastUpdate").textContent =
       `Last updated: ${pageData.last_update || ""}`;
 
-    const sortedDays = getSortedDayLabels();
+    const dayLabels = getDayLabelsInFileOrder();
 
     if (!activeTab) {
-      activeTab = sortedDays[0] || "awards";
+      activeTab = dayLabels[0] || "awards";
     }
 
     renderTabs();
@@ -75,9 +42,9 @@ function renderTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = "";
 
-  const sortedDays = getSortedDayLabels();
+  const dayLabels = getDayLabelsInFileOrder();
 
-  sortedDays.forEach((dayLabel) => {
+  dayLabels.forEach((dayLabel) => {
     const btn = document.createElement("button");
     btn.className = "tab-btn" + (activeTab === dayLabel ? " active" : "");
     btn.textContent = dayLabel;
@@ -128,11 +95,17 @@ function renderContent() {
     return;
   }
 
-  const categories = (pageData.categories || [])
-    .filter((c) => c.day_label === activeTab)
-    .sort((a, b) => getCategorySortValue(a) - getCategorySortValue(b));
+  const categories = (pageData.categories || []).filter(
+    (c) => c.day_label === activeTab
+  );
 
-  if (!categories.length) return;
+  if (!categories.length) {
+    const empty = document.createElement("div");
+    empty.className = "group-card";
+    empty.innerHTML = "<h2>No categories found for this day.</h2>";
+    content.appendChild(empty);
+    return;
+  }
 
   categories.forEach((category) => {
     const card = document.createElement("div");
@@ -149,7 +122,14 @@ function renderContent() {
     card.appendChild(sub);
 
     const table = document.createElement("table");
+    table.className = "results-table";
     table.innerHTML = `
+      <colgroup>
+        <col class="col-place">
+        <col class="col-entry">
+        <col class="col-title">
+        <col class="col-studio">
+      </colgroup>
       <thead>
         <tr>
           <th>Place</th>
@@ -163,16 +143,14 @@ function renderContent() {
 
     const tbody = table.querySelector("tbody");
 
-    let rows = (category.results && category.results.length)
-      ? [...category.results]
-      : [...(category.entries || []).map(e => ({
+    const rows = (category.results && category.results.length)
+      ? category.results
+      : (category.entries || []).map(e => ({
           display_place: "",
           entry: e.entry,
           title: e.title,
           studio: e.studio
-        }))];
-
-    rows.sort((a, b) => Number(a.entry) - Number(b.entry));
+        }));
 
     rows.forEach((r) => {
       const row = document.createElement("tr");
@@ -199,11 +177,7 @@ function searchEntry() {
     el.classList.remove("highlight");
   });
 
-  const categories = [...(pageData.categories || [])].sort(
-    (a, b) => getCategorySortValue(a) - getCategorySortValue(b)
-  );
-
-  for (const category of categories) {
+  for (const category of (pageData.categories || [])) {
     const searchPool = [
       ...(category.results || []),
       ...(category.entries || [])
