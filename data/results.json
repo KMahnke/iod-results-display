@@ -1,43 +1,141 @@
 {
   "event": "Inspirations of Dance 2026",
-  "last_update": "2026-03-09 14:32",
+  "last_update": "2026-03-09 19:30",
+
   "days": [
     {
       "id": "friday",
       "label": "Friday",
+
       "groups": [
         {
-          "group_id": "fri-jazz-solo-sr",
-          "group_name": "Senior Jazz Solo",
+          "group_id": "fri-mini-solo-jazz",
+          "group_name": "Mini Jazz Solo",
+
           "results": [
-            { "place": 1, "entry": 142, "title": "Shine", "studio": "ABC Dance" },
-            { "place": 2, "entry": 118, "title": "Rise", "studio": "XYZ Academy" }
+            { "place": 1, "entry": 101, "title": "Sparkle Steps", "studio": "Dance Energy" },
+            { "place": 2, "entry": 103, "title": "Tiny Groove", "studio": "Northern Lights Dance" },
+            { "place": 3, "entry": 107, "title": "Little Star", "studio": "Momentum Dance" }
           ]
         },
+
         {
-          "group_id": "fri-lyrical-duo-jr",
-          "group_name": "Junior Lyrical Duo/Trio",
+          "group_id": "fri-junior-duo-lyrical",
+          "group_name": "Junior Lyrical Duo / Trio",
+
           "results": [
-            { "place": 1, "entry": 201, "title": "Wings", "studio": "North Star Dance" }
+            { "place": 1, "entry": 118, "title": "Falling Slowly", "studio": "Elite Dance Studio" },
+            { "place": 2, "entry": 121, "title": "Wings", "studio": "Step Up Dance" },
+            { "place": 3, "entry": 124, "title": "Reflections", "studio": "Momentum Dance" }
+          ]
+        },
+
+        {
+          "group_id": "fri-senior-solo-jazz",
+          "group_name": "Senior Jazz Solo",
+
+          "results": [
+            { "place": 1, "entry": 142, "title": "Shine", "studio": "ABC Dance" },
+            { "place": 2, "entry": 148, "title": "Electric Pulse", "studio": "Northern Lights Dance" },
+            { "place": 3, "entry": 151, "title": "Velocity", "studio": "Momentum Dance" }
           ]
         }
       ]
     },
+
     {
       "id": "saturday",
       "label": "Saturday",
+
       "groups": [
         {
-          "group_id": "sat-contemp-group-teen",
-          "group_name": "Teen Contemporary Small Group",
+          "group_id": "sat-junior-small-group",
+          "group_name": "Junior Contemporary Small Group",
+
           "results": [
-            { "place": 1, "entry": 305, "title": "Gravity", "studio": "Momentum Dance" }
+            { "place": 1, "entry": 205, "title": "Echo", "studio": "Momentum Dance" },
+            { "place": 2, "entry": 208, "title": "Beyond", "studio": "Step Up Dance" },
+            { "place": 3, "entry": 210, "title": "Awakening", "studio": "Dance Energy" }
+          ]
+        },
+
+        {
+          "group_id": "sat-teen-duo-jazz",
+          "group_name": "Teen Jazz Duo / Trio",
+
+          "results": [
+            { "place": 1, "entry": 219, "title": "Rhythm & Fire", "studio": "Elite Dance Studio" },
+            { "place": 2, "entry": 222, "title": "Spotlight", "studio": "Momentum Dance" },
+            { "place": 3, "entry": 224, "title": "Neon Nights", "studio": "Northern Lights Dance" }
+          ]
+        },
+
+        {
+          "group_id": "sat-teen-large-group",
+          "group_name": "Teen Large Group",
+
+          "results": [
+            { "place": 1, "entry": 236, "title": "Gravity", "studio": "Momentum Dance" },
+            { "place": 2, "entry": 240, "title": "Rise Together", "studio": "Dance Energy" },
+            { "place": 3, "entry": 243, "title": "Unity", "studio": "Elite Dance Studio" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sunday",
+      "label": "Sunday",
+
+      "groups": [
+        {
+          "group_id": "sun-senior-duo-contemp",
+          "group_name": "Senior Contemporary Duo / Trio",
+
+          "results": [
+            { "place": 1, "entry": 301, "title": "Gravity Between Us", "studio": "Momentum Dance" },
+            { "place": 2, "entry": 304, "title": "Breathing Space", "studio": "Northern Lights Dance" },
+            { "place": 3, "entry": 306, "title": "Parallel", "studio": "Elite Dance Studio" }
+          ]
+        },
+
+        {
+          "group_id": "sun-senior-line",
+          "group_name": "Senior Line",
+
+          "results": [
+            { "place": 1, "entry": 318, "title": "Revolution", "studio": "Momentum Dance" },
+            { "place": 2, "entry": 322, "title": "Illuminate", "studio": "Dance Energy" },
+            { "place": 3, "entry": 326, "title": "The Movement", "studio": "Elite Dance Studio" }
           ]
         }
       ]
     }
   ],
+
   "awards": [
-    { "award": "Judges Choice", "entry": 142, "title": "Shine" }
+    {
+      "award": "Judges Choice",
+      "entry": 142,
+      "title": "Shine"
+    },
+
+    {
+      "award": "Full Throttle Award",
+      "entry": 236,
+      "title": "Gravity"
+    },
+
+    {
+      "award": "Audience Favourite",
+      "entry": 205,
+      "title": "Echo"
+    },
+
+    {
+      "award": "Spirit of Dance",
+      "entry": 101,
+      "title": "Sparkle Steps"
+    }
   ]
 }
