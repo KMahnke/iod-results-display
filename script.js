@@ -6,12 +6,14 @@ async function loadResults() {
     const response = await fetch("data/results.json?" + Date.now());
     pageData = await response.json();
 
-    document.getElementById("eventTitle").textContent = pageData.event;
+    document.getElementById("eventTitle").textContent = pageData.event || "Results";
     document.getElementById("lastUpdate").textContent =
-      `Last updated: ${pageData.last_update}`;
+      `Last updated: ${pageData.last_update || ""}`;
+
+    const dayLabels = [...new Set((pageData.categories || []).map(c => c.day_label))];
 
     if (!activeTab) {
-      activeTab = pageData.days[0]?.id || "awards";
+      activeTab = dayLabels[0] || "awards";
     }
 
     renderTabs();
@@ -25,12 +27,14 @@ function renderTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = "";
 
-  pageData.days.forEach((day) => {
+  const dayLabels = [...new Set((pageData.categories || []).map(c => c.day_label))];
+
+  dayLabels.forEach((dayLabel) => {
     const btn = document.createElement("button");
-    btn.className = "tab-btn" + (activeTab === day.id ? " active" : "");
-    btn.textContent = day.label;
+    btn.className = "tab-btn" + (activeTab === dayLabel ? " active" : "");
+    btn.textContent = dayLabel;
     btn.onclick = () => {
-      activeTab = day.id;
+      activeTab = dayLabel;
       renderTabs();
       renderContent();
     };
@@ -57,29 +61,50 @@ function renderContent() {
     awardsCard.className = "awards-card";
     awardsCard.innerHTML = "<h2>Awards</h2>";
 
-    const ul = document.createElement("ul");
-    (pageData.awards || []).forEach((a) => {
-      const li = document.createElement("li");
-      li.textContent = `${a.award} — #${a.entry} "${a.title}"`;
-      ul.appendChild(li);
-    });
+    const awards = pageData.awards || [];
+    if (!awards.length) {
+      const p = document.createElement("p");
+      p.textContent = "No awards posted yet.";
+      awardsCard.appendChild(p);
+    } else {
+      const ul = document.createElement("ul");
+      awards.forEach((a) => {
+        const li = document.createElement("li");
+        li.textContent = `${a.award} — #${a.entry} "${a.title}"`;
+        ul.appendChild(li);
+      });
+      awardsCard.appendChild(ul);
+    }
 
-    awardsCard.appendChild(ul);
     content.appendChild(awardsCard);
     return;
   }
 
-  const day = pageData.days.find((d) => d.id === activeTab);
-  if (!day) return;
+  const categories = (pageData.categories || []).filter(
+    (c) => c.day_label === activeTab
+  );
 
-  day.groups.forEach((group) => {
+  if (!categories.length) {
+    const empty = document.createElement("div");
+    empty.className = "group-card";
+    empty.innerHTML = "<h2>No categories found for this day.</h2>";
+    content.appendChild(empty);
+    return;
+  }
+
+  categories.forEach((category) => {
     const card = document.createElement("div");
     card.className = "group-card";
-    card.id = group.group_id;
+    card.id = "cat-" + category.category_id;
 
     const title = document.createElement("h2");
-    title.textContent = group.group_name;
+    title.textContent = category.category_name;
     card.appendChild(title);
+
+    const sub = document.createElement("div");
+    sub.className = "group-subtitle";
+    sub.textContent = `${category.session_label}`;
+    card.appendChild(sub);
 
     const table = document.createElement("table");
     table.innerHTML = `
@@ -96,14 +121,23 @@ function renderContent() {
 
     const tbody = table.querySelector("tbody");
 
-    group.results.forEach((r) => {
+    const rows = (category.results && category.results.length)
+      ? category.results
+      : (category.entries || []).map(e => ({
+          display_place: "",
+          entry: e.entry,
+          title: e.title,
+          studio: e.studio
+        }));
+
+    rows.forEach((r) => {
       const row = document.createElement("tr");
       row.dataset.entry = r.entry;
       row.innerHTML = `
-        <td>${r.place}</td>
-        <td>${r.entry}</td>
-        <td>${r.title}</td>
-        <td>${r.studio}</td>
+        <td>${r.display_place || ""}</td>
+        <td>${r.entry || ""}</td>
+        <td>${r.title || ""}</td>
+        <td>${r.studio || ""}</td>
       `;
       tbody.appendChild(row);
     });
@@ -121,32 +155,35 @@ function searchEntry() {
     el.classList.remove("highlight");
   });
 
-  for (const day of pageData.days) {
-    for (const group of day.groups) {
-      const found = group.results.find(
-        (r) => String(r.entry) === String(searchValue)
-      );
+  for (const category of (pageData.categories || [])) {
+    const searchPool = [
+      ...(category.results || []),
+      ...(category.entries || [])
+    ];
 
-      if (found) {
-        activeTab = day.id;
-        renderTabs();
-        renderContent();
+    const found = searchPool.find(
+      (r) => String(r.entry) === String(searchValue)
+    );
 
-        setTimeout(() => {
-          const groupCard = document.getElementById(group.group_id);
-          const row = groupCard?.querySelector(`tr[data-entry="${found.entry}"]`);
+    if (found) {
+      activeTab = category.day_label;
+      renderTabs();
+      renderContent();
 
-          if (groupCard) {
-            groupCard.scrollIntoView({ behavior: "smooth", block: "start" });
-          }
+      setTimeout(() => {
+        const groupCard = document.getElementById("cat-" + category.category_id);
+        const row = groupCard?.querySelector(`tr[data-entry="${found.entry}"]`);
 
-          if (row) {
-            row.classList.add("highlight");
-          }
-        }, 50);
+        if (groupCard) {
+          groupCard.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
 
-        return;
-      }
+        if (row) {
+          row.classList.add("highlight");
+        }
+      }, 50);
+
+      return;
     }
   }
 
