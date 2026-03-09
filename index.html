@@ -7,17 +7,30 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="header-left">
+      <img src="img/Logo1.png" alt="Inspirations of Dance" class="header-logo" />
+    </div>
+
+    <div class="header-center">
+      <h1 id="eventTitle">Inspirations of Dance</h1>
+      <div id="lastUpdate" class="updated"></div>
+    </div>
+
+    <div class="header-right">
+      <div class="header-year">2026</div>
+    </div>
+  </header>
+
   <div class="container">
-    <h1 id="eventTitle">Inspirations of Dance</h1>
     <div class="topbar">
       <div id="tabs" class="tabs"></div>
+
       <div class="searchbox">
         <input type="text" id="entrySearch" placeholder="Search entry number" />
         <button id="searchBtn">Search</button>
       </div>
     </div>
-
-    <div id="lastUpdate" class="updated"></div>
 
     <div id="content"></div>
   </div>
