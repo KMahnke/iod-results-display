@@ -117,3 +117,32 @@ th, td {
 .awards-card li {
   padding: 8px 0;
 }
+
+.results-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.results-table .col-place {
+  width: 110px;
+}
+
+.results-table .col-entry {
+  width: 110px;
+}
+
+.results-table .col-title {
+  width: 38%;
+}
+
+.results-table .col-studio {
+  width: 32%;
+}
+
+.results-table th,
+.results-table td {
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+}
