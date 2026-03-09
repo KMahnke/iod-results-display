@@ -1,6 +1,115 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 17022,
-    "last_update": "2026-03-09 23:14:03",
-    "categories": []
+    "last_update": "2026-03-09 23:18:39",
+    "categories": [
+        {
+            "category_id": 1715901680,
+            "category_name": "Beginner Ages 6-8 Lyrical Solo",
+            "day_label": "Wed, Mar 12, 2025",
+            "session_label": "Session 93393",
+            "publish_state": "published",
+            "program_sort": 6,
+            "entries": [
+                {
+                    "entry": "7",
+                    "title": "Can You Feel the Love",
+                    "studio": "Marley's Dance Effex"
+                }
+            ],
+            "results": [
+                {
+                    "display_place": "1st",
+                    "entry": "7",
+                    "title": "Can You Feel the Love",
+                    "studio": "Marley's Dance Effex",
+                    "score": 77.7
+                }
+            ]
+        },
+        {
+            "category_id": 396405953,
+            "category_name": "Novice Ages 15-17 Lyrical Solo Heat 1",
+            "day_label": "Wed, Mar 12, 2025",
+            "session_label": "Session 93393",
+            "publish_state": "published",
+            "program_sort": 7,
+            "entries": [
+                {
+                    "entry": "8",
+                    "title": "This ones for you",
+                    "studio": "Marley's Dance Effex"
+                },
+                {
+                    "entry": "9",
+                    "title": "Medicine",
+                    "studio": "Ogema Dance Club"
+                },
+                {
+                    "entry": "10",
+                    "title": "Heaven in the Way",
+                    "studio": "Balgonie Dance & Twirl"
+                },
+                {
+                    "entry": "11",
+                    "title": "The Prophecy",
+                    "studio": "White City Dancing School"
+                },
+                {
+                    "entry": "12",
+                    "title": "Out of Oklahoma",
+                    "studio": "Artemis Dance Moosomin"
+                },
+                {
+                    "entry": "13",
+                    "title": "I am Not Okay",
+                    "studio": "Vibank Dance Expressions"
+                }
+            ],
+            "results": [
+                {
+                    "display_place": "1st",
+                    "entry": "11",
+                    "title": "The Prophecy",
+                    "studio": "White City Dancing School",
+                    "score": 82.5
+                },
+                {
+                    "display_place": "2nd",
+                    "entry": "9",
+                    "title": "Medicine",
+                    "studio": "Ogema Dance Club",
+                    "score": 82
+                },
+                {
+                    "display_place": "3rd",
+                    "entry": "10",
+                    "title": "Heaven in the Way",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 81.5
+                },
+                {
+                    "display_place": "",
+                    "entry": "8",
+                    "title": "This ones for you",
+                    "studio": "Marley's Dance Effex",
+                    "score": 79
+                },
+                {
+                    "display_place": "",
+                    "entry": "13",
+                    "title": "I am Not Okay",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 78
+                },
+                {
+                    "display_place": "",
+                    "entry": "12",
+                    "title": "Out of Oklahoma",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 77
+                }
+            ]
+        }
+    ]
 }
