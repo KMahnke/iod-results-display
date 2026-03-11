@@ -1,6 +1,49 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-11 22:57:08",
-    "categories": []
+    "last_update": "2026-03-11 22:58:32",
+    "categories": [
+        {
+            "category_id": 422410419,
+            "category_name": "Beginner Ages 6-8 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 1,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "1",
+                    "title": "The Magic Lamp",
+                    "studio": "Born2Dance",
+                    "program_order": 1
+                },
+                {
+                    "entry": "2",
+                    "title": "The Gold is Mine",
+                    "studio": "Born2Dance",
+                    "program_order": 2
+                }
+            ],
+            "results": [
+                {
+                    "display_place": "1st",
+                    "entry": "1",
+                    "title": "The Magic Lamp",
+                    "studio": "Born2Dance",
+                    "score": 83,
+                    "program_order": 1
+                },
+                {
+                    "display_place": "2nd",
+                    "entry": "2",
+                    "title": "The Gold is Mine",
+                    "studio": "Born2Dance",
+                    "score": 82,
+                    "program_order": 2
+                }
+            ]
+        }
+    ]
 }
