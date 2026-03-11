@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-11 23:25:46",
+    "last_update": "2026-03-11 23:27:47",
     "categories": [
         {
             "category_id": 422410419,
@@ -236,6 +236,564 @@
                     "studio": "Diva Dance",
                     "score": 84.3,
                     "program_order": 12
+                }
+            ]
+        },
+        {
+            "category_id": 1518409082,
+            "category_name": "Beginner Ages 15-17 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 13,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "13",
+                    "title": "Mack the Knife",
+                    "studio": "Born2Dance",
+                    "program_order": 13
+                },
+                {
+                    "entry": "14",
+                    "title": "Chaplin",
+                    "studio": "Born2Dance",
+                    "program_order": 14
+                }
+            ],
+            "results": [
+                {
+                    "entry": "13",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Mack the Knife",
+                    "studio": "Born2Dance",
+                    "score": 87.5,
+                    "program_order": 13
+                },
+                {
+                    "entry": "14",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "Chaplin",
+                    "studio": "Born2Dance",
+                    "score": 85.5,
+                    "program_order": 14
+                }
+            ]
+        },
+        {
+            "category_id": 1637328057,
+            "category_name": "Beginner Ages 6-8 Musical Theatre Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 15,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "15",
+                    "title": "One Kiss",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 15
+                },
+                {
+                    "entry": "16",
+                    "title": "I want a hippopatamus for Christmas",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 16
+                }
+            ],
+            "results": [
+                {
+                    "entry": "15",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "One Kiss",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81,
+                    "program_order": 15
+                },
+                {
+                    "entry": "16",
+                    "display_place": "1st",
+                    "gem": "Diamond",
+                    "title": "I want a hippopatamus for Christmas",
+                    "studio": "Marley's Dance Effex",
+                    "score": 800,
+                    "program_order": 16
+                }
+            ]
+        },
+        {
+            "category_id": 355341479,
+            "category_name": "Beginner Ages 12-14 Musical Theatre Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 18,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "18",
+                    "title": "What You Want",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 18
+                },
+                {
+                    "entry": "19",
+                    "title": "Little Girls",
+                    "studio": "Diva Dance",
+                    "program_order": 19
+                }
+            ],
+            "results": [
+                {
+                    "entry": "18",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "What You Want",
+                    "studio": "Marley's Dance Effex",
+                    "score": 82,
+                    "program_order": 18
+                },
+                {
+                    "entry": "19",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Little Girls",
+                    "studio": "Diva Dance",
+                    "score": 80,
+                    "program_order": 19
+                }
+            ]
+        },
+        {
+            "category_id": 621430391,
+            "category_name": "Novice Ages 9-11 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 20,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "20",
+                    "title": "Coppelia",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 20
+                }
+            ],
+            "results": [
+                {
+                    "entry": "20",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Coppelia",
+                    "studio": "Marley's Dance Effex",
+                    "score": 86,
+                    "program_order": 20
+                }
+            ]
+        },
+        {
+            "category_id": 1447712078,
+            "category_name": "Novice Ages 12-14 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 28,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "28",
+                    "title": "All of the Lights",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 28
+                },
+                {
+                    "entry": "29",
+                    "title": "Bluebird",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 29
+                },
+                {
+                    "entry": "30",
+                    "title": "A Joyful Moment",
+                    "studio": "Born2Dance",
+                    "program_order": 30
+                }
+            ],
+            "results": [
+                {
+                    "entry": "28",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "All of the Lights",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 83,
+                    "program_order": 28
+                },
+                {
+                    "entry": "29",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Bluebird",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 29
+                },
+                {
+                    "entry": "30",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "A Joyful Moment",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 30
+                }
+            ]
+        },
+        {
+            "category_id": 1721471939,
+            "category_name": "Open Ages 15-17 Musical Theatre Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 31,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "31",
+                    "title": "Lost In The Woods",
+                    "studio": "Born2Dance",
+                    "program_order": 31
+                },
+                {
+                    "entry": "32",
+                    "title": "Dancing Through Life",
+                    "studio": "Born2Dance",
+                    "program_order": 32
+                },
+                {
+                    "entry": "33",
+                    "title": "I Want The Good Times Back",
+                    "studio": "Diva Dance",
+                    "program_order": 33
+                }
+            ],
+            "results": [
+                {
+                    "entry": "31",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "Lost In The Woods",
+                    "studio": "Born2Dance",
+                    "score": 88,
+                    "program_order": 31
+                },
+                {
+                    "entry": "32",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Dancing Through Life",
+                    "studio": "Born2Dance",
+                    "score": 88.2,
+                    "program_order": 32
+                },
+                {
+                    "entry": "33",
+                    "display_place": "3rd",
+                    "gem": "Ruby",
+                    "title": "I Want The Good Times Back",
+                    "studio": "Diva Dance",
+                    "score": 85,
+                    "program_order": 33
+                }
+            ]
+        },
+        {
+            "category_id": 1010968163,
+            "category_name": "Beginner Ages 6-8 Lyrical Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 38,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "39",
+                    "title": "A Million Dreams",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 38
+                },
+                {
+                    "entry": "40",
+                    "title": "Never Grow Up",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 39
+                },
+                {
+                    "entry": "41",
+                    "title": "Here comes the sun",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 40
+                }
+            ],
+            "results": [
+                {
+                    "entry": "39",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "A Million Dreams",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 38
+                },
+                {
+                    "entry": "40",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Never Grow Up",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80.1,
+                    "program_order": 39
+                },
+                {
+                    "entry": "41",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Here comes the sun",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 40
+                }
+            ]
+        },
+        {
+            "category_id": 1889025865,
+            "category_name": "Beginner Ages 6-8 Ballet Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 41,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "42",
+                    "title": "Flower Fairies",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 41
+                },
+                {
+                    "entry": "43",
+                    "title": "Butterflies",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 42
+                }
+            ],
+            "results": [
+                {
+                    "entry": "42",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Flower Fairies",
+                    "studio": "Pangman Dance Club",
+                    "score": 86,
+                    "program_order": 41
+                },
+                {
+                    "entry": "43",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Butterflies",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 83,
+                    "program_order": 42
+                }
+            ]
+        },
+        {
+            "category_id": 187774855,
+            "category_name": "Beginner Ages 12-14 Lyrical Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 44,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "44",
+                    "title": "Lacy",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 44
+                },
+                {
+                    "entry": "45",
+                    "title": "Matilda",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 45
+                },
+                {
+                    "entry": "46",
+                    "title": "Rescue",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 46
+                }
+            ],
+            "results": [
+                {
+                    "entry": "44",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Lacy",
+                    "studio": "Pangman Dance Club",
+                    "score": 80.1,
+                    "program_order": 44
+                },
+                {
+                    "entry": "45",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Matilda",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 45
+                },
+                {
+                    "entry": "46",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Rescue",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 46
+                }
+            ]
+        },
+        {
+            "category_id": 1798188590,
+            "category_name": "Beginner Ages 9-11 Ballet Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 47,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "47",
+                    "title": "Willow",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 47
+                }
+            ],
+            "results": [
+                {
+                    "entry": "47",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Willow",
+                    "studio": "Christa Vermeulen  IND",
+                    "score": 84,
+                    "program_order": 47
+                }
+            ]
+        },
+        {
+            "category_id": 38683641,
+            "category_name": "Beginner Ages 9-11 Lyrical Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 48,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "48",
+                    "title": "Sanctuary",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 48
+                },
+                {
+                    "entry": "49",
+                    "title": "Dandelions",
+                    "studio": "Minton Dance Club",
+                    "program_order": 49
+                }
+            ],
+            "results": [
+                {
+                    "entry": "48",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Sanctuary",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 48
+                },
+                {
+                    "entry": "49",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Dandelions",
+                    "studio": "Minton Dance Club",
+                    "score": 82,
+                    "program_order": 49
+                }
+            ]
+        },
+        {
+            "category_id": 131690283,
+            "category_name": "Beginner Ages 6-8 Jazz Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 53,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "53",
+                    "title": "Starships",
+                    "studio": "Minton Dance Club",
+                    "program_order": 53
+                },
+                {
+                    "entry": "54",
+                    "title": "Take on the World",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 54
+                }
+            ],
+            "results": [
+                {
+                    "entry": "53",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Starships",
+                    "studio": "Minton Dance Club",
+                    "score": 81,
+                    "program_order": 53
+                },
+                {
+                    "entry": "54",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Take on the World",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 54
                 }
             ]
         }
