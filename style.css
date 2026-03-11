@@ -462,23 +462,23 @@ td,
   }
 
   .results-table .col-entry {
-    width: 15%;
+    width: 10%;
   }
 
   .results-table .col-place {
-    width: 15%;
+    width: 10%;
   }
 
   .results-table .col-gem {
-    width: 20%;
+    width: 15%;
   }
 
   .results-table .col-title {
-    width: 24%;
+    width: 35%;
   }
 
   .results-table .col-studio {
-    width: 26%;
+    width: 30%;
   }
 
   th,
