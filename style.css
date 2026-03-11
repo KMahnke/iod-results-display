@@ -236,23 +236,23 @@ table,
 
 /* Desktop / browser widths */
 .results-table .col-entry {
-  width: 11%;
+  width: 15%;
 }
 
 .results-table .col-place {
-  width: 12%;
+  width: 15%;
 }
 
 .results-table .col-gem {
-  width: 16%;
+  width: 15%;
 }
 
 .results-table .col-title {
-  width: 29%;
+  width: 30%;
 }
 
 .results-table .col-studio {
-  width: 32%;
+  width: 25%;
 }
 
 th,
