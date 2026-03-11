@@ -5,13 +5,11 @@ const DAY_TABS = ["Wed", "Thu", "Fri", "Sat", "Sun"];
 
 function getDayShortLabel(dayLabel) {
   if (!dayLabel) return "";
-  const short = String(dayLabel).split(",")[0].trim();
-  return short;
+  return String(dayLabel).split(",")[0].trim();
 }
 
 function getCategoriesForTab(tabLabel) {
   if (!pageData || !pageData.categories) return [];
-
   return pageData.categories.filter((category) => {
     return getDayShortLabel(category.day_label) === tabLabel;
   });
@@ -27,9 +25,7 @@ async function loadResults() {
       `Last updated: ${pageData.last_update || ""}`;
 
     if (!activeTab) {
-      const firstAvailable =
-        DAY_TABS.find((day) => getCategoriesForTab(day).length > 0) || "Wed";
-      activeTab = firstAvailable;
+      activeTab = DAY_TABS.find((day) => getCategoriesForTab(day).length > 0) || "Wed";
     }
 
     renderTabs();
@@ -57,6 +53,7 @@ function renderTabs() {
       renderTabs();
       renderContent();
     };
+
     tabs.appendChild(btn);
   });
 
@@ -132,7 +129,6 @@ function renderContent() {
         <col class="col-gem">
         <col class="col-title">
         <col class="col-studio">
-        <col class="col-score">
       </colgroup>
       <thead>
         <tr>
@@ -141,7 +137,6 @@ function renderContent() {
           <th>Gem</th>
           <th>Title</th>
           <th>Studio</th>
-          <th>Score</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -156,21 +151,19 @@ function renderContent() {
           display_place: "",
           gem: "",
           title: e.title,
-          studio: e.studio,
-          score: ""
+          studio: e.studio
         }));
 
     rows.forEach((r) => {
       const row = document.createElement("tr");
-      row.dataset.entry = r.entry;
+      row.dataset.entry = String(r.entry || "");
 
       row.innerHTML = `
-        <td>${escapeHtml(r.entry || "")}</td>
-        <td>${escapeHtml(r.display_place || "")}</td>
-        <td>${escapeHtml(r.gem || "")}</td>
-        <td>${escapeHtml(r.title || "")}</td>
-        <td>${escapeHtml(r.studio || "")}</td>
-        <td>${formatScore(r.score)}</td>
+        <td class="cell-entry">${escapeHtml(r.entry || "")}</td>
+        <td class="cell-place">${escapeHtml(r.display_place || "")}</td>
+        <td class="cell-gem">${escapeHtml(r.gem || "")}</td>
+        <td class="cell-title">${escapeHtml(r.title || "")}</td>
+        <td class="cell-studio">${escapeHtml(r.studio || "")}</td>
       `;
 
       tbody.appendChild(row);
@@ -179,13 +172,6 @@ function renderContent() {
     card.appendChild(table);
     content.appendChild(card);
   });
-}
-
-function formatScore(score) {
-  if (score === null || score === undefined || score === "") return "";
-  const num = Number(score);
-  if (Number.isNaN(num)) return "";
-  return num % 1 === 0 ? String(num) : num.toFixed(1);
 }
 
 function escapeHtml(value) {
@@ -222,7 +208,7 @@ function searchEntry() {
 
       setTimeout(() => {
         const groupCard = document.getElementById("cat-" + category.category_id);
-        const row = groupCard?.querySelector(`tr[data-entry="${found.entry}"]`);
+        const row = groupCard?.querySelector(`tr[data-entry="${CSS.escape(String(found.entry))}"]`);
 
         if (groupCard) {
           groupCard.scrollIntoView({ behavior: "smooth", block: "start" });
