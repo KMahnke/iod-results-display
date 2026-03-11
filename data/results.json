@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-11 23:02:25",
+    "last_update": "2026-03-11 23:04:57",
     "categories": [
         {
             "category_id": 422410419,
@@ -44,6 +44,35 @@
                     "studio": "Born2Dance",
                     "score": 82,
                     "program_order": 2
+                }
+            ]
+        },
+        {
+            "category_id": 595011798,
+            "category_name": "Novice Ages 9-11 Musical Theatre Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 3,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "3",
+                    "title": "I think he likes Me",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 3
+                }
+            ],
+            "results": [
+                {
+                    "entry": "3",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "I think he likes Me",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 3
                 }
             ]
         }
