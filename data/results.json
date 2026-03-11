@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-11 23:27:47",
+    "last_update": "2026-03-12 00:04:29",
     "categories": [
         {
             "category_id": 422410419,
@@ -754,6 +754,65 @@
             ]
         },
         {
+            "category_id": 2102124776,
+            "category_name": "Novice Ages 12-14 Ballet Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 50,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "50",
+                    "title": "Reflection",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 50
+                },
+                {
+                    "entry": "51",
+                    "title": "Interstellar",
+                    "studio": "White City Dancing School",
+                    "program_order": 51
+                },
+                {
+                    "entry": "52",
+                    "title": "Flicker",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 52
+                }
+            ],
+            "results": [
+                {
+                    "entry": "50",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Reflection",
+                    "studio": "Against the Grain Studios",
+                    "score": 84.5,
+                    "program_order": 50
+                },
+                {
+                    "entry": "51",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Interstellar",
+                    "studio": "White City Dancing School",
+                    "score": 83,
+                    "program_order": 51
+                },
+                {
+                    "entry": "52",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Flicker",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 85,
+                    "program_order": 52
+                }
+            ]
+        },
+        {
             "category_id": 131690283,
             "category_name": "Beginner Ages 6-8 Jazz Duet\/Trio",
             "day_label": "Wed, Mar 11, 2026",
@@ -794,6 +853,93 @@
                     "studio": "Marley's Dance Effex",
                     "score": 80,
                     "program_order": 54
+                }
+            ]
+        },
+        {
+            "category_id": 2073438899,
+            "category_name": "Novice Ages 15-17 Ballet Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 55,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "55",
+                    "title": "Creep",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 55
+                }
+            ],
+            "results": [
+                {
+                    "entry": "55",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Creep",
+                    "studio": "Full Out Dance Studio",
+                    "score": 85,
+                    "program_order": 55
+                }
+            ]
+        },
+        {
+            "category_id": 2048542227,
+            "category_name": "Beginner Ages 5 & Under Jazz Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 56,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "56",
+                    "title": "No Excuses",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 56
+                }
+            ],
+            "results": [
+                {
+                    "entry": "56",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "No Excuses",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 83.5,
+                    "program_order": 56
+                }
+            ]
+        },
+        {
+            "category_id": 1316986474,
+            "category_name": "Novice Ages 9-11 Ballet Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 57,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "57",
+                    "title": "Charlie",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 57
+                }
+            ],
+            "results": [
+                {
+                    "entry": "57",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Charlie",
+                    "studio": "Cupar Dance Club",
+                    "score": 88,
+                    "program_order": 57
                 }
             ]
         }
