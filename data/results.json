@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-11 22:58:32",
+    "last_update": "2026-03-11 23:02:25",
     "categories": [
         {
             "category_id": 422410419,
@@ -28,16 +28,18 @@
             ],
             "results": [
                 {
-                    "display_place": "1st",
                     "entry": "1",
+                    "display_place": "1st",
+                    "gem": "Emerald",
                     "title": "The Magic Lamp",
                     "studio": "Born2Dance",
                     "score": 83,
                     "program_order": 1
                 },
                 {
-                    "display_place": "2nd",
                     "entry": "2",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
                     "title": "The Gold is Mine",
                     "studio": "Born2Dance",
                     "score": 82,
