@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-11 23:04:57",
+    "last_update": "2026-03-11 23:21:49",
     "categories": [
         {
             "category_id": 422410419,
@@ -73,6 +73,169 @@
                     "studio": "Marley's Dance Effex",
                     "score": 84,
                     "program_order": 3
+                }
+            ]
+        },
+        {
+            "category_id": 1284987844,
+            "category_name": "Beginner Ages 9-11 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 4,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "4",
+                    "title": "Music Box Ballerina",
+                    "studio": "Born2Dance",
+                    "program_order": 4
+                },
+                {
+                    "entry": "5",
+                    "title": "Willow",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 5
+                },
+                {
+                    "entry": "6",
+                    "title": "Within You",
+                    "studio": "Valley Dance",
+                    "program_order": 6
+                }
+            ],
+            "results": [
+                {
+                    "entry": "4",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Music Box Ballerina",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 4
+                },
+                {
+                    "entry": "5",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Willow",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 84,
+                    "program_order": 5
+                },
+                {
+                    "entry": "6",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Within You",
+                    "studio": "Valley Dance",
+                    "score": 83,
+                    "program_order": 6
+                }
+            ]
+        },
+        {
+            "category_id": 832238363,
+            "category_name": "Novice Ages 12-14 Musical Theatre Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 7,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "7",
+                    "title": "Karen",
+                    "studio": "Born2Dance",
+                    "program_order": 7
+                },
+                {
+                    "entry": "8",
+                    "title": "Amazing Mayzie",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 8
+                },
+                {
+                    "entry": "9",
+                    "title": "Good At Being Bad",
+                    "studio": "Born2Dance",
+                    "program_order": 9
+                },
+                {
+                    "entry": "10",
+                    "title": "Stupid With Love",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 10
+                },
+                {
+                    "entry": "11",
+                    "title": "Too Old For This",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 11
+                },
+                {
+                    "entry": "12",
+                    "title": "Fabulous Sharpay",
+                    "studio": "Diva Dance",
+                    "program_order": 12
+                }
+            ],
+            "results": [
+                {
+                    "entry": "7",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Karen",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 7
+                },
+                {
+                    "entry": "8",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Amazing Mayzie",
+                    "studio": "Ogema Dance Club",
+                    "score": 84,
+                    "program_order": 8
+                },
+                {
+                    "entry": "9",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Good At Being Bad",
+                    "studio": "Born2Dance",
+                    "score": 83,
+                    "program_order": 9
+                },
+                {
+                    "entry": "10",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Stupid With Love",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84.1,
+                    "program_order": 10
+                },
+                {
+                    "entry": "11",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Too Old For This",
+                    "studio": "Ogema Dance Club",
+                    "score": 83,
+                    "program_order": 11
+                },
+                {
+                    "entry": "12",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Fabulous Sharpay",
+                    "studio": "Diva Dance",
+                    "score": 84.3,
+                    "program_order": 12
                 }
             ]
         }
