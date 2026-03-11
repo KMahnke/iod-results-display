@@ -127,17 +127,21 @@ function renderContent() {
     table.className = "results-table";
     table.innerHTML = `
       <colgroup>
-        <col class="col-place">
         <col class="col-entry">
+        <col class="col-place">
+        <col class="col-gem">
         <col class="col-title">
         <col class="col-studio">
+        <col class="col-score">
       </colgroup>
       <thead>
         <tr>
-          <th>Place</th>
           <th>Entry</th>
+          <th>Place</th>
+          <th>Gem</th>
           <th>Title</th>
           <th>Studio</th>
+          <th>Score</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -147,28 +151,50 @@ function renderContent() {
 
     const rows = (category.results && category.results.length)
       ? category.results
-      : (category.entries || []).map(e => ({
-          display_place: "",
+      : (category.entries || []).map((e) => ({
           entry: e.entry,
+          display_place: "",
+          gem: "",
           title: e.title,
-          studio: e.studio
+          studio: e.studio,
+          score: ""
         }));
 
     rows.forEach((r) => {
       const row = document.createElement("tr");
       row.dataset.entry = r.entry;
+
       row.innerHTML = `
-        <td>${r.display_place || ""}</td>
-        <td>${r.entry || ""}</td>
-        <td>${r.title || ""}</td>
-        <td>${r.studio || ""}</td>
+        <td>${escapeHtml(r.entry || "")}</td>
+        <td>${escapeHtml(r.display_place || "")}</td>
+        <td>${escapeHtml(r.gem || "")}</td>
+        <td>${escapeHtml(r.title || "")}</td>
+        <td>${escapeHtml(r.studio || "")}</td>
+        <td>${formatScore(r.score)}</td>
       `;
+
       tbody.appendChild(row);
     });
 
     card.appendChild(table);
     content.appendChild(card);
   });
+}
+
+function formatScore(score) {
+  if (score === null || score === undefined || score === "") return "";
+  const num = Number(score);
+  if (Number.isNaN(num)) return "";
+  return num % 1 === 0 ? String(num) : num.toFixed(1);
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
 function searchEntry() {
