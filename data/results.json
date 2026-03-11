@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-12 00:04:29",
+    "last_update": "2026-03-12 00:48:47",
     "categories": [
         {
             "category_id": 422410419,
@@ -519,6 +519,95 @@
             ]
         },
         {
+            "category_id": 2072463387,
+            "category_name": "Novice Ages 15-17 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 34,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "34",
+                    "title": "Me and the Devil",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 34
+                },
+                {
+                    "entry": "36",
+                    "title": "Where Light Rises",
+                    "studio": "Born2Dance",
+                    "program_order": 35
+                },
+                {
+                    "entry": "37",
+                    "title": "Stairway to Heaven",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 36
+                },
+                {
+                    "entry": "38",
+                    "title": "Pink Pony Club",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 37
+                },
+                {
+                    "entry": "35",
+                    "title": "Echoes Within",
+                    "studio": "Born2Dance",
+                    "program_order": 43
+                }
+            ],
+            "results": [
+                {
+                    "entry": "34",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Me and the Devil",
+                    "studio": "Ogema Dance Club",
+                    "score": 84,
+                    "program_order": 34
+                },
+                {
+                    "entry": "36",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Where Light Rises",
+                    "studio": "Born2Dance",
+                    "score": 89,
+                    "program_order": 35
+                },
+                {
+                    "entry": "37",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Stairway to Heaven",
+                    "studio": "Ogema Dance Club",
+                    "score": 83,
+                    "program_order": 36
+                },
+                {
+                    "entry": "38",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Pink Pony Club",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 81,
+                    "program_order": 37
+                },
+                {
+                    "entry": "35",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "Echoes Within",
+                    "studio": "Born2Dance",
+                    "score": 87.5,
+                    "program_order": 43
+                }
+            ]
+        },
+        {
             "category_id": 1010968163,
             "category_name": "Beginner Ages 6-8 Lyrical Duet\/Trio",
             "day_label": "Wed, Mar 11, 2026",
@@ -940,6 +1029,510 @@
                     "studio": "Cupar Dance Club",
                     "score": 88,
                     "program_order": 57
+                }
+            ]
+        },
+        {
+            "category_id": 676205090,
+            "category_name": "Beginner Ages 9-11 Jazz Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 59,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "58",
+                    "title": "Girls Just Wanna Have Fun",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 59
+                },
+                {
+                    "entry": "59",
+                    "title": "Lonely",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 60
+                },
+                {
+                    "entry": "60",
+                    "title": "Saturday Night",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 61
+                },
+                {
+                    "entry": "61",
+                    "title": "Venus Fly",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 62
+                },
+                {
+                    "entry": "62",
+                    "title": "The Parent Trap",
+                    "studio": "Valley Dance",
+                    "program_order": 63
+                },
+                {
+                    "entry": "63",
+                    "title": "Yes, Yes I Can",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 64
+                },
+                {
+                    "entry": "64",
+                    "title": "Get Ready For This",
+                    "studio": "Minton Dance Club",
+                    "program_order": 65
+                }
+            ],
+            "results": [
+                {
+                    "entry": "58",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Girls Just Wanna Have Fun",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 59
+                },
+                {
+                    "entry": "59",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Lonely",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 60
+                },
+                {
+                    "entry": "60",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Saturday Night",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81.5,
+                    "program_order": 61
+                },
+                {
+                    "entry": "61",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Venus Fly",
+                    "studio": "Against the Grain Studios",
+                    "score": 81,
+                    "program_order": 62
+                },
+                {
+                    "entry": "62",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "The Parent Trap",
+                    "studio": "Valley Dance",
+                    "score": 83,
+                    "program_order": 63
+                },
+                {
+                    "entry": "63",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Yes, Yes I Can",
+                    "studio": "Full Out Dance Studio",
+                    "score": 81,
+                    "program_order": 64
+                },
+                {
+                    "entry": "64",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Get Ready For This",
+                    "studio": "Minton Dance Club",
+                    "score": 82,
+                    "program_order": 65
+                }
+            ]
+        },
+        {
+            "category_id": 2114108196,
+            "category_name": "Open Ages 15-17 Ballet Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 66,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "65",
+                    "title": "A Whisper of Joy",
+                    "studio": "Born2Dance",
+                    "program_order": 66
+                },
+                {
+                    "entry": "66",
+                    "title": "Twirl of Enchantment",
+                    "studio": "Born2Dance",
+                    "program_order": 67
+                },
+                {
+                    "entry": "67",
+                    "title": "Gamzatti",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 68
+                },
+                {
+                    "entry": "68",
+                    "title": "Victor's Solo",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 69
+                },
+                {
+                    "entry": "69",
+                    "title": "Transcendence",
+                    "studio": "Born2Dance",
+                    "program_order": 70
+                }
+            ],
+            "results": [
+                {
+                    "entry": "65",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "A Whisper of Joy",
+                    "studio": "Born2Dance",
+                    "score": 87,
+                    "program_order": 66
+                },
+                {
+                    "entry": "66",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Twirl of Enchantment",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 67
+                },
+                {
+                    "entry": "67",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Gamzatti",
+                    "studio": "Marley's Dance Effex",
+                    "score": 88,
+                    "program_order": 68
+                },
+                {
+                    "entry": "68",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Victor's Solo",
+                    "studio": "Marley's Dance Effex",
+                    "score": 86,
+                    "program_order": 69
+                },
+                {
+                    "entry": "69",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "Transcendence",
+                    "studio": "Born2Dance",
+                    "score": 87,
+                    "program_order": 70
+                }
+            ]
+        },
+        {
+            "category_id": 428350200,
+            "category_name": "Beginner Ages 9-11 Contemporary Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 71,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "70",
+                    "title": "If",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 71
+                },
+                {
+                    "entry": "71",
+                    "title": "Sun Goes Down",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 72
+                }
+            ],
+            "results": [
+                {
+                    "entry": "70",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "If",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 71
+                },
+                {
+                    "entry": "71",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Sun Goes Down",
+                    "studio": "Marley's Dance Effex",
+                    "score": 86,
+                    "program_order": 72
+                }
+            ]
+        },
+        {
+            "category_id": 940555592,
+            "category_name": "Beginner Ages 12-14 Contemporary Duet\/Trio",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 73,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "72",
+                    "title": "Hi, Ren",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 73
+                }
+            ],
+            "results": [
+                {
+                    "entry": "72",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Hi, Ren",
+                    "studio": "Against the Grain Studios",
+                    "score": 83,
+                    "program_order": 73
+                }
+            ]
+        },
+        {
+            "category_id": 1938525118,
+            "category_name": "Novice Ages 15-17 Contemporary Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 74,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "73",
+                    "title": "That's Life",
+                    "studio": "Born2Dance",
+                    "program_order": 74
+                },
+                {
+                    "entry": "74",
+                    "title": "Bird Box",
+                    "studio": "Born2Dance",
+                    "program_order": 75
+                },
+                {
+                    "entry": "75",
+                    "title": "Nothing New",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 76
+                },
+                {
+                    "entry": "76",
+                    "title": "Craddles",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 77
+                },
+                {
+                    "entry": "77",
+                    "title": "Rock You",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 78
+                },
+                {
+                    "entry": "78",
+                    "title": "Between Villages",
+                    "studio": "Born2Dance",
+                    "program_order": 79
+                },
+                {
+                    "entry": "79",
+                    "title": "Bad Dream",
+                    "studio": "Diva Dance",
+                    "program_order": 80
+                },
+                {
+                    "entry": "80",
+                    "title": "False Confidence",
+                    "studio": "Born2Dance",
+                    "program_order": 81
+                },
+                {
+                    "entry": "81",
+                    "title": "Million Reasons",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 82
+                },
+                {
+                    "entry": "82",
+                    "title": "The Dark",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 83
+                }
+            ],
+            "results": [
+                {
+                    "entry": "73",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "That's Life",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 74
+                },
+                {
+                    "entry": "74",
+                    "display_place": "1st",
+                    "gem": "Ruby",
+                    "title": "Bird Box",
+                    "studio": "Born2Dance",
+                    "score": 87,
+                    "program_order": 75
+                },
+                {
+                    "entry": "75",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Nothing New",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 84,
+                    "program_order": 76
+                },
+                {
+                    "entry": "76",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Craddles",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 85.5,
+                    "program_order": 77
+                },
+                {
+                    "entry": "77",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Rock You",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 84.5,
+                    "program_order": 78
+                },
+                {
+                    "entry": "78",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Between Villages",
+                    "studio": "Born2Dance",
+                    "score": 84.5,
+                    "program_order": 79
+                },
+                {
+                    "entry": "79",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Bad Dream",
+                    "studio": "Diva Dance",
+                    "score": 85,
+                    "program_order": 80
+                },
+                {
+                    "entry": "80",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "False Confidence",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 81
+                },
+                {
+                    "entry": "81",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Million Reasons",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 85,
+                    "program_order": 82
+                },
+                {
+                    "entry": "82",
+                    "display_place": "2nd",
+                    "gem": "Ruby",
+                    "title": "The Dark",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 86,
+                    "program_order": 83
+                }
+            ]
+        },
+        {
+            "category_id": 743708564,
+            "category_name": "Beginner Ages 12-14 Contemporary Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 84,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "83",
+                    "title": "Eternity",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 84
+                },
+                {
+                    "entry": "84",
+                    "title": "Heavy",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 85
+                },
+                {
+                    "entry": "85",
+                    "title": "Once Upon A Dream",
+                    "studio": "Dance Plus EP",
+                    "program_order": 86
+                }
+            ],
+            "results": [
+                {
+                    "entry": "83",
+                    "display_place": "1st",
+                    "gem": "Emerald",
+                    "title": "Eternity",
+                    "studio": "Against the Grain Studios",
+                    "score": 83,
+                    "program_order": 84
+                },
+                {
+                    "entry": "84",
+                    "display_place": "3rd",
+                    "gem": "Emerald",
+                    "title": "Heavy",
+                    "studio": "Against the Grain Studios",
+                    "score": 80,
+                    "program_order": 85
+                },
+                {
+                    "entry": "85",
+                    "display_place": "2nd",
+                    "gem": "Emerald",
+                    "title": "Once Upon A Dream",
+                    "studio": "Dance Plus EP",
+                    "score": 81,
+                    "program_order": 86
                 }
             ]
         }
