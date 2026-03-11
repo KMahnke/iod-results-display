@@ -147,6 +147,10 @@ h1 {
   font-weight: bold;
 }
 
+.tab-btn-empty {
+  opacity: 0.55;
+}
+
 /* ---------- SEARCH ---------- */
 
 .searchbox {
@@ -165,6 +169,7 @@ h1 {
   padding: 12px;
   border-radius: 10px;
   border: none;
+  font-size: 1rem;
 }
 
 .searchbox button {
@@ -196,6 +201,7 @@ h1 {
 }
 
 .group-subtitle {
+  margin-top: 2px;
   margin-bottom: 12px;
   opacity: 0.9;
   font-size: 0.95rem;
@@ -224,19 +230,25 @@ table,
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  font-size: 1.05rem;
+  margin-top: 14px;
+  font-size: clamp(14px, 1.2vw, 20px);
+}
+
+/* Desktop / browser widths */
+.results-table .col-entry {
+  width: 11%;
 }
 
 .results-table .col-place {
-  width: 60px;
+  width: 12%;
 }
 
-.results-table .col-entry {
-  width: 60px;
+.results-table .col-gem {
+  width: 16%;
 }
 
 .results-table .col-title {
-  width: 38%;
+  width: 29%;
 }
 
 .results-table .col-studio {
@@ -247,12 +259,21 @@ th,
 td,
 .results-table th,
 .results-table td {
-  padding: 12px 10px;
+  padding: 12px 12px;
   border-bottom: 1px solid rgba(255,255,255,0.18);
   text-align: left;
-  vertical-align: top;
+  vertical-align: middle;
   word-wrap: break-word;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+.results-table th {
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.results-table td {
+  line-height: 1.25;
 }
 
 .results-table thead th {
@@ -264,6 +285,19 @@ td,
   -webkit-backdrop-filter: blur(6px);
 }
 
+.cell-entry,
+.cell-place,
+.cell-gem {
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cell-title,
+.cell-studio {
+  white-space: normal;
+}
+
+.highlight td,
 .highlight {
   outline: 3px solid #fff;
   background: rgba(255,255,255,0.18);
@@ -271,7 +305,7 @@ td,
 
 /* ---------- TABLET ---------- */
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .site-header {
     grid-template-columns: auto 1fr auto;
     gap: 14px;
@@ -314,6 +348,33 @@ td,
   table,
   .results-table {
     font-size: 0.98rem;
+  }
+
+  .results-table .col-entry {
+    width: 13%;
+  }
+
+  .results-table .col-place {
+    width: 13%;
+  }
+
+  .results-table .col-gem {
+    width: 18%;
+  }
+
+  .results-table .col-title {
+    width: 27%;
+  }
+
+  .results-table .col-studio {
+    width: 29%;
+  }
+
+  th,
+  td,
+  .results-table th,
+  .results-table td {
+    padding: 11px 10px;
   }
 }
 
@@ -396,8 +457,47 @@ td,
 
   table,
   .results-table {
-    min-width: 620px;
-    font-size: 0.95rem;
+    min-width: 640px;
+    font-size: 0.92rem;
+  }
+
+  .results-table .col-entry {
+    width: 15%;
+  }
+
+  .results-table .col-place {
+    width: 15%;
+  }
+
+  .results-table .col-gem {
+    width: 20%;
+  }
+
+  .results-table .col-title {
+    width: 24%;
+  }
+
+  .results-table .col-studio {
+    width: 26%;
+  }
+
+  th,
+  td,
+  .results-table th,
+  .results-table td {
+    padding: 9px 8px;
+  }
+
+  .cell-entry,
+  .cell-place,
+  .cell-gem {
+    font-size: 0.88rem;
+  }
+
+  .cell-title,
+  .cell-studio {
+    font-size: 0.9rem;
+    line-height: 1.2;
   }
 }
 
@@ -463,5 +563,37 @@ td,
 
   .searchbox button {
     min-width: 88px;
+  }
+
+  table,
+  .results-table {
+    font-size: 0.92rem;
+  }
+
+  .results-table .col-entry {
+    width: 14%;
+  }
+
+  .results-table .col-place {
+    width: 14%;
+  }
+
+  .results-table .col-gem {
+    width: 18%;
+  }
+
+  .results-table .col-title {
+    width: 25%;
+  }
+
+  .results-table .col-studio {
+    width: 29%;
+  }
+
+  th,
+  td,
+  .results-table th,
+  .results-table td {
+    padding: 9px 8px;
   }
 }
