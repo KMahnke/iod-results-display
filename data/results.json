@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 16:05:25",
+    "last_update": "2026-03-12 16:08:16",
     "program_source": "program.json",
-    "published_count": 28,
+    "published_count": 46,
     "categories": [
         {
             "category_id": 607676400,
@@ -1793,6 +1793,1606 @@
                     "studio": "Dance Plus EP",
                     "score": 81,
                     "program_order": 84,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 117981059,
+            "category_name": "OPEN AGES 15-17 CONTEMPORARY SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 85,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "86",
+                    "title": "New York New York",
+                    "studio": "Born2Dance",
+                    "program_order": 85
+                },
+                {
+                    "entry": "87",
+                    "title": "Everybody Supports A Woman",
+                    "studio": "White City Dancing School",
+                    "program_order": 86
+                },
+                {
+                    "entry": "88",
+                    "title": "Words Matter",
+                    "studio": "Born2Dance",
+                    "program_order": 87
+                },
+                {
+                    "entry": "89",
+                    "title": "Fire on Fire",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 88
+                },
+                {
+                    "entry": "90",
+                    "title": "Hit the Road",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 89
+                },
+                {
+                    "entry": "91",
+                    "title": "A Love Lost",
+                    "studio": "Born2Dance",
+                    "program_order": 90
+                },
+                {
+                    "entry": "92",
+                    "title": "Far From Home",
+                    "studio": "White City Dancing School",
+                    "program_order": 91
+                },
+                {
+                    "entry": "93",
+                    "title": "When I Get Where I'm Going",
+                    "studio": "Born2Dance",
+                    "program_order": 92
+                },
+                {
+                    "entry": "94",
+                    "title": "Right...",
+                    "studio": "Born2Dance",
+                    "program_order": 93
+                },
+                {
+                    "entry": "95",
+                    "title": "Will You Follow Me",
+                    "studio": "Dance Plus EP",
+                    "program_order": 94
+                }
+            ],
+            "results": [
+                {
+                    "entry": "86",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "New York New York",
+                    "studio": "Born2Dance",
+                    "score": 84,
+                    "program_order": 85,
+                    "scratched": false
+                },
+                {
+                    "entry": "87",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Everybody Supports A Woman",
+                    "studio": "White City Dancing School",
+                    "score": null,
+                    "program_order": 86,
+                    "scratched": true
+                },
+                {
+                    "entry": "88",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Words Matter",
+                    "studio": "Born2Dance",
+                    "score": 87.5,
+                    "program_order": 87,
+                    "scratched": false
+                },
+                {
+                    "entry": "89",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Fire on Fire",
+                    "studio": "Cupar Dance Club",
+                    "score": 86.5,
+                    "program_order": 88,
+                    "scratched": false
+                },
+                {
+                    "entry": "90",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Hit the Road",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 87,
+                    "program_order": 89,
+                    "scratched": false
+                },
+                {
+                    "entry": "91",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "A Love Lost",
+                    "studio": "Born2Dance",
+                    "score": 84,
+                    "program_order": 90,
+                    "scratched": false
+                },
+                {
+                    "entry": "92",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Far From Home",
+                    "studio": "White City Dancing School",
+                    "score": 89,
+                    "program_order": 91,
+                    "scratched": false
+                },
+                {
+                    "entry": "93",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "When I Get Where I'm Going",
+                    "studio": "Born2Dance",
+                    "score": 87.8,
+                    "program_order": 92,
+                    "scratched": false
+                },
+                {
+                    "entry": "94",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Right...",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 93,
+                    "scratched": false
+                },
+                {
+                    "entry": "95",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Will You Follow Me",
+                    "studio": "Dance Plus EP",
+                    "score": 87,
+                    "program_order": 94,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1893323524,
+            "category_name": "NOVICE AGES 15-17 ACRO SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 95,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "96",
+                    "title": "Chic",
+                    "studio": "Born2Dance",
+                    "program_order": 95
+                },
+                {
+                    "entry": "97",
+                    "title": "Bring the Lion Out",
+                    "studio": "Born2Dance",
+                    "program_order": 96
+                }
+            ],
+            "results": [
+                {
+                    "entry": "96",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Chic",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 95,
+                    "scratched": false
+                },
+                {
+                    "entry": "97",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Bring the Lion Out",
+                    "studio": "Born2Dance",
+                    "score": 87,
+                    "program_order": 96,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 157773592,
+            "category_name": "OPEN AGES 15-17 CONTEMPORARY SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 97,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "98",
+                    "title": "Who I Was",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 97
+                },
+                {
+                    "entry": "99",
+                    "title": "Fade into You",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 98
+                },
+                {
+                    "entry": "100",
+                    "title": "Dream On",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 99
+                },
+                {
+                    "entry": "101",
+                    "title": "Amen",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 100
+                },
+                {
+                    "entry": "102",
+                    "title": "Trauma",
+                    "studio": "Dance Plus EP",
+                    "program_order": 101
+                },
+                {
+                    "entry": "103",
+                    "title": "July",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 102
+                },
+                {
+                    "entry": "104",
+                    "title": "Who We Are",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 103
+                },
+                {
+                    "entry": "105",
+                    "title": "The Grudge",
+                    "studio": "Born2Dance",
+                    "program_order": 104
+                }
+            ],
+            "results": [
+                {
+                    "entry": "98",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Who I Was",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 87,
+                    "program_order": 97,
+                    "scratched": false
+                },
+                {
+                    "entry": "99",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Fade into You",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85.5,
+                    "program_order": 98,
+                    "scratched": false
+                },
+                {
+                    "entry": "100",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Dream On",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 84.5,
+                    "program_order": 99,
+                    "scratched": false
+                },
+                {
+                    "entry": "101",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Amen",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 86,
+                    "program_order": 100,
+                    "scratched": false
+                },
+                {
+                    "entry": "102",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Trauma",
+                    "studio": "Dance Plus EP",
+                    "score": 86,
+                    "program_order": 101,
+                    "scratched": false
+                },
+                {
+                    "entry": "103",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "July",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85,
+                    "program_order": 102,
+                    "scratched": false
+                },
+                {
+                    "entry": "104",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Who We Are",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84.5,
+                    "program_order": 103,
+                    "scratched": false
+                },
+                {
+                    "entry": "105",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "The Grudge",
+                    "studio": "Born2Dance",
+                    "score": null,
+                    "program_order": 104,
+                    "scratched": true
+                }
+            ]
+        },
+        {
+            "category_id": 460863238,
+            "category_name": "NOVICE AGES 12-14 ACRO SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 105,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "106",
+                    "title": "Black Swan",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 105
+                },
+                {
+                    "entry": "107",
+                    "title": "Hometown Glory",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 106
+                }
+            ],
+            "results": [
+                {
+                    "entry": "106",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Black Swan",
+                    "studio": "Against the Grain Studios",
+                    "score": 86,
+                    "program_order": 105,
+                    "scratched": false
+                },
+                {
+                    "entry": "107",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Hometown Glory",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85,
+                    "program_order": 106,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2125476999,
+            "category_name": "NOVICE AGES 18 OVER ACRO SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 107,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "108",
+                    "title": "Set Me Free",
+                    "studio": "White City Dancing School",
+                    "program_order": 107
+                }
+            ],
+            "results": [
+                {
+                    "entry": "108",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Set Me Free",
+                    "studio": "White City Dancing School",
+                    "score": 82,
+                    "program_order": 107,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1668850145,
+            "category_name": "OPEN AGES 18 & OVER CONTEMPORARY SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 108,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "109",
+                    "title": "Great Big Adventure",
+                    "studio": "Born2Dance",
+                    "program_order": 108
+                },
+                {
+                    "entry": "110",
+                    "title": "I Got a 5 on it",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 109
+                },
+                {
+                    "entry": "111",
+                    "title": "The Man Who Can't Be Moved",
+                    "studio": "Valley Dance",
+                    "program_order": 110
+                },
+                {
+                    "entry": "112",
+                    "title": "Silhouette",
+                    "studio": "White City Dancing School",
+                    "program_order": 111
+                }
+            ],
+            "results": [
+                {
+                    "entry": "109",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Great Big Adventure",
+                    "studio": "Born2Dance",
+                    "score": 84,
+                    "program_order": 108,
+                    "scratched": false
+                },
+                {
+                    "entry": "110",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "I Got a 5 on it",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 86,
+                    "program_order": 109,
+                    "scratched": false
+                },
+                {
+                    "entry": "111",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "The Man Who Can't Be Moved",
+                    "studio": "Valley Dance",
+                    "score": 87,
+                    "program_order": 110,
+                    "scratched": false
+                },
+                {
+                    "entry": "112",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Silhouette",
+                    "studio": "White City Dancing School",
+                    "score": 85,
+                    "program_order": 111,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 594096331,
+            "category_name": "NOVICE AGES 12-14 ACRO DUO\/TRIO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 112,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "113",
+                    "title": "Vogue",
+                    "studio": "Born2Dance",
+                    "program_order": 112
+                }
+            ],
+            "results": [
+                {
+                    "entry": "113",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Vogue",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 112,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 624247022,
+            "category_name": "NOVICE AGES 15-17 LYRICAL DUO\/TRIO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 113,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "114",
+                    "title": "Lift Me Up",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 113
+                },
+                {
+                    "entry": "115",
+                    "title": "Can I Have This Dance",
+                    "studio": "Born2Dance",
+                    "program_order": 114
+                },
+                {
+                    "entry": "116",
+                    "title": "Broken",
+                    "studio": "Diva Dance",
+                    "program_order": 115
+                },
+                {
+                    "entry": "117",
+                    "title": "Anatomy",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 116
+                }
+            ],
+            "results": [
+                {
+                    "entry": "114",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Lift Me Up",
+                    "studio": "Ogema Dance Club",
+                    "score": 85,
+                    "program_order": 113,
+                    "scratched": false
+                },
+                {
+                    "entry": "115",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Can I Have This Dance",
+                    "studio": "Born2Dance",
+                    "score": 88,
+                    "program_order": 114,
+                    "scratched": false
+                },
+                {
+                    "entry": "116",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Broken",
+                    "studio": "Diva Dance",
+                    "score": 83,
+                    "program_order": 115,
+                    "scratched": false
+                },
+                {
+                    "entry": "117",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Anatomy",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 84,
+                    "program_order": 116,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 294306247,
+            "category_name": "BEGINNER AGES 12-14 JAZZ DUO\/TRIO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 117,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "118",
+                    "title": "A Little Party",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 117
+                },
+                {
+                    "entry": "119",
+                    "title": "Emergency",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 118
+                },
+                {
+                    "entry": "120",
+                    "title": "Really Don't Care",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 119
+                },
+                {
+                    "entry": "121",
+                    "title": "That's My Girl",
+                    "studio": "Dance Plus EP",
+                    "program_order": 120
+                }
+            ],
+            "results": [
+                {
+                    "entry": "118",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "A Little Party",
+                    "studio": "Marley's Dance Effex",
+                    "score": 82,
+                    "program_order": 117,
+                    "scratched": false
+                },
+                {
+                    "entry": "119",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Emergency",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 118,
+                    "scratched": false
+                },
+                {
+                    "entry": "120",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Really Don't Care",
+                    "studio": "Pangman Dance Club",
+                    "score": 81,
+                    "program_order": 119,
+                    "scratched": false
+                },
+                {
+                    "entry": "121",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "That's My Girl",
+                    "studio": "Dance Plus EP",
+                    "score": 80,
+                    "program_order": 120,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 217704175,
+            "category_name": "OPEN AGES 12-14 LYRICAL DUO\/TRIO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 121,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "122",
+                    "title": "A Beautiful Noise",
+                    "studio": "Dance Plus EP",
+                    "program_order": 121
+                }
+            ],
+            "results": [
+                {
+                    "entry": "122",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "A Beautiful Noise",
+                    "studio": "Dance Plus EP",
+                    "score": 84,
+                    "program_order": 121,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1856332380,
+            "category_name": "NOVICE AGES 12-14 LYRICAL SOLO GROUP A",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "GROUP A",
+            "publish_state": "published",
+            "program_sort": 122,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "123",
+                    "title": "The Heart of Life",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 122
+                },
+                {
+                    "entry": "124",
+                    "title": "Say Yes To Heaven",
+                    "studio": "Diva Dance",
+                    "program_order": 123
+                },
+                {
+                    "entry": "125",
+                    "title": "Good Love Die",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 124
+                },
+                {
+                    "entry": "126",
+                    "title": "Vienna",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 125
+                },
+                {
+                    "entry": "127",
+                    "title": "Face My Fears",
+                    "studio": "Dance Plus EP",
+                    "program_order": 126
+                },
+                {
+                    "entry": "128",
+                    "title": "Wish That You Were Here",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 127
+                },
+                {
+                    "entry": "129",
+                    "title": "Smile",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 128
+                },
+                {
+                    "entry": "130",
+                    "title": "A Drop in the Ocean",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 129
+                },
+                {
+                    "entry": "131",
+                    "title": "My Hearts Grave",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 130
+                }
+            ],
+            "results": [
+                {
+                    "entry": "123",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "The Heart of Life",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 122,
+                    "scratched": false
+                },
+                {
+                    "entry": "124",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Say Yes To Heaven",
+                    "studio": "Diva Dance",
+                    "score": 83,
+                    "program_order": 123,
+                    "scratched": false
+                },
+                {
+                    "entry": "125",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Good Love Die",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 85,
+                    "program_order": 124,
+                    "scratched": false
+                },
+                {
+                    "entry": "126",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Vienna",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81,
+                    "program_order": 125,
+                    "scratched": false
+                },
+                {
+                    "entry": "127",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Face My Fears",
+                    "studio": "Dance Plus EP",
+                    "score": 86,
+                    "program_order": 126,
+                    "scratched": false
+                },
+                {
+                    "entry": "128",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Wish That You Were Here",
+                    "studio": "Estevan Recreational Dance Club",
+                    "score": 82,
+                    "program_order": 127,
+                    "scratched": false
+                },
+                {
+                    "entry": "129",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Smile",
+                    "studio": "Against the Grain Studios",
+                    "score": 84,
+                    "program_order": 128,
+                    "scratched": false
+                },
+                {
+                    "entry": "130",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "A Drop in the Ocean",
+                    "studio": "Marley's Dance Effex",
+                    "score": 83,
+                    "program_order": 129,
+                    "scratched": false
+                },
+                {
+                    "entry": "131",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "My Hearts Grave",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 81,
+                    "program_order": 130,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 859641316,
+            "category_name": "OPEN AGES 15-17 LYRICAL DUO\/TRIO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 131,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "132",
+                    "title": "Slide",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 131
+                },
+                {
+                    "entry": "133",
+                    "title": "Stay",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 132
+                },
+                {
+                    "entry": "134",
+                    "title": "When She Loved Me",
+                    "studio": "Valley Dance",
+                    "program_order": 133
+                },
+                {
+                    "entry": "135",
+                    "title": "You're the One",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 134
+                },
+                {
+                    "entry": "136",
+                    "title": "Slipping Through My Fingers",
+                    "studio": "Born2Dance",
+                    "program_order": 135
+                },
+                {
+                    "entry": "137",
+                    "title": "Youth",
+                    "studio": "Reston Dance Club",
+                    "program_order": 136
+                },
+                {
+                    "entry": "138",
+                    "title": "Remedy",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 137
+                }
+            ],
+            "results": [
+                {
+                    "entry": "132",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Slide",
+                    "studio": "Marley's Dance Effex",
+                    "score": 90,
+                    "program_order": 131,
+                    "scratched": false
+                },
+                {
+                    "entry": "133",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Stay",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 86,
+                    "program_order": 132,
+                    "scratched": false
+                },
+                {
+                    "entry": "134",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "When She Loved Me",
+                    "studio": "Valley Dance",
+                    "score": 85,
+                    "program_order": 133,
+                    "scratched": false
+                },
+                {
+                    "entry": "135",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "You're the One",
+                    "studio": "Marley's Dance Effex",
+                    "score": 87,
+                    "program_order": 134,
+                    "scratched": false
+                },
+                {
+                    "entry": "136",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Slipping Through My Fingers",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 135,
+                    "scratched": false
+                },
+                {
+                    "entry": "137",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Youth",
+                    "studio": "Reston Dance Club",
+                    "score": 84,
+                    "program_order": 136,
+                    "scratched": false
+                },
+                {
+                    "entry": "138",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Remedy",
+                    "studio": "Marley's Dance Effex",
+                    "score": 88,
+                    "program_order": 137,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1513012975,
+            "category_name": "NOVICE AGES 15-17 LYRICAL SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 138,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "139",
+                    "title": "I Am Not Who I Was",
+                    "studio": "Valley Dance",
+                    "program_order": 138
+                },
+                {
+                    "entry": "140",
+                    "title": "At Last",
+                    "studio": "Diva Dance",
+                    "program_order": 139
+                },
+                {
+                    "entry": "141",
+                    "title": "One More Light",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 140
+                },
+                {
+                    "entry": "142",
+                    "title": "Medicine",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 141
+                },
+                {
+                    "entry": "143",
+                    "title": "Maybe",
+                    "studio": "Valley Dance",
+                    "program_order": 142
+                },
+                {
+                    "entry": "144",
+                    "title": "Home",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 143
+                },
+                {
+                    "entry": "145",
+                    "title": "If I Don't Live Forever",
+                    "studio": "Born2Dance",
+                    "program_order": 144
+                },
+                {
+                    "entry": "146",
+                    "title": "Call Your Mom",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 145
+                },
+                {
+                    "entry": "147",
+                    "title": "Hold Back The River",
+                    "studio": "Diva Dance",
+                    "program_order": 146
+                }
+            ],
+            "results": [
+                {
+                    "entry": "139",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "I Am Not Who I Was",
+                    "studio": "Valley Dance",
+                    "score": null,
+                    "program_order": 138,
+                    "scratched": true
+                },
+                {
+                    "entry": "140",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "At Last",
+                    "studio": "Diva Dance",
+                    "score": 83,
+                    "program_order": 139,
+                    "scratched": false
+                },
+                {
+                    "entry": "141",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "One More Light",
+                    "studio": "Estevan Recreational Dance Club",
+                    "score": 81,
+                    "program_order": 140,
+                    "scratched": false
+                },
+                {
+                    "entry": "142",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Medicine",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81,
+                    "program_order": 141,
+                    "scratched": false
+                },
+                {
+                    "entry": "143",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Maybe",
+                    "studio": "Valley Dance",
+                    "score": 83,
+                    "program_order": 142,
+                    "scratched": false
+                },
+                {
+                    "entry": "144",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Home",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 82,
+                    "program_order": 143,
+                    "scratched": false
+                },
+                {
+                    "entry": "145",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "If I Don't Live Forever",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 144,
+                    "scratched": false
+                },
+                {
+                    "entry": "146",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Call Your Mom",
+                    "studio": "Marley's Dance Effex",
+                    "score": 82,
+                    "program_order": 145,
+                    "scratched": false
+                },
+                {
+                    "entry": "147",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Hold Back The River",
+                    "studio": "Diva Dance",
+                    "score": 82,
+                    "program_order": 146,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1531369960,
+            "category_name": "OPEN AGES 12-14 LYRICAL SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 147,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "148",
+                    "title": "Broken",
+                    "studio": "Dance Plus EP",
+                    "program_order": 147
+                }
+            ],
+            "results": [
+                {
+                    "entry": "148",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Broken",
+                    "studio": "Dance Plus EP",
+                    "score": 86,
+                    "program_order": 147,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1881878386,
+            "category_name": "OPEN AGES 15-17 LYRICAL SOLO GROUP A",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "GROUP A",
+            "publish_state": "published",
+            "program_sort": 148,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "149",
+                    "title": "It Won't Be Like This for Long",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 148
+                },
+                {
+                    "entry": "150",
+                    "title": "Song To The Siren",
+                    "studio": "White City Dancing School",
+                    "program_order": 149
+                },
+                {
+                    "entry": "151",
+                    "title": "Miss You All The Time",
+                    "studio": "Born2Dance",
+                    "program_order": 150
+                },
+                {
+                    "entry": "152",
+                    "title": "Purple Rain",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 151
+                },
+                {
+                    "entry": "153",
+                    "title": "What Do I Do Now",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 152
+                },
+                {
+                    "entry": "154",
+                    "title": "Saturn",
+                    "studio": "Dance Plus EP",
+                    "program_order": 153
+                },
+                {
+                    "entry": "155",
+                    "title": "Time To Let A Good Thing Die",
+                    "studio": "Born2Dance",
+                    "program_order": 154
+                }
+            ],
+            "results": [
+                {
+                    "entry": "149",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "It Won't Be Like This for Long",
+                    "studio": "Cupar Dance Club",
+                    "score": 86,
+                    "program_order": 148,
+                    "scratched": false
+                },
+                {
+                    "entry": "150",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Song To The Siren",
+                    "studio": "White City Dancing School",
+                    "score": 89,
+                    "program_order": 149,
+                    "scratched": false
+                },
+                {
+                    "entry": "151",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Miss You All The Time",
+                    "studio": "Born2Dance",
+                    "score": 87,
+                    "program_order": 150,
+                    "scratched": false
+                },
+                {
+                    "entry": "152",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Purple Rain",
+                    "studio": "Marley's Dance Effex",
+                    "score": null,
+                    "program_order": 151,
+                    "scratched": true
+                },
+                {
+                    "entry": "153",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "What Do I Do Now",
+                    "studio": "Marley's Dance Effex",
+                    "score": 87.5,
+                    "program_order": 152,
+                    "scratched": false
+                },
+                {
+                    "entry": "154",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Saturn",
+                    "studio": "Dance Plus EP",
+                    "score": 87,
+                    "program_order": 153,
+                    "scratched": false
+                },
+                {
+                    "entry": "155",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Time To Let A Good Thing Die",
+                    "studio": "Born2Dance",
+                    "score": 84,
+                    "program_order": 154,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1352214114,
+            "category_name": "OPEN AGES 15-17 LYRICAL SOLO GROUP B",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "GROUP B",
+            "publish_state": "published",
+            "program_sort": 155,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "156",
+                    "title": "In The Kitchen",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 155
+                },
+                {
+                    "entry": "157",
+                    "title": "Open Arms",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 156
+                },
+                {
+                    "entry": "158",
+                    "title": "We Hug Now",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 157
+                },
+                {
+                    "entry": "159",
+                    "title": "Repeat until Death",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 158
+                },
+                {
+                    "entry": "160",
+                    "title": "Jealous",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 159
+                },
+                {
+                    "entry": "161",
+                    "title": "Girl I Am Now",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 160
+                },
+                {
+                    "entry": "162",
+                    "title": "The Truth",
+                    "studio": "Dance Plus EP",
+                    "program_order": 161
+                }
+            ],
+            "results": [
+                {
+                    "entry": "156",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "In The Kitchen",
+                    "studio": "Marley's Dance Effex",
+                    "score": 90,
+                    "program_order": 155,
+                    "scratched": false
+                },
+                {
+                    "entry": "157",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Open Arms",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 87.5,
+                    "program_order": 156,
+                    "scratched": false
+                },
+                {
+                    "entry": "158",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "We Hug Now",
+                    "studio": "Marley's Dance Effex",
+                    "score": 86,
+                    "program_order": 157,
+                    "scratched": false
+                },
+                {
+                    "entry": "159",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Repeat until Death",
+                    "studio": "Marley's Dance Effex",
+                    "score": 87,
+                    "program_order": 158,
+                    "scratched": false
+                },
+                {
+                    "entry": "160",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Jealous",
+                    "studio": "Marley's Dance Effex",
+                    "score": 86.5,
+                    "program_order": 159,
+                    "scratched": false
+                },
+                {
+                    "entry": "161",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Girl I Am Now",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 86.5,
+                    "program_order": 160,
+                    "scratched": false
+                },
+                {
+                    "entry": "162",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "The Truth",
+                    "studio": "Dance Plus EP",
+                    "score": 86,
+                    "program_order": 161,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 947272529,
+            "category_name": "OPEN AGES 18 OVER LYRICAL SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 162,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 16,
+            "entries": [
+                {
+                    "entry": "163",
+                    "title": "Medicine",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 162
+                },
+                {
+                    "entry": "164",
+                    "title": "I won't",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 163
+                },
+                {
+                    "entry": "165",
+                    "title": "I Had a Dream",
+                    "studio": "Valley Dance",
+                    "program_order": 164
+                },
+                {
+                    "entry": "166",
+                    "title": "Teach You How To Love Me",
+                    "studio": "White City Dancing School",
+                    "program_order": 165
+                }
+            ],
+            "results": [
+                {
+                    "entry": "163",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Medicine",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 87.5,
+                    "program_order": 162,
+                    "scratched": false
+                },
+                {
+                    "entry": "164",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "I won't",
+                    "studio": "Against the Grain Studios",
+                    "score": 86.5,
+                    "program_order": 163,
+                    "scratched": false
+                },
+                {
+                    "entry": "165",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "I Had a Dream",
+                    "studio": "Valley Dance",
+                    "score": 86,
+                    "program_order": 164,
+                    "scratched": false
+                },
+                {
+                    "entry": "166",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Teach You How To Love Me",
+                    "studio": "White City Dancing School",
+                    "score": 85,
+                    "program_order": 165,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 242793445,
+            "category_name": "OPEN AGES 15-17 POINTE SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 2 \u2022 6:10 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 166,
+            "day_sort": 0,
+            "session_sort": 1,
+            "group_sort": 17,
+            "entries": [
+                {
+                    "entry": "167",
+                    "title": "Exhale Inhale",
+                    "studio": "White City Dancing School",
+                    "program_order": 166
+                }
+            ],
+            "results": [
+                {
+                    "entry": "167",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Exhale Inhale",
+                    "studio": "White City Dancing School",
+                    "score": 88.5,
+                    "program_order": 166,
                     "scratched": false
                 }
             ]
