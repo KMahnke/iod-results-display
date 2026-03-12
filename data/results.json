@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 16:01:00",
+    "last_update": "2026-03-12 16:03:58",
     "program_source": "program.json",
-    "published_count": 4,
+    "published_count": 13,
     "categories": [
         {
             "category_id": 607676400,
@@ -257,6 +257,598 @@
                     "studio": "Diva Dance",
                     "score": 84.3,
                     "program_order": 11,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1572090232,
+            "category_name": "BEGINNER AGES 15-17 BALLET SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 12,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "13",
+                    "title": "Mack the Knife",
+                    "studio": "Born2Dance",
+                    "program_order": 12
+                },
+                {
+                    "entry": "14",
+                    "title": "Chaplin",
+                    "studio": "Born2Dance",
+                    "program_order": 13
+                }
+            ],
+            "results": [
+                {
+                    "entry": "13",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Mack the Knife",
+                    "studio": "Born2Dance",
+                    "score": 87.5,
+                    "program_order": 12,
+                    "scratched": false
+                },
+                {
+                    "entry": "14",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Chaplin",
+                    "studio": "Born2Dance",
+                    "score": 85.5,
+                    "program_order": 13,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1107496550,
+            "category_name": "BEGINNER AGES 6-8 MUSICAL THEATRE SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 14,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "15",
+                    "title": "One Kiss",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 14
+                },
+                {
+                    "entry": "16",
+                    "title": "I want a hippopatamus for Christmas",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 15
+                }
+            ],
+            "results": [
+                {
+                    "entry": "15",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "One Kiss",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81,
+                    "program_order": 14,
+                    "scratched": false
+                },
+                {
+                    "entry": "16",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "I want a hippopatamus for Christmas",
+                    "studio": "Marley's Dance Effex",
+                    "score": 800,
+                    "program_order": 15,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 152761010,
+            "category_name": "BEGINNER AGES 12-14 MUSICAL THEATRE SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 17,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "18",
+                    "title": "What You Want",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 17
+                },
+                {
+                    "entry": "19",
+                    "title": "Little Girls",
+                    "studio": "Diva Dance",
+                    "program_order": 18
+                }
+            ],
+            "results": [
+                {
+                    "entry": "18",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "What You Want",
+                    "studio": "Marley's Dance Effex",
+                    "score": 82,
+                    "program_order": 17,
+                    "scratched": false
+                },
+                {
+                    "entry": "19",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Little Girls",
+                    "studio": "Diva Dance",
+                    "score": 80,
+                    "program_order": 18,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 547248849,
+            "category_name": "NOVICE AGES 9-11 BALLET SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 19,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "20",
+                    "title": "Coppelia",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 19
+                }
+            ],
+            "results": [
+                {
+                    "entry": "20",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Coppelia",
+                    "studio": "Marley's Dance Effex",
+                    "score": 86,
+                    "program_order": 19,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1427451491,
+            "category_name": "BEGINNER AGES 9-11 MUSICAL THEATRE SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 20,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "21",
+                    "title": "Encanto",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 20
+                },
+                {
+                    "entry": "22",
+                    "title": "This is Me",
+                    "studio": "Valley Dance",
+                    "program_order": 21
+                },
+                {
+                    "entry": "23",
+                    "title": "Belle",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 22
+                },
+                {
+                    "entry": "24",
+                    "title": "Le Poisson",
+                    "studio": "Born2Dance",
+                    "program_order": 23
+                },
+                {
+                    "entry": "25",
+                    "title": "I Know it's Today",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 24
+                },
+                {
+                    "entry": "26",
+                    "title": "Pirate Today",
+                    "studio": "Born2Dance",
+                    "program_order": 25
+                },
+                {
+                    "entry": "27",
+                    "title": "Combine Harvester",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 26
+                }
+            ],
+            "results": [
+                {
+                    "entry": "21",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Encanto",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81,
+                    "program_order": 20,
+                    "scratched": false
+                },
+                {
+                    "entry": "22",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "This is Me",
+                    "studio": "Valley Dance",
+                    "score": 80,
+                    "program_order": 21,
+                    "scratched": false
+                },
+                {
+                    "entry": "23",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Belle",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85.2,
+                    "program_order": 22,
+                    "scratched": false
+                },
+                {
+                    "entry": "24",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Le Poisson",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 23,
+                    "scratched": false
+                },
+                {
+                    "entry": "25",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "I Know it's Today",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 24,
+                    "scratched": false
+                },
+                {
+                    "entry": "26",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Pirate Today",
+                    "studio": "Born2Dance",
+                    "score": null,
+                    "program_order": 25,
+                    "scratched": true
+                },
+                {
+                    "entry": "27",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Combine Harvester",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 26,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1074901482,
+            "category_name": "NOVICE AGES 12-14 BALLET SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 27,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "28",
+                    "title": "All of the Lights",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 27
+                },
+                {
+                    "entry": "29",
+                    "title": "Bluebird",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 28
+                },
+                {
+                    "entry": "30",
+                    "title": "A Joyful Moment",
+                    "studio": "Born2Dance",
+                    "program_order": 29
+                }
+            ],
+            "results": [
+                {
+                    "entry": "28",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "All of the Lights",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 83,
+                    "program_order": 27,
+                    "scratched": false
+                },
+                {
+                    "entry": "29",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Bluebird",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 28,
+                    "scratched": false
+                },
+                {
+                    "entry": "30",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "A Joyful Moment",
+                    "studio": "Born2Dance",
+                    "score": 86,
+                    "program_order": 29,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1874649136,
+            "category_name": "OPEN AGES 15-17 MUSICAL THEATRE SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 30,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "31",
+                    "title": "Lost In The Woods",
+                    "studio": "Born2Dance",
+                    "program_order": 30
+                },
+                {
+                    "entry": "32",
+                    "title": "Dancing Through Life",
+                    "studio": "Born2Dance",
+                    "program_order": 31
+                },
+                {
+                    "entry": "33",
+                    "title": "I Want The Good Times Back",
+                    "studio": "Diva Dance",
+                    "program_order": 32
+                }
+            ],
+            "results": [
+                {
+                    "entry": "31",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Lost In The Woods",
+                    "studio": "Born2Dance",
+                    "score": 88,
+                    "program_order": 30,
+                    "scratched": false
+                },
+                {
+                    "entry": "32",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Dancing Through Life",
+                    "studio": "Born2Dance",
+                    "score": 88.2,
+                    "program_order": 31,
+                    "scratched": false
+                },
+                {
+                    "entry": "33",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "I Want The Good Times Back",
+                    "studio": "Diva Dance",
+                    "score": 85,
+                    "program_order": 32,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 606594413,
+            "category_name": "NOVICE AGES 15-17 BALLET SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 33,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "34",
+                    "title": "Me and the Devil",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 33
+                },
+                {
+                    "entry": "35",
+                    "title": "Echoes Within",
+                    "studio": "Born2Dance",
+                    "program_order": 34
+                },
+                {
+                    "entry": "36",
+                    "title": "Where Light Rises",
+                    "studio": "Born2Dance",
+                    "program_order": 35
+                },
+                {
+                    "entry": "37",
+                    "title": "Stairway to Heaven",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 36
+                },
+                {
+                    "entry": "38",
+                    "title": "Pink Pony Club",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 37
+                }
+            ],
+            "results": [
+                {
+                    "entry": "34",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Me and the Devil",
+                    "studio": "Ogema Dance Club",
+                    "score": 84,
+                    "program_order": 33,
+                    "scratched": false
+                },
+                {
+                    "entry": "35",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Echoes Within",
+                    "studio": "Born2Dance",
+                    "score": 87.5,
+                    "program_order": 34,
+                    "scratched": false
+                },
+                {
+                    "entry": "36",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Where Light Rises",
+                    "studio": "Born2Dance",
+                    "score": 89,
+                    "program_order": 35,
+                    "scratched": false
+                },
+                {
+                    "entry": "37",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Stairway to Heaven",
+                    "studio": "Ogema Dance Club",
+                    "score": 83,
+                    "program_order": 36,
+                    "scratched": false
+                },
+                {
+                    "entry": "38",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Pink Pony Club",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 81,
+                    "program_order": 37,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1568707191,
+            "category_name": "BEGINNER AGES 6-8 LYRICAL DUO\/TRIO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 38,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "39",
+                    "title": "A Million Dreams",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 38
+                },
+                {
+                    "entry": "40",
+                    "title": "Never Grow Up",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 39
+                },
+                {
+                    "entry": "41",
+                    "title": "Here comes the sun",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 40
+                }
+            ],
+            "results": [
+                {
+                    "entry": "39",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "A Million Dreams",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 38,
+                    "scratched": false
+                },
+                {
+                    "entry": "40",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Never Grow Up",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80.1,
+                    "program_order": 39,
+                    "scratched": false
+                },
+                {
+                    "entry": "41",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Here comes the sun",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 40,
                     "scratched": false
                 }
             ]
