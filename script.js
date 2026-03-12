@@ -18,25 +18,29 @@ sun:"Sun",
 sunday:"Sun"
 };
 
-function getDayShortLabel(label){
-if(!label) return "";
+function getDayShortLabel(dayLabel) {
+  if (!dayLabel) return "";
 
-const normalized = String(label)
-.toLowerCase()
-.replace(/,/g," ")
-.trim();
+  const raw = String(dayLabel).trim();
+  const firstPart = raw.split(",")[0].trim();
+  const firstWord = firstPart.split(/\s+/)[0].toLowerCase();
 
-const firstWord = normalized.split(/\s+/)[0];
+  const map = {
+    wednesday: "Wed",
+    thursday: "Thu",
+    friday: "Fri",
+    saturday: "Sat",
+    sunday: "Sun",
+    wed: "Wed",
+    thu: "Thu",
+    thur: "Thu",
+    thurs: "Thu",
+    fri: "Fri",
+    sat: "Sat",
+    sun: "Sun"
+  };
 
-if(DAY_ALIASES[firstWord]) return DAY_ALIASES[firstWord];
-
-for(const key in DAY_ALIASES){
-if(normalized.startsWith(key)){
-return DAY_ALIASES[key];
-}
-}
-
-return "";
+  return map[firstWord] || firstPart;
 }
 
 function getCategoriesForTab(tab){
