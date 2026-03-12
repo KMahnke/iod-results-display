@@ -1,7 +1,89 @@
 {
-    "event": "Inspirations of Dance",
+    "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 14:27:13",
+    "last_update": "2026-03-12 14:34:20",
+    "program_source": "program.json",
+    "published_count": 2,
     "categories": [
+        {
+            "category_id": 607676400,
+            "category_name": "BEGINNER AGES 6-8 BALLET SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 0,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "1",
+                    "title": "The Magic Lamp",
+                    "studio": "Born2Dance",
+                    "program_order": 0
+                },
+                {
+                    "entry": "2",
+                    "title": "The Gold is Mine",
+                    "studio": "Born2Dance",
+                    "program_order": 1
+                }
+            ],
+            "results": [
+                {
+                    "entry": "1",
+                    "display_place": "1st",
+                    "gem": "SILVER",
+                    "title": "The Magic Lamp",
+                    "studio": "Born2Dance",
+                    "score": 83,
+                    "program_order": 0,
+                    "scratched": false
+                },
+                {
+                    "entry": "2",
+                    "display_place": "2nd",
+                    "gem": "SILVER",
+                    "title": "The Gold is Mine",
+                    "studio": "Born2Dance",
+                    "score": 82,
+                    "program_order": 1,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1404717157,
+            "category_name": "NOVICE AGES 9-11 MUSICAL THEATRE SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 2,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "3",
+                    "title": "I think he likes Me",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 2
+                }
+            ],
+            "results": [
+                {
+                    "entry": "3",
+                    "display_place": "1st",
+                    "gem": "SILVER",
+                    "title": "I think he likes Me",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 2,
+                    "scratched": false
+                }
+            ]
+        }
     ]
 }
