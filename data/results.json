@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 16:08:16",
+    "last_update": "2026-03-12 16:34:44",
     "program_source": "program.json",
-    "published_count": 46,
+    "published_count": 48,
     "categories": [
         {
             "category_id": 607676400,
@@ -3393,6 +3393,134 @@
                     "studio": "White City Dancing School",
                     "score": 88.5,
                     "program_order": 166,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2019449460,
+            "category_name": "BEGINNER AGES 6-8 TAP SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 167,
+            "day_sort": 1,
+            "session_sort": 0,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "168",
+                    "title": "You Make My Dreams",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 167
+                },
+                {
+                    "entry": "169",
+                    "title": "Sax",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 168
+                },
+                {
+                    "entry": "170",
+                    "title": "Rockin' Robin",
+                    "studio": "Valley Dance",
+                    "program_order": 169
+                },
+                {
+                    "entry": "171",
+                    "title": "My Boy Lollipop",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 170
+                },
+                {
+                    "entry": "172",
+                    "title": "7 nation Army",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 171
+                }
+            ],
+            "results": [
+                {
+                    "entry": "168",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "You Make My Dreams",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85,
+                    "program_order": 167,
+                    "scratched": false
+                },
+                {
+                    "entry": "169",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Sax",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 84,
+                    "program_order": 168,
+                    "scratched": false
+                },
+                {
+                    "entry": "170",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Rockin' Robin",
+                    "studio": "Valley Dance",
+                    "score": 82,
+                    "program_order": 169,
+                    "scratched": false
+                },
+                {
+                    "entry": "171",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "My Boy Lollipop",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 170,
+                    "scratched": false
+                },
+                {
+                    "entry": "172",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "7 nation Army",
+                    "studio": "Against the Grain Studios",
+                    "score": 81,
+                    "program_order": 171,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1681334783,
+            "category_name": "NOVICE AGES 6-8 HIP HOP SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 172,
+            "day_sort": 1,
+            "session_sort": 0,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "173",
+                    "title": "Chillin Like a Villain",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 172
+                }
+            ],
+            "results": [
+                {
+                    "entry": "173",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Chillin Like a Villain",
+                    "studio": "Pangman Dance Club",
+                    "score": 85,
+                    "program_order": 172,
                     "scratched": false
                 }
             ]
