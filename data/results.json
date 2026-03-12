@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 20:43:58",
+    "last_update": "2026-03-12 21:36:35",
     "program_source": "program.json",
-    "published_count": 59,
+    "published_count": 69,
     "categories": [
         {
             "category_id": 607676400,
@@ -4642,6 +4642,1142 @@
                     "score": null,
                     "program_order": 231,
                     "scratched": true
+                }
+            ]
+        },
+        {
+            "category_id": 88445905,
+            "category_name": "NOVICE AGES 15-17 HIP HOP SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 232,
+            "day_sort": 1,
+            "session_sort": 0,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "233",
+                    "title": "Turn It Up",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 232
+                },
+                {
+                    "entry": "234",
+                    "title": "Switch",
+                    "studio": "Born2Dance",
+                    "program_order": 233
+                },
+                {
+                    "entry": "235",
+                    "title": "Maneater",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 234
+                },
+                {
+                    "entry": "236",
+                    "title": "Breakin' Dishes",
+                    "studio": "Born2Dance",
+                    "program_order": 235
+                },
+                {
+                    "entry": "237",
+                    "title": "Breakin Dishes",
+                    "studio": "Artemis Dance",
+                    "program_order": 236
+                },
+                {
+                    "entry": "238",
+                    "title": "Lil Wayne Mix",
+                    "studio": "Artemis Dance",
+                    "program_order": 237
+                },
+                {
+                    "entry": "239",
+                    "title": "Get Him Back",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 238
+                },
+                {
+                    "entry": "240",
+                    "title": "Greedy Mix",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 239
+                }
+            ],
+            "results": [
+                {
+                    "entry": "233",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Turn It Up",
+                    "studio": "Ogema Dance Club",
+                    "score": 86,
+                    "program_order": 232,
+                    "scratched": false
+                },
+                {
+                    "entry": "234",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Switch",
+                    "studio": "Born2Dance",
+                    "score": 84.5,
+                    "program_order": 233,
+                    "scratched": false
+                },
+                {
+                    "entry": "235",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Maneater",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 86.5,
+                    "program_order": 234,
+                    "scratched": false
+                },
+                {
+                    "entry": "236",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Breakin' Dishes",
+                    "studio": "Born2Dance",
+                    "score": 88,
+                    "program_order": 235,
+                    "scratched": false
+                },
+                {
+                    "entry": "237",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Breakin Dishes",
+                    "studio": "Artemis Dance",
+                    "score": 85,
+                    "program_order": 236,
+                    "scratched": false
+                },
+                {
+                    "entry": "238",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Lil Wayne Mix",
+                    "studio": "Artemis Dance",
+                    "score": 86,
+                    "program_order": 237,
+                    "scratched": false
+                },
+                {
+                    "entry": "239",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Get Him Back",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": null,
+                    "program_order": 238,
+                    "scratched": true
+                },
+                {
+                    "entry": "240",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Greedy Mix",
+                    "studio": "Marley's Dance Effex",
+                    "score": 83,
+                    "program_order": 239,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1801197228,
+            "category_name": "NOVICE AGES 15-17 MUSICAL THEATRE SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 240,
+            "day_sort": 1,
+            "session_sort": 0,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "241",
+                    "title": "Mama's Broken Heart",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 240
+                },
+                {
+                    "entry": "242",
+                    "title": "Smell of Rebellion",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 241
+                },
+                {
+                    "entry": "243",
+                    "title": "Man Up!",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 242
+                },
+                {
+                    "entry": "244",
+                    "title": "Cabaret",
+                    "studio": "Artemis Dance",
+                    "program_order": 243
+                },
+                {
+                    "entry": "245",
+                    "title": "The Girl in 14-G",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 244
+                },
+                {
+                    "entry": "246",
+                    "title": "What Do I Do With My Arms",
+                    "studio": "Born2Dance",
+                    "program_order": 245
+                },
+                {
+                    "entry": "247",
+                    "title": "All That Jazz",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 246
+                }
+            ],
+            "results": [
+                {
+                    "entry": "241",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Mama's Broken Heart",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 82,
+                    "program_order": 240,
+                    "scratched": false
+                },
+                {
+                    "entry": "242",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Smell of Rebellion",
+                    "studio": "Ogema Dance Club",
+                    "score": 90,
+                    "program_order": 241,
+                    "scratched": false
+                },
+                {
+                    "entry": "243",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Man Up!",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 242,
+                    "scratched": false
+                },
+                {
+                    "entry": "244",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Cabaret",
+                    "studio": "Artemis Dance",
+                    "score": 85,
+                    "program_order": 243,
+                    "scratched": false
+                },
+                {
+                    "entry": "245",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Girl in 14-G",
+                    "studio": "Ogema Dance Club",
+                    "score": 88,
+                    "program_order": 244,
+                    "scratched": false
+                },
+                {
+                    "entry": "246",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "What Do I Do With My Arms",
+                    "studio": "Born2Dance",
+                    "score": 84,
+                    "program_order": 245,
+                    "scratched": false
+                },
+                {
+                    "entry": "247",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "All That Jazz",
+                    "studio": "Full Out Dance Studio",
+                    "score": 82,
+                    "program_order": 246,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1284836869,
+            "category_name": "NOVICE AGES 15-17 HIP HOP SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 247,
+            "day_sort": 1,
+            "session_sort": 0,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "248",
+                    "title": "Sorry for Party Rockin'",
+                    "studio": "Artemis Dance",
+                    "program_order": 247
+                },
+                {
+                    "entry": "249",
+                    "title": "Cali Vibes",
+                    "studio": "Artemis Dance",
+                    "program_order": 248
+                },
+                {
+                    "entry": "250",
+                    "title": "Bounce",
+                    "studio": "Dance Plus EP",
+                    "program_order": 249
+                },
+                {
+                    "entry": "251",
+                    "title": "Money",
+                    "studio": "Artemis Dance",
+                    "program_order": 250
+                },
+                {
+                    "entry": "252",
+                    "title": "No Chill 2.0",
+                    "studio": "Artemis Dance",
+                    "program_order": 251
+                },
+                {
+                    "entry": "253",
+                    "title": "Roc Steady",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 252
+                },
+                {
+                    "entry": "254",
+                    "title": "Disco Inferno",
+                    "studio": "Artemis Dance",
+                    "program_order": 253
+                },
+                {
+                    "entry": "255",
+                    "title": "Kendrick Lamar Remix",
+                    "studio": "Diva Dance",
+                    "program_order": 254
+                }
+            ],
+            "results": [
+                {
+                    "entry": "248",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Sorry for Party Rockin'",
+                    "studio": "Artemis Dance",
+                    "score": 83.5,
+                    "program_order": 247,
+                    "scratched": false
+                },
+                {
+                    "entry": "249",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Cali Vibes",
+                    "studio": "Artemis Dance",
+                    "score": 87.5,
+                    "program_order": 248,
+                    "scratched": false
+                },
+                {
+                    "entry": "250",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Bounce",
+                    "studio": "Dance Plus EP",
+                    "score": 87,
+                    "program_order": 249,
+                    "scratched": false
+                },
+                {
+                    "entry": "251",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Money",
+                    "studio": "Artemis Dance",
+                    "score": 90,
+                    "program_order": 250,
+                    "scratched": false
+                },
+                {
+                    "entry": "252",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "No Chill 2.0",
+                    "studio": "Artemis Dance",
+                    "score": 86,
+                    "program_order": 251,
+                    "scratched": false
+                },
+                {
+                    "entry": "253",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Roc Steady",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 87,
+                    "program_order": 252,
+                    "scratched": false
+                },
+                {
+                    "entry": "254",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Disco Inferno",
+                    "studio": "Artemis Dance",
+                    "score": 87.5,
+                    "program_order": 253,
+                    "scratched": false
+                },
+                {
+                    "entry": "255",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Kendrick Lamar Remix",
+                    "studio": "Diva Dance",
+                    "score": 84,
+                    "program_order": 254,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 56216811,
+            "category_name": "BEGINNER AGES 6-8 HIP HOP DUO\/TRIO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 255,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "256",
+                    "title": "Can't Touch This",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 255
+                },
+                {
+                    "entry": "257",
+                    "title": "Christmas Spirit",
+                    "studio": "Born2Dance",
+                    "program_order": 256
+                },
+                {
+                    "entry": "258",
+                    "title": "What U Workin' With",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 257
+                },
+                {
+                    "entry": "259",
+                    "title": "Gabby's World",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 258
+                }
+            ],
+            "results": [
+                {
+                    "entry": "256",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Can't Touch This",
+                    "studio": "Marley's Dance Effex",
+                    "score": 83,
+                    "program_order": 255,
+                    "scratched": false
+                },
+                {
+                    "entry": "257",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Christmas Spirit",
+                    "studio": "Born2Dance",
+                    "score": 81,
+                    "program_order": 256,
+                    "scratched": false
+                },
+                {
+                    "entry": "258",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "What U Workin' With",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 82.5,
+                    "program_order": 257,
+                    "scratched": false
+                },
+                {
+                    "entry": "259",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Gabby's World",
+                    "studio": "Marley's Dance Effex",
+                    "score": 82,
+                    "program_order": 258,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 169540916,
+            "category_name": "NOVICE AGES 12-14 CONTEMPORARY SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 259,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "260",
+                    "title": "Medicine",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 259
+                },
+                {
+                    "entry": "261",
+                    "title": "Broken",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 260
+                },
+                {
+                    "entry": "262",
+                    "title": "Soldier",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 261
+                },
+                {
+                    "entry": "263",
+                    "title": "Lacy",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 262
+                },
+                {
+                    "entry": "264",
+                    "title": "Creep",
+                    "studio": "Diva Dance",
+                    "program_order": 263
+                },
+                {
+                    "entry": "265",
+                    "title": "The Basement Dweller",
+                    "studio": "Born2Dance",
+                    "program_order": 264
+                },
+                {
+                    "entry": "266",
+                    "title": "Lonely",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 265
+                },
+                {
+                    "entry": "267",
+                    "title": "I Found",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 266
+                },
+                {
+                    "entry": "268",
+                    "title": "Hide and Seek",
+                    "studio": "Dance Plus EP",
+                    "program_order": 267
+                },
+                {
+                    "entry": "269",
+                    "title": "I Miss You, I'm Sorry",
+                    "studio": "Born2Dance",
+                    "program_order": 268
+                }
+            ],
+            "results": [
+                {
+                    "entry": "260",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Medicine",
+                    "studio": "En Pointe Dance Studio",
+                    "score": null,
+                    "program_order": 259,
+                    "scratched": true
+                },
+                {
+                    "entry": "261",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Broken",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 83,
+                    "program_order": 260,
+                    "scratched": false
+                },
+                {
+                    "entry": "262",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Soldier",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 87.5,
+                    "program_order": 261,
+                    "scratched": false
+                },
+                {
+                    "entry": "263",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lacy",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 83.5,
+                    "program_order": 262,
+                    "scratched": false
+                },
+                {
+                    "entry": "264",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Creep",
+                    "studio": "Diva Dance",
+                    "score": 84.5,
+                    "program_order": 263,
+                    "scratched": false
+                },
+                {
+                    "entry": "265",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Basement Dweller",
+                    "studio": "Born2Dance",
+                    "score": 86.5,
+                    "program_order": 264,
+                    "scratched": false
+                },
+                {
+                    "entry": "266",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lonely",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 84,
+                    "program_order": 265,
+                    "scratched": false
+                },
+                {
+                    "entry": "267",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "I Found",
+                    "studio": "Marley's Dance Effex",
+                    "score": null,
+                    "program_order": 266,
+                    "scratched": true
+                },
+                {
+                    "entry": "268",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Hide and Seek",
+                    "studio": "Dance Plus EP",
+                    "score": 86,
+                    "program_order": 267,
+                    "scratched": false
+                },
+                {
+                    "entry": "269",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "I Miss You, I'm Sorry",
+                    "studio": "Born2Dance",
+                    "score": 84.5,
+                    "program_order": 268,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1379041643,
+            "category_name": "BEGINNER AGES 9-11 HIP HOP DUO\/TRIO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 269,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "270",
+                    "title": "Space Jam",
+                    "studio": "Valley Dance",
+                    "program_order": 269
+                },
+                {
+                    "entry": "271",
+                    "title": "Addams Family Monsters",
+                    "studio": "Artemis Dance",
+                    "program_order": 270
+                },
+                {
+                    "entry": "272",
+                    "title": "Bold",
+                    "studio": "White City Dancing School",
+                    "program_order": 271
+                }
+            ],
+            "results": [
+                {
+                    "entry": "270",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Space Jam",
+                    "studio": "Valley Dance",
+                    "score": 83,
+                    "program_order": 269,
+                    "scratched": false
+                },
+                {
+                    "entry": "271",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Addams Family Monsters",
+                    "studio": "Artemis Dance",
+                    "score": 86,
+                    "program_order": 270,
+                    "scratched": false
+                },
+                {
+                    "entry": "272",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Bold",
+                    "studio": "White City Dancing School",
+                    "score": 82,
+                    "program_order": 271,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2019543494,
+            "category_name": "BEGINNER AGES 12-14 HIP HOP DUO\/TRIO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 272,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "273",
+                    "title": "Soulja Boy",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 272
+                }
+            ],
+            "results": [
+                {
+                    "entry": "273",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Soulja Boy",
+                    "studio": "Pangman Dance Club",
+                    "score": 82,
+                    "program_order": 272,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 87173375,
+            "category_name": "NOVICE AGES 15-17 CONTEMPORARY SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 273,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "274",
+                    "title": "Crowd Caffeine",
+                    "studio": "White City Dancing School",
+                    "program_order": 273
+                },
+                {
+                    "entry": "275",
+                    "title": "Pale Blue Dot",
+                    "studio": "Diva Dance",
+                    "program_order": 274
+                },
+                {
+                    "entry": "276",
+                    "title": "Run",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 275
+                },
+                {
+                    "entry": "277",
+                    "title": "Organs",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 276
+                },
+                {
+                    "entry": "278",
+                    "title": "Paralyzed",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 277
+                },
+                {
+                    "entry": "279",
+                    "title": "Time of Your Life",
+                    "studio": "Artemis Dance",
+                    "program_order": 278
+                },
+                {
+                    "entry": "280",
+                    "title": "Like a Queen",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 279
+                },
+                {
+                    "entry": "281",
+                    "title": "Dinner",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 280
+                },
+                {
+                    "entry": "282",
+                    "title": "Man in the Mirror",
+                    "studio": "Artemis Dance",
+                    "program_order": 281
+                }
+            ],
+            "results": [
+                {
+                    "entry": "274",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Crowd Caffeine",
+                    "studio": "White City Dancing School",
+                    "score": 86,
+                    "program_order": 273,
+                    "scratched": false
+                },
+                {
+                    "entry": "275",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Pale Blue Dot",
+                    "studio": "Diva Dance",
+                    "score": 84.5,
+                    "program_order": 274,
+                    "scratched": false
+                },
+                {
+                    "entry": "276",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Run",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 86.5,
+                    "program_order": 275,
+                    "scratched": false
+                },
+                {
+                    "entry": "277",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Organs",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85,
+                    "program_order": 276,
+                    "scratched": false
+                },
+                {
+                    "entry": "278",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Paralyzed",
+                    "studio": "Marley's Dance Effex",
+                    "score": 87,
+                    "program_order": 277,
+                    "scratched": false
+                },
+                {
+                    "entry": "279",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Time of Your Life",
+                    "studio": "Artemis Dance",
+                    "score": 85,
+                    "program_order": 278,
+                    "scratched": false
+                },
+                {
+                    "entry": "280",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Like a Queen",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 87,
+                    "program_order": 279,
+                    "scratched": false
+                },
+                {
+                    "entry": "281",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Dinner",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 86.5,
+                    "program_order": 280,
+                    "scratched": false
+                },
+                {
+                    "entry": "282",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Man in the Mirror",
+                    "studio": "Artemis Dance",
+                    "score": 87.5,
+                    "program_order": 281,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 936510025,
+            "category_name": "BEGINNER AGES 6-8 HIP HOP SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 282,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "283",
+                    "title": "Lip Gloss",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 282
+                },
+                {
+                    "entry": "284",
+                    "title": "Boom Boom Pow",
+                    "studio": "Diva Dance",
+                    "program_order": 283
+                }
+            ],
+            "results": [
+                {
+                    "entry": "283",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Lip Gloss",
+                    "studio": "Marley's Dance Effex",
+                    "score": 84,
+                    "program_order": 282,
+                    "scratched": false
+                },
+                {
+                    "entry": "284",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Boom Boom Pow",
+                    "studio": "Diva Dance",
+                    "score": 83,
+                    "program_order": 283,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 984427140,
+            "category_name": "NOVICE AGES 15-17 CONTEMPORARY SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 284,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "285",
+                    "title": "Praying",
+                    "studio": "Artemis Dance",
+                    "program_order": 284
+                },
+                {
+                    "entry": "286",
+                    "title": "Ain't No Sunshine",
+                    "studio": "Diva Dance",
+                    "program_order": 285
+                },
+                {
+                    "entry": "287",
+                    "title": "Angel of Small Death",
+                    "studio": "Artemis Dance",
+                    "program_order": 286
+                },
+                {
+                    "entry": "288",
+                    "title": "Lost Myself",
+                    "studio": "Artemis Dance",
+                    "program_order": 287
+                },
+                {
+                    "entry": "289",
+                    "title": "Memories",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 288
+                },
+                {
+                    "entry": "290",
+                    "title": "Rain Dance",
+                    "studio": "Dance Plus EP",
+                    "program_order": 289
+                },
+                {
+                    "entry": "291",
+                    "title": "Sleep Deprivation",
+                    "studio": "Valley Dance",
+                    "program_order": 290
+                },
+                {
+                    "entry": "292",
+                    "title": "When I Close my Eyes",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 291
+                },
+                {
+                    "entry": "293",
+                    "title": "Icarus",
+                    "studio": "Born2Dance",
+                    "program_order": 292
+                }
+            ],
+            "results": [
+                {
+                    "entry": "285",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Praying",
+                    "studio": "Artemis Dance",
+                    "score": 86,
+                    "program_order": 284,
+                    "scratched": false
+                },
+                {
+                    "entry": "286",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Ain't No Sunshine",
+                    "studio": "Diva Dance",
+                    "score": 85,
+                    "program_order": 285,
+                    "scratched": false
+                },
+                {
+                    "entry": "287",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Angel of Small Death",
+                    "studio": "Artemis Dance",
+                    "score": 84,
+                    "program_order": 286,
+                    "scratched": false
+                },
+                {
+                    "entry": "288",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lost Myself",
+                    "studio": "Artemis Dance",
+                    "score": 83,
+                    "program_order": 287,
+                    "scratched": false
+                },
+                {
+                    "entry": "289",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Memories",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 83.5,
+                    "program_order": 288,
+                    "scratched": false
+                },
+                {
+                    "entry": "290",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Rain Dance",
+                    "studio": "Dance Plus EP",
+                    "score": 87,
+                    "program_order": 289,
+                    "scratched": false
+                },
+                {
+                    "entry": "291",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Sleep Deprivation",
+                    "studio": "Valley Dance",
+                    "score": null,
+                    "program_order": 290,
+                    "scratched": true
+                },
+                {
+                    "entry": "292",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "When I Close my Eyes",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 85,
+                    "program_order": 291,
+                    "scratched": false
+                },
+                {
+                    "entry": "293",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Icarus",
+                    "studio": "Born2Dance",
+                    "score": 86.5,
+                    "program_order": 292,
+                    "scratched": false
                 }
             ]
         }
