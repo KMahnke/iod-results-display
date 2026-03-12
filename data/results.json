@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-12 00:48:47",
+    "last_update": "2026-03-12 01:53:00",
     "categories": [
         {
             "category_id": 422410419,
@@ -397,6 +397,125 @@
                     "studio": "Marley's Dance Effex",
                     "score": 86,
                     "program_order": 20
+                }
+            ]
+        },
+        {
+            "category_id": 995405066,
+            "category_name": "Beginner Ages 9-11 Musical Theatre Solo",
+            "day_label": "Wed, Mar 11, 2026",
+            "session_label": "EOD Wednesday",
+            "publish_state": "published",
+            "program_sort": 21,
+            "day_sort": "2026-03-11",
+            "session_sort": 62298011,
+            "entries": [
+                {
+                    "entry": "21",
+                    "title": "Encanto",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 21
+                },
+                {
+                    "entry": "22",
+                    "title": "This is Me",
+                    "studio": "Valley Dance",
+                    "program_order": 22
+                },
+                {
+                    "entry": "23",
+                    "title": "Belle",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 23
+                },
+                {
+                    "entry": "24",
+                    "title": "Le Poisson",
+                    "studio": "Born2Dance",
+                    "program_order": 24
+                },
+                {
+                    "entry": "25",
+                    "title": "I Know it's Today",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 25
+                },
+                {
+                    "entry": "26",
+                    "title": "Pirate Today",
+                    "studio": "Born2Dance",
+                    "program_order": 26
+                },
+                {
+                    "entry": "27",
+                    "title": "Combine Harvester",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 27
+                }
+            ],
+            "results": [
+                {
+                    "entry": "21",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Encanto",
+                    "studio": "Marley's Dance Effex",
+                    "score": 81,
+                    "program_order": 21
+                },
+                {
+                    "entry": "22",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "This is Me",
+                    "studio": "Valley Dance",
+                    "score": 80,
+                    "program_order": 22
+                },
+                {
+                    "entry": "23",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Belle",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85.2,
+                    "program_order": 23
+                },
+                {
+                    "entry": "24",
+                    "display_place": "",
+                    "gem": "Ruby",
+                    "title": "Le Poisson",
+                    "studio": "Born2Dance",
+                    "score": 85,
+                    "program_order": 24
+                },
+                {
+                    "entry": "25",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "I Know it's Today",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 25
+                },
+                {
+                    "entry": "26",
+                    "display_place": "",
+                    "gem": "",
+                    "title": "Pirate Today",
+                    "studio": "Born2Dance",
+                    "score": null,
+                    "program_order": 26
+                },
+                {
+                    "entry": "27",
+                    "display_place": "",
+                    "gem": "Emerald",
+                    "title": "Combine Harvester",
+                    "studio": "Marley's Dance Effex",
+                    "score": 80,
+                    "program_order": 27
                 }
             ]
         },
