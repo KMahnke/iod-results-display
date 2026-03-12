@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-12 01:53:00",
+    "last_update": "2026-03-12 01:59:54",
     "categories": [
         {
             "category_id": 422410419,
@@ -441,12 +441,6 @@
                     "program_order": 25
                 },
                 {
-                    "entry": "26",
-                    "title": "Pirate Today",
-                    "studio": "Born2Dance",
-                    "program_order": 26
-                },
-                {
                     "entry": "27",
                     "title": "Combine Harvester",
                     "studio": "Marley's Dance Effex",
@@ -456,7 +450,7 @@
             "results": [
                 {
                     "entry": "21",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "Emerald",
                     "title": "Encanto",
                     "studio": "Marley's Dance Effex",
@@ -474,7 +468,7 @@
                 },
                 {
                     "entry": "23",
-                    "display_place": "",
+                    "display_place": "1st",
                     "gem": "Ruby",
                     "title": "Belle",
                     "studio": "Marley's Dance Effex",
@@ -483,7 +477,7 @@
                 },
                 {
                     "entry": "24",
-                    "display_place": "",
+                    "display_place": "2nd",
                     "gem": "Ruby",
                     "title": "Le Poisson",
                     "studio": "Born2Dance",
@@ -498,15 +492,6 @@
                     "studio": "Marley's Dance Effex",
                     "score": 80,
                     "program_order": 25
-                },
-                {
-                    "entry": "26",
-                    "display_place": "",
-                    "gem": "",
-                    "title": "Pirate Today",
-                    "studio": "Born2Dance",
-                    "score": null,
-                    "program_order": 26
                 },
                 {
                     "entry": "27",
