@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 21:36:35",
+    "last_update": "2026-03-12 22:07:19",
     "program_source": "program.json",
     "published_count": 69,
     "categories": [
@@ -1437,7 +1437,7 @@
                 },
                 {
                     "entry": "66",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Twirl of Enchantment",
                     "studio": "Born2Dance",
@@ -1457,7 +1457,7 @@
                 },
                 {
                     "entry": "68",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Victor's Solo",
                     "studio": "Marley's Dance Effex",
@@ -1663,7 +1663,7 @@
                 },
                 {
                     "entry": "76",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Craddles",
                     "studio": "En Pointe Dance Studio",
@@ -2095,7 +2095,7 @@
                 },
                 {
                     "entry": "99",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Fade into You",
                     "studio": "Marley's Dance Effex",
@@ -2957,7 +2957,7 @@
                 },
                 {
                     "entry": "144",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "EMERALD",
                     "title": "Home",
                     "studio": "Vibank Dance Expressions",
@@ -2977,7 +2977,7 @@
                 },
                 {
                     "entry": "146",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "EMERALD",
                     "title": "Call Your Mom",
                     "studio": "Marley's Dance Effex",
@@ -2987,7 +2987,7 @@
                 },
                 {
                     "entry": "147",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "EMERALD",
                     "title": "Hold Back The River",
                     "studio": "Diva Dance",
@@ -3615,7 +3615,7 @@
                 },
                 {
                     "entry": "176",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "EMERALD",
                     "title": "Rainy Night",
                     "studio": "Minton Dance Club",
@@ -3645,7 +3645,7 @@
                 },
                 {
                     "entry": "179",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "EMERALD",
                     "title": "Runaway Baby",
                     "studio": "En Pointe Dance Studio",
@@ -5001,7 +5001,7 @@
                 },
                 {
                     "entry": "250",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Bounce",
                     "studio": "Dance Plus EP",
@@ -5031,7 +5031,7 @@
                 },
                 {
                     "entry": "253",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Roc Steady",
                     "studio": "De Tricky Feet Dance Studio",
@@ -5503,7 +5503,7 @@
                 },
                 {
                     "entry": "276",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Run",
                     "studio": "En Pointe Dance Studio",
@@ -5553,7 +5553,7 @@
                 },
                 {
                     "entry": "281",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Dinner",
                     "studio": "Artemis Dance Moosomin",
