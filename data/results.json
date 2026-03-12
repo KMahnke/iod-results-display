@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-12 01:59:54",
+    "last_update": "2026-03-12 02:06:50",
     "categories": [
         {
             "category_id": 422410419,
@@ -34,7 +34,8 @@
                     "title": "The Magic Lamp",
                     "studio": "Born2Dance",
                     "score": 83,
-                    "program_order": 1
+                    "program_order": 1,
+                    "scratched": false
                 },
                 {
                     "entry": "2",
@@ -43,7 +44,8 @@
                     "title": "The Gold is Mine",
                     "studio": "Born2Dance",
                     "score": 82,
-                    "program_order": 2
+                    "program_order": 2,
+                    "scratched": false
                 }
             ]
         },
@@ -72,7 +74,8 @@
                     "title": "I think he likes Me",
                     "studio": "Marley's Dance Effex",
                     "score": 84,
-                    "program_order": 3
+                    "program_order": 3,
+                    "scratched": false
                 }
             ]
         },
@@ -113,7 +116,8 @@
                     "title": "Music Box Ballerina",
                     "studio": "Born2Dance",
                     "score": 85,
-                    "program_order": 4
+                    "program_order": 4,
+                    "scratched": false
                 },
                 {
                     "entry": "5",
@@ -122,7 +126,8 @@
                     "title": "Willow",
                     "studio": "En Pointe Dance Studio",
                     "score": 84,
-                    "program_order": 5
+                    "program_order": 5,
+                    "scratched": false
                 },
                 {
                     "entry": "6",
@@ -131,7 +136,8 @@
                     "title": "Within You",
                     "studio": "Valley Dance",
                     "score": 83,
-                    "program_order": 6
+                    "program_order": 6,
+                    "scratched": false
                 }
             ]
         },
@@ -190,7 +196,8 @@
                     "title": "Karen",
                     "studio": "Born2Dance",
                     "score": 85,
-                    "program_order": 7
+                    "program_order": 7,
+                    "scratched": false
                 },
                 {
                     "entry": "8",
@@ -199,7 +206,8 @@
                     "title": "Amazing Mayzie",
                     "studio": "Ogema Dance Club",
                     "score": 84,
-                    "program_order": 8
+                    "program_order": 8,
+                    "scratched": false
                 },
                 {
                     "entry": "9",
@@ -208,7 +216,8 @@
                     "title": "Good At Being Bad",
                     "studio": "Born2Dance",
                     "score": 83,
-                    "program_order": 9
+                    "program_order": 9,
+                    "scratched": false
                 },
                 {
                     "entry": "10",
@@ -217,7 +226,8 @@
                     "title": "Stupid With Love",
                     "studio": "Marley's Dance Effex",
                     "score": 84.1,
-                    "program_order": 10
+                    "program_order": 10,
+                    "scratched": false
                 },
                 {
                     "entry": "11",
@@ -226,7 +236,8 @@
                     "title": "Too Old For This",
                     "studio": "Ogema Dance Club",
                     "score": 83,
-                    "program_order": 11
+                    "program_order": 11,
+                    "scratched": false
                 },
                 {
                     "entry": "12",
@@ -235,7 +246,8 @@
                     "title": "Fabulous Sharpay",
                     "studio": "Diva Dance",
                     "score": 84.3,
-                    "program_order": 12
+                    "program_order": 12,
+                    "scratched": false
                 }
             ]
         },
@@ -270,7 +282,8 @@
                     "title": "Mack the Knife",
                     "studio": "Born2Dance",
                     "score": 87.5,
-                    "program_order": 13
+                    "program_order": 13,
+                    "scratched": false
                 },
                 {
                     "entry": "14",
@@ -279,7 +292,8 @@
                     "title": "Chaplin",
                     "studio": "Born2Dance",
                     "score": 85.5,
-                    "program_order": 14
+                    "program_order": 14,
+                    "scratched": false
                 }
             ]
         },
@@ -314,7 +328,8 @@
                     "title": "One Kiss",
                     "studio": "Marley's Dance Effex",
                     "score": 81,
-                    "program_order": 15
+                    "program_order": 15,
+                    "scratched": false
                 },
                 {
                     "entry": "16",
@@ -323,7 +338,8 @@
                     "title": "I want a hippopatamus for Christmas",
                     "studio": "Marley's Dance Effex",
                     "score": 800,
-                    "program_order": 16
+                    "program_order": 16,
+                    "scratched": false
                 }
             ]
         },
@@ -358,7 +374,8 @@
                     "title": "What You Want",
                     "studio": "Marley's Dance Effex",
                     "score": 82,
-                    "program_order": 18
+                    "program_order": 18,
+                    "scratched": false
                 },
                 {
                     "entry": "19",
@@ -367,7 +384,8 @@
                     "title": "Little Girls",
                     "studio": "Diva Dance",
                     "score": 80,
-                    "program_order": 19
+                    "program_order": 19,
+                    "scratched": false
                 }
             ]
         },
@@ -396,7 +414,8 @@
                     "title": "Coppelia",
                     "studio": "Marley's Dance Effex",
                     "score": 86,
-                    "program_order": 20
+                    "program_order": 20,
+                    "scratched": false
                 }
             ]
         },
@@ -441,6 +460,12 @@
                     "program_order": 25
                 },
                 {
+                    "entry": "26",
+                    "title": "Pirate Today",
+                    "studio": "Born2Dance",
+                    "program_order": 26
+                },
+                {
                     "entry": "27",
                     "title": "Combine Harvester",
                     "studio": "Marley's Dance Effex",
@@ -455,7 +480,8 @@
                     "title": "Encanto",
                     "studio": "Marley's Dance Effex",
                     "score": 81,
-                    "program_order": 21
+                    "program_order": 21,
+                    "scratched": false
                 },
                 {
                     "entry": "22",
@@ -464,7 +490,8 @@
                     "title": "This is Me",
                     "studio": "Valley Dance",
                     "score": 80,
-                    "program_order": 22
+                    "program_order": 22,
+                    "scratched": false
                 },
                 {
                     "entry": "23",
@@ -473,7 +500,8 @@
                     "title": "Belle",
                     "studio": "Marley's Dance Effex",
                     "score": 85.2,
-                    "program_order": 23
+                    "program_order": 23,
+                    "scratched": false
                 },
                 {
                     "entry": "24",
@@ -482,7 +510,8 @@
                     "title": "Le Poisson",
                     "studio": "Born2Dance",
                     "score": 85,
-                    "program_order": 24
+                    "program_order": 24,
+                    "scratched": false
                 },
                 {
                     "entry": "25",
@@ -491,7 +520,18 @@
                     "title": "I Know it's Today",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 25
+                    "program_order": 25,
+                    "scratched": false
+                },
+                {
+                    "entry": "26",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Pirate Today",
+                    "studio": "Born2Dance",
+                    "score": null,
+                    "program_order": 26,
+                    "scratched": true
                 },
                 {
                     "entry": "27",
@@ -500,7 +540,8 @@
                     "title": "Combine Harvester",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 27
+                    "program_order": 27,
+                    "scratched": false
                 }
             ]
         },
@@ -541,7 +582,8 @@
                     "title": "All of the Lights",
                     "studio": "Balgonie Dance & Twirl",
                     "score": 83,
-                    "program_order": 28
+                    "program_order": 28,
+                    "scratched": false
                 },
                 {
                     "entry": "29",
@@ -550,7 +592,8 @@
                     "title": "Bluebird",
                     "studio": "Marley's Dance Effex",
                     "score": 84,
-                    "program_order": 29
+                    "program_order": 29,
+                    "scratched": false
                 },
                 {
                     "entry": "30",
@@ -559,7 +602,8 @@
                     "title": "A Joyful Moment",
                     "studio": "Born2Dance",
                     "score": 86,
-                    "program_order": 30
+                    "program_order": 30,
+                    "scratched": false
                 }
             ]
         },
@@ -600,7 +644,8 @@
                     "title": "Lost In The Woods",
                     "studio": "Born2Dance",
                     "score": 88,
-                    "program_order": 31
+                    "program_order": 31,
+                    "scratched": false
                 },
                 {
                     "entry": "32",
@@ -609,7 +654,8 @@
                     "title": "Dancing Through Life",
                     "studio": "Born2Dance",
                     "score": 88.2,
-                    "program_order": 32
+                    "program_order": 32,
+                    "scratched": false
                 },
                 {
                     "entry": "33",
@@ -618,7 +664,8 @@
                     "title": "I Want The Good Times Back",
                     "studio": "Diva Dance",
                     "score": 85,
-                    "program_order": 33
+                    "program_order": 33,
+                    "scratched": false
                 }
             ]
         },
@@ -671,7 +718,8 @@
                     "title": "Me and the Devil",
                     "studio": "Ogema Dance Club",
                     "score": 84,
-                    "program_order": 34
+                    "program_order": 34,
+                    "scratched": false
                 },
                 {
                     "entry": "36",
@@ -680,7 +728,8 @@
                     "title": "Where Light Rises",
                     "studio": "Born2Dance",
                     "score": 89,
-                    "program_order": 35
+                    "program_order": 35,
+                    "scratched": false
                 },
                 {
                     "entry": "37",
@@ -689,7 +738,8 @@
                     "title": "Stairway to Heaven",
                     "studio": "Ogema Dance Club",
                     "score": 83,
-                    "program_order": 36
+                    "program_order": 36,
+                    "scratched": false
                 },
                 {
                     "entry": "38",
@@ -698,7 +748,8 @@
                     "title": "Pink Pony Club",
                     "studio": "Vibank Dance Expressions",
                     "score": 81,
-                    "program_order": 37
+                    "program_order": 37,
+                    "scratched": false
                 },
                 {
                     "entry": "35",
@@ -707,7 +758,8 @@
                     "title": "Echoes Within",
                     "studio": "Born2Dance",
                     "score": 87.5,
-                    "program_order": 43
+                    "program_order": 43,
+                    "scratched": false
                 }
             ]
         },
@@ -748,7 +800,8 @@
                     "title": "A Million Dreams",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 38
+                    "program_order": 38,
+                    "scratched": false
                 },
                 {
                     "entry": "40",
@@ -757,7 +810,8 @@
                     "title": "Never Grow Up",
                     "studio": "Marley's Dance Effex",
                     "score": 80.1,
-                    "program_order": 39
+                    "program_order": 39,
+                    "scratched": false
                 },
                 {
                     "entry": "41",
@@ -766,7 +820,8 @@
                     "title": "Here comes the sun",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 40
+                    "program_order": 40,
+                    "scratched": false
                 }
             ]
         },
@@ -801,7 +856,8 @@
                     "title": "Flower Fairies",
                     "studio": "Pangman Dance Club",
                     "score": 86,
-                    "program_order": 41
+                    "program_order": 41,
+                    "scratched": false
                 },
                 {
                     "entry": "43",
@@ -810,7 +866,8 @@
                     "title": "Butterflies",
                     "studio": "De Tricky Feet Dance Studio",
                     "score": 83,
-                    "program_order": 42
+                    "program_order": 42,
+                    "scratched": false
                 }
             ]
         },
@@ -851,7 +908,8 @@
                     "title": "Lacy",
                     "studio": "Pangman Dance Club",
                     "score": 80.1,
-                    "program_order": 44
+                    "program_order": 44,
+                    "scratched": false
                 },
                 {
                     "entry": "45",
@@ -860,7 +918,8 @@
                     "title": "Matilda",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 45
+                    "program_order": 45,
+                    "scratched": false
                 },
                 {
                     "entry": "46",
@@ -869,7 +928,8 @@
                     "title": "Rescue",
                     "studio": "Marley's Dance Effex",
                     "score": 84,
-                    "program_order": 46
+                    "program_order": 46,
+                    "scratched": false
                 }
             ]
         },
@@ -898,7 +958,8 @@
                     "title": "Willow",
                     "studio": "Christa Vermeulen  IND",
                     "score": 84,
-                    "program_order": 47
+                    "program_order": 47,
+                    "scratched": false
                 }
             ]
         },
@@ -933,7 +994,8 @@
                     "title": "Sanctuary",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 48
+                    "program_order": 48,
+                    "scratched": false
                 },
                 {
                     "entry": "49",
@@ -942,7 +1004,8 @@
                     "title": "Dandelions",
                     "studio": "Minton Dance Club",
                     "score": 82,
-                    "program_order": 49
+                    "program_order": 49,
+                    "scratched": false
                 }
             ]
         },
@@ -983,7 +1046,8 @@
                     "title": "Reflection",
                     "studio": "Against the Grain Studios",
                     "score": 84.5,
-                    "program_order": 50
+                    "program_order": 50,
+                    "scratched": false
                 },
                 {
                     "entry": "51",
@@ -992,7 +1056,8 @@
                     "title": "Interstellar",
                     "studio": "White City Dancing School",
                     "score": 83,
-                    "program_order": 51
+                    "program_order": 51,
+                    "scratched": false
                 },
                 {
                     "entry": "52",
@@ -1001,7 +1066,8 @@
                     "title": "Flicker",
                     "studio": "Vibank Dance Expressions",
                     "score": 85,
-                    "program_order": 52
+                    "program_order": 52,
+                    "scratched": false
                 }
             ]
         },
@@ -1036,7 +1102,8 @@
                     "title": "Starships",
                     "studio": "Minton Dance Club",
                     "score": 81,
-                    "program_order": 53
+                    "program_order": 53,
+                    "scratched": false
                 },
                 {
                     "entry": "54",
@@ -1045,7 +1112,8 @@
                     "title": "Take on the World",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 54
+                    "program_order": 54,
+                    "scratched": false
                 }
             ]
         },
@@ -1074,7 +1142,8 @@
                     "title": "Creep",
                     "studio": "Full Out Dance Studio",
                     "score": 85,
-                    "program_order": 55
+                    "program_order": 55,
+                    "scratched": false
                 }
             ]
         },
@@ -1103,7 +1172,8 @@
                     "title": "No Excuses",
                     "studio": "Vibank Dance Expressions",
                     "score": 83.5,
-                    "program_order": 56
+                    "program_order": 56,
+                    "scratched": false
                 }
             ]
         },
@@ -1132,7 +1202,8 @@
                     "title": "Charlie",
                     "studio": "Cupar Dance Club",
                     "score": 88,
-                    "program_order": 57
+                    "program_order": 57,
+                    "scratched": false
                 }
             ]
         },
@@ -1197,7 +1268,8 @@
                     "title": "Girls Just Wanna Have Fun",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 59
+                    "program_order": 59,
+                    "scratched": false
                 },
                 {
                     "entry": "59",
@@ -1206,7 +1278,8 @@
                     "title": "Lonely",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 60
+                    "program_order": 60,
+                    "scratched": false
                 },
                 {
                     "entry": "60",
@@ -1215,7 +1288,8 @@
                     "title": "Saturday Night",
                     "studio": "Marley's Dance Effex",
                     "score": 81.5,
-                    "program_order": 61
+                    "program_order": 61,
+                    "scratched": false
                 },
                 {
                     "entry": "61",
@@ -1224,7 +1298,8 @@
                     "title": "Venus Fly",
                     "studio": "Against the Grain Studios",
                     "score": 81,
-                    "program_order": 62
+                    "program_order": 62,
+                    "scratched": false
                 },
                 {
                     "entry": "62",
@@ -1233,7 +1308,8 @@
                     "title": "The Parent Trap",
                     "studio": "Valley Dance",
                     "score": 83,
-                    "program_order": 63
+                    "program_order": 63,
+                    "scratched": false
                 },
                 {
                     "entry": "63",
@@ -1242,7 +1318,8 @@
                     "title": "Yes, Yes I Can",
                     "studio": "Full Out Dance Studio",
                     "score": 81,
-                    "program_order": 64
+                    "program_order": 64,
+                    "scratched": false
                 },
                 {
                     "entry": "64",
@@ -1251,7 +1328,8 @@
                     "title": "Get Ready For This",
                     "studio": "Minton Dance Club",
                     "score": 82,
-                    "program_order": 65
+                    "program_order": 65,
+                    "scratched": false
                 }
             ]
         },
@@ -1304,7 +1382,8 @@
                     "title": "A Whisper of Joy",
                     "studio": "Born2Dance",
                     "score": 87,
-                    "program_order": 66
+                    "program_order": 66,
+                    "scratched": false
                 },
                 {
                     "entry": "66",
@@ -1313,7 +1392,8 @@
                     "title": "Twirl of Enchantment",
                     "studio": "Born2Dance",
                     "score": 86,
-                    "program_order": 67
+                    "program_order": 67,
+                    "scratched": false
                 },
                 {
                     "entry": "67",
@@ -1322,7 +1402,8 @@
                     "title": "Gamzatti",
                     "studio": "Marley's Dance Effex",
                     "score": 88,
-                    "program_order": 68
+                    "program_order": 68,
+                    "scratched": false
                 },
                 {
                     "entry": "68",
@@ -1331,7 +1412,8 @@
                     "title": "Victor's Solo",
                     "studio": "Marley's Dance Effex",
                     "score": 86,
-                    "program_order": 69
+                    "program_order": 69,
+                    "scratched": false
                 },
                 {
                     "entry": "69",
@@ -1340,7 +1422,8 @@
                     "title": "Transcendence",
                     "studio": "Born2Dance",
                     "score": 87,
-                    "program_order": 70
+                    "program_order": 70,
+                    "scratched": false
                 }
             ]
         },
@@ -1375,7 +1458,8 @@
                     "title": "If",
                     "studio": "Marley's Dance Effex",
                     "score": 80,
-                    "program_order": 71
+                    "program_order": 71,
+                    "scratched": false
                 },
                 {
                     "entry": "71",
@@ -1384,7 +1468,8 @@
                     "title": "Sun Goes Down",
                     "studio": "Marley's Dance Effex",
                     "score": 86,
-                    "program_order": 72
+                    "program_order": 72,
+                    "scratched": false
                 }
             ]
         },
@@ -1413,7 +1498,8 @@
                     "title": "Hi, Ren",
                     "studio": "Against the Grain Studios",
                     "score": 83,
-                    "program_order": 73
+                    "program_order": 73,
+                    "scratched": false
                 }
             ]
         },
@@ -1496,7 +1582,8 @@
                     "title": "That's Life",
                     "studio": "Born2Dance",
                     "score": 85,
-                    "program_order": 74
+                    "program_order": 74,
+                    "scratched": false
                 },
                 {
                     "entry": "74",
@@ -1505,7 +1592,8 @@
                     "title": "Bird Box",
                     "studio": "Born2Dance",
                     "score": 87,
-                    "program_order": 75
+                    "program_order": 75,
+                    "scratched": false
                 },
                 {
                     "entry": "75",
@@ -1514,7 +1602,8 @@
                     "title": "Nothing New",
                     "studio": "En Pointe Dance Studio",
                     "score": 84,
-                    "program_order": 76
+                    "program_order": 76,
+                    "scratched": false
                 },
                 {
                     "entry": "76",
@@ -1523,7 +1612,8 @@
                     "title": "Craddles",
                     "studio": "En Pointe Dance Studio",
                     "score": 85.5,
-                    "program_order": 77
+                    "program_order": 77,
+                    "scratched": false
                 },
                 {
                     "entry": "77",
@@ -1532,7 +1622,8 @@
                     "title": "Rock You",
                     "studio": "De Tricky Feet Dance Studio",
                     "score": 84.5,
-                    "program_order": 78
+                    "program_order": 78,
+                    "scratched": false
                 },
                 {
                     "entry": "78",
@@ -1541,7 +1632,8 @@
                     "title": "Between Villages",
                     "studio": "Born2Dance",
                     "score": 84.5,
-                    "program_order": 79
+                    "program_order": 79,
+                    "scratched": false
                 },
                 {
                     "entry": "79",
@@ -1550,7 +1642,8 @@
                     "title": "Bad Dream",
                     "studio": "Diva Dance",
                     "score": 85,
-                    "program_order": 80
+                    "program_order": 80,
+                    "scratched": false
                 },
                 {
                     "entry": "80",
@@ -1559,7 +1652,8 @@
                     "title": "False Confidence",
                     "studio": "Born2Dance",
                     "score": 86,
-                    "program_order": 81
+                    "program_order": 81,
+                    "scratched": false
                 },
                 {
                     "entry": "81",
@@ -1568,7 +1662,8 @@
                     "title": "Million Reasons",
                     "studio": "Balgonie Dance & Twirl",
                     "score": 85,
-                    "program_order": 82
+                    "program_order": 82,
+                    "scratched": false
                 },
                 {
                     "entry": "82",
@@ -1577,7 +1672,8 @@
                     "title": "The Dark",
                     "studio": "En Pointe Dance Studio",
                     "score": 86,
-                    "program_order": 83
+                    "program_order": 83,
+                    "scratched": false
                 }
             ]
         },
@@ -1618,7 +1714,8 @@
                     "title": "Eternity",
                     "studio": "Against the Grain Studios",
                     "score": 83,
-                    "program_order": 84
+                    "program_order": 84,
+                    "scratched": false
                 },
                 {
                     "entry": "84",
@@ -1627,7 +1724,8 @@
                     "title": "Heavy",
                     "studio": "Against the Grain Studios",
                     "score": 80,
-                    "program_order": 85
+                    "program_order": 85,
+                    "scratched": false
                 },
                 {
                     "entry": "85",
@@ -1636,7 +1734,8 @@
                     "title": "Once Upon A Dream",
                     "studio": "Dance Plus EP",
                     "score": 81,
-                    "program_order": 86
+                    "program_order": 86,
+                    "scratched": false
                 }
             ]
         }
