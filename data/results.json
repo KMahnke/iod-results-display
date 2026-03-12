@@ -1,7 +1,7 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 15:50:32",
+    "last_update": "2026-03-12 16:01:00",
     "program_source": "program.json",
     "published_count": 4,
     "categories": [
@@ -34,7 +34,7 @@
                 {
                     "entry": "1",
                     "display_place": "1st",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "The Magic Lamp",
                     "studio": "Born2Dance",
                     "score": 83,
@@ -44,7 +44,7 @@
                 {
                     "entry": "2",
                     "display_place": "2nd",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "The Gold is Mine",
                     "studio": "Born2Dance",
                     "score": 82,
@@ -76,7 +76,7 @@
                 {
                     "entry": "3",
                     "display_place": "1st",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "I think he likes Me",
                     "studio": "Marley's Dance Effex",
                     "score": 84,
@@ -120,7 +120,7 @@
                 {
                     "entry": "4",
                     "display_place": "1st",
-                    "gem": "SILVER",
+                    "gem": "RUBY",
                     "title": "Music Box Ballerina",
                     "studio": "Born2Dance",
                     "score": 85,
@@ -130,7 +130,7 @@
                 {
                     "entry": "5",
                     "display_place": "2nd",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Willow",
                     "studio": "En Pointe Dance Studio",
                     "score": 84,
@@ -140,7 +140,7 @@
                 {
                     "entry": "6",
                     "display_place": "3rd",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Within You",
                     "studio": "Valley Dance",
                     "score": 83,
@@ -202,7 +202,7 @@
                 {
                     "entry": "7",
                     "display_place": "1st",
-                    "gem": "SILVER",
+                    "gem": "RUBY",
                     "title": "Karen",
                     "studio": "Born2Dance",
                     "score": 85,
@@ -212,7 +212,7 @@
                 {
                     "entry": "8",
                     "display_place": "",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Amazing Mayzie",
                     "studio": "Ogema Dance Club",
                     "score": 84,
@@ -222,7 +222,7 @@
                 {
                     "entry": "9",
                     "display_place": "",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Good At Being Bad",
                     "studio": "Born2Dance",
                     "score": 83,
@@ -232,7 +232,7 @@
                 {
                     "entry": "10",
                     "display_place": "3rd",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Stupid With Love",
                     "studio": "Marley's Dance Effex",
                     "score": 84.1,
@@ -242,7 +242,7 @@
                 {
                     "entry": "11",
                     "display_place": "",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Too Old For This",
                     "studio": "Ogema Dance Club",
                     "score": 83,
@@ -252,7 +252,7 @@
                 {
                     "entry": "12",
                     "display_place": "2nd",
-                    "gem": "SILVER",
+                    "gem": "EMERALD",
                     "title": "Fabulous Sharpay",
                     "studio": "Diva Dance",
                     "score": 84.3,
