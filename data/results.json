@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-12 18:59:24",
+    "last_update": "2026-03-12 20:30:00",
     "program_source": "program.json",
-    "published_count": 58,
+    "published_count": 59,
     "categories": [
         {
             "category_id": 607676400,
@@ -4594,6 +4594,54 @@
                     "score": 86.5,
                     "program_order": 229,
                     "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1903253835,
+            "category_name": "BEGINNER AGES 12-14 TAP DUO\/TRIO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 230,
+            "day_sort": 1,
+            "session_sort": 0,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "231",
+                    "title": "Poker Face",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 230
+                },
+                {
+                    "entry": "232",
+                    "title": "Bom Bom Bom",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 231
+                }
+            ],
+            "results": [
+                {
+                    "entry": "231",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Poker Face",
+                    "studio": "Pangman Dance Club",
+                    "score": 80,
+                    "program_order": 230,
+                    "scratched": false
+                },
+                {
+                    "entry": "232",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Bom Bom Bom",
+                    "studio": "Marley's Dance Effex",
+                    "score": null,
+                    "program_order": 231,
+                    "scratched": true
                 }
             ]
         }
