@@ -2,14 +2,46 @@ let pageData = null;
 let activeTab = null;
 
 const DAY_TABS = ["Wed", "Thu", "Fri", "Sat", "Sun"];
+const DAY_ALIASES = {
+  wed: "Wed",
+  wednesday: "Wed",
+  thu: "Thu",
+  thur: "Thu",
+  thurs: "Thu",
+  thursday: "Thu",
+  fri: "Fri",
+  friday: "Fri",
+  sat: "Sat",
+  saturday: "Sat",
+  sun: "Sun",
+  sunday: "Sun"
+};
 
 function getDayShortLabel(dayLabel) {
   if (!dayLabel) return "";
-  return String(dayLabel).split(",")[0].trim();
+
+  const normalized = String(dayLabel).trim().toLowerCase();
+
+  const firstWord = normalized
+    .replace(/,/g, " ")
+    .split(/\s+/)
+    .find(Boolean) || "";
+
+  if (DAY_ALIASES[firstWord]) {
+    return DAY_ALIASES[firstWord];
+  }
+
+  for (const [key, value] of Object.entries(DAY_ALIASES)) {
+    if (normalized.startsWith(key)) {
+      return value;
+    }
+  }
+
+  return "";
 }
 
 function getCategoriesForTab(tabLabel) {
-  if (!pageData || !pageData.categories) return [];
+  if (!pageData || !Array.isArray(pageData.categories)) return [];
   return pageData.categories.filter((category) => {
     return getDayShortLabel(category.day_label) === tabLabel;
   });
@@ -17,7 +49,12 @@ function getCategoriesForTab(tabLabel) {
 
 async function loadResults() {
   try {
-    const response = await fetch("data/results.json?" + Date.now());
+    const response = await fetch("data/results.json?" + Date.now(), { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} loading results.json`);
+    }
+
     pageData = await response.json();
 
     document.getElementById("eventTitle").textContent = pageData.event || "Results";
@@ -25,13 +62,23 @@ async function loadResults() {
       `Last updated: ${pageData.last_update || ""}`;
 
     if (!activeTab) {
-      activeTab = DAY_TABS.find((day) => getCategoriesForTab(day).length > 0) || "Wed";
+      activeTab = DAY_TABS.find((day) => getCategoriesForTab(day).length > 0) || "awards";
     }
 
     renderTabs();
     renderContent();
   } catch (err) {
     console.error("Failed to load results:", err);
+
+    const content = document.getElementById("content");
+    if (content) {
+      content.innerHTML = `
+        <div class="group-card">
+          <h2>Unable to load results</h2>
+          <div class="group-subtitle">${escapeHtml(err.message || String(err))}</div>
+        </div>
+      `;
+    }
   }
 }
 
@@ -72,6 +119,14 @@ function renderContent() {
   const content = document.getElementById("content");
   content.innerHTML = "";
 
+  if (!pageData) {
+    const empty = document.createElement("div");
+    empty.className = "group-card";
+    empty.innerHTML = `<h2>Loading results...</h2>`;
+    content.appendChild(empty);
+    return;
+  }
+
   if (activeTab === "awards") {
     const awardsCard = document.createElement("div");
     awardsCard.className = "awards-card";
@@ -101,7 +156,7 @@ function renderContent() {
   if (!categories.length) {
     const empty = document.createElement("div");
     empty.className = "group-card";
-    empty.innerHTML = `<h2>No published categories for ${activeTab}.</h2>`;
+    empty.innerHTML = `<h2>No published categories for ${escapeHtml(activeTab)}.</h2>`;
     content.appendChild(empty);
     return;
   }
@@ -144,9 +199,9 @@ function renderContent() {
 
     const tbody = table.querySelector("tbody");
 
-    const rows = (category.results && category.results.length)
+    const rows = (Array.isArray(category.results) && category.results.length)
       ? category.results
-      : (category.entries || []).map((e) => ({
+      : (Array.isArray(category.entries) ? category.entries : []).map((e) => ({
           entry: e.entry,
           display_place: "",
           gem: "",
