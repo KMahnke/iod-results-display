@@ -6,7 +6,7 @@
         {
             "id": "solo",
             "title": "Solo",
-            "sponsor_logo": "",
+            "sponsor_logo": "img/Integrity.png",
             "divisions": [
                 {
                     "name": "Beginner",
@@ -110,7 +110,7 @@
         {
             "id": "duotrio",
             "title": "Duo/Trio",
-            "sponsor_logo": "",
+            "sponsor_logo": "img/Torrent.png",
             "divisions": [
                 {
                     "name": "Beginner",
@@ -191,7 +191,7 @@
         {
             "id": "groups",
             "title": "Groups",
-            "sponsor_logo": "",
+            "sponsor_logo": "img/Whitecap.png",
             "divisions": [
                 {
                     "name": "Beginner",
