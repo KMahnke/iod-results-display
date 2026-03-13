@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 23:41:04",
-    "publish_version": "2026-03-13T23:41:04+01:00",
+    "last_update": "2026-03-13 23:46:37",
+    "publish_version": "2026-03-13T23:46:37+01:00",
     "program_source": "program.json",
-    "published_count": 121,
+    "published_count": 122,
     "categories": [
         {
             "category_id": 607676400,
@@ -11390,6 +11390,73 @@
                     "performers": "Katie Geis",
                     "score": 85,
                     "program_order": 557,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 918073575,
+            "category_name": "BEGINNER AGES 9-11 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 559,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "560",
+                    "title": "BFF",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 559
+                },
+                {
+                    "entry": "561",
+                    "title": "Who Let the Dogs Out",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 560
+                },
+                {
+                    "entry": "562",
+                    "title": "What Dreams Are Made Of",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 561
+                }
+            ],
+            "results": [
+                {
+                    "entry": "560",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "BFF",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Olyvia Baer, Makinley Wall",
+                    "score": 83,
+                    "program_order": 559,
+                    "scratched": false
+                },
+                {
+                    "entry": "561",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Who Let the Dogs Out",
+                    "studio": "Against the Grain Studios",
+                    "performers": "Madelyn Dessert, Alice Ferguson, Temperance Wiebe",
+                    "score": 84,
+                    "program_order": 560,
+                    "scratched": false
+                },
+                {
+                    "entry": "562",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "What Dreams Are Made Of",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Willow Hagel, Charli Pederson",
+                    "score": 81,
+                    "program_order": 561,
                     "scratched": false
                 }
             ]
