@@ -1,4 +1,6 @@
 const LEADERS_FILE = "data/leaders.json";
+const DISPLAY_TIME_ZONE = "America/Regina";
+const DISPLAY_LOCALE = "en-CA";
 
 let leadersData = null;
 let currentDivision = "solo";
@@ -20,6 +22,83 @@ function initTabs() {
       renderDivision();
     });
   });
+}
+
+function formatNaiveReginaString(value) {
+  const match = String(value || "")
+    .trim()
+    .match(
+      /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/
+    );
+
+  if (!match) {
+    return "";
+  }
+
+  const [, year, month, day, hour = "00", minute = "00"] = match;
+  let h = Number(hour);
+  const ampm = h >= 12 ? "PM" : "AM";
+  h = h % 12;
+  if (h === 0) h = 12;
+
+  return `${year}-${month}-${day} ${h}:${minute} ${ampm} CST`;
+}
+
+function formatAbsoluteReginaDate(value) {
+  if (!value) return "";
+
+  const raw = String(value).trim();
+  if (!raw) return "";
+
+  const hasExplicitZone =
+    /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw) ||
+    /\bUTC\b/i.test(raw);
+
+  if (!hasExplicitZone) {
+    const naiveFormatted = formatNaiveReginaString(raw);
+    if (naiveFormatted) {
+      return naiveFormatted;
+    }
+  }
+
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return raw;
+  }
+
+  const formatter = new Intl.DateTimeFormat(DISPLAY_LOCALE, {
+    timeZone: DISPLAY_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZoneName: "short"
+  });
+
+  const parts = formatter.formatToParts(date);
+  const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return `${map.year}-${map.month}-${map.day} ${map.hour}:${map.minute} ${map.dayPeriod} ${map.timeZoneName}`;
+}
+
+function buildLastUpdateText(data) {
+  const updated = firstNonEmpty(
+    data?.updated_at,
+    data?.updated,
+    data?.last_update,
+    data?.publish_version
+  );
+
+  const formatted = formatAbsoluteReginaDate(updated);
+  return formatted ? `Last Update: ${formatted}` : "Last Update:";
+}
+
+function buildPublishVersionText(data) {
+  const version = firstNonEmpty(data?.publish_version);
+  const formatted = formatAbsoluteReginaDate(version);
+  return formatted ? `Publish version: ${formatted}` : "";
 }
 
 async function loadLeaders() {
@@ -78,17 +157,11 @@ function updateHeader() {
   }
 
   if (lastUpdate) {
-    const updated = firstNonEmpty(
-      leadersData?.updated_at,
-      leadersData?.updated,
-      leadersData?.last_update
-    );
-    lastUpdate.textContent = updated ? `Last Update: ${updated}` : "Last Update:";
+    lastUpdate.textContent = buildLastUpdateText(leadersData);
   }
 
   if (publishVersion) {
-    const version = firstNonEmpty(leadersData?.publish_version);
-    publishVersion.textContent = version ? `Publish version: ${version}` : "";
+    publishVersion.textContent = buildPublishVersionText(leadersData);
   }
 }
 

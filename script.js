@@ -1,6 +1,9 @@
 let pageData = null;
 let activeTab = null;
 
+const DISPLAY_TIME_ZONE = "America/Regina";
+const DISPLAY_LOCALE = "en-CA";
+
 const DAY_TABS = [
   { short: "W", long: "Wed" },
   { short: "T", long: "Thu" },
@@ -41,14 +44,88 @@ function getCategoriesForTab(tabLabel) {
   });
 }
 
+function pad2(value) {
+  return String(value).padStart(2, "0");
+}
+
+function formatNaiveReginaString(value) {
+  const match = String(value || "")
+    .trim()
+    .match(
+      /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/
+    );
+
+  if (!match) {
+    return "";
+  }
+
+  const [, year, month, day, hour = "00", minute = "00"] = match;
+  let h = Number(hour);
+  const ampm = h >= 12 ? "PM" : "AM";
+  h = h % 12;
+  if (h === 0) h = 12;
+
+  return `${year}-${month}-${day} ${h}:${minute} ${ampm} CST`;
+}
+
+function formatAbsoluteReginaDate(value) {
+  if (!value) return "";
+
+  const raw = String(value).trim();
+  if (!raw) return "";
+
+  const hasExplicitZone =
+    /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw) ||
+    /\bUTC\b/i.test(raw);
+
+  if (!hasExplicitZone) {
+    const naiveFormatted = formatNaiveReginaString(raw);
+    if (naiveFormatted) {
+      return naiveFormatted;
+    }
+  }
+
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return raw;
+  }
+
+  const formatter = new Intl.DateTimeFormat(DISPLAY_LOCALE, {
+    timeZone: DISPLAY_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZoneName: "short"
+  });
+
+  const parts = formatter.formatToParts(date);
+  const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return `${map.year}-${map.month}-${map.day} ${map.hour}:${map.minute} ${map.dayPeriod} ${map.timeZoneName}`;
+}
+
+function buildLastUpdatedText(data) {
+  const rawValue =
+    data?.last_update ||
+    data?.updated_at ||
+    data?.updated ||
+    data?.publish_version ||
+    "";
+
+  const formatted = formatAbsoluteReginaDate(rawValue);
+  return formatted ? `Last updated: ${formatted}` : "Last updated:";
+}
+
 async function loadResults() {
   try {
     const response = await fetch("data/results.json?" + Date.now(), { cache: "no-store" });
     pageData = await response.json();
 
     document.getElementById("eventTitle").textContent = pageData.event || "Results";
-    document.getElementById("lastUpdate").textContent =
-      `Last updated: ${pageData.last_update || ""}`;
+    document.getElementById("lastUpdate").textContent = buildLastUpdatedText(pageData);
 
     if (!activeTab || (activeTab !== "awards" && getCategoriesForTab(activeTab).length === 0)) {
       activeTab = DAY_TABS.find((day) => getCategoriesForTab(day.long).length > 0)?.long || "Wed";
