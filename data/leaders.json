@@ -1,12 +1,12 @@
 {
     "event_title": "Inspirations of Dance 2026",
-    "updated_at": "2026-03-13 20:05:41",
-    "publish_version": "2026-03-13T20:05:41+01:00",
+    "updated_at": "2026-03-13 20:09:43",
+    "publish_version": "2026-03-13T20:09:43+01:00",
     "boards": [
         {
             "id": "solo",
             "title": "Solo",
-            "sponsor_logo": "",
+            "sponsor_logo": "img/Integrity.png",
             "divisions": [
                 {
                     "name": "Beginner",
@@ -110,7 +110,7 @@
         {
             "id": "duotrio",
             "title": "Duo/Trio",
-            "sponsor_logo": "",
+            "sponsor_logo": "img/Torrent.img",
             "divisions": [
                 {
                     "name": "Beginner",
@@ -191,7 +191,7 @@
         {
             "id": "groups",
             "title": "Groups",
-            "sponsor_logo": "",
+            "sponsor_logo": "img/Whitecap.png",
             "divisions": [
                 {
                     "name": "Beginner",
