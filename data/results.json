@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 02:53:57",
+    "last_update": "2026-03-13 03:22:41",
     "program_source": "program.json",
-    "published_count": 89,
+    "published_count": 92,
     "categories": [
         {
             "category_id": 607676400,
@@ -7393,7 +7393,7 @@
                     "gem": "RUBY",
                     "title": "L-O-V-E",
                     "studio": "Diva Dance",
-                    "score": 87,
+                    "score": 87.5,
                     "program_order": 373,
                     "scratched": false
                 },
@@ -7457,6 +7457,310 @@
                     "studio": "Diva Dance",
                     "score": 90,
                     "program_order": 377,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 295545402,
+            "category_name": "NOVICE AGES 12-14 JAZZ SOLO GROUP B",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 3 \u2022 6:00 pm",
+            "group_label": "GROUP B",
+            "publish_state": "published",
+            "program_sort": 378,
+            "day_sort": 1,
+            "session_sort": 2,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "379",
+                    "title": "Together Again",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 378
+                },
+                {
+                    "entry": "380",
+                    "title": "Debut",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 379
+                },
+                {
+                    "entry": "381",
+                    "title": "Bounce",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 380
+                },
+                {
+                    "entry": "382",
+                    "title": "Praise",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 381
+                },
+                {
+                    "entry": "383",
+                    "title": "We R Who We R",
+                    "studio": "Artemis Dance",
+                    "program_order": 382
+                },
+                {
+                    "entry": "384",
+                    "title": "James Bond",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 383
+                },
+                {
+                    "entry": "385",
+                    "title": "Goodbye Good Riddance",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 384
+                },
+                {
+                    "entry": "386",
+                    "title": "Walking on Broken Glass",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 385
+                },
+                {
+                    "entry": "387",
+                    "title": "We're Bringing It Back",
+                    "studio": "Dance Plus EP",
+                    "program_order": 386
+                }
+            ],
+            "results": [
+                {
+                    "entry": "379",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Together Again",
+                    "studio": "Marley's Dance Effex",
+                    "score": 87,
+                    "program_order": 378,
+                    "scratched": false
+                },
+                {
+                    "entry": "380",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Debut",
+                    "studio": "Balgonie Dance & Twirl",
+                    "score": 84,
+                    "program_order": 379,
+                    "scratched": false
+                },
+                {
+                    "entry": "381",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Bounce",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 86,
+                    "program_order": 380,
+                    "scratched": false
+                },
+                {
+                    "entry": "382",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Praise",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85,
+                    "program_order": 381,
+                    "scratched": false
+                },
+                {
+                    "entry": "383",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "We R Who We R",
+                    "studio": "Artemis Dance",
+                    "score": 83,
+                    "program_order": 382,
+                    "scratched": false
+                },
+                {
+                    "entry": "384",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "James Bond",
+                    "studio": "Estevan Recreational Dance Club",
+                    "score": 85.5,
+                    "program_order": 383,
+                    "scratched": false
+                },
+                {
+                    "entry": "385",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Goodbye Good Riddance",
+                    "studio": "Marley's Dance Effex",
+                    "score": 83,
+                    "program_order": 384,
+                    "scratched": false
+                },
+                {
+                    "entry": "386",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Walking on Broken Glass",
+                    "studio": "Marley's Dance Effex",
+                    "score": 85.5,
+                    "program_order": 385,
+                    "scratched": false
+                },
+                {
+                    "entry": "387",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "We're Bringing It Back",
+                    "studio": "Dance Plus EP",
+                    "score": 86.5,
+                    "program_order": 386,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 82097130,
+            "category_name": "NOVICE AGES 9-11 TAP DUO\/TRIO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 3 \u2022 6:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 387,
+            "day_sort": 1,
+            "session_sort": 2,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "388",
+                    "title": "These Boots",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 387
+                },
+                {
+                    "entry": "389",
+                    "title": "Abracadabra",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 388
+                },
+                {
+                    "entry": "390",
+                    "title": "Gone, Gone, Gone",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 389
+                }
+            ],
+            "results": [
+                {
+                    "entry": "388",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "These Boots",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 84,
+                    "program_order": 387,
+                    "scratched": false
+                },
+                {
+                    "entry": "389",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Abracadabra",
+                    "studio": "Cupar Dance Club",
+                    "score": 85,
+                    "program_order": 388,
+                    "scratched": false
+                },
+                {
+                    "entry": "390",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Gone, Gone, Gone",
+                    "studio": "Pangman Dance Club",
+                    "score": 82,
+                    "program_order": 389,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1633186474,
+            "category_name": "NOVICE AGES 12-14 JAZZ SOLO GROUP C",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 3 \u2022 6:00 pm",
+            "group_label": "GROUP C",
+            "publish_state": "published",
+            "program_sort": 390,
+            "day_sort": 1,
+            "session_sort": 2,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "391",
+                    "title": "Black Car",
+                    "studio": "Artemis Dance",
+                    "program_order": 390
+                },
+                {
+                    "entry": "392",
+                    "title": "FABULOUS",
+                    "studio": "Diva Dance",
+                    "program_order": 391
+                },
+                {
+                    "entry": "393",
+                    "title": "Top Of The World",
+                    "studio": "Dance Plus EP",
+                    "program_order": 392
+                },
+                {
+                    "entry": "394",
+                    "title": "Big Boom",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 393
+                }
+            ],
+            "results": [
+                {
+                    "entry": "391",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Black Car",
+                    "studio": "Artemis Dance",
+                    "score": 86,
+                    "program_order": 390,
+                    "scratched": false
+                },
+                {
+                    "entry": "392",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "FABULOUS",
+                    "studio": "Diva Dance",
+                    "score": 85,
+                    "program_order": 391,
+                    "scratched": false
+                },
+                {
+                    "entry": "393",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Top Of The World",
+                    "studio": "Dance Plus EP",
+                    "score": 86.5,
+                    "program_order": 392,
+                    "scratched": false
+                },
+                {
+                    "entry": "394",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Big Boom",
+                    "studio": "Ogema Dance Club",
+                    "score": 84,
+                    "program_order": 393,
                     "scratched": false
                 }
             ]
