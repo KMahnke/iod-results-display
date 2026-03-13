@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-14 00:03:56",
-    "publish_version": "2026-03-14T00:03:56+01:00",
+    "last_update": "2026-03-14 00:24:35",
+    "publish_version": "2026-03-14T00:24:35+01:00",
     "program_source": "program.json",
-    "published_count": 122,
+    "published_count": 136,
     "categories": [
         {
             "category_id": 607676400,
@@ -11457,6 +11457,927 @@
                     "performers": "Willow Hagel, Charli Pederson",
                     "score": 81,
                     "program_order": 561,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 908809096,
+            "category_name": "OPEN AGES 15-17 HIP HOP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 562,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "563",
+                    "title": "Phoenix",
+                    "studio": "White City Dancing School",
+                    "program_order": 562
+                },
+                {
+                    "entry": "564",
+                    "title": "Way I Are",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 563
+                },
+                {
+                    "entry": "565",
+                    "title": "RENAISSANCE",
+                    "studio": "Artemis Dance",
+                    "program_order": 564
+                },
+                {
+                    "entry": "566",
+                    "title": "Get On The Floor",
+                    "studio": "Born2Dance",
+                    "program_order": 565
+                },
+                {
+                    "entry": "567",
+                    "title": "Her Minajesty",
+                    "studio": "Artemis Dance",
+                    "program_order": 566
+                },
+                {
+                    "entry": "568",
+                    "title": "Drop",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 567
+                },
+                {
+                    "entry": "569",
+                    "title": "I Love Miami",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 568
+                },
+                {
+                    "entry": "570",
+                    "title": "Mac Mash",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 569
+                }
+            ],
+            "results": [
+                {
+                    "entry": "563",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Phoenix",
+                    "studio": "White City Dancing School",
+                    "performers": "Phoenix Fraese",
+                    "score": 84,
+                    "program_order": 562,
+                    "scratched": false
+                },
+                {
+                    "entry": "564",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Way I Are",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Chloe Patzer",
+                    "score": 86,
+                    "program_order": 563,
+                    "scratched": false
+                },
+                {
+                    "entry": "565",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "RENAISSANCE",
+                    "studio": "Artemis Dance",
+                    "performers": "Madison Cameron",
+                    "score": 87,
+                    "program_order": 564,
+                    "scratched": false
+                },
+                {
+                    "entry": "566",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Get On The Floor",
+                    "studio": "Born2Dance",
+                    "performers": "Brooke Fafard",
+                    "score": 84,
+                    "program_order": 565,
+                    "scratched": false
+                },
+                {
+                    "entry": "567",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Her Minajesty",
+                    "studio": "Artemis Dance",
+                    "performers": "Jayda Fowler",
+                    "score": 84,
+                    "program_order": 566,
+                    "scratched": false
+                },
+                {
+                    "entry": "568",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Drop",
+                    "studio": "Cupar Dance Club",
+                    "performers": "Heidi Kirchhofer",
+                    "score": 86,
+                    "program_order": 567,
+                    "scratched": false
+                },
+                {
+                    "entry": "569",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "I Love Miami",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Bailey Roy",
+                    "score": 86,
+                    "program_order": 568,
+                    "scratched": false
+                },
+                {
+                    "entry": "570",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Mac Mash",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "Marley Graham-Rowe",
+                    "score": 92,
+                    "program_order": 569,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1554645125,
+            "category_name": "BEGINNER AGES 12-14 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 570,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "571",
+                    "title": "I'm Number One",
+                    "studio": "Born2Dance",
+                    "program_order": 570
+                },
+                {
+                    "entry": "572",
+                    "title": "Do What You Wanna Do",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 571
+                }
+            ],
+            "results": [
+                {
+                    "entry": "571",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "I'm Number One",
+                    "studio": "Born2Dance",
+                    "performers": "Irene DuMont, Solaya Niewenhuizen",
+                    "score": 82,
+                    "program_order": 570,
+                    "scratched": false
+                },
+                {
+                    "entry": "572",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Do What You Wanna Do",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Brooke Braden, Raquel Shangraw",
+                    "score": 81,
+                    "program_order": 571,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 608705993,
+            "category_name": "OPEN AGES 12-14 HIP HOP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 572,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "573",
+                    "title": "GNX",
+                    "studio": "Artemis Dance",
+                    "program_order": 572
+                }
+            ],
+            "results": [
+                {
+                    "entry": "573",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "GNX",
+                    "studio": "Artemis Dance",
+                    "performers": "Hadley Garnier",
+                    "score": 86,
+                    "program_order": 572,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1469509201,
+            "category_name": "BEGINNER AGES 6-8 ACRO DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 573,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "574",
+                    "title": "You Me and The Beat",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 573
+                }
+            ],
+            "results": [
+                {
+                    "entry": "574",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "You Me and The Beat",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Abbie Franklin, Avery Kubashek",
+                    "score": 83,
+                    "program_order": 573,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 670006982,
+            "category_name": "OPEN AGES 18 & OVER HIP HOP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 575,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 16,
+            "entries": [
+                {
+                    "entry": "576",
+                    "title": "Bola Rebola",
+                    "studio": "Artemis Dance",
+                    "program_order": 575
+                },
+                {
+                    "entry": "577",
+                    "title": "CROWNED",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 576
+                }
+            ],
+            "results": [
+                {
+                    "entry": "576",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Bola Rebola",
+                    "studio": "Artemis Dance",
+                    "performers": "Hayley Douglas",
+                    "score": 91,
+                    "program_order": 575,
+                    "scratched": false
+                },
+                {
+                    "entry": "577",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "CROWNED",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Emily Edwards",
+                    "score": 89,
+                    "program_order": 576,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2092456681,
+            "category_name": "NOVICE AGES 12-14 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 577,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 17,
+            "entries": [
+                {
+                    "entry": "578",
+                    "title": "Adults Someday",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 577
+                },
+                {
+                    "entry": "579",
+                    "title": "The Witches Are Back",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 578
+                },
+                {
+                    "entry": "580",
+                    "title": "The End of the Line",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 579
+                },
+                {
+                    "entry": "581",
+                    "title": "Mama I'm A Big Girl Now",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 580
+                }
+            ],
+            "results": [
+                {
+                    "entry": "578",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Adults Someday",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Sarah Irwin, Sydney Irwin, Rorie Klemenz",
+                    "score": 82,
+                    "program_order": 577,
+                    "scratched": false
+                },
+                {
+                    "entry": "579",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "The Witches Are Back",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Anastacia Hein, Gracie Laidlaw, Isla Smigelski",
+                    "score": 81,
+                    "program_order": 578,
+                    "scratched": false
+                },
+                {
+                    "entry": "580",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The End of the Line",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos, Olivia Tatarliov",
+                    "score": 85,
+                    "program_order": 579,
+                    "scratched": false
+                },
+                {
+                    "entry": "581",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Mama I'm A Big Girl Now",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Madison Leonard, Zoey Leonard, Merlina Novelles",
+                    "score": 86,
+                    "program_order": 580,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 400804661,
+            "category_name": "NOVICE AGES 9-11 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 581,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 18,
+            "entries": [
+                {
+                    "entry": "582",
+                    "title": "Hakuna Matata",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 581
+                }
+            ],
+            "results": [
+                {
+                    "entry": "582",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Hakuna Matata",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Nora Leonard, Katelynn Magee",
+                    "score": 83,
+                    "program_order": 581,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1362577214,
+            "category_name": "NOVICE AGES 12-14 HIP HOP DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 582,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 19,
+            "entries": [
+                {
+                    "entry": "583",
+                    "title": "Drop It",
+                    "studio": "Artemis Dance",
+                    "program_order": 582
+                },
+                {
+                    "entry": "584",
+                    "title": "Yeah!",
+                    "studio": "Artemis Dance",
+                    "program_order": 583
+                },
+                {
+                    "entry": "585",
+                    "title": "That Power",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 584
+                },
+                {
+                    "entry": "586",
+                    "title": "Beetle Juice",
+                    "studio": "Valley Dance",
+                    "program_order": 585
+                },
+                {
+                    "entry": "587",
+                    "title": "Humble",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 586
+                }
+            ],
+            "results": [
+                {
+                    "entry": "583",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Drop It",
+                    "studio": "Artemis Dance",
+                    "performers": "Jill Green, Brielle Jorgensen",
+                    "score": 82,
+                    "program_order": 582,
+                    "scratched": false
+                },
+                {
+                    "entry": "584",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Yeah!",
+                    "studio": "Artemis Dance",
+                    "performers": "Lauren Cameron, Blair Magotiaux",
+                    "score": 86,
+                    "program_order": 583,
+                    "scratched": false
+                },
+                {
+                    "entry": "585",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "That Power",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "Maddy Herman, Sophee Towers",
+                    "score": 83,
+                    "program_order": 584,
+                    "scratched": false
+                },
+                {
+                    "entry": "586",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Beetle Juice",
+                    "studio": "Valley Dance",
+                    "performers": "Sam Bear, Mia Kinvig",
+                    "score": 83,
+                    "program_order": 585,
+                    "scratched": false
+                },
+                {
+                    "entry": "587",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Humble",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Macie Amy, Izzy Kessler",
+                    "score": 84,
+                    "program_order": 586,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 643082177,
+            "category_name": "NOVICE AGES 15-17 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 587,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 20,
+            "entries": [
+                {
+                    "entry": "588",
+                    "title": "Badder",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 587
+                }
+            ],
+            "results": [
+                {
+                    "entry": "588",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Badder",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Jennifer James, Joelee James",
+                    "score": 81,
+                    "program_order": 587,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2089546890,
+            "category_name": "NOVICE AGES 12-14 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 588,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 21,
+            "entries": [
+                {
+                    "entry": "589",
+                    "title": "Badder",
+                    "studio": "Born2Dance",
+                    "program_order": 588
+                }
+            ],
+            "results": [
+                {
+                    "entry": "589",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Badder",
+                    "studio": "Born2Dance",
+                    "performers": "Brooklyn Boisclair, Esmae Kopp",
+                    "score": 83,
+                    "program_order": 588,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1173753576,
+            "category_name": "NOVICE AGES 15-17 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 589,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 22,
+            "entries": [
+                {
+                    "entry": "590",
+                    "title": "What Is This Feeling",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 589
+                }
+            ],
+            "results": [
+                {
+                    "entry": "590",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "What Is This Feeling",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "Faith Rennie, Ciara Sambrook",
+                    "score": 81,
+                    "program_order": 589,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 999300615,
+            "category_name": "OPEN AGES 15-17 MUSICAL THEATRE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 590,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 23,
+            "entries": [
+                {
+                    "entry": "591",
+                    "title": "Say My Name",
+                    "studio": "Artemis Dance",
+                    "program_order": 590
+                },
+                {
+                    "entry": "592",
+                    "title": "Timeless To Me",
+                    "studio": "Born2Dance",
+                    "program_order": 591
+                },
+                {
+                    "entry": "593",
+                    "title": "Love Duet",
+                    "studio": "Born2Dance",
+                    "program_order": 592
+                }
+            ],
+            "results": [
+                {
+                    "entry": "591",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Say My Name",
+                    "studio": "Artemis Dance",
+                    "performers": "Sarah Brown, Ericka Tinant",
+                    "score": 85,
+                    "program_order": 590,
+                    "scratched": false
+                },
+                {
+                    "entry": "592",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Timeless To Me",
+                    "studio": "Born2Dance",
+                    "performers": "Brooke Fafard, Lynessa Rogers",
+                    "score": 84,
+                    "program_order": 591,
+                    "scratched": false
+                },
+                {
+                    "entry": "593",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Love Duet",
+                    "studio": "Born2Dance",
+                    "performers": "Isaiah Artavia, Kaitlyn Winter",
+                    "score": 86,
+                    "program_order": 592,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 786082695,
+            "category_name": "NOVICE AGES 12-14 HIP HOP DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 593,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 24,
+            "entries": [
+                {
+                    "entry": "594",
+                    "title": "Not Like Us",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 593
+                },
+                {
+                    "entry": "595",
+                    "title": "Fancy",
+                    "studio": "Artemis Dance",
+                    "program_order": 594
+                },
+                {
+                    "entry": "596",
+                    "title": "Lean With It",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 595
+                },
+                {
+                    "entry": "597",
+                    "title": "Fabulous",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 596
+                },
+                {
+                    "entry": "598",
+                    "title": "BEP Mix",
+                    "studio": "Artemis Dance",
+                    "program_order": 597
+                }
+            ],
+            "results": [
+                {
+                    "entry": "594",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Not Like Us",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Merlina Novelles, Milcah Perez",
+                    "score": 85.5,
+                    "program_order": 593,
+                    "scratched": false
+                },
+                {
+                    "entry": "595",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Fancy",
+                    "studio": "Artemis Dance",
+                    "performers": "Andie Carriere, Emma Paradis",
+                    "score": 84,
+                    "program_order": 594,
+                    "scratched": false
+                },
+                {
+                    "entry": "596",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lean With It",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Sophie Bartlett, Christina Mantei",
+                    "score": 82,
+                    "program_order": 595,
+                    "scratched": false
+                },
+                {
+                    "entry": "597",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Fabulous",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "Jaida Verhelst, Liv Zadorozniak",
+                    "score": 82,
+                    "program_order": 596,
+                    "scratched": false
+                },
+                {
+                    "entry": "598",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "BEP Mix",
+                    "studio": "Artemis Dance",
+                    "performers": "Aubree Garnier, Rylee Garnier",
+                    "score": 85,
+                    "program_order": 597,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1545079755,
+            "category_name": "OPEN AGES 15-17 CONTEMPORARY DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 598,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 25,
+            "entries": [
+                {
+                    "entry": "599",
+                    "title": "When We Were Young",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 598
+                },
+                {
+                    "entry": "600",
+                    "title": "Way Down We Go",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 599
+                },
+                {
+                    "entry": "601",
+                    "title": "Silhouette",
+                    "studio": "Dance Plus EP",
+                    "program_order": 600
+                },
+                {
+                    "entry": "602",
+                    "title": "This Year's Love",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 601
+                },
+                {
+                    "entry": "603",
+                    "title": "There For You",
+                    "studio": "Born2Dance",
+                    "program_order": 602
+                },
+                {
+                    "entry": "604",
+                    "title": "3",
+                    "studio": "Born2Dance",
+                    "program_order": 603
+                }
+            ],
+            "results": [
+                {
+                    "entry": "599",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "When We Were Young",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Harlo Branvold, Kassa Branvold",
+                    "score": 91,
+                    "program_order": 598,
+                    "scratched": false
+                },
+                {
+                    "entry": "600",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Way Down We Go",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Mira Bourassa, Katryna McKinney",
+                    "score": 87,
+                    "program_order": 599,
+                    "scratched": false
+                },
+                {
+                    "entry": "601",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Silhouette",
+                    "studio": "Dance Plus EP",
+                    "performers": "Dakota Kopeck, Alexandra Laczko",
+                    "score": 87,
+                    "program_order": 600,
+                    "scratched": false
+                },
+                {
+                    "entry": "602",
+                    "display_place": "3rd",
+                    "gem": "DIAMOND",
+                    "title": "This Year's Love",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Maya Jordens, Chloe Patzer",
+                    "score": 90,
+                    "program_order": 601,
+                    "scratched": false
+                },
+                {
+                    "entry": "603",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "There For You",
+                    "studio": "Born2Dance",
+                    "performers": "Zahara Francis Drake, Addison Kobylansky",
+                    "score": 88,
+                    "program_order": 602,
+                    "scratched": false
+                },
+                {
+                    "entry": "604",
+                    "display_place": "2nd",
+                    "gem": "DIAMOND",
+                    "title": "3",
+                    "studio": "Born2Dance",
+                    "performers": "Isaiah Artavia, Lynessa Rogers",
+                    "score": 90.5,
+                    "program_order": 603,
                     "scratched": false
                 }
             ]

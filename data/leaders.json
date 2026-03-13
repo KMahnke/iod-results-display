@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance 2026",
-    "updated_at": "2026-03-14 00:03:56",
-    "publish_version": "2026-03-14T00:03:56+01:00",
+    "updated_at": "2026-03-14 00:24:35",
+    "publish_version": "2026-03-14T00:24:35+01:00",
     "boards": [
         {
             "id": "solo",
@@ -91,6 +91,9 @@
                     "name": "Open",
                     "places": [
                         [
+                            "570 - Mac Mash"
+                        ],
+                        [
                             "353 - That's Who I Praise"
                         ],
                         [
@@ -104,9 +107,6 @@
                         ],
                         [
                             "167 - Exhale Inhale"
-                        ],
-                        [
-                            "32 - Dancing Through Life"
                         ]
                     ]
                 }
@@ -138,7 +138,8 @@
                             "72 - Diacon/Thompson/Wiebe",
                             "256 - Woodland/Woodland",
                             "270 - Kutsak/Paziuk",
-                            "560 - Baer/Wall"
+                            "560 - Baer/Wall",
+                            "574 - Franklin/Kubashek"
                         ],
                         [
                             "258 - Rey/Rey"
@@ -172,12 +173,17 @@
                     "name": "Open",
                     "places": [
                         [
-                            "366 - Breker/Reich"
+                            "366 - Breker/Reich",
+                            "599 - Branvold/Branvold"
+                        ],
+                        [
+                            "604 - Artavia/Rogers"
                         ],
                         [
                             "132 - Bourassa/Huang",
                             "490 - Bourassa/Huang/Li",
-                            "499 - Longley/Selinger/Vos"
+                            "499 - Longley/Selinger/Vos",
+                            "602 - Jordens/Patzer"
                         ],
                         [
                             "368 - Vos/Vos"
@@ -185,11 +191,8 @@
                         [
                             "138 - Huang/Li",
                             "369 - McNabb/Kirchhofer",
-                            "491 - Fazakas/Willette"
-                        ],
-                        [
-                            "135 - Hack/Pocha",
-                            "492 - Edwards/Goodfellow"
+                            "491 - Fazakas/Willette",
+                            "603 - Drake/Kobylansky"
                         ]
                     ]
                 }
