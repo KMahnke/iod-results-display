@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 02:37:49",
+    "last_update": "2026-03-13 02:53:57",
     "program_source": "program.json",
-    "published_count": 85,
+    "published_count": 89,
     "categories": [
         {
             "category_id": 607676400,
@@ -6182,6 +6182,70 @@
             ]
         },
         {
+            "category_id": 579658451,
+            "category_name": "BEGINNER AGES 12-14 HIP HOP SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 314,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "315",
+                    "title": "BLACKPINK",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 314
+                }
+            ],
+            "results": [
+                {
+                    "entry": "315",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "BLACKPINK",
+                    "studio": "Artemis Dance Moosomin",
+                    "score": 82,
+                    "program_order": 314,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1239860619,
+            "category_name": "BEGINNER AGES 6-8 JAZZ SOLO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 315,
+            "day_sort": 1,
+            "session_sort": 1,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "316",
+                    "title": "Move Yo Body",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 315
+                }
+            ],
+            "results": [
+                {
+                    "entry": "316",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Move Yo Body",
+                    "studio": "Vibank Dance Expressions",
+                    "score": 84,
+                    "program_order": 315,
+                    "scratched": false
+                }
+            ]
+        },
+        {
             "category_id": 1073470025,
             "category_name": "NOVICE AGES 15-17 CONTEMPORARY DUO\/TRIO",
             "day_label": "Thursday March 12th, 2026",
@@ -7233,6 +7297,166 @@
                     "studio": "Dance Plus EP",
                     "score": 85,
                     "program_order": 369,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 764843060,
+            "category_name": "NOVICE AGES 12-14 JAZZ SOLO GROUP A",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 3 \u2022 6:00 pm",
+            "group_label": "GROUP A",
+            "publish_state": "published",
+            "program_sort": 370,
+            "day_sort": 1,
+            "session_sort": 2,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "371",
+                    "title": "Watch This",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 370
+                },
+                {
+                    "entry": "372",
+                    "title": "Boy You Can Keep It",
+                    "studio": "Dance Plus EP",
+                    "program_order": 371
+                },
+                {
+                    "entry": "373",
+                    "title": "Fierce",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 372
+                },
+                {
+                    "entry": "374",
+                    "title": "L-O-V-E",
+                    "studio": "Diva Dance",
+                    "program_order": 373
+                },
+                {
+                    "entry": "375",
+                    "title": "New Dorp",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 374
+                },
+                {
+                    "entry": "376",
+                    "title": "Marvellous",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 375
+                },
+                {
+                    "entry": "377",
+                    "title": "Call Me",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 376
+                }
+            ],
+            "results": [
+                {
+                    "entry": "371",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Watch This",
+                    "studio": "Marley's Dance Effex",
+                    "score": 83,
+                    "program_order": 370,
+                    "scratched": false
+                },
+                {
+                    "entry": "372",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Boy You Can Keep It",
+                    "studio": "Dance Plus EP",
+                    "score": 85,
+                    "program_order": 371,
+                    "scratched": false
+                },
+                {
+                    "entry": "373",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Fierce",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "score": 84,
+                    "program_order": 372,
+                    "scratched": false
+                },
+                {
+                    "entry": "374",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "L-O-V-E",
+                    "studio": "Diva Dance",
+                    "score": 87,
+                    "program_order": 373,
+                    "scratched": false
+                },
+                {
+                    "entry": "375",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "New Dorp",
+                    "studio": "En Pointe Dance Studio",
+                    "score": 86.5,
+                    "program_order": 374,
+                    "scratched": false
+                },
+                {
+                    "entry": "376",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Marvellous",
+                    "studio": "Ogema Dance Club",
+                    "score": 85,
+                    "program_order": 375,
+                    "scratched": false
+                },
+                {
+                    "entry": "377",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Call Me",
+                    "studio": "Against the Grain Studios",
+                    "score": 86,
+                    "program_order": 376,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 555065447,
+            "category_name": "OPEN AGES 18 OVER TAP DUO\/TRIO",
+            "day_label": "Thursday March 12th, 2026",
+            "session_label": "Session 3 \u2022 6:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 377,
+            "day_sort": 1,
+            "session_sort": 2,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "378",
+                    "title": "Sleeping on the Blacktop",
+                    "studio": "Diva Dance",
+                    "program_order": 377
+                }
+            ],
+            "results": [
+                {
+                    "entry": "378",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Sleeping on the Blacktop",
+                    "studio": "Diva Dance",
+                    "score": 90,
+                    "program_order": 377,
                     "scratched": false
                 }
             ]
