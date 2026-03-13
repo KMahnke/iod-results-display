@@ -44,50 +44,12 @@ function getCategoriesForTab(tabLabel) {
   });
 }
 
-function pad2(value) {
-  return String(value).padStart(2, "0");
-}
-
-function formatNaiveReginaString(value) {
-  const match = String(value || "")
-    .trim()
-    .match(
-      /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/
-    );
-
-  if (!match) {
-    return "";
-  }
-
-  const [, year, month, day, hour = "00", minute = "00"] = match;
-  let h = Number(hour);
-  const ampm = h >= 12 ? "PM" : "AM";
-  h = h % 12;
-  if (h === 0) h = 12;
-
-  return `${year}-${month}-${day} ${h}:${minute} ${ampm} CST`;
-}
-
-function formatAbsoluteReginaDate(value) {
+function formatZonedDateToRegina(value) {
   if (!value) return "";
 
-  const raw = String(value).trim();
-  if (!raw) return "";
-
-  const hasExplicitZone =
-    /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw) ||
-    /\bUTC\b/i.test(raw);
-
-  if (!hasExplicitZone) {
-    const naiveFormatted = formatNaiveReginaString(raw);
-    if (naiveFormatted) {
-      return naiveFormatted;
-    }
-  }
-
-  const date = new Date(raw);
+  const date = new Date(String(value).trim());
   if (Number.isNaN(date.getTime())) {
-    return raw;
+    return "";
   }
 
   const formatter = new Intl.DateTimeFormat(DISPLAY_LOCALE, {
@@ -108,15 +70,24 @@ function formatAbsoluteReginaDate(value) {
 }
 
 function buildLastUpdatedText(data) {
-  const rawValue =
+  const zonedValue =
+    data?.publish_version ||
+    data?.updated_at ||
+    data?.updated ||
+    "";
+
+  const formattedZoned = formatZonedDateToRegina(zonedValue);
+  if (formattedZoned) {
+    return `Last updated: ${formattedZoned}`;
+  }
+
+  const fallback =
     data?.last_update ||
     data?.updated_at ||
     data?.updated ||
-    data?.publish_version ||
     "";
 
-  const formatted = formatAbsoluteReginaDate(rawValue);
-  return formatted ? `Last updated: ${formatted}` : "Last updated:";
+  return fallback ? `Last updated: ${fallback} CST` : "Last updated:";
 }
 
 async function loadResults() {

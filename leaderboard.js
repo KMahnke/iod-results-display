@@ -24,46 +24,12 @@ function initTabs() {
   });
 }
 
-function formatNaiveReginaString(value) {
-  const match = String(value || "")
-    .trim()
-    .match(
-      /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/
-    );
-
-  if (!match) {
-    return "";
-  }
-
-  const [, year, month, day, hour = "00", minute = "00"] = match;
-  let h = Number(hour);
-  const ampm = h >= 12 ? "PM" : "AM";
-  h = h % 12;
-  if (h === 0) h = 12;
-
-  return `${year}-${month}-${day} ${h}:${minute} ${ampm} CST`;
-}
-
-function formatAbsoluteReginaDate(value) {
+function formatZonedDateToRegina(value) {
   if (!value) return "";
 
-  const raw = String(value).trim();
-  if (!raw) return "";
-
-  const hasExplicitZone =
-    /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw) ||
-    /\bUTC\b/i.test(raw);
-
-  if (!hasExplicitZone) {
-    const naiveFormatted = formatNaiveReginaString(raw);
-    if (naiveFormatted) {
-      return naiveFormatted;
-    }
-  }
-
-  const date = new Date(raw);
+  const date = new Date(String(value).trim());
   if (Number.isNaN(date.getTime())) {
-    return raw;
+    return "";
   }
 
   const formatter = new Intl.DateTimeFormat(DISPLAY_LOCALE, {
@@ -84,21 +50,24 @@ function formatAbsoluteReginaDate(value) {
 }
 
 function buildLastUpdateText(data) {
-  const updated = firstNonEmpty(
-    data?.updated_at,
-    data?.updated,
-    data?.last_update,
-    data?.publish_version
-  );
+  const zonedValue =
+    data?.publish_version ||
+    data?.updated_at ||
+    data?.updated ||
+    "";
 
-  const formatted = formatAbsoluteReginaDate(updated);
-  return formatted ? `Last Update: ${formatted}` : "Last Update:";
-}
+  const formattedZoned = formatZonedDateToRegina(zonedValue);
+  if (formattedZoned) {
+    return `Last Update: ${formattedZoned}`;
+  }
 
-function buildPublishVersionText(data) {
-  const version = firstNonEmpty(data?.publish_version);
-  const formatted = formatAbsoluteReginaDate(version);
-  return formatted ? `Publish version: ${formatted}` : "";
+  const fallback =
+    data?.updated_at ||
+    data?.updated ||
+    data?.last_update ||
+    "";
+
+  return fallback ? `Last Update: ${fallback} CST` : "Last Update:";
 }
 
 async function loadLeaders() {
@@ -161,7 +130,7 @@ function updateHeader() {
   }
 
   if (publishVersion) {
-    publishVersion.textContent = buildPublishVersionText(leadersData);
+    publishVersion.textContent = "";
   }
 }
 
