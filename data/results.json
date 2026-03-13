@@ -1,7 +1,8 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 04:52:42",
+    "last_update": "2026-03-13 17:46:05",
+    "publish_version": "2026-03-13T17:46:05+01:00",
     "program_source": "program.json",
     "published_count": 97,
     "categories": [
@@ -37,6 +38,7 @@
                     "gem": "EMERALD",
                     "title": "The Magic Lamp",
                     "studio": "Born2Dance",
+                    "performers": "Ivy Adamache",
                     "score": 83,
                     "program_order": 0,
                     "scratched": false
@@ -47,6 +49,7 @@
                     "gem": "EMERALD",
                     "title": "The Gold is Mine",
                     "studio": "Born2Dance",
+                    "performers": "Zaydee Kopp",
                     "score": 82,
                     "program_order": 1,
                     "scratched": false
@@ -79,6 +82,7 @@
                     "gem": "EMERALD",
                     "title": "I think he likes Me",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos",
                     "score": 84,
                     "program_order": 2,
                     "scratched": false
@@ -123,6 +127,7 @@
                     "gem": "RUBY",
                     "title": "Music Box Ballerina",
                     "studio": "Born2Dance",
+                    "performers": "Esmae Kopp",
                     "score": 85,
                     "program_order": 3,
                     "scratched": false
@@ -133,6 +138,7 @@
                     "gem": "EMERALD",
                     "title": "Willow",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Adalyn Grey",
                     "score": 84,
                     "program_order": 4,
                     "scratched": false
@@ -143,6 +149,7 @@
                     "gem": "EMERALD",
                     "title": "Within You",
                     "studio": "Valley Dance",
+                    "performers": "Sativa Sargees",
                     "score": 83,
                     "program_order": 5,
                     "scratched": false
@@ -205,6 +212,7 @@
                     "gem": "RUBY",
                     "title": "Karen",
                     "studio": "Born2Dance",
+                    "performers": "Isobella Rogers",
                     "score": 85,
                     "program_order": 6,
                     "scratched": false
@@ -215,6 +223,7 @@
                     "gem": "EMERALD",
                     "title": "Amazing Mayzie",
                     "studio": "Ogema Dance Club",
+                    "performers": "Zoey Leonard",
                     "score": 84,
                     "program_order": 7,
                     "scratched": false
@@ -225,6 +234,7 @@
                     "gem": "EMERALD",
                     "title": "Good At Being Bad",
                     "studio": "Born2Dance",
+                    "performers": "Georgia Beck",
                     "score": 83,
                     "program_order": 8,
                     "scratched": false
@@ -235,6 +245,7 @@
                     "gem": "EMERALD",
                     "title": "Stupid With Love",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Olivia Tatarliov",
                     "score": 84.1,
                     "program_order": 9,
                     "scratched": false
@@ -245,6 +256,7 @@
                     "gem": "EMERALD",
                     "title": "Too Old For This",
                     "studio": "Ogema Dance Club",
+                    "performers": "Madison Leonard",
                     "score": 83,
                     "program_order": 10,
                     "scratched": false
@@ -255,6 +267,7 @@
                     "gem": "EMERALD",
                     "title": "Fabulous Sharpay",
                     "studio": "Diva Dance",
+                    "performers": "Nora Rygh",
                     "score": 84.3,
                     "program_order": 11,
                     "scratched": false
@@ -293,6 +306,7 @@
                     "gem": "RUBY",
                     "title": "Mack the Knife",
                     "studio": "Born2Dance",
+                    "performers": "Oliver Reich",
                     "score": 87.5,
                     "program_order": 12,
                     "scratched": false
@@ -303,6 +317,7 @@
                     "gem": "RUBY",
                     "title": "Chaplin",
                     "studio": "Born2Dance",
+                    "performers": "Isaiah Artavia",
                     "score": 85.5,
                     "program_order": 13,
                     "scratched": false
@@ -341,6 +356,7 @@
                     "gem": "EMERALD",
                     "title": "One Kiss",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Gabriella Shangraw",
                     "score": 81,
                     "program_order": 14,
                     "scratched": false
@@ -351,6 +367,7 @@
                     "gem": "DIAMOND",
                     "title": "I want a hippopatamus for Christmas",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Fredrick Pederson",
                     "score": 800,
                     "program_order": 15,
                     "scratched": false
@@ -389,6 +406,7 @@
                     "gem": "EMERALD",
                     "title": "What You Want",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Leighton Freitag",
                     "score": 82,
                     "program_order": 17,
                     "scratched": false
@@ -399,6 +417,7 @@
                     "gem": "EMERALD",
                     "title": "Little Girls",
                     "studio": "Diva Dance",
+                    "performers": "Andrea Hatzel",
                     "score": 80,
                     "program_order": 18,
                     "scratched": false
@@ -431,6 +450,7 @@
                     "gem": "RUBY",
                     "title": "Coppelia",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos",
                     "score": 86,
                     "program_order": 19,
                     "scratched": false
@@ -499,6 +519,7 @@
                     "gem": "EMERALD",
                     "title": "Encanto",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Nora Maurer",
                     "score": 81,
                     "program_order": 20,
                     "scratched": false
@@ -509,6 +530,7 @@
                     "gem": "EMERALD",
                     "title": "This is Me",
                     "studio": "Valley Dance",
+                    "performers": "Annabelle Miller",
                     "score": 80,
                     "program_order": 21,
                     "scratched": false
@@ -519,6 +541,7 @@
                     "gem": "RUBY",
                     "title": "Belle",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Abigail Stewart",
                     "score": 85.2,
                     "program_order": 22,
                     "scratched": false
@@ -529,6 +552,7 @@
                     "gem": "RUBY",
                     "title": "Le Poisson",
                     "studio": "Born2Dance",
+                    "performers": "Brooklyn Kaytor",
                     "score": 85,
                     "program_order": 23,
                     "scratched": false
@@ -539,6 +563,7 @@
                     "gem": "EMERALD",
                     "title": "I Know it's Today",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Charli Pederson",
                     "score": 80,
                     "program_order": 24,
                     "scratched": false
@@ -549,6 +574,7 @@
                     "gem": "OUT",
                     "title": "Pirate Today",
                     "studio": "Born2Dance",
+                    "performers": "Danika Lins",
                     "score": null,
                     "program_order": 25,
                     "scratched": true
@@ -559,6 +585,7 @@
                     "gem": "EMERALD",
                     "title": "Combine Harvester",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Finley Branson",
                     "score": 80,
                     "program_order": 26,
                     "scratched": false
@@ -603,6 +630,7 @@
                     "gem": "EMERALD",
                     "title": "All of the Lights",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Elissa Kessel",
                     "score": 83,
                     "program_order": 27,
                     "scratched": false
@@ -613,6 +641,7 @@
                     "gem": "EMERALD",
                     "title": "Bluebird",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Olivia Tatarliov",
                     "score": 84,
                     "program_order": 28,
                     "scratched": false
@@ -623,6 +652,7 @@
                     "gem": "RUBY",
                     "title": "A Joyful Moment",
                     "studio": "Born2Dance",
+                    "performers": "Aerial Passmore",
                     "score": 86,
                     "program_order": 29,
                     "scratched": false
@@ -667,6 +697,7 @@
                     "gem": "RUBY",
                     "title": "Lost In The Woods",
                     "studio": "Born2Dance",
+                    "performers": "Brynn Forness",
                     "score": 88,
                     "program_order": 30,
                     "scratched": false
@@ -677,6 +708,7 @@
                     "gem": "RUBY",
                     "title": "Dancing Through Life",
                     "studio": "Born2Dance",
+                    "performers": "Isaiah Artavia",
                     "score": 88.2,
                     "program_order": 31,
                     "scratched": false
@@ -687,6 +719,7 @@
                     "gem": "RUBY",
                     "title": "I Want The Good Times Back",
                     "studio": "Diva Dance",
+                    "performers": "Julia Miles",
                     "score": 85,
                     "program_order": 32,
                     "scratched": false
@@ -743,6 +776,7 @@
                     "gem": "EMERALD",
                     "title": "Me and the Devil",
                     "studio": "Ogema Dance Club",
+                    "performers": "Zoe Meggison",
                     "score": 84,
                     "program_order": 33,
                     "scratched": false
@@ -753,6 +787,7 @@
                     "gem": "RUBY",
                     "title": "Echoes Within",
                     "studio": "Born2Dance",
+                    "performers": "Sydney Zacharias",
                     "score": 87.5,
                     "program_order": 34,
                     "scratched": false
@@ -763,6 +798,7 @@
                     "gem": "RUBY",
                     "title": "Where Light Rises",
                     "studio": "Born2Dance",
+                    "performers": "Anne Eckstein",
                     "score": 89,
                     "program_order": 35,
                     "scratched": false
@@ -773,6 +809,7 @@
                     "gem": "EMERALD",
                     "title": "Stairway to Heaven",
                     "studio": "Ogema Dance Club",
+                    "performers": "Quinn Tretheway",
                     "score": 83,
                     "program_order": 36,
                     "scratched": false
@@ -783,6 +820,7 @@
                     "gem": "EMERALD",
                     "title": "Pink Pony Club",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Emily Powers",
                     "score": 81,
                     "program_order": 37,
                     "scratched": false
@@ -791,7 +829,7 @@
         },
         {
             "category_id": 1568707191,
-            "category_name": "BEGINNER AGES 6-8 LYRICAL DUO\/TRIO",
+            "category_name": "BEGINNER AGES 6-8 LYRICAL DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -827,6 +865,7 @@
                     "gem": "EMERALD",
                     "title": "A Million Dreams",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Oaklynn Brisebois-Slykhuis, Lyrik Lawrence, Harper Woodland",
                     "score": 80,
                     "program_order": 38,
                     "scratched": false
@@ -837,6 +876,7 @@
                     "gem": "EMERALD",
                     "title": "Never Grow Up",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Aubrey Bueckart, Charlie Bueckert",
                     "score": 80.1,
                     "program_order": 39,
                     "scratched": false
@@ -847,6 +887,7 @@
                     "gem": "EMERALD",
                     "title": "Here comes the sun",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Alessia Cote, Lainey Lenko, Fredrick Pederson",
                     "score": 80,
                     "program_order": 40,
                     "scratched": false
@@ -855,7 +896,7 @@
         },
         {
             "category_id": 2084907041,
-            "category_name": "BEGINNER AGES 6-8 BALLET DUO\/TRIO",
+            "category_name": "BEGINNER AGES 6-8 BALLET DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -885,6 +926,7 @@
                     "gem": "RUBY",
                     "title": "Flower Fairies",
                     "studio": "Pangman Dance Club",
+                    "performers": "Liv Johnson, Blaire Metke, Hallie Wintonyk",
                     "score": 86,
                     "program_order": 41,
                     "scratched": false
@@ -895,6 +937,7 @@
                     "gem": "EMERALD",
                     "title": "Butterflies",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Ivy Cameron, Johanna Cameron",
                     "score": 83,
                     "program_order": 42,
                     "scratched": false
@@ -903,7 +946,7 @@
         },
         {
             "category_id": 7519851,
-            "category_name": "BEGINNER AGES 12-14 LYRICAL DUO\/TRIO",
+            "category_name": "BEGINNER AGES 12-14 LYRICAL DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -939,6 +982,7 @@
                     "gem": "EMERALD",
                     "title": "Lacy",
                     "studio": "Pangman Dance Club",
+                    "performers": "Paige DeBruyne, Lyrik Roncin",
                     "score": 80.1,
                     "program_order": 43,
                     "scratched": false
@@ -949,6 +993,7 @@
                     "gem": "EMERALD",
                     "title": "Matilda",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kori Knelsen, Nevaeh Woodland",
                     "score": 80,
                     "program_order": 44,
                     "scratched": false
@@ -959,6 +1004,7 @@
                     "gem": "EMERALD",
                     "title": "Rescue",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Laya Freitag, Macy Minty",
                     "score": 84,
                     "program_order": 45,
                     "scratched": false
@@ -967,7 +1013,7 @@
         },
         {
             "category_id": 1534742848,
-            "category_name": "BEGINNER AGES 9-11 BALLET DUO\/TRIO",
+            "category_name": "BEGINNER AGES 9-11 BALLET DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -991,6 +1037,7 @@
                     "gem": "EMERALD",
                     "title": "Willow",
                     "studio": "Christa Vermeulen  IND",
+                    "performers": "Brynn Forman, Lydia Jensen",
                     "score": 84,
                     "program_order": 46,
                     "scratched": false
@@ -999,7 +1046,7 @@
         },
         {
             "category_id": 1762997448,
-            "category_name": "BEGINNER AGES 9-11 LYRICAL DUO\/TRIO",
+            "category_name": "BEGINNER AGES 9-11 LYRICAL DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1029,6 +1076,7 @@
                     "gem": "EMERALD",
                     "title": "Sanctuary",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Khaleesi Ippolito, Alma Van de Sype",
                     "score": 80,
                     "program_order": 47,
                     "scratched": false
@@ -1039,6 +1087,7 @@
                     "gem": "EMERALD",
                     "title": "Dandelions",
                     "studio": "Minton Dance Club",
+                    "performers": "Khloe Frischholz, Sierra McDonald, Eva Muxlow",
                     "score": 82,
                     "program_order": 48,
                     "scratched": false
@@ -1047,7 +1096,7 @@
         },
         {
             "category_id": 417061414,
-            "category_name": "NOVICE AGES 12-14 BALLET DUO\/TRIO",
+            "category_name": "NOVICE AGES 12-14 BALLET DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1083,6 +1132,7 @@
                     "gem": "EMERALD",
                     "title": "Reflection",
                     "studio": "Against the Grain Studios",
+                    "performers": "Kennedy Diacon, Temperance Wiebe",
                     "score": 84.5,
                     "program_order": 49,
                     "scratched": false
@@ -1093,6 +1143,7 @@
                     "gem": "EMERALD",
                     "title": "Interstellar",
                     "studio": "White City Dancing School",
+                    "performers": "Kiana Amyotte, McKenzie Geis, Grace Slinn",
                     "score": 83,
                     "program_order": 50,
                     "scratched": false
@@ -1103,6 +1154,7 @@
                     "gem": "RUBY",
                     "title": "Flicker",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Macie Amy, Izzy Kessler",
                     "score": 85,
                     "program_order": 51,
                     "scratched": false
@@ -1111,7 +1163,7 @@
         },
         {
             "category_id": 178920236,
-            "category_name": "BEGINNER AGES 6-8 JAZZ DUO\/TRIO",
+            "category_name": "BEGINNER AGES 6-8 JAZZ DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1141,6 +1193,7 @@
                     "gem": "EMERALD",
                     "title": "Starships",
                     "studio": "Minton Dance Club",
+                    "performers": "Claire Muxlow, Liza Stosiuk",
                     "score": 81,
                     "program_order": 52,
                     "scratched": false
@@ -1151,6 +1204,7 @@
                     "gem": "EMERALD",
                     "title": "Take on the World",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Abbie Franklin, Ivy Morrisson",
                     "score": 80,
                     "program_order": 53,
                     "scratched": false
@@ -1159,7 +1213,7 @@
         },
         {
             "category_id": 1317335214,
-            "category_name": "NOVICE AGES 15-17 BALLET DUO\/TRIO",
+            "category_name": "NOVICE AGES 15-17 BALLET DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1183,6 +1237,7 @@
                     "gem": "RUBY",
                     "title": "Creep",
                     "studio": "Full Out Dance Studio",
+                    "performers": "Ciara Sambrook, Presley Sjodin",
                     "score": 85,
                     "program_order": 54,
                     "scratched": false
@@ -1191,7 +1246,7 @@
         },
         {
             "category_id": 1760900093,
-            "category_name": "BEGINNER AGES 5 UNDER JAZZ DUO\/TRIO",
+            "category_name": "BEGINNER AGES 5 UNDER JAZZ DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1215,6 +1270,7 @@
                     "gem": "EMERALD",
                     "title": "No Excuses",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Violet Lupastin, Montana Reiss, Ensley Rey",
                     "score": 83.5,
                     "program_order": 55,
                     "scratched": false
@@ -1223,7 +1279,7 @@
         },
         {
             "category_id": 1708717456,
-            "category_name": "NOVICE AGES 9-11 BALLET DUO\/TRIO",
+            "category_name": "NOVICE AGES 9-11 BALLET DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1247,6 +1303,7 @@
                     "gem": "RUBY",
                     "title": "Charlie",
                     "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski, Emma Mitchell, Tenli Orr",
                     "score": 88,
                     "program_order": 56,
                     "scratched": false
@@ -1255,7 +1312,7 @@
         },
         {
             "category_id": 2138695486,
-            "category_name": "BEGINNER AGES 9-11 JAZZ DUO\/TRIO",
+            "category_name": "BEGINNER AGES 9-11 JAZZ DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1315,6 +1372,7 @@
                     "gem": "EMERALD",
                     "title": "Girls Just Wanna Have Fun",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Finley Branson, Cora Stadnyk",
                     "score": 80,
                     "program_order": 57,
                     "scratched": false
@@ -1325,6 +1383,7 @@
                     "gem": "EMERALD",
                     "title": "Lonely",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Everly Kallias, Brynlee Kerr",
                     "score": 80,
                     "program_order": 58,
                     "scratched": false
@@ -1335,6 +1394,7 @@
                     "gem": "EMERALD",
                     "title": "Saturday Night",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Zella Henning, Burke Morrison",
                     "score": 81.5,
                     "program_order": 59,
                     "scratched": false
@@ -1345,6 +1405,7 @@
                     "gem": "EMERALD",
                     "title": "Venus Fly",
                     "studio": "Against the Grain Studios",
+                    "performers": "Madelyn Dessert, Alice Ferguson",
                     "score": 81,
                     "program_order": 60,
                     "scratched": false
@@ -1355,6 +1416,7 @@
                     "gem": "EMERALD",
                     "title": "The Parent Trap",
                     "studio": "Valley Dance",
+                    "performers": "Raelle getz, Emerie Pletz",
                     "score": 83,
                     "program_order": 61,
                     "scratched": false
@@ -1365,6 +1427,7 @@
                     "gem": "EMERALD",
                     "title": "Yes, Yes I Can",
                     "studio": "Full Out Dance Studio",
+                    "performers": "Lillian Lee, Bella Roysum",
                     "score": 81,
                     "program_order": 62,
                     "scratched": false
@@ -1375,6 +1438,7 @@
                     "gem": "EMERALD",
                     "title": "Get Ready For This",
                     "studio": "Minton Dance Club",
+                    "performers": "Khloe Frischholz, Sierra McDonald, Eva Muxlow",
                     "score": 82,
                     "program_order": 63,
                     "scratched": false
@@ -1431,6 +1495,7 @@
                     "gem": "RUBY",
                     "title": "A Whisper of Joy",
                     "studio": "Born2Dance",
+                    "performers": "Brooklynn Myers",
                     "score": 87,
                     "program_order": 64,
                     "scratched": false
@@ -1441,6 +1506,7 @@
                     "gem": "RUBY",
                     "title": "Twirl of Enchantment",
                     "studio": "Born2Dance",
+                    "performers": "Esme Breker",
                     "score": 86,
                     "program_order": 65,
                     "scratched": false
@@ -1451,6 +1517,7 @@
                     "gem": "RUBY",
                     "title": "Gamzatti",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Mira Bourassa",
                     "score": 88,
                     "program_order": 66,
                     "scratched": false
@@ -1461,6 +1528,7 @@
                     "gem": "RUBY",
                     "title": "Victor's Solo",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Lilly Pocha",
                     "score": 86,
                     "program_order": 67,
                     "scratched": false
@@ -1471,6 +1539,7 @@
                     "gem": "RUBY",
                     "title": "Transcendence",
                     "studio": "Born2Dance",
+                    "performers": "Lynessa Rogers",
                     "score": 87,
                     "program_order": 68,
                     "scratched": false
@@ -1509,6 +1578,7 @@
                     "gem": "EMERALD",
                     "title": "If",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Brynlee Kerr",
                     "score": 80,
                     "program_order": 69,
                     "scratched": false
@@ -1519,6 +1589,7 @@
                     "gem": "RUBY",
                     "title": "Sun Goes Down",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Everly Kallias",
                     "score": 86,
                     "program_order": 70,
                     "scratched": false
@@ -1527,7 +1598,7 @@
         },
         {
             "category_id": 1863145338,
-            "category_name": "BEGINNER AGES 12-14 CONTEMPORARY DUO\/TRIO",
+            "category_name": "BEGINNER AGES 12-14 CONTEMPORARY DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 1 \u2022 2:00pm",
             "group_label": "",
@@ -1551,6 +1622,7 @@
                     "gem": "EMERALD",
                     "title": "Hi, Ren",
                     "studio": "Against the Grain Studios",
+                    "performers": "Kennedy Diacon, Kasen Thompson, Temperance Wiebe",
                     "score": 83,
                     "program_order": 71,
                     "scratched": false
@@ -1637,6 +1709,7 @@
                     "gem": "RUBY",
                     "title": "That's Life",
                     "studio": "Born2Dance",
+                    "performers": "Abbegayle Day",
                     "score": 85,
                     "program_order": 72,
                     "scratched": false
@@ -1647,6 +1720,7 @@
                     "gem": "RUBY",
                     "title": "Bird Box",
                     "studio": "Born2Dance",
+                    "performers": "Lily Gilroy",
                     "score": 87,
                     "program_order": 73,
                     "scratched": false
@@ -1657,6 +1731,7 @@
                     "gem": "EMERALD",
                     "title": "Nothing New",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sophie Dusyk",
                     "score": 84,
                     "program_order": 74,
                     "scratched": false
@@ -1667,6 +1742,7 @@
                     "gem": "RUBY",
                     "title": "Craddles",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Journey Froese",
                     "score": 85.5,
                     "program_order": 75,
                     "scratched": false
@@ -1677,6 +1753,7 @@
                     "gem": "EMERALD",
                     "title": "Rock You",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Rylea Eckel",
                     "score": 84.5,
                     "program_order": 76,
                     "scratched": false
@@ -1687,6 +1764,7 @@
                     "gem": "EMERALD",
                     "title": "Between Villages",
                     "studio": "Born2Dance",
+                    "performers": "Avery Braun",
                     "score": 84.5,
                     "program_order": 77,
                     "scratched": false
@@ -1697,6 +1775,7 @@
                     "gem": "RUBY",
                     "title": "Bad Dream",
                     "studio": "Diva Dance",
+                    "performers": "Emily Paliuk",
                     "score": 85,
                     "program_order": 78,
                     "scratched": false
@@ -1707,6 +1786,7 @@
                     "gem": "RUBY",
                     "title": "False Confidence",
                     "studio": "Born2Dance",
+                    "performers": "Zahara Francis Drake",
                     "score": 86,
                     "program_order": 79,
                     "scratched": false
@@ -1717,6 +1797,7 @@
                     "gem": "RUBY",
                     "title": "Million Reasons",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Nashia Blair",
                     "score": 85,
                     "program_order": 80,
                     "scratched": false
@@ -1727,6 +1808,7 @@
                     "gem": "RUBY",
                     "title": "The Dark",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Andria Englot",
                     "score": 86,
                     "program_order": 81,
                     "scratched": false
@@ -1771,6 +1853,7 @@
                     "gem": "EMERALD",
                     "title": "Eternity",
                     "studio": "Against the Grain Studios",
+                    "performers": "Kennedy Diacon",
                     "score": 83,
                     "program_order": 82,
                     "scratched": false
@@ -1781,6 +1864,7 @@
                     "gem": "EMERALD",
                     "title": "Heavy",
                     "studio": "Against the Grain Studios",
+                    "performers": "Kasen Thompson",
                     "score": 80,
                     "program_order": 83,
                     "scratched": false
@@ -1791,6 +1875,7 @@
                     "gem": "EMERALD",
                     "title": "Once Upon A Dream",
                     "studio": "Dance Plus EP",
+                    "performers": "Viktoria MacKay-Craven",
                     "score": 81,
                     "program_order": 84,
                     "scratched": false
@@ -1877,6 +1962,7 @@
                     "gem": "EMERALD",
                     "title": "New York New York",
                     "studio": "Born2Dance",
+                    "performers": "Kaitlyn Winter",
                     "score": 84,
                     "program_order": 85,
                     "scratched": false
@@ -1887,6 +1973,7 @@
                     "gem": "OUT",
                     "title": "Everybody Supports A Woman",
                     "studio": "White City Dancing School",
+                    "performers": "Phoenix Fraese",
                     "score": null,
                     "program_order": 86,
                     "scratched": true
@@ -1897,6 +1984,7 @@
                     "gem": "RUBY",
                     "title": "Words Matter",
                     "studio": "Born2Dance",
+                    "performers": "Brynn Forness",
                     "score": 87.5,
                     "program_order": 87,
                     "scratched": false
@@ -1907,6 +1995,7 @@
                     "gem": "RUBY",
                     "title": "Fire on Fire",
                     "studio": "Cupar Dance Club",
+                    "performers": "Sarah Bradley McNabb",
                     "score": 86.5,
                     "program_order": 88,
                     "scratched": false
@@ -1917,6 +2006,7 @@
                     "gem": "RUBY",
                     "title": "Hit the Road",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Peyton Lokken",
                     "score": 87,
                     "program_order": 89,
                     "scratched": false
@@ -1927,6 +2017,7 @@
                     "gem": "EMERALD",
                     "title": "A Love Lost",
                     "studio": "Born2Dance",
+                    "performers": "Brooke Fafard",
                     "score": 84,
                     "program_order": 90,
                     "scratched": false
@@ -1937,6 +2028,7 @@
                     "gem": "RUBY",
                     "title": "Far From Home",
                     "studio": "White City Dancing School",
+                    "performers": "Hailey Dales",
                     "score": 89,
                     "program_order": 91,
                     "scratched": false
@@ -1947,6 +2039,7 @@
                     "gem": "RUBY",
                     "title": "When I Get Where I'm Going",
                     "studio": "Born2Dance",
+                    "performers": "Addison Kobylansky",
                     "score": 87.8,
                     "program_order": 92,
                     "scratched": false
@@ -1957,6 +2050,7 @@
                     "gem": "RUBY",
                     "title": "Right...",
                     "studio": "Born2Dance",
+                    "performers": "Lynessa Rogers",
                     "score": 86,
                     "program_order": 93,
                     "scratched": false
@@ -1967,6 +2061,7 @@
                     "gem": "RUBY",
                     "title": "Will You Follow Me",
                     "studio": "Dance Plus EP",
+                    "performers": "Natalie Kowalyshyn",
                     "score": 87,
                     "program_order": 94,
                     "scratched": false
@@ -2005,6 +2100,7 @@
                     "gem": "RUBY",
                     "title": "Chic",
                     "studio": "Born2Dance",
+                    "performers": "Lily Gilroy",
                     "score": 86,
                     "program_order": 95,
                     "scratched": false
@@ -2015,6 +2111,7 @@
                     "gem": "RUBY",
                     "title": "Bring the Lion Out",
                     "studio": "Born2Dance",
+                    "performers": "Anne Eckstein",
                     "score": 87,
                     "program_order": 96,
                     "scratched": false
@@ -2089,6 +2186,7 @@
                     "gem": "RUBY",
                     "title": "Who I Was",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sadie Vos",
                     "score": 87,
                     "program_order": 97,
                     "scratched": false
@@ -2099,6 +2197,7 @@
                     "gem": "RUBY",
                     "title": "Fade into You",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Sovannah Hack",
                     "score": 85.5,
                     "program_order": 98,
                     "scratched": false
@@ -2109,6 +2208,7 @@
                     "gem": "EMERALD",
                     "title": "Dream On",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Pressley Barber",
                     "score": 84.5,
                     "program_order": 99,
                     "scratched": false
@@ -2119,6 +2219,7 @@
                     "gem": "RUBY",
                     "title": "Amen",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Chloe Patzer",
                     "score": 86,
                     "program_order": 100,
                     "scratched": false
@@ -2129,6 +2230,7 @@
                     "gem": "RUBY",
                     "title": "Trauma",
                     "studio": "Dance Plus EP",
+                    "performers": "Dakota Kopeck",
                     "score": 86,
                     "program_order": 101,
                     "scratched": false
@@ -2139,6 +2241,7 @@
                     "gem": "RUBY",
                     "title": "July",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Lilly Pocha",
                     "score": 85,
                     "program_order": 102,
                     "scratched": false
@@ -2149,6 +2252,7 @@
                     "gem": "EMERALD",
                     "title": "Who We Are",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Keira Mahnke",
                     "score": 84.5,
                     "program_order": 103,
                     "scratched": false
@@ -2159,6 +2263,7 @@
                     "gem": "OUT",
                     "title": "The Grudge",
                     "studio": "Born2Dance",
+                    "performers": "Beau Ansell",
                     "score": null,
                     "program_order": 104,
                     "scratched": true
@@ -2197,6 +2302,7 @@
                     "gem": "RUBY",
                     "title": "Black Swan",
                     "studio": "Against the Grain Studios",
+                    "performers": "Temperance Wiebe",
                     "score": 86,
                     "program_order": 105,
                     "scratched": false
@@ -2207,6 +2313,7 @@
                     "gem": "RUBY",
                     "title": "Hometown Glory",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Sienna Walkeden",
                     "score": 85,
                     "program_order": 106,
                     "scratched": false
@@ -2239,6 +2346,7 @@
                     "gem": "EMERALD",
                     "title": "Set Me Free",
                     "studio": "White City Dancing School",
+                    "performers": "Kattianna Johnston-Kubiak",
                     "score": 82,
                     "program_order": 107,
                     "scratched": false
@@ -2289,6 +2397,7 @@
                     "gem": "EMERALD",
                     "title": "Great Big Adventure",
                     "studio": "Born2Dance",
+                    "performers": "Emily Mo\ufb00att",
                     "score": 84,
                     "program_order": 108,
                     "scratched": false
@@ -2299,6 +2408,7 @@
                     "gem": "RUBY",
                     "title": "I Got a 5 on it",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Emily Edwards",
                     "score": 86,
                     "program_order": 109,
                     "scratched": false
@@ -2309,6 +2419,7 @@
                     "gem": "RUBY",
                     "title": "The Man Who Can't Be Moved",
                     "studio": "Valley Dance",
+                    "performers": "Payton Lowe",
                     "score": 87,
                     "program_order": 110,
                     "scratched": false
@@ -2319,6 +2430,7 @@
                     "gem": "RUBY",
                     "title": "Silhouette",
                     "studio": "White City Dancing School",
+                    "performers": "Allegra Bencharski",
                     "score": 85,
                     "program_order": 111,
                     "scratched": false
@@ -2327,7 +2439,7 @@
         },
         {
             "category_id": 594096331,
-            "category_name": "NOVICE AGES 12-14 ACRO DUO\/TRIO",
+            "category_name": "NOVICE AGES 12-14 ACRO DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 2 \u2022 6:10 pm",
             "group_label": "",
@@ -2351,6 +2463,7 @@
                     "gem": "RUBY",
                     "title": "Vogue",
                     "studio": "Born2Dance",
+                    "performers": "Lily Gilroy, Ruby Gilroy",
                     "score": 85,
                     "program_order": 112,
                     "scratched": false
@@ -2359,7 +2472,7 @@
         },
         {
             "category_id": 624247022,
-            "category_name": "NOVICE AGES 15-17 LYRICAL DUO\/TRIO",
+            "category_name": "NOVICE AGES 15-17 LYRICAL DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 2 \u2022 6:10 pm",
             "group_label": "",
@@ -2401,6 +2514,7 @@
                     "gem": "RUBY",
                     "title": "Lift Me Up",
                     "studio": "Ogema Dance Club",
+                    "performers": "Gabrielle Bermudez, Zoe Meggison",
                     "score": 85,
                     "program_order": 113,
                     "scratched": false
@@ -2411,6 +2525,7 @@
                     "gem": "RUBY",
                     "title": "Can I Have This Dance",
                     "studio": "Born2Dance",
+                    "performers": "Isaiah Artavia, Zahara Francis Drake",
                     "score": 88,
                     "program_order": 114,
                     "scratched": false
@@ -2421,6 +2536,7 @@
                     "gem": "EMERALD",
                     "title": "Broken",
                     "studio": "Diva Dance",
+                    "performers": "Tennessee Kish, Emily Paliuk",
                     "score": 83,
                     "program_order": 115,
                     "scratched": false
@@ -2431,6 +2547,7 @@
                     "gem": "EMERALD",
                     "title": "Anatomy",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Jasmine Davison, Hannah Fahlman-Kavas",
                     "score": 84,
                     "program_order": 116,
                     "scratched": false
@@ -2439,7 +2556,7 @@
         },
         {
             "category_id": 294306247,
-            "category_name": "BEGINNER AGES 12-14 JAZZ DUO\/TRIO",
+            "category_name": "BEGINNER AGES 12-14 JAZZ DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 2 \u2022 6:10 pm",
             "group_label": "",
@@ -2481,6 +2598,7 @@
                     "gem": "EMERALD",
                     "title": "A Little Party",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Aven Carter, Denver Marshall",
                     "score": 82,
                     "program_order": 117,
                     "scratched": false
@@ -2491,6 +2609,7 @@
                     "gem": "EMERALD",
                     "title": "Emergency",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Laya Freitag, Mila Simpson",
                     "score": 80,
                     "program_order": 118,
                     "scratched": false
@@ -2501,6 +2620,7 @@
                     "gem": "EMERALD",
                     "title": "Really Don't Care",
                     "studio": "Pangman Dance Club",
+                    "performers": "Paige DeBruyne, Lyrik Roncin",
                     "score": 81,
                     "program_order": 119,
                     "scratched": false
@@ -2511,6 +2631,7 @@
                     "gem": "EMERALD",
                     "title": "That's My Girl",
                     "studio": "Dance Plus EP",
+                    "performers": "Zoey Paddington, Cali Shepherd",
                     "score": 80,
                     "program_order": 120,
                     "scratched": false
@@ -2519,7 +2640,7 @@
         },
         {
             "category_id": 217704175,
-            "category_name": "OPEN AGES 12-14 LYRICAL DUO\/TRIO",
+            "category_name": "OPEN AGES 12-14 LYRICAL DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 2 \u2022 6:10 pm",
             "group_label": "",
@@ -2543,6 +2664,7 @@
                     "gem": "EMERALD",
                     "title": "A Beautiful Noise",
                     "studio": "Dance Plus EP",
+                    "performers": "Isla Jackson, Allie Willette",
                     "score": 84,
                     "program_order": 121,
                     "scratched": false
@@ -2623,6 +2745,7 @@
                     "gem": "EMERALD",
                     "title": "The Heart of Life",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Sawyer Morley",
                     "score": 84,
                     "program_order": 122,
                     "scratched": false
@@ -2633,6 +2756,7 @@
                     "gem": "EMERALD",
                     "title": "Say Yes To Heaven",
                     "studio": "Diva Dance",
+                    "performers": "Chloee Draper",
                     "score": 83,
                     "program_order": 123,
                     "scratched": false
@@ -2643,6 +2767,7 @@
                     "gem": "RUBY",
                     "title": "Good Love Die",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sophia Selinger",
                     "score": 85,
                     "program_order": 124,
                     "scratched": false
@@ -2653,6 +2778,7 @@
                     "gem": "EMERALD",
                     "title": "Vienna",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Emme Brownlee",
                     "score": 81,
                     "program_order": 125,
                     "scratched": false
@@ -2663,6 +2789,7 @@
                     "gem": "RUBY",
                     "title": "Face My Fears",
                     "studio": "Dance Plus EP",
+                    "performers": "Alexandra Laczko",
                     "score": 86,
                     "program_order": 126,
                     "scratched": false
@@ -2673,6 +2800,7 @@
                     "gem": "EMERALD",
                     "title": "Wish That You Were Here",
                     "studio": "Estevan Recreational Dance Club",
+                    "performers": "Isla Tribiger",
                     "score": 82,
                     "program_order": 127,
                     "scratched": false
@@ -2683,6 +2811,7 @@
                     "gem": "EMERALD",
                     "title": "Smile",
                     "studio": "Against the Grain Studios",
+                    "performers": "Temperance Wiebe",
                     "score": 84,
                     "program_order": 128,
                     "scratched": false
@@ -2693,6 +2822,7 @@
                     "gem": "EMERALD",
                     "title": "A Drop in the Ocean",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Abigail Weger",
                     "score": 83,
                     "program_order": 129,
                     "scratched": false
@@ -2703,6 +2833,7 @@
                     "gem": "EMERALD",
                     "title": "My Hearts Grave",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Lydia Lolos",
                     "score": 81,
                     "program_order": 130,
                     "scratched": false
@@ -2711,7 +2842,7 @@
         },
         {
             "category_id": 859641316,
-            "category_name": "OPEN AGES 15-17 LYRICAL DUO\/TRIO",
+            "category_name": "OPEN AGES 15-17 LYRICAL DUO/TRIO",
             "day_label": "Wednesday March 11th, 2026",
             "session_label": "Session 2 \u2022 6:10 pm",
             "group_label": "",
@@ -2771,6 +2902,7 @@
                     "gem": "DIAMOND",
                     "title": "Slide",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Mira Bourassa, Kathy Huang",
                     "score": 90,
                     "program_order": 131,
                     "scratched": false
@@ -2781,6 +2913,7 @@
                     "gem": "RUBY",
                     "title": "Stay",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Brielle Kary, Sadie Vos",
                     "score": 86,
                     "program_order": 132,
                     "scratched": false
@@ -2791,6 +2924,7 @@
                     "gem": "RUBY",
                     "title": "When She Loved Me",
                     "studio": "Valley Dance",
+                    "performers": "Blake Hillier, Madilyn Mannix",
                     "score": 85,
                     "program_order": 133,
                     "scratched": false
@@ -2801,6 +2935,7 @@
                     "gem": "RUBY",
                     "title": "You're the One",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Sovannah Hack, Lilly Pocha",
                     "score": 87,
                     "program_order": 134,
                     "scratched": false
@@ -2811,6 +2946,7 @@
                     "gem": "RUBY",
                     "title": "Slipping Through My Fingers",
                     "studio": "Born2Dance",
+                    "performers": "Isobella Rogers, Lynessa Rogers",
                     "score": 86,
                     "program_order": 135,
                     "scratched": false
@@ -2821,6 +2957,7 @@
                     "gem": "EMERALD",
                     "title": "Youth",
                     "studio": "Reston Dance Club",
+                    "performers": "Natalie Cooper, Abby Green, Erica Mispelon",
                     "score": 84,
                     "program_order": 136,
                     "scratched": false
@@ -2831,6 +2968,7 @@
                     "gem": "RUBY",
                     "title": "Remedy",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kathy Huang, Jiaqi Li",
                     "score": 88,
                     "program_order": 137,
                     "scratched": false
@@ -2911,6 +3049,7 @@
                     "gem": "OUT",
                     "title": "I Am Not Who I Was",
                     "studio": "Valley Dance",
+                    "performers": "Isabelle Magel",
                     "score": null,
                     "program_order": 138,
                     "scratched": true
@@ -2921,6 +3060,7 @@
                     "gem": "EMERALD",
                     "title": "At Last",
                     "studio": "Diva Dance",
+                    "performers": "Chloe Rogers",
                     "score": 83,
                     "program_order": 139,
                     "scratched": false
@@ -2931,6 +3071,7 @@
                     "gem": "EMERALD",
                     "title": "One More Light",
                     "studio": "Estevan Recreational Dance Club",
+                    "performers": "Mykenna Driedger",
                     "score": 81,
                     "program_order": 140,
                     "scratched": false
@@ -2941,6 +3082,7 @@
                     "gem": "EMERALD",
                     "title": "Medicine",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kori Knelsen",
                     "score": 81,
                     "program_order": 141,
                     "scratched": false
@@ -2951,6 +3093,7 @@
                     "gem": "EMERALD",
                     "title": "Maybe",
                     "studio": "Valley Dance",
+                    "performers": "Sam Bear",
                     "score": 83,
                     "program_order": 142,
                     "scratched": false
@@ -2961,6 +3104,7 @@
                     "gem": "EMERALD",
                     "title": "Home",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Emily Powers",
                     "score": 82,
                     "program_order": 143,
                     "scratched": false
@@ -2971,6 +3115,7 @@
                     "gem": "RUBY",
                     "title": "If I Don't Live Forever",
                     "studio": "Born2Dance",
+                    "performers": "Brooklynn Myers",
                     "score": 85,
                     "program_order": 144,
                     "scratched": false
@@ -2981,6 +3126,7 @@
                     "gem": "EMERALD",
                     "title": "Call Your Mom",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Keira Mahnke",
                     "score": 82,
                     "program_order": 145,
                     "scratched": false
@@ -2991,6 +3137,7 @@
                     "gem": "EMERALD",
                     "title": "Hold Back The River",
                     "studio": "Diva Dance",
+                    "performers": "Addya Easton",
                     "score": 82,
                     "program_order": 146,
                     "scratched": false
@@ -3023,6 +3170,7 @@
                     "gem": "RUBY",
                     "title": "Broken",
                     "studio": "Dance Plus EP",
+                    "performers": "Allie Willette",
                     "score": 86,
                     "program_order": 147,
                     "scratched": false
@@ -3091,6 +3239,7 @@
                     "gem": "RUBY",
                     "title": "It Won't Be Like This for Long",
                     "studio": "Cupar Dance Club",
+                    "performers": "Sarah Bradley McNabb",
                     "score": 86,
                     "program_order": 148,
                     "scratched": false
@@ -3101,6 +3250,7 @@
                     "gem": "RUBY",
                     "title": "Song To The Siren",
                     "studio": "White City Dancing School",
+                    "performers": "Hailey Dales",
                     "score": 89,
                     "program_order": 149,
                     "scratched": false
@@ -3111,6 +3261,7 @@
                     "gem": "RUBY",
                     "title": "Miss You All The Time",
                     "studio": "Born2Dance",
+                    "performers": "Kaitlyn Winter",
                     "score": 87,
                     "program_order": 150,
                     "scratched": false
@@ -3121,6 +3272,7 @@
                     "gem": "OUT",
                     "title": "Purple Rain",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Katryna McKinney",
                     "score": null,
                     "program_order": 151,
                     "scratched": true
@@ -3131,6 +3283,7 @@
                     "gem": "RUBY",
                     "title": "What Do I Do Now",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Mira Bourassa",
                     "score": 87.5,
                     "program_order": 152,
                     "scratched": false
@@ -3141,6 +3294,7 @@
                     "gem": "RUBY",
                     "title": "Saturn",
                     "studio": "Dance Plus EP",
+                    "performers": "Carmen Thies",
                     "score": 87,
                     "program_order": 153,
                     "scratched": false
@@ -3151,6 +3305,7 @@
                     "gem": "EMERALD",
                     "title": "Time To Let A Good Thing Die",
                     "studio": "Born2Dance",
+                    "performers": "Brooke Fafard",
                     "score": 84,
                     "program_order": 154,
                     "scratched": false
@@ -3219,6 +3374,7 @@
                     "gem": "DIAMOND",
                     "title": "In The Kitchen",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kathy Huang",
                     "score": 90,
                     "program_order": 155,
                     "scratched": false
@@ -3229,6 +3385,7 @@
                     "gem": "RUBY",
                     "title": "Open Arms",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Maya Jordens",
                     "score": 87.5,
                     "program_order": 156,
                     "scratched": false
@@ -3239,6 +3396,7 @@
                     "gem": "RUBY",
                     "title": "We Hug Now",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Sovannah Hack",
                     "score": 86,
                     "program_order": 157,
                     "scratched": false
@@ -3249,6 +3407,7 @@
                     "gem": "RUBY",
                     "title": "Repeat until Death",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Lilly Pocha",
                     "score": 87,
                     "program_order": 158,
                     "scratched": false
@@ -3259,6 +3418,7 @@
                     "gem": "RUBY",
                     "title": "Jealous",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Jiaqi Li",
                     "score": 86.5,
                     "program_order": 159,
                     "scratched": false
@@ -3269,6 +3429,7 @@
                     "gem": "RUBY",
                     "title": "Girl I Am Now",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Izzy Edwards",
                     "score": 86.5,
                     "program_order": 160,
                     "scratched": false
@@ -3279,6 +3440,7 @@
                     "gem": "RUBY",
                     "title": "The Truth",
                     "studio": "Dance Plus EP",
+                    "performers": "Kenlyn Case",
                     "score": 86,
                     "program_order": 161,
                     "scratched": false
@@ -3329,6 +3491,7 @@
                     "gem": "RUBY",
                     "title": "Medicine",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Emily Edwards",
                     "score": 87.5,
                     "program_order": 162,
                     "scratched": false
@@ -3339,6 +3502,7 @@
                     "gem": "RUBY",
                     "title": "I won't",
                     "studio": "Against the Grain Studios",
+                    "performers": "Shaytawna Hesjedal",
                     "score": 86.5,
                     "program_order": 163,
                     "scratched": false
@@ -3349,6 +3513,7 @@
                     "gem": "RUBY",
                     "title": "I Had a Dream",
                     "studio": "Valley Dance",
+                    "performers": "Madilyn Mannix",
                     "score": 86,
                     "program_order": 164,
                     "scratched": false
@@ -3359,6 +3524,7 @@
                     "gem": "RUBY",
                     "title": "Teach You How To Love Me",
                     "studio": "White City Dancing School",
+                    "performers": "Jasmine Bencharski",
                     "score": 85,
                     "program_order": 165,
                     "scratched": false
@@ -3391,6 +3557,7 @@
                     "gem": "RUBY",
                     "title": "Exhale Inhale",
                     "studio": "White City Dancing School",
+                    "performers": "Hailey Dales",
                     "score": 88.5,
                     "program_order": 166,
                     "scratched": false
@@ -3447,6 +3614,7 @@
                     "gem": "RUBY",
                     "title": "You Make My Dreams",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Collins Mo\ufb00at",
                     "score": 85,
                     "program_order": 167,
                     "scratched": false
@@ -3457,6 +3625,7 @@
                     "gem": "EMERALD",
                     "title": "Sax",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Lydia Rey",
                     "score": 84,
                     "program_order": 168,
                     "scratched": false
@@ -3467,6 +3636,7 @@
                     "gem": "EMERALD",
                     "title": "Rockin' Robin",
                     "studio": "Valley Dance",
+                    "performers": "Keaton Popiuk",
                     "score": 82,
                     "program_order": 169,
                     "scratched": false
@@ -3477,6 +3647,7 @@
                     "gem": "EMERALD",
                     "title": "My Boy Lollipop",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Lainey Lenko",
                     "score": 80,
                     "program_order": 170,
                     "scratched": false
@@ -3487,6 +3658,7 @@
                     "gem": "EMERALD",
                     "title": "7 nation Army",
                     "studio": "Against the Grain Studios",
+                    "performers": "Alice Ferguson",
                     "score": 81,
                     "program_order": 171,
                     "scratched": false
@@ -3519,6 +3691,7 @@
                     "gem": "RUBY",
                     "title": "Chillin Like a Villain",
                     "studio": "Pangman Dance Club",
+                    "performers": "Blaire Metke",
                     "score": 85,
                     "program_order": 172,
                     "scratched": false
@@ -3599,6 +3772,7 @@
                     "gem": "EMERALD",
                     "title": "Viva La Vida",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Ella Brown",
                     "score": 83,
                     "program_order": 173,
                     "scratched": false
@@ -3609,6 +3783,7 @@
                     "gem": "EMERALD",
                     "title": "Sing",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Miya Pelzer",
                     "score": 82,
                     "program_order": 174,
                     "scratched": false
@@ -3619,6 +3794,7 @@
                     "gem": "EMERALD",
                     "title": "Rainy Night",
                     "studio": "Minton Dance Club",
+                    "performers": "Khloe Frischholz",
                     "score": 81,
                     "program_order": 175,
                     "scratched": false
@@ -3629,6 +3805,7 @@
                     "gem": "EMERALD",
                     "title": "Easy Like That",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Olyvia Baer",
                     "score": 80,
                     "program_order": 176,
                     "scratched": false
@@ -3639,6 +3816,7 @@
                     "gem": "EMERALD",
                     "title": "Good to Go",
                     "studio": "Diva Dance",
+                    "performers": "Ava Rithaler",
                     "score": 80,
                     "program_order": 177,
                     "scratched": false
@@ -3649,6 +3827,7 @@
                     "gem": "EMERALD",
                     "title": "Runaway Baby",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Adalyn Lutz",
                     "score": 81,
                     "program_order": 178,
                     "scratched": false
@@ -3659,6 +3838,7 @@
                     "gem": "EMERALD",
                     "title": "IBTWYPDB",
                     "studio": "Valley Dance",
+                    "performers": "Rebecca Paziuk",
                     "score": 82,
                     "program_order": 179,
                     "scratched": false
@@ -3669,6 +3849,7 @@
                     "gem": "EMERALD",
                     "title": "Na Na Na",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Willow Hagel",
                     "score": 82,
                     "program_order": 180,
                     "scratched": false
@@ -3679,6 +3860,7 @@
                     "gem": "EMERALD",
                     "title": "Best Served Cold",
                     "studio": "White City Dancing School",
+                    "performers": "Alice Willoughby",
                     "score": 80,
                     "program_order": 181,
                     "scratched": false
@@ -3759,6 +3941,7 @@
                     "gem": "RUBY",
                     "title": "How It's Done",
                     "studio": "Ogema Dance Club",
+                    "performers": "Ruby Thue",
                     "score": 85,
                     "program_order": 182,
                     "scratched": false
@@ -3769,6 +3952,7 @@
                     "gem": "EMERALD",
                     "title": "BlackPink Remix",
                     "studio": "Kaylee Ohnander  IND",
+                    "performers": "Kenna Boers",
                     "score": 84,
                     "program_order": 183,
                     "scratched": false
@@ -3779,6 +3963,7 @@
                     "gem": "RUBY",
                     "title": "SWAG",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Halle Barber",
                     "score": 87,
                     "program_order": 184,
                     "scratched": false
@@ -3789,6 +3974,7 @@
                     "gem": "EMERALD",
                     "title": "Watch Me",
                     "studio": "Ogema Dance Club",
+                    "performers": "Isla Deringer",
                     "score": 84,
                     "program_order": 185,
                     "scratched": false
@@ -3799,6 +3985,7 @@
                     "gem": "RUBY",
                     "title": "Power",
                     "studio": "Cupar Dance Club",
+                    "performers": "Emma Mitchell",
                     "score": 87.5,
                     "program_order": 186,
                     "scratched": false
@@ -3809,6 +3996,7 @@
                     "gem": "EMERALD",
                     "title": "Let's Get It",
                     "studio": "Valley Dance",
+                    "performers": "Kinya Wajuntah",
                     "score": 84.5,
                     "program_order": 187,
                     "scratched": false
@@ -3819,6 +4007,7 @@
                     "gem": "RUBY",
                     "title": "Gettin' Guetta",
                     "studio": "Artemis Dance",
+                    "performers": "Liv Trimble",
                     "score": 86,
                     "program_order": 188,
                     "scratched": false
@@ -3829,6 +4018,7 @@
                     "gem": "EMERALD",
                     "title": "Lights, Camera, Action",
                     "studio": "Valley Dance",
+                    "performers": "Mia Kinvig",
                     "score": 84.5,
                     "program_order": 189,
                     "scratched": false
@@ -3839,6 +4029,7 @@
                     "gem": "RUBY",
                     "title": "Move It",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Sam Hunter",
                     "score": 85,
                     "program_order": 190,
                     "scratched": false
@@ -3895,6 +4086,7 @@
                     "gem": "RUBY",
                     "title": "Candyman",
                     "studio": "Artemis Dance",
+                    "performers": "Layla Blerot",
                     "score": 87,
                     "program_order": 191,
                     "scratched": false
@@ -3905,6 +4097,7 @@
                     "gem": "RUBY",
                     "title": "Let's Get Loud",
                     "studio": "Artemis Dance",
+                    "performers": "Harper Demas",
                     "score": 85,
                     "program_order": 192,
                     "scratched": false
@@ -3915,6 +4108,7 @@
                     "gem": "EMERALD",
                     "title": "Can't Dance",
                     "studio": "Minton Dance Club",
+                    "performers": "Mesa McDonald",
                     "score": 82,
                     "program_order": 193,
                     "scratched": false
@@ -3925,6 +4119,7 @@
                     "gem": "EMERALD",
                     "title": "Dumb Things",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Harlow McGuire",
                     "score": 81,
                     "program_order": 194,
                     "scratched": false
@@ -3935,6 +4130,7 @@
                     "gem": "EMERALD",
                     "title": "Build Me Up Buttercup",
                     "studio": "Minton Dance Club",
+                    "performers": "Karina Throssell",
                     "score": 81,
                     "program_order": 195,
                     "scratched": false
@@ -4021,6 +4217,7 @@
                     "gem": "EMERALD",
                     "title": "Gangsta's Paradise",
                     "studio": "Artemis Dance",
+                    "performers": "Lucy Paradis",
                     "score": 84.5,
                     "program_order": 196,
                     "scratched": false
@@ -4031,6 +4228,7 @@
                     "gem": "EMERALD",
                     "title": "Space Jam",
                     "studio": "Artemis Dance",
+                    "performers": "Mya Ariss",
                     "score": 83,
                     "program_order": 197,
                     "scratched": false
@@ -4041,6 +4239,7 @@
                     "gem": "EMERALD",
                     "title": "Teach Me How to Dougie",
                     "studio": "Artemis Dance",
+                    "performers": "Myla Massy",
                     "score": 83.5,
                     "program_order": 198,
                     "scratched": false
@@ -4051,6 +4250,7 @@
                     "gem": "EMERALD",
                     "title": "It's Like That",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Allison Matichuk",
                     "score": 84,
                     "program_order": 199,
                     "scratched": false
@@ -4061,6 +4261,7 @@
                     "gem": "EMERALD",
                     "title": "Pitbull!",
                     "studio": "Artemis Dance",
+                    "performers": "Charleigh Fidierchuk",
                     "score": 84,
                     "program_order": 200,
                     "scratched": false
@@ -4071,6 +4272,7 @@
                     "gem": "RUBY",
                     "title": "Motion",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos",
                     "score": 85,
                     "program_order": 201,
                     "scratched": false
@@ -4081,6 +4283,7 @@
                     "gem": "EMERALD",
                     "title": "Low",
                     "studio": "Artemis Dance",
+                    "performers": "Brayleigh George",
                     "score": 84.5,
                     "program_order": 202,
                     "scratched": false
@@ -4091,6 +4294,7 @@
                     "gem": "RUBY",
                     "title": "Humble",
                     "studio": "Artemis Dance",
+                    "performers": "Penelope Henderson",
                     "score": 88,
                     "program_order": 203,
                     "scratched": false
@@ -4101,6 +4305,7 @@
                     "gem": "EMERALD",
                     "title": "Mister Scott",
                     "studio": "Artemis Dance",
+                    "performers": "Willow Franklin",
                     "score": 84.5,
                     "program_order": 204,
                     "scratched": false
@@ -4111,6 +4316,7 @@
                     "gem": "EMERALD",
                     "title": "Purple Hat",
                     "studio": "Artemis Dance",
+                    "performers": "Aleris Gavelin",
                     "score": 83.5,
                     "program_order": 205,
                     "scratched": false
@@ -4119,7 +4325,7 @@
         },
         {
             "category_id": 782881121,
-            "category_name": "BEGINNER AGES 9-11 TAP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 9-11 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 1 \u2022 9:00am",
             "group_label": "",
@@ -4155,6 +4361,7 @@
                     "gem": "EMERALD",
                     "title": "We Like To Party",
                     "studio": "Minton Dance Club",
+                    "performers": "Khloe Frischholz, Sierra McDonald, Eva Muxlow",
                     "score": 82,
                     "program_order": 206,
                     "scratched": false
@@ -4165,6 +4372,7 @@
                     "gem": "EMERALD",
                     "title": "Little Bitty Pretty One",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Ava Amy, Olivia Amy",
                     "score": 81,
                     "program_order": 207,
                     "scratched": false
@@ -4175,6 +4383,7 @@
                     "gem": "EMERALD",
                     "title": "Paper Rings",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Ella Caldwell, Gabriella Shangraw",
                     "score": 80,
                     "program_order": 208,
                     "scratched": false
@@ -4255,6 +4464,7 @@
                     "gem": "RUBY",
                     "title": "Queen B",
                     "studio": "Artemis Dance",
+                    "performers": "Layla Blerot",
                     "score": 86,
                     "program_order": 209,
                     "scratched": false
@@ -4265,6 +4475,7 @@
                     "gem": "RUBY",
                     "title": "Pure Water",
                     "studio": "Artemis Dance",
+                    "performers": "Andie Carriere",
                     "score": 88,
                     "program_order": 210,
                     "scratched": false
@@ -4275,6 +4486,7 @@
                     "gem": "EMERALD",
                     "title": "Boom Boom Pow",
                     "studio": "Christa Vermeulen  IND",
+                    "performers": "Liv Zadorozniak",
                     "score": 83.5,
                     "program_order": 211,
                     "scratched": false
@@ -4285,6 +4497,7 @@
                     "gem": "RUBY",
                     "title": "Bring it Back",
                     "studio": "Artemis Dance",
+                    "performers": "Tia Beck",
                     "score": 85,
                     "program_order": 212,
                     "scratched": false
@@ -4295,6 +4508,7 @@
                     "gem": "EMERALD",
                     "title": "Rock This Party",
                     "studio": "Estevan Recreational Dance Club",
+                    "performers": "Ashlyn Dixon",
                     "score": 84,
                     "program_order": 213,
                     "scratched": false
@@ -4305,6 +4519,7 @@
                     "gem": "RUBY",
                     "title": "Thrift Shop",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Kailey Hysuick",
                     "score": 86,
                     "program_order": 214,
                     "scratched": false
@@ -4315,6 +4530,7 @@
                     "gem": "RUBY",
                     "title": "Neva Play",
                     "studio": "Ogema Dance Club",
+                    "performers": "Merlina Novelles",
                     "score": 87,
                     "program_order": 215,
                     "scratched": false
@@ -4325,6 +4541,7 @@
                     "gem": "RUBY",
                     "title": "Can't Hold Us",
                     "studio": "Born2Dance",
+                    "performers": "Lexie Watson",
                     "score": 85.5,
                     "program_order": 216,
                     "scratched": false
@@ -4335,6 +4552,7 @@
                     "gem": "EMERALD",
                     "title": "Level Up!",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Olivia Tatarliov",
                     "score": 84,
                     "program_order": 217,
                     "scratched": false
@@ -4343,7 +4561,7 @@
         },
         {
             "category_id": 1555498849,
-            "category_name": "BEGINNER AGES 5 UNDER TAP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 5 UNDER TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 1 \u2022 9:00am",
             "group_label": "",
@@ -4367,6 +4585,7 @@
                     "gem": "EMERALD",
                     "title": "Supergirl",
                     "studio": "Minton Dance Club",
+                    "performers": "Maren Burgess, Nova St. Germain",
                     "score": 81,
                     "program_order": 218,
                     "scratched": false
@@ -4375,7 +4594,7 @@
         },
         {
             "category_id": 449163255,
-            "category_name": "BEGINNER AGES 6-8 TAP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 6-8 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 1 \u2022 9:00am",
             "group_label": "",
@@ -4405,6 +4624,7 @@
                     "gem": "EMERALD",
                     "title": "I Want Candy",
                     "studio": "Minton Dance Club",
+                    "performers": "Claire Muxlow, Liza Stosiuk",
                     "score": 80,
                     "program_order": 219,
                     "scratched": false
@@ -4415,6 +4635,7 @@
                     "gem": "EMERALD",
                     "title": "Boy from NY City",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Lainey Lenko, Fredrick Pederson",
                     "score": 80.5,
                     "program_order": 220,
                     "scratched": false
@@ -4423,7 +4644,7 @@
         },
         {
             "category_id": 2146462891,
-            "category_name": "NOVICE AGES 9-11 CONTEMPORARY DUO\/TRIO",
+            "category_name": "NOVICE AGES 9-11 CONTEMPORARY DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 1 \u2022 9:00am",
             "group_label": "",
@@ -4447,6 +4668,7 @@
                     "gem": "RUBY",
                     "title": "How Long, How Low",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos, Everly Kallias, Brynlee Kerr",
                     "score": 85,
                     "program_order": 221,
                     "scratched": false
@@ -4521,6 +4743,7 @@
                     "gem": "RUBY",
                     "title": "Play it Again",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Lexi Hillstead",
                     "score": 85,
                     "program_order": 222,
                     "scratched": false
@@ -4531,6 +4754,7 @@
                     "gem": "EMERALD",
                     "title": "JLO",
                     "studio": "Artemis Dance",
+                    "performers": "Adley Sens",
                     "score": 83.5,
                     "program_order": 223,
                     "scratched": false
@@ -4541,6 +4765,7 @@
                     "gem": "EMERALD",
                     "title": "Party People",
                     "studio": "Artemis Dance",
+                    "performers": "Brielle Jorgensen",
                     "score": 84,
                     "program_order": 224,
                     "scratched": false
@@ -4551,6 +4776,7 @@
                     "gem": "EMERALD",
                     "title": "Parade",
                     "studio": "Ogema Dance Club",
+                    "performers": "Katerina Brandt",
                     "score": 84,
                     "program_order": 225,
                     "scratched": false
@@ -4561,6 +4787,7 @@
                     "gem": "RUBY",
                     "title": "Don't Worry Bout It",
                     "studio": "Born2Dance",
+                    "performers": "Brooklyn Crocker",
                     "score": 86.5,
                     "program_order": 226,
                     "scratched": false
@@ -4571,6 +4798,7 @@
                     "gem": "RUBY",
                     "title": "OMG",
                     "studio": "Estevan Recreational Dance Club",
+                    "performers": "Lexus Zieglgansberger",
                     "score": 87,
                     "program_order": 227,
                     "scratched": false
@@ -4581,6 +4809,7 @@
                     "gem": "RUBY",
                     "title": "Glorilla Mashup",
                     "studio": "Artemis Dance",
+                    "performers": "Rylee Garnier",
                     "score": 87.5,
                     "program_order": 228,
                     "scratched": false
@@ -4591,6 +4820,7 @@
                     "gem": "RUBY",
                     "title": "Tate's Mix",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Birkley Stephen",
                     "score": 86.5,
                     "program_order": 229,
                     "scratched": false
@@ -4599,7 +4829,7 @@
         },
         {
             "category_id": 1903253835,
-            "category_name": "BEGINNER AGES 12-14 TAP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 12-14 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 1 \u2022 9:00am",
             "group_label": "",
@@ -4629,6 +4859,7 @@
                     "gem": "EMERALD",
                     "title": "Poker Face",
                     "studio": "Pangman Dance Club",
+                    "performers": "Paige DeBruyne, Lyrik Roncin",
                     "score": 80,
                     "program_order": 230,
                     "scratched": false
@@ -4639,6 +4870,7 @@
                     "gem": "OUT",
                     "title": "Bom Bom Bom",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Laya Freitag, Mila Simpson",
                     "score": null,
                     "program_order": 231,
                     "scratched": true
@@ -4713,6 +4945,7 @@
                     "gem": "RUBY",
                     "title": "Turn It Up",
                     "studio": "Ogema Dance Club",
+                    "performers": "Dailyn McCabe",
                     "score": 86,
                     "program_order": 232,
                     "scratched": false
@@ -4723,6 +4956,7 @@
                     "gem": "EMERALD",
                     "title": "Switch",
                     "studio": "Born2Dance",
+                    "performers": "Vivian Temrick",
                     "score": 84.5,
                     "program_order": 233,
                     "scratched": false
@@ -4733,6 +4967,7 @@
                     "gem": "RUBY",
                     "title": "Maneater",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sophie Dusyk",
                     "score": 86.5,
                     "program_order": 234,
                     "scratched": false
@@ -4743,6 +4978,7 @@
                     "gem": "RUBY",
                     "title": "Breakin' Dishes",
                     "studio": "Born2Dance",
+                    "performers": "Abbegayle Day",
                     "score": 88,
                     "program_order": 235,
                     "scratched": false
@@ -4753,6 +4989,7 @@
                     "gem": "RUBY",
                     "title": "Breakin Dishes",
                     "studio": "Artemis Dance",
+                    "performers": "Avery Wilson",
                     "score": 85,
                     "program_order": 236,
                     "scratched": false
@@ -4763,6 +5000,7 @@
                     "gem": "RUBY",
                     "title": "Lil Wayne Mix",
                     "studio": "Artemis Dance",
+                    "performers": "Kyler Kamp",
                     "score": 86,
                     "program_order": 237,
                     "scratched": false
@@ -4773,6 +5011,7 @@
                     "gem": "OUT",
                     "title": "Get Him Back",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Rylee Woloschuk",
                     "score": null,
                     "program_order": 238,
                     "scratched": true
@@ -4783,6 +5022,7 @@
                     "gem": "EMERALD",
                     "title": "Greedy Mix",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kori Knelsen",
                     "score": 83,
                     "program_order": 239,
                     "scratched": false
@@ -4851,6 +5091,7 @@
                     "gem": "EMERALD",
                     "title": "Mama's Broken Heart",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Calista Ikert",
                     "score": 82,
                     "program_order": 240,
                     "scratched": false
@@ -4861,6 +5102,7 @@
                     "gem": "DIAMOND",
                     "title": "Smell of Rebellion",
                     "studio": "Ogema Dance Club",
+                    "performers": "Joelee James",
                     "score": 90,
                     "program_order": 241,
                     "scratched": false
@@ -4871,6 +5113,7 @@
                     "gem": "EMERALD",
                     "title": "Man Up!",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Cara Johnson",
                     "score": 84,
                     "program_order": 242,
                     "scratched": false
@@ -4881,6 +5124,7 @@
                     "gem": "RUBY",
                     "title": "Cabaret",
                     "studio": "Artemis Dance",
+                    "performers": "Kali Chomyshen",
                     "score": 85,
                     "program_order": 243,
                     "scratched": false
@@ -4891,6 +5135,7 @@
                     "gem": "RUBY",
                     "title": "The Girl in 14-G",
                     "studio": "Ogema Dance Club",
+                    "performers": "Delaney Fitzpatrick",
                     "score": 88,
                     "program_order": 244,
                     "scratched": false
@@ -4901,6 +5146,7 @@
                     "gem": "EMERALD",
                     "title": "What Do I Do With My Arms",
                     "studio": "Born2Dance",
+                    "performers": "Kyla Hunter",
                     "score": 84,
                     "program_order": 245,
                     "scratched": false
@@ -4911,6 +5157,7 @@
                     "gem": "EMERALD",
                     "title": "All That Jazz",
                     "studio": "Full Out Dance Studio",
+                    "performers": "Faith Rennie",
                     "score": 82,
                     "program_order": 246,
                     "scratched": false
@@ -4985,6 +5232,7 @@
                     "gem": "EMERALD",
                     "title": "Sorry for Party Rockin'",
                     "studio": "Artemis Dance",
+                    "performers": "Kamdyn Graham",
                     "score": 83.5,
                     "program_order": 247,
                     "scratched": false
@@ -4995,6 +5243,7 @@
                     "gem": "RUBY",
                     "title": "Cali Vibes",
                     "studio": "Artemis Dance",
+                    "performers": "Zoey Friesen",
                     "score": 87.5,
                     "program_order": 248,
                     "scratched": false
@@ -5005,6 +5254,7 @@
                     "gem": "RUBY",
                     "title": "Bounce",
                     "studio": "Dance Plus EP",
+                    "performers": "Alyssa Fazakas",
                     "score": 87,
                     "program_order": 249,
                     "scratched": false
@@ -5015,6 +5265,7 @@
                     "gem": "DIAMOND",
                     "title": "Money",
                     "studio": "Artemis Dance",
+                    "performers": "Arianna Gilbertson",
                     "score": 90,
                     "program_order": 250,
                     "scratched": false
@@ -5025,6 +5276,7 @@
                     "gem": "RUBY",
                     "title": "No Chill 2.0",
                     "studio": "Artemis Dance",
+                    "performers": "Alli Urschel",
                     "score": 86,
                     "program_order": 251,
                     "scratched": false
@@ -5035,6 +5287,7 @@
                     "gem": "RUBY",
                     "title": "Roc Steady",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Ryann Fleck",
                     "score": 87,
                     "program_order": 252,
                     "scratched": false
@@ -5045,6 +5298,7 @@
                     "gem": "RUBY",
                     "title": "Disco Inferno",
                     "studio": "Artemis Dance",
+                    "performers": "Ericka Tinant",
                     "score": 87.5,
                     "program_order": 253,
                     "scratched": false
@@ -5055,6 +5309,7 @@
                     "gem": "EMERALD",
                     "title": "Kendrick Lamar Remix",
                     "studio": "Diva Dance",
+                    "performers": "Jaya Brehaut",
                     "score": 84,
                     "program_order": 254,
                     "scratched": false
@@ -5063,7 +5318,7 @@
         },
         {
             "category_id": 56216811,
-            "category_name": "BEGINNER AGES 6-8 HIP HOP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 6-8 HIP HOP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -5105,6 +5360,7 @@
                     "gem": "EMERALD",
                     "title": "Can't Touch This",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Nevaeh Woodland, Harper Woodland",
                     "score": 83,
                     "program_order": 255,
                     "scratched": false
@@ -5115,6 +5371,7 @@
                     "gem": "EMERALD",
                     "title": "Christmas Spirit",
                     "studio": "Born2Dance",
+                    "performers": "Selah Boisclair, Zaydee Kopp",
                     "score": 81,
                     "program_order": 256,
                     "scratched": false
@@ -5125,6 +5382,7 @@
                     "gem": "EMERALD",
                     "title": "What U Workin' With",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Lydia Rey, Hallie Rey",
                     "score": 82.5,
                     "program_order": 257,
                     "scratched": false
@@ -5135,6 +5393,7 @@
                     "gem": "EMERALD",
                     "title": "Gabby's World",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Oaklynn Brisebois-Slykhuis, Harper Woodland",
                     "score": 82,
                     "program_order": 258,
                     "scratched": false
@@ -5221,6 +5480,7 @@
                     "gem": "OUT",
                     "title": "Medicine",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Montana Stajniak",
                     "score": null,
                     "program_order": 259,
                     "scratched": true
@@ -5231,6 +5491,7 @@
                     "gem": "EMERALD",
                     "title": "Broken",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Ruby Stajniak",
                     "score": 83,
                     "program_order": 260,
                     "scratched": false
@@ -5241,6 +5502,7 @@
                     "gem": "RUBY",
                     "title": "Soldier",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Lexi Schneider",
                     "score": 87.5,
                     "program_order": 261,
                     "scratched": false
@@ -5251,6 +5513,7 @@
                     "gem": "EMERALD",
                     "title": "Lacy",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Camryn Fingas",
                     "score": 83.5,
                     "program_order": 262,
                     "scratched": false
@@ -5261,6 +5524,7 @@
                     "gem": "EMERALD",
                     "title": "Creep",
                     "studio": "Diva Dance",
+                    "performers": "Nora Rygh",
                     "score": 84.5,
                     "program_order": 263,
                     "scratched": false
@@ -5271,6 +5535,7 @@
                     "gem": "RUBY",
                     "title": "The Basement Dweller",
                     "studio": "Born2Dance",
+                    "performers": "Isobella Rogers",
                     "score": 86.5,
                     "program_order": 264,
                     "scratched": false
@@ -5281,6 +5546,7 @@
                     "gem": "EMERALD",
                     "title": "Lonely",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Allison Jacobi",
                     "score": 84,
                     "program_order": 265,
                     "scratched": false
@@ -5291,6 +5557,7 @@
                     "gem": "OUT",
                     "title": "I Found",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Paisley Brown",
                     "score": null,
                     "program_order": 266,
                     "scratched": true
@@ -5301,6 +5568,7 @@
                     "gem": "RUBY",
                     "title": "Hide and Seek",
                     "studio": "Dance Plus EP",
+                    "performers": "Isla Jackson",
                     "score": 86,
                     "program_order": 267,
                     "scratched": false
@@ -5311,6 +5579,7 @@
                     "gem": "EMERALD",
                     "title": "I Miss You, I'm Sorry",
                     "studio": "Born2Dance",
+                    "performers": "Emma McKenna",
                     "score": 84.5,
                     "program_order": 268,
                     "scratched": false
@@ -5319,7 +5588,7 @@
         },
         {
             "category_id": 1379041643,
-            "category_name": "BEGINNER AGES 9-11 HIP HOP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 9-11 HIP HOP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -5355,6 +5624,7 @@
                     "gem": "EMERALD",
                     "title": "Space Jam",
                     "studio": "Valley Dance",
+                    "performers": "Brynn Kutsak, Rebecca Paziuk",
                     "score": 83,
                     "program_order": 269,
                     "scratched": false
@@ -5365,6 +5635,7 @@
                     "gem": "RUBY",
                     "title": "Addams Family Monsters",
                     "studio": "Artemis Dance",
+                    "performers": "Briar Burton, Lennox McNeil",
                     "score": 86,
                     "program_order": 270,
                     "scratched": false
@@ -5375,6 +5646,7 @@
                     "gem": "EMERALD",
                     "title": "Bold",
                     "studio": "White City Dancing School",
+                    "performers": "Leigh-Lou Blackley, Jordaya Ingman",
                     "score": 82,
                     "program_order": 271,
                     "scratched": false
@@ -5383,7 +5655,7 @@
         },
         {
             "category_id": 2019543494,
-            "category_name": "BEGINNER AGES 12-14 HIP HOP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 12-14 HIP HOP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -5407,6 +5679,7 @@
                     "gem": "EMERALD",
                     "title": "Soulja Boy",
                     "studio": "Pangman Dance Club",
+                    "performers": "Paige DeBruyne, Lyrik Roncin",
                     "score": 82,
                     "program_order": 272,
                     "scratched": false
@@ -5487,6 +5760,7 @@
                     "gem": "RUBY",
                     "title": "Crowd Caffeine",
                     "studio": "White City Dancing School",
+                    "performers": "Malaya Watchman",
                     "score": 86,
                     "program_order": 273,
                     "scratched": false
@@ -5497,6 +5771,7 @@
                     "gem": "EMERALD",
                     "title": "Pale Blue Dot",
                     "studio": "Diva Dance",
+                    "performers": "Julia Miles",
                     "score": 84.5,
                     "program_order": 274,
                     "scratched": false
@@ -5507,6 +5782,7 @@
                     "gem": "RUBY",
                     "title": "Run",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Jasmine Davison",
                     "score": 86.5,
                     "program_order": 275,
                     "scratched": false
@@ -5517,6 +5793,7 @@
                     "gem": "RUBY",
                     "title": "Organs",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Cara Johnson",
                     "score": 85,
                     "program_order": 276,
                     "scratched": false
@@ -5527,6 +5804,7 @@
                     "gem": "RUBY",
                     "title": "Paralyzed",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kori Knelsen",
                     "score": 87,
                     "program_order": 277,
                     "scratched": false
@@ -5537,6 +5815,7 @@
                     "gem": "RUBY",
                     "title": "Time of Your Life",
                     "studio": "Artemis Dance",
+                    "performers": "Jayda Fowler",
                     "score": 85,
                     "program_order": 278,
                     "scratched": false
@@ -5547,6 +5826,7 @@
                     "gem": "RUBY",
                     "title": "Like a Queen",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Janelle Kirby",
                     "score": 87,
                     "program_order": 279,
                     "scratched": false
@@ -5557,6 +5837,7 @@
                     "gem": "RUBY",
                     "title": "Dinner",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Madison Sebree",
                     "score": 86.5,
                     "program_order": 280,
                     "scratched": false
@@ -5567,6 +5848,7 @@
                     "gem": "RUBY",
                     "title": "Man in the Mirror",
                     "studio": "Artemis Dance",
+                    "performers": "Sarah Brown",
                     "score": 87.5,
                     "program_order": 281,
                     "scratched": false
@@ -5605,6 +5887,7 @@
                     "gem": "EMERALD",
                     "title": "Lip Gloss",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Avery Kubashek",
                     "score": 84,
                     "program_order": 282,
                     "scratched": false
@@ -5615,6 +5898,7 @@
                     "gem": "EMERALD",
                     "title": "Boom Boom Pow",
                     "studio": "Diva Dance",
+                    "performers": "Delilah McCann",
                     "score": 83,
                     "program_order": 283,
                     "scratched": false
@@ -5695,6 +5979,7 @@
                     "gem": "RUBY",
                     "title": "Praying",
                     "studio": "Artemis Dance",
+                    "performers": "Arianna Gilbertson",
                     "score": 86,
                     "program_order": 284,
                     "scratched": false
@@ -5705,6 +5990,7 @@
                     "gem": "RUBY",
                     "title": "Ain't No Sunshine",
                     "studio": "Diva Dance",
+                    "performers": "Chloe Rogers",
                     "score": 85,
                     "program_order": 285,
                     "scratched": false
@@ -5715,6 +6001,7 @@
                     "gem": "EMERALD",
                     "title": "Angel of Small Death",
                     "studio": "Artemis Dance",
+                    "performers": "Kadie Cosgrove",
                     "score": 84,
                     "program_order": 286,
                     "scratched": false
@@ -5725,6 +6012,7 @@
                     "gem": "EMERALD",
                     "title": "Lost Myself",
                     "studio": "Artemis Dance",
+                    "performers": "Kamdyn Graham",
                     "score": 83,
                     "program_order": 287,
                     "scratched": false
@@ -5735,6 +6023,7 @@
                     "gem": "EMERALD",
                     "title": "Memories",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Emily Powers",
                     "score": 83.5,
                     "program_order": 288,
                     "scratched": false
@@ -5745,6 +6034,7 @@
                     "gem": "RUBY",
                     "title": "Rain Dance",
                     "studio": "Dance Plus EP",
+                    "performers": "Alyssa Fazakas",
                     "score": 87,
                     "program_order": 289,
                     "scratched": false
@@ -5755,6 +6045,7 @@
                     "gem": "OUT",
                     "title": "Sleep Deprivation",
                     "studio": "Valley Dance",
+                    "performers": "Isabelle Magel",
                     "score": null,
                     "program_order": 290,
                     "scratched": true
@@ -5765,6 +6056,7 @@
                     "gem": "RUBY",
                     "title": "When I Close my Eyes",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Emily Kessel",
                     "score": 85,
                     "program_order": 291,
                     "scratched": false
@@ -5775,6 +6067,7 @@
                     "gem": "RUBY",
                     "title": "Icarus",
                     "studio": "Born2Dance",
+                    "performers": "Isaiah Artavia",
                     "score": 86.5,
                     "program_order": 292,
                     "scratched": false
@@ -5855,6 +6148,7 @@
                     "gem": "EMERALD",
                     "title": "Keep it Undercover",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Olyvia Baer",
                     "score": 84,
                     "program_order": 293,
                     "scratched": false
@@ -5865,6 +6159,7 @@
                     "gem": "EMERALD",
                     "title": "Sassy Girl",
                     "studio": "Artemis Dance",
+                    "performers": "Londyn Franklin",
                     "score": 83,
                     "program_order": 294,
                     "scratched": false
@@ -5875,6 +6170,7 @@
                     "gem": "EMERALD",
                     "title": "Freaks",
                     "studio": "Artemis Dance",
+                    "performers": "Madison Birch",
                     "score": 82,
                     "program_order": 295,
                     "scratched": false
@@ -5885,6 +6181,7 @@
                     "gem": "EMERALD",
                     "title": "Tik Tik Boom",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Khaleesi Ippilito",
                     "score": 81,
                     "program_order": 296,
                     "scratched": false
@@ -5895,6 +6192,7 @@
                     "gem": "EMERALD",
                     "title": "Pon de Replay",
                     "studio": "Artemis Dance",
+                    "performers": "Alexis Bedecs",
                     "score": 81,
                     "program_order": 297,
                     "scratched": false
@@ -5905,6 +6203,7 @@
                     "gem": "EMERALD",
                     "title": "Party Like A Rockstar",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Grady McLeod",
                     "score": 80,
                     "program_order": 298,
                     "scratched": false
@@ -5915,6 +6214,7 @@
                     "gem": "EMERALD",
                     "title": "Bring Em Out",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Lennyn Holloway",
                     "score": 83,
                     "program_order": 299,
                     "scratched": false
@@ -5925,6 +6225,7 @@
                     "gem": "EMERALD",
                     "title": "Move!",
                     "studio": "Artemis Dance",
+                    "performers": "Nadia Dekeyser",
                     "score": 80,
                     "program_order": 300,
                     "scratched": false
@@ -5935,6 +6236,7 @@
                     "gem": "EMERALD",
                     "title": "G-Slide",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Nika Manko",
                     "score": 80,
                     "program_order": 301,
                     "scratched": false
@@ -5967,6 +6269,7 @@
                     "gem": "EMERALD",
                     "title": "Thin Plays String",
                     "studio": "White City Dancing School",
+                    "performers": "Kattianna Johnston-Kubiak",
                     "score": 84,
                     "program_order": 302,
                     "scratched": false
@@ -6047,6 +6350,7 @@
                     "gem": "RUBY",
                     "title": "Imma Be",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Adalyn Grey",
                     "score": 85.5,
                     "program_order": 303,
                     "scratched": false
@@ -6057,6 +6361,7 @@
                     "gem": "EMERALD",
                     "title": "Lip Gloss",
                     "studio": "Minton Dance Club",
+                    "performers": "Eva Muxlow",
                     "score": 83,
                     "program_order": 304,
                     "scratched": false
@@ -6067,6 +6372,7 @@
                     "gem": "EMERALD",
                     "title": "Bad Boys",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Xavier Cameron",
                     "score": 80,
                     "program_order": 305,
                     "scratched": false
@@ -6077,6 +6383,7 @@
                     "gem": "EMERALD",
                     "title": "That's my girl",
                     "studio": "Christa Vermeulen  IND",
+                    "performers": "Bella Delanoy",
                     "score": 80,
                     "program_order": 306,
                     "scratched": false
@@ -6087,6 +6394,7 @@
                     "gem": "EMERALD",
                     "title": "Soda Pop",
                     "studio": "Dance Plus EP",
+                    "performers": "Shlok Bhowmik",
                     "score": 80,
                     "program_order": 307,
                     "scratched": false
@@ -6097,6 +6405,7 @@
                     "gem": "EMERALD",
                     "title": "Slay",
                     "studio": "Dance Plus EP",
+                    "performers": "Anika Pletz",
                     "score": 84,
                     "program_order": 308,
                     "scratched": false
@@ -6107,6 +6416,7 @@
                     "gem": "EMERALD",
                     "title": "Rock That Body",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Aubrey Bueckart",
                     "score": 80,
                     "program_order": 309,
                     "scratched": false
@@ -6117,6 +6427,7 @@
                     "gem": "EMERALD",
                     "title": "All I Do Is",
                     "studio": "Born2Dance",
+                    "performers": "Mya Adamache",
                     "score": 80,
                     "program_order": 310,
                     "scratched": false
@@ -6127,6 +6438,7 @@
                     "gem": "RUBY",
                     "title": "Bossy",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Berkley Ripplinger",
                     "score": 85,
                     "program_order": 311,
                     "scratched": false
@@ -6135,7 +6447,7 @@
         },
         {
             "category_id": 1928610154,
-            "category_name": "NOVICE AGES 12-14 CONTEMPORARY DUO\/TRIO",
+            "category_name": "NOVICE AGES 12-14 CONTEMPORARY DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -6165,6 +6477,7 @@
                     "gem": "EMERALD",
                     "title": "Paralyzed",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Macie Amy, Izzy Kessler",
                     "score": 84,
                     "program_order": 312,
                     "scratched": false
@@ -6175,6 +6488,7 @@
                     "gem": "OUT",
                     "title": "Find Me",
                     "studio": "White City Dancing School",
+                    "performers": "Kiana Amyotte, McKenzie Geis, Grace Slinn",
                     "score": null,
                     "program_order": 313,
                     "scratched": true
@@ -6207,6 +6521,7 @@
                     "gem": "EMERALD",
                     "title": "BLACKPINK",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Esme Fafard",
                     "score": 82,
                     "program_order": 314,
                     "scratched": false
@@ -6239,6 +6554,7 @@
                     "gem": "EMERALD",
                     "title": "Move Yo Body",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Ally Seitz",
                     "score": 84,
                     "program_order": 315,
                     "scratched": false
@@ -6247,7 +6563,7 @@
         },
         {
             "category_id": 1073470025,
-            "category_name": "NOVICE AGES 15-17 CONTEMPORARY DUO\/TRIO",
+            "category_name": "NOVICE AGES 15-17 CONTEMPORARY DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -6289,6 +6605,7 @@
                     "gem": "RUBY",
                     "title": "Roslyn",
                     "studio": "Born2Dance",
+                    "performers": "Abbegayle Day, Oliver Reich",
                     "score": 87.5,
                     "program_order": 316,
                     "scratched": false
@@ -6299,6 +6616,7 @@
                     "gem": "RUBY",
                     "title": "Brother",
                     "studio": "Artemis Dance",
+                    "performers": "Arianna Gilbertson, Jaydee Henderson",
                     "score": 87,
                     "program_order": 317,
                     "scratched": false
@@ -6309,6 +6627,7 @@
                     "gem": "EMERALD",
                     "title": "Indigo",
                     "studio": "Full Out Dance Studio",
+                    "performers": "Ciara Sambrook, Presley Sjodin",
                     "score": 84,
                     "program_order": 318,
                     "scratched": false
@@ -6319,6 +6638,7 @@
                     "gem": "EMERALD",
                     "title": "All I Want",
                     "studio": "Artemis Dance",
+                    "performers": "Jayda Fowler, Kyler Kamp",
                     "score": 84,
                     "program_order": 319,
                     "scratched": false
@@ -6375,6 +6695,7 @@
                     "gem": "EMERALD",
                     "title": "Dancin'",
                     "studio": "Dance Plus EP",
+                    "performers": "Peyton Kres",
                     "score": 81,
                     "program_order": 320,
                     "scratched": false
@@ -6385,6 +6706,7 @@
                     "gem": "RUBY",
                     "title": "Perfect Day",
                     "studio": "White City Dancing School",
+                    "performers": "Adelyn Pretty",
                     "score": 85.5,
                     "program_order": 321,
                     "scratched": false
@@ -6395,6 +6717,7 @@
                     "gem": "EMERALD",
                     "title": "Something Kinda Oooh",
                     "studio": "Dance Plus EP",
+                    "performers": "Ava Schweitzer",
                     "score": 83,
                     "program_order": 322,
                     "scratched": false
@@ -6405,6 +6728,7 @@
                     "gem": "RUBY",
                     "title": "Me Too!",
                     "studio": "Artemis Dance",
+                    "performers": "Nadia Dekeyser",
                     "score": 85,
                     "program_order": 323,
                     "scratched": false
@@ -6415,6 +6739,7 @@
                     "gem": "SAPPHIRE",
                     "title": "Style",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Scarlett Koller",
                     "score": 78,
                     "program_order": 324,
                     "scratched": false
@@ -6423,7 +6748,7 @@
         },
         {
             "category_id": 985382165,
-            "category_name": "NOVICE AGES 9-11 HIP HOP DUO\/TRIO",
+            "category_name": "NOVICE AGES 9-11 HIP HOP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -6483,6 +6808,7 @@
                     "gem": "RUBY",
                     "title": "Holla At The DJ",
                     "studio": "Odessa Dance Club",
+                    "performers": "Ellie Wild, Braeya Wild",
                     "score": 85,
                     "program_order": 325,
                     "scratched": false
@@ -6493,6 +6819,7 @@
                     "gem": "RUBY",
                     "title": "It Takes Two",
                     "studio": "Valley Dance",
+                    "performers": "Autumn Hillier, Blake Hillier",
                     "score": 87,
                     "program_order": 326,
                     "scratched": false
@@ -6503,6 +6830,7 @@
                     "gem": "RUBY",
                     "title": "Game On",
                     "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski, Emma Mitchell, Tenli Orr",
                     "score": 86,
                     "program_order": 327,
                     "scratched": false
@@ -6513,6 +6841,7 @@
                     "gem": "EMERALD",
                     "title": "Supa Good",
                     "studio": "Ogema Dance Club",
+                    "performers": "Isla Deringer, Ruby Thue",
                     "score": 84,
                     "program_order": 328,
                     "scratched": false
@@ -6523,6 +6852,7 @@
                     "gem": "EMERALD",
                     "title": "Everybody Dance Now",
                     "studio": "Pangman Dance Club",
+                    "performers": "Presley Johnson, Kirby Kessler",
                     "score": 84,
                     "program_order": 329,
                     "scratched": false
@@ -6533,6 +6863,7 @@
                     "gem": "EMERALD",
                     "title": "90s Vibe",
                     "studio": "Artemis Dance",
+                    "performers": "Mya Ariss, Brandy Englot",
                     "score": 84,
                     "program_order": 330,
                     "scratched": false
@@ -6543,6 +6874,7 @@
                     "gem": "RUBY",
                     "title": "Tick Tick Dishes",
                     "studio": "Kaylee Ohnander  IND",
+                    "performers": "Danica Barker, Ella Stovin",
                     "score": 85,
                     "program_order": 331,
                     "scratched": false
@@ -6605,6 +6937,7 @@
                     "gem": "EMERALD",
                     "title": "Blow",
                     "studio": "Diva Dance",
+                    "performers": "Alexa Strand-White",
                     "score": 81,
                     "program_order": 332,
                     "scratched": false
@@ -6615,6 +6948,7 @@
                     "gem": "EMERALD",
                     "title": "Weird People",
                     "studio": "Artemis Dance",
+                    "performers": "Madison Birch",
                     "score": 82,
                     "program_order": 333,
                     "scratched": false
@@ -6625,6 +6959,7 @@
                     "gem": "EMERALD",
                     "title": "Madhouse",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Calliope Payne",
                     "score": 84,
                     "program_order": 334,
                     "scratched": false
@@ -6635,6 +6970,7 @@
                     "gem": "EMERALD",
                     "title": "Hey Ya!",
                     "studio": "Valley Dance",
+                    "performers": "Atlee Cappo",
                     "score": 81,
                     "program_order": 335,
                     "scratched": false
@@ -6645,6 +6981,7 @@
                     "gem": "EMERALD",
                     "title": "Black Magic",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Elliot Morley",
                     "score": 82,
                     "program_order": 336,
                     "scratched": false
@@ -6655,6 +6992,7 @@
                     "gem": "EMERALD",
                     "title": "Makes You Beautiful",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Piper McCoy",
                     "score": 83,
                     "program_order": 337,
                     "scratched": false
@@ -6663,7 +7001,7 @@
         },
         {
             "category_id": 941119718,
-            "category_name": "NOVICE AGES 15-17 HIP HOP DUO\/TRIO",
+            "category_name": "NOVICE AGES 15-17 HIP HOP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -6699,6 +7037,7 @@
                     "gem": "DIAMOND",
                     "title": "Switchin Lanes in Paris",
                     "studio": "Artemis Dance",
+                    "performers": "Hadley Garnier, Arianna Gilbertson, Jaydee Henderson",
                     "score": 91,
                     "program_order": 338,
                     "scratched": false
@@ -6709,6 +7048,7 @@
                     "gem": "RUBY",
                     "title": "Yeah",
                     "studio": "Ogema Dance Club",
+                    "performers": "McKenna Leonard, Dailyn McCabe",
                     "score": 85,
                     "program_order": 339,
                     "scratched": false
@@ -6719,6 +7059,7 @@
                     "gem": "RUBY",
                     "title": "Ain't My Fault",
                     "studio": "Estevan Recreational Dance Club",
+                    "performers": "Mykenna Driedger, Evie Lillico, Lexxus Paterson",
                     "score": 85,
                     "program_order": 340,
                     "scratched": false
@@ -6727,7 +7068,7 @@
         },
         {
             "category_id": 1611461850,
-            "category_name": "BEGINNER AGES 6-8 HIP HOP DUO\/TRIO",
+            "category_name": "BEGINNER AGES 6-8 HIP HOP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 2 \u2022 1:00 pm",
             "group_label": "",
@@ -6751,6 +7092,7 @@
                     "gem": "EMERALD",
                     "title": "I Can Do Better",
                     "studio": "Odessa Dance Club",
+                    "performers": "Bailyn Gaetz, Aidyn Wild",
                     "score": 81,
                     "program_order": 341,
                     "scratched": false
@@ -6789,6 +7131,7 @@
                     "gem": "EMERALD",
                     "title": "Rhythm & Shine",
                     "studio": "Reston Dance Club",
+                    "performers": "Gregory Rozhansky",
                     "score": 83,
                     "program_order": 342,
                     "scratched": false
@@ -6799,6 +7142,7 @@
                     "gem": "RUBY",
                     "title": "How It's Done",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Mia Vos",
                     "score": 87,
                     "program_order": 343,
                     "scratched": false
@@ -6855,6 +7199,7 @@
                     "gem": "EMERALD",
                     "title": "Queen Bee",
                     "studio": "Valley Dance",
+                    "performers": "Autumn Hillier",
                     "score": 83,
                     "program_order": 344,
                     "scratched": false
@@ -6865,6 +7210,7 @@
                     "gem": "RUBY",
                     "title": "Thumbs",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Adalyn Grey",
                     "score": 85.5,
                     "program_order": 345,
                     "scratched": false
@@ -6875,6 +7221,7 @@
                     "gem": "EMERALD",
                     "title": "A Different Beat",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Halle Barber",
                     "score": 84,
                     "program_order": 346,
                     "scratched": false
@@ -6885,6 +7232,7 @@
                     "gem": "RUBY",
                     "title": "Cha Cha Heels",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Berkley Ripplinger",
                     "score": 85,
                     "program_order": 347,
                     "scratched": false
@@ -6895,6 +7243,7 @@
                     "gem": "EMERALD",
                     "title": "Dance the Night",
                     "studio": "Valley Dance",
+                    "performers": "Kinya Wajuntah",
                     "score": 83,
                     "program_order": 348,
                     "scratched": false
@@ -6969,6 +7318,7 @@
                     "gem": "RUBY",
                     "title": "Painkiller",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Ella Dusyk",
                     "score": 86,
                     "program_order": 349,
                     "scratched": false
@@ -6979,6 +7329,7 @@
                     "gem": "RUBY",
                     "title": "From Now On",
                     "studio": "Dance Plus EP",
+                    "performers": "Jayla Hagen",
                     "score": 85,
                     "program_order": 350,
                     "scratched": false
@@ -6989,6 +7340,7 @@
                     "gem": "DIAMOND",
                     "title": "Polyphia",
                     "studio": "Born2Dance",
+                    "performers": "Oliver Reich",
                     "score": 90,
                     "program_order": 351,
                     "scratched": false
@@ -6999,6 +7351,7 @@
                     "gem": "DIAMOND",
                     "title": "That's Who I Praise",
                     "studio": "Dance Plus EP",
+                    "performers": "Kenlyn Case",
                     "score": 90.1,
                     "program_order": 352,
                     "scratched": false
@@ -7009,6 +7362,7 @@
                     "gem": "RUBY",
                     "title": "Tusk",
                     "studio": "Born2Dance",
+                    "performers": "Esme Breker",
                     "score": 88,
                     "program_order": 353,
                     "scratched": false
@@ -7019,6 +7373,7 @@
                     "gem": "RUBY",
                     "title": "Come on Over",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Jiaqi Li",
                     "score": 86,
                     "program_order": 354,
                     "scratched": false
@@ -7029,6 +7384,7 @@
                     "gem": "RUBY",
                     "title": "Addicted to Love",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sadie Vos",
                     "score": 86,
                     "program_order": 355,
                     "scratched": false
@@ -7039,6 +7395,7 @@
                     "gem": "RUBY",
                     "title": "Tres Wishes",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Bailey Roy",
                     "score": 85,
                     "program_order": 356,
                     "scratched": false
@@ -7113,6 +7470,7 @@
                     "gem": "RUBY",
                     "title": "Abracadabra",
                     "studio": "Artemis Dance",
+                    "performers": "Liv Trimble",
                     "score": 86.5,
                     "program_order": 357,
                     "scratched": false
@@ -7123,6 +7481,7 @@
                     "gem": "EMERALD",
                     "title": "Uh Huh",
                     "studio": "Dance Plus EP",
+                    "performers": "Kinlee Pletz",
                     "score": 84.5,
                     "program_order": 358,
                     "scratched": false
@@ -7133,6 +7492,7 @@
                     "gem": "RUBY",
                     "title": "Tribe",
                     "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski",
                     "score": 85,
                     "program_order": 359,
                     "scratched": false
@@ -7143,6 +7503,7 @@
                     "gem": "RUBY",
                     "title": "Gaga Mashup",
                     "studio": "Artemis Dance",
+                    "performers": "Brayleigh George",
                     "score": 85,
                     "program_order": 360,
                     "scratched": false
@@ -7153,6 +7514,7 @@
                     "gem": "EMERALD",
                     "title": "Problem",
                     "studio": "Artemis Dance",
+                    "performers": "Willow Franklin",
                     "score": 83,
                     "program_order": 361,
                     "scratched": false
@@ -7163,6 +7525,7 @@
                     "gem": "RUBY",
                     "title": "Fate of Ophelia",
                     "studio": "Valley Dance",
+                    "performers": "Blake Hillier",
                     "score": 86,
                     "program_order": 362,
                     "scratched": false
@@ -7173,6 +7536,7 @@
                     "gem": "EMERALD",
                     "title": "Tightrope",
                     "studio": "Dance Plus EP",
+                    "performers": "Mila Schulhauser",
                     "score": 84,
                     "program_order": 363,
                     "scratched": false
@@ -7183,6 +7547,7 @@
                     "gem": "EMERALD",
                     "title": "Just Dead Dance",
                     "studio": "Artemis Dance",
+                    "performers": "Harlow Gervais",
                     "score": 84.5,
                     "program_order": 364,
                     "scratched": false
@@ -7191,7 +7556,7 @@
         },
         {
             "category_id": 1755974390,
-            "category_name": "OPEN AGES 15-17 TAP DUO\/TRIO",
+            "category_name": "OPEN AGES 15-17 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 3 \u2022 6:00 pm",
             "group_label": "",
@@ -7233,6 +7598,7 @@
                     "gem": "DIAMOND",
                     "title": "Come On Eileen",
                     "studio": "Born2Dance",
+                    "performers": "Esme Breker, Oliver Reich",
                     "score": 91,
                     "program_order": 365,
                     "scratched": false
@@ -7243,6 +7609,7 @@
                     "gem": "RUBY",
                     "title": "Singing In The Rain",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sophie Dusyk, Ella Dusyk",
                     "score": 86,
                     "program_order": 366,
                     "scratched": false
@@ -7253,6 +7620,7 @@
                     "gem": "RUBY",
                     "title": "Feels This Good",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sadie Vos, Mia Vos",
                     "score": 89,
                     "program_order": 367,
                     "scratched": false
@@ -7263,6 +7631,7 @@
                     "gem": "RUBY",
                     "title": "Piano Man",
                     "studio": "Cupar Dance Club",
+                    "performers": "Sarah Bradley McNabb, Heidi Kirchhofer",
                     "score": 88,
                     "program_order": 368,
                     "scratched": false
@@ -7271,7 +7640,7 @@
         },
         {
             "category_id": 1776385478,
-            "category_name": "OPEN AGES 12-14 TAP DUO\/TRIO",
+            "category_name": "OPEN AGES 12-14 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 3 \u2022 6:00 pm",
             "group_label": "",
@@ -7295,6 +7664,7 @@
                     "gem": "RUBY",
                     "title": "On Our Way",
                     "studio": "Dance Plus EP",
+                    "performers": "Kenlyn Case, Kabri Case",
                     "score": 85,
                     "program_order": 369,
                     "scratched": false
@@ -7363,6 +7733,7 @@
                     "gem": "EMERALD",
                     "title": "Watch This",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Jaycee Li",
                     "score": 83,
                     "program_order": 370,
                     "scratched": false
@@ -7373,6 +7744,7 @@
                     "gem": "RUBY",
                     "title": "Boy You Can Keep It",
                     "studio": "Dance Plus EP",
+                    "performers": "Isla Jackson",
                     "score": 85,
                     "program_order": 371,
                     "scratched": false
@@ -7383,6 +7755,7 @@
                     "gem": "EMERALD",
                     "title": "Fierce",
                     "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Sophie Bartlett",
                     "score": 84,
                     "program_order": 372,
                     "scratched": false
@@ -7393,6 +7766,7 @@
                     "gem": "RUBY",
                     "title": "L-O-V-E",
                     "studio": "Diva Dance",
+                    "performers": "Nora Rygh",
                     "score": 87.5,
                     "program_order": 373,
                     "scratched": false
@@ -7403,6 +7777,7 @@
                     "gem": "RUBY",
                     "title": "New Dorp",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sydney Longley",
                     "score": 86.5,
                     "program_order": 374,
                     "scratched": false
@@ -7413,6 +7788,7 @@
                     "gem": "RUBY",
                     "title": "Marvellous",
                     "studio": "Ogema Dance Club",
+                    "performers": "Riese Longley",
                     "score": 85,
                     "program_order": 375,
                     "scratched": false
@@ -7423,6 +7799,7 @@
                     "gem": "RUBY",
                     "title": "Call Me",
                     "studio": "Against the Grain Studios",
+                    "performers": "Temperance Wiebe",
                     "score": 86,
                     "program_order": 376,
                     "scratched": false
@@ -7431,7 +7808,7 @@
         },
         {
             "category_id": 555065447,
-            "category_name": "OPEN AGES 18 OVER TAP DUO\/TRIO",
+            "category_name": "OPEN AGES 18 OVER TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 3 \u2022 6:00 pm",
             "group_label": "",
@@ -7455,6 +7832,7 @@
                     "gem": "DIAMOND",
                     "title": "Sleeping on the Blacktop",
                     "studio": "Diva Dance",
+                    "performers": "Chloe Rogers, Riley Rogers",
                     "score": 90,
                     "program_order": 377,
                     "scratched": false
@@ -7535,6 +7913,7 @@
                     "gem": "RUBY",
                     "title": "Together Again",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Sawyer Morley",
                     "score": 87,
                     "program_order": 378,
                     "scratched": false
@@ -7545,6 +7924,7 @@
                     "gem": "EMERALD",
                     "title": "Debut",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Eastyn Bonnell",
                     "score": 84,
                     "program_order": 379,
                     "scratched": false
@@ -7555,6 +7935,7 @@
                     "gem": "RUBY",
                     "title": "Bounce",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Lily Arnason",
                     "score": 86,
                     "program_order": 380,
                     "scratched": false
@@ -7565,6 +7946,7 @@
                     "gem": "RUBY",
                     "title": "Praise",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kassidy Huang",
                     "score": 85,
                     "program_order": 381,
                     "scratched": false
@@ -7575,6 +7957,7 @@
                     "gem": "EMERALD",
                     "title": "We R Who We R",
                     "studio": "Artemis Dance",
+                    "performers": "Andie Carriere",
                     "score": 83,
                     "program_order": 382,
                     "scratched": false
@@ -7585,6 +7968,7 @@
                     "gem": "RUBY",
                     "title": "James Bond",
                     "studio": "Estevan Recreational Dance Club",
+                    "performers": "Miley Biccum",
                     "score": 85.5,
                     "program_order": 383,
                     "scratched": false
@@ -7595,6 +7979,7 @@
                     "gem": "EMERALD",
                     "title": "Goodbye Good Riddance",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Raquel Shangraw",
                     "score": 83,
                     "program_order": 384,
                     "scratched": false
@@ -7605,6 +7990,7 @@
                     "gem": "RUBY",
                     "title": "Walking on Broken Glass",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Abigail Weger",
                     "score": 85.5,
                     "program_order": 385,
                     "scratched": false
@@ -7615,6 +8001,7 @@
                     "gem": "RUBY",
                     "title": "We're Bringing It Back",
                     "studio": "Dance Plus EP",
+                    "performers": "Kabri Case",
                     "score": 86.5,
                     "program_order": 386,
                     "scratched": false
@@ -7623,7 +8010,7 @@
         },
         {
             "category_id": 82097130,
-            "category_name": "NOVICE AGES 9-11 TAP DUO\/TRIO",
+            "category_name": "NOVICE AGES 9-11 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 3 \u2022 6:00 pm",
             "group_label": "",
@@ -7659,6 +8046,7 @@
                     "gem": "EMERALD",
                     "title": "These Boots",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Allison Matichuk, Kara Poelzer, Prezley Setrum",
                     "score": 84,
                     "program_order": 387,
                     "scratched": false
@@ -7669,6 +8057,7 @@
                     "gem": "RUBY",
                     "title": "Abracadabra",
                     "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski, Emma Mitchell, Tenli Orr",
                     "score": 85,
                     "program_order": 388,
                     "scratched": false
@@ -7679,6 +8068,7 @@
                     "gem": "EMERALD",
                     "title": "Gone, Gone, Gone",
                     "studio": "Pangman Dance Club",
+                    "performers": "Presley Johnson, Ava Johnson, Nora West",
                     "score": 82,
                     "program_order": 389,
                     "scratched": false
@@ -7729,6 +8119,7 @@
                     "gem": "RUBY",
                     "title": "Black Car",
                     "studio": "Artemis Dance",
+                    "performers": "Hadley Garnier",
                     "score": 86,
                     "program_order": 390,
                     "scratched": false
@@ -7739,6 +8130,7 @@
                     "gem": "RUBY",
                     "title": "FABULOUS",
                     "studio": "Diva Dance",
+                    "performers": "Natalie Hatzel",
                     "score": 85,
                     "program_order": 391,
                     "scratched": false
@@ -7749,6 +8141,7 @@
                     "gem": "RUBY",
                     "title": "Top Of The World",
                     "studio": "Dance Plus EP",
+                    "performers": "Alexandra Laczko",
                     "score": 86.5,
                     "program_order": 392,
                     "scratched": false
@@ -7759,6 +8152,7 @@
                     "gem": "EMERALD",
                     "title": "Big Boom",
                     "studio": "Ogema Dance Club",
+                    "performers": "Gabrielle Bermudez",
                     "score": 84,
                     "program_order": 393,
                     "scratched": false
@@ -7767,7 +8161,7 @@
         },
         {
             "category_id": 1019544868,
-            "category_name": "NOVICE AGES 12-14 TAP DUO\/TRIO",
+            "category_name": "NOVICE AGES 12-14 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 3 \u2022 6:00 pm",
             "group_label": "",
@@ -7803,6 +8197,7 @@
                     "gem": "EMERALD",
                     "title": "Vive Le Swing",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Jaycee Li, Victoria Roy",
                     "score": 84,
                     "program_order": 394,
                     "scratched": false
@@ -7813,6 +8208,7 @@
                     "gem": "EMERALD",
                     "title": "Supabeat",
                     "studio": "White City Dancing School",
+                    "performers": "Kiana Amyotte, McKenzie Geis, Grace Slinn",
                     "score": 82,
                     "program_order": 395,
                     "scratched": false
@@ -7823,6 +8219,7 @@
                     "gem": "EMERALD",
                     "title": "Dial Drunk",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Camryn Fingas, Allison Jacobi",
                     "score": 83,
                     "program_order": 396,
                     "scratched": false
@@ -7897,6 +8294,7 @@
                     "gem": "RUBY",
                     "title": "Maneater",
                     "studio": "Artemis Dance",
+                    "performers": "Kyler Kamp",
                     "score": 86.5,
                     "program_order": 397,
                     "scratched": false
@@ -7907,6 +8305,7 @@
                     "gem": "EMERALD",
                     "title": "Circus",
                     "studio": "Ogema Dance Club",
+                    "performers": "Quinn Tretheway",
                     "score": 83,
                     "program_order": 398,
                     "scratched": false
@@ -7917,6 +8316,7 @@
                     "gem": "RUBY",
                     "title": "La Seine",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Sophie Dusyk",
                     "score": 86,
                     "program_order": 399,
                     "scratched": false
@@ -7927,6 +8327,7 @@
                     "gem": "RUBY",
                     "title": "Escalate",
                     "studio": "Born2Dance",
+                    "performers": "Anne Eckstein",
                     "score": 88,
                     "program_order": 400,
                     "scratched": false
@@ -7937,6 +8338,7 @@
                     "gem": "RUBY",
                     "title": "Get Back",
                     "studio": "Born2Dance",
+                    "performers": "Lily Gilroy",
                     "score": 86.3,
                     "program_order": 401,
                     "scratched": false
@@ -7947,6 +8349,7 @@
                     "gem": "OUT",
                     "title": "Heels",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Keira Stuermer",
                     "score": null,
                     "program_order": 402,
                     "scratched": true
@@ -7957,6 +8360,7 @@
                     "gem": "RUBY",
                     "title": "Circus",
                     "studio": "Diva Dance",
+                    "performers": "Emily Paliuk",
                     "score": 86,
                     "program_order": 403,
                     "scratched": false
@@ -7967,6 +8371,7 @@
                     "gem": "EMERALD",
                     "title": "Not My Fault",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Journey Froese",
                     "score": 84,
                     "program_order": 404,
                     "scratched": false
@@ -7975,7 +8380,7 @@
         },
         {
             "category_id": 1586281255,
-            "category_name": "NOVICE AGES 15-17 TAP DUO\/TRIO",
+            "category_name": "NOVICE AGES 15-17 TAP DUO/TRIO",
             "day_label": "Thursday March 12th, 2026",
             "session_label": "Session 3 \u2022 6:00 pm",
             "group_label": "",
@@ -8011,6 +8416,7 @@
                     "gem": "EMERALD",
                     "title": "Don't Stop Me Now",
                     "studio": "Ogema Dance Club",
+                    "performers": "McKenna Leonard, Dailyn McCabe",
                     "score": 83,
                     "program_order": 405,
                     "scratched": false
@@ -8021,6 +8427,7 @@
                     "gem": "EMERALD",
                     "title": "Everlasting Love",
                     "studio": "Valley Dance",
+                    "performers": "Samantha Bear, Isabelle Magel, Ella Sandberg",
                     "score": 81,
                     "program_order": 406,
                     "scratched": false
@@ -8031,6 +8438,7 @@
                     "gem": "EMERALD",
                     "title": "Ballroom Blitz",
                     "studio": "Minton Dance Club",
+                    "performers": "Sarah Frischholz, Emilee Frischholz",
                     "score": 82,
                     "program_order": 407,
                     "scratched": false
@@ -8105,6 +8513,7 @@
                     "gem": "RUBY",
                     "title": "Fever",
                     "studio": "Artemis Dance",
+                    "performers": "Sarah Brown",
                     "score": 86,
                     "program_order": 408,
                     "scratched": false
@@ -8115,6 +8524,7 @@
                     "gem": "EMERALD",
                     "title": "Rumour Has It",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Kori Knelsen",
                     "score": 83,
                     "program_order": 409,
                     "scratched": false
@@ -8125,6 +8535,7 @@
                     "gem": "EMERALD",
                     "title": "Applause",
                     "studio": "Against the Grain Studios",
+                    "performers": "Mackenzie Ash-Aikman",
                     "score": 84,
                     "program_order": 410,
                     "scratched": false
@@ -8135,6 +8546,7 @@
                     "gem": "EMERALD",
                     "title": "Rumours",
                     "studio": "Marley's Dance Effex",
+                    "performers": "Brooklyn Williams",
                     "score": 82,
                     "program_order": 411,
                     "scratched": false
@@ -8145,6 +8557,7 @@
                     "gem": "RUBY",
                     "title": "Maniac",
                     "studio": "Artemis Dance",
+                    "performers": "Madison Cameron",
                     "score": 87,
                     "program_order": 412,
                     "scratched": false
@@ -8155,6 +8568,7 @@
                     "gem": "EMERALD",
                     "title": "Dem Beats",
                     "studio": "Diva Dance",
+                    "performers": "Heidi Paice",
                     "score": 83,
                     "program_order": 413,
                     "scratched": false
@@ -8165,6 +8579,7 @@
                     "gem": "EMERALD",
                     "title": "Emily Jazz",
                     "studio": "Vibank Dance Expressions",
+                    "performers": "Emily Powers",
                     "score": 81,
                     "program_order": 414,
                     "scratched": false
@@ -8175,6 +8590,7 @@
                     "gem": "RUBY",
                     "title": "Burlesque",
                     "studio": "Artemis Dance",
+                    "performers": "Jaydee Henderson",
                     "score": 86.5,
                     "program_order": 415,
                     "scratched": false
@@ -8249,6 +8665,7 @@
                     "gem": "DIAMOND",
                     "title": "Where Have You Been",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Addisyn Bonnell",
                     "score": 90,
                     "program_order": 416,
                     "scratched": false
@@ -8259,6 +8676,7 @@
                     "gem": "EMERALD",
                     "title": "Back to Black",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Madison Sebree",
                     "score": 84,
                     "program_order": 417,
                     "scratched": false
@@ -8269,6 +8687,7 @@
                     "gem": "RUBY",
                     "title": "Abracadabra",
                     "studio": "En Pointe Dance Studio",
+                    "performers": "Jasmine Davison",
                     "score": 85,
                     "program_order": 418,
                     "scratched": false
@@ -8279,6 +8698,7 @@
                     "gem": "EMERALD",
                     "title": "Cool For The Summer",
                     "studio": "Full Out Dance Studio",
+                    "performers": "Ciara Sambrook",
                     "score": 83.5,
                     "program_order": 419,
                     "scratched": false
@@ -8289,6 +8709,7 @@
                     "gem": "EMERALD",
                     "title": "Express",
                     "studio": "Artemis Dance Moosomin",
+                    "performers": "Calista Ikert",
                     "score": 82.5,
                     "program_order": 420,
                     "scratched": false
@@ -8299,6 +8720,7 @@
                     "gem": "EMERALD",
                     "title": "Bump",
                     "studio": "Diva Dance",
+                    "performers": "Addya Easton",
                     "score": 84,
                     "program_order": 421,
                     "scratched": false
@@ -8309,6 +8731,7 @@
                     "gem": "EMERALD",
                     "title": "Fever",
                     "studio": "Ogema Dance Club",
+                    "performers": "Dillyn Longley",
                     "score": 84,
                     "program_order": 422,
                     "scratched": false
@@ -8319,6 +8742,7 @@
                     "gem": "EMERALD",
                     "title": "Black Velvet",
                     "studio": "Balgonie Dance & Twirl",
+                    "performers": "Olivia Wilson",
                     "score": 84.5,
                     "program_order": 423,
                     "scratched": false
