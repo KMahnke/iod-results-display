@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance 2026",
-    "updated_at": "2026-03-13 21:56:33",
-    "publish_version": "2026-03-13T21:56:33+01:00",
+    "updated_at": "2026-03-13 23:26:21",
+    "publish_version": "2026-03-13T23:26:21+01:00",
     "boards": [
         {
             "id": "solo",
@@ -40,10 +40,12 @@
                         [
                             "242 - Smell of Rebellion",
                             "251 - Money",
-                            "418 - Where Have You Been"
+                            "418 - Where Have You Been",
+                            "537 - My Way"
                         ],
                         [
-                            "36 - Where Light Rises"
+                            "36 - Where Light Rises",
+                            "542 - Concrete Angel"
                         ],
                         [
                             "204 - Humble",
@@ -80,7 +82,8 @@
                             "290 - Rain Dance",
                             "379 - Together Again",
                             "414 - Maniac",
-                            "521 - Try"
+                            "521 - Try",
+                            "557 - Grand Pas Classique"
                         ]
                     ]
                 },

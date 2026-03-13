@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 21:56:33",
-    "publish_version": "2026-03-13T21:56:33+01:00",
+    "last_update": "2026-03-13 23:26:21",
+    "publish_version": "2026-03-13T23:26:21+01:00",
     "program_source": "program.json",
-    "published_count": 116,
+    "published_count": 121,
     "categories": [
         {
             "category_id": 607676400,
@@ -10936,6 +10936,460 @@
                     "performers": "Sadie Vos",
                     "score": 87,
                     "program_order": 535,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 39886510,
+            "category_name": "NOVICE AGES 15-17 LYRICAL SOLO GROUP A",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "GROUP A",
+            "publish_state": "published",
+            "program_sort": 536,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "537",
+                    "title": "My Way",
+                    "studio": "Born2Dance",
+                    "program_order": 536
+                },
+                {
+                    "entry": "538",
+                    "title": "What We Had",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 537
+                },
+                {
+                    "entry": "539",
+                    "title": "Beautiful Things",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 538
+                },
+                {
+                    "entry": "540",
+                    "title": "I Get To Love You",
+                    "studio": "Diva Dance",
+                    "program_order": 539
+                },
+                {
+                    "entry": "541",
+                    "title": "Call Your Mom",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 540
+                },
+                {
+                    "entry": "542",
+                    "title": "Concrete Angel",
+                    "studio": "Born2Dance",
+                    "program_order": 541
+                },
+                {
+                    "entry": "543",
+                    "title": "You're Somebody Else",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 542
+                },
+                {
+                    "entry": "544",
+                    "title": "Rescue",
+                    "studio": "Artemis Dance",
+                    "program_order": 543
+                },
+                {
+                    "entry": "545",
+                    "title": "Beautiful",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 544
+                }
+            ],
+            "results": [
+                {
+                    "entry": "537",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "My Way",
+                    "studio": "Born2Dance",
+                    "performers": "Anne Eckstein",
+                    "score": 90,
+                    "program_order": 536,
+                    "scratched": false
+                },
+                {
+                    "entry": "538",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "What We Had",
+                    "studio": "Estevan Recreational Dance Club",
+                    "performers": "Ava Mainprize",
+                    "score": 82,
+                    "program_order": 537,
+                    "scratched": false
+                },
+                {
+                    "entry": "539",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Beautiful Things",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Calista Ikert",
+                    "score": 82,
+                    "program_order": 538,
+                    "scratched": false
+                },
+                {
+                    "entry": "540",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "I Get To Love You",
+                    "studio": "Diva Dance",
+                    "performers": "Peyton Thomlinson",
+                    "score": 85,
+                    "program_order": 539,
+                    "scratched": false
+                },
+                {
+                    "entry": "541",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Call Your Mom",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "Presley Sjodin",
+                    "score": 84,
+                    "program_order": 540,
+                    "scratched": false
+                },
+                {
+                    "entry": "542",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Concrete Angel",
+                    "studio": "Born2Dance",
+                    "performers": "Zahara Francis Drake",
+                    "score": 89,
+                    "program_order": 541,
+                    "scratched": false
+                },
+                {
+                    "entry": "543",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "You're Somebody Else",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Delaney Fitzpatrick",
+                    "score": 84,
+                    "program_order": 542,
+                    "scratched": false
+                },
+                {
+                    "entry": "544",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Rescue",
+                    "studio": "Artemis Dance",
+                    "performers": "Avery Wilson",
+                    "score": 82,
+                    "program_order": 543,
+                    "scratched": false
+                },
+                {
+                    "entry": "545",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Beautiful",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Jola Ho\ufb00",
+                    "score": 85,
+                    "program_order": 544,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1141692301,
+            "category_name": "OPEN AGES 18 & OVER JAZZ SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 545,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "546",
+                    "title": "Maneater",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 545
+                },
+                {
+                    "entry": "547",
+                    "title": "Me Against The Music",
+                    "studio": "White City Dancing School",
+                    "program_order": 546
+                }
+            ],
+            "results": [
+                {
+                    "entry": "546",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Maneater",
+                    "studio": "Against the Grain Studios",
+                    "performers": "Shaytawna Hesjedal",
+                    "score": 85,
+                    "program_order": 545,
+                    "scratched": false
+                },
+                {
+                    "entry": "547",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Me Against The Music",
+                    "studio": "White City Dancing School",
+                    "performers": "Jasmine Bencharski",
+                    "score": 84,
+                    "program_order": 546,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 645453205,
+            "category_name": "NOVICE AGES 15-17 LYRICAL SOLO GROUP B",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "GROUP B",
+            "publish_state": "published",
+            "program_sort": 547,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "548",
+                    "title": "Snow Angel",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 547
+                },
+                {
+                    "entry": "549",
+                    "title": "Help",
+                    "studio": "White City Dancing School",
+                    "program_order": 548
+                },
+                {
+                    "entry": "550",
+                    "title": "War Paint",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 549
+                },
+                {
+                    "entry": "551",
+                    "title": "Running",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 550
+                },
+                {
+                    "entry": "552",
+                    "title": "You Stole the Show",
+                    "studio": "Artemis Dance",
+                    "program_order": 551
+                },
+                {
+                    "entry": "553",
+                    "title": "Eternity",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 552
+                },
+                {
+                    "entry": "554",
+                    "title": "The 30th",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 553
+                },
+                {
+                    "entry": "555",
+                    "title": "Chasing Cars",
+                    "studio": "Diva Dance",
+                    "program_order": 554
+                },
+                {
+                    "entry": "556",
+                    "title": "Nobody Knows",
+                    "studio": "Born2Dance",
+                    "program_order": 555
+                }
+            ],
+            "results": [
+                {
+                    "entry": "548",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Snow Angel",
+                    "studio": "Estevan Recreational Dance Club",
+                    "performers": "Lexxus Paterson",
+                    "score": 83,
+                    "program_order": 547,
+                    "scratched": false
+                },
+                {
+                    "entry": "549",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Help",
+                    "studio": "White City Dancing School",
+                    "performers": "Malaya Watchman",
+                    "score": 85,
+                    "program_order": 548,
+                    "scratched": false
+                },
+                {
+                    "entry": "550",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "War Paint",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Jordyn Fellner",
+                    "score": 82,
+                    "program_order": 549,
+                    "scratched": false
+                },
+                {
+                    "entry": "551",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Running",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Brooklyn Williams",
+                    "score": 83,
+                    "program_order": 550,
+                    "scratched": false
+                },
+                {
+                    "entry": "552",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "You Stole the Show",
+                    "studio": "Artemis Dance",
+                    "performers": "Ericka Tinant",
+                    "score": 86,
+                    "program_order": 551,
+                    "scratched": false
+                },
+                {
+                    "entry": "553",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Eternity",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Joelee James",
+                    "score": 85.5,
+                    "program_order": 552,
+                    "scratched": false
+                },
+                {
+                    "entry": "554",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "The 30th",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Quinn Tretheway",
+                    "score": 83,
+                    "program_order": 553,
+                    "scratched": false
+                },
+                {
+                    "entry": "555",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Chasing Cars",
+                    "studio": "Diva Dance",
+                    "performers": "Emily Paliuk",
+                    "score": 83,
+                    "program_order": 554,
+                    "scratched": false
+                },
+                {
+                    "entry": "556",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Nobody Knows",
+                    "studio": "Born2Dance",
+                    "performers": "Vivian Temrick",
+                    "score": 82,
+                    "program_order": 555,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1200218952,
+            "category_name": "NOVICE AGES 12-14 POINTE SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 556,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "557",
+                    "title": "Grand Pas Classique",
+                    "studio": "Born2Dance",
+                    "program_order": 556
+                }
+            ],
+            "results": [
+                {
+                    "entry": "557",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Grand Pas Classique",
+                    "studio": "Born2Dance",
+                    "performers": "Isobella Rogers",
+                    "score": 87,
+                    "program_order": 556,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1090231321,
+            "category_name": "NOVICE AGES 15-17 POINTE SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 557,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "558",
+                    "title": "Reverie",
+                    "studio": "White City Dancing School",
+                    "program_order": 557
+                }
+            ],
+            "results": [
+                {
+                    "entry": "558",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Reverie",
+                    "studio": "White City Dancing School",
+                    "performers": "Katie Geis",
+                    "score": 85,
+                    "program_order": 557,
                     "scratched": false
                 }
             ]
