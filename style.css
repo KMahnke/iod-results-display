@@ -117,9 +117,14 @@ body {
   opacity: 0.55;
 }
 
+.day-btn {
+  min-width: 40px;
+}
+
 .icon-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
 }
 
