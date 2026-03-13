@@ -36,7 +36,7 @@ body.leaderboard-page {
 
 .leaderboard-page .site-header {
   display: grid;
-  grid-template-columns: minmax(140px, 18vw) 1fr minmax(140px, 18vw);
+  grid-template-columns: minmax(180px, 18vw) 1fr minmax(180px, 22vw);
   align-items: center;
   gap: 18px;
 }
@@ -57,7 +57,7 @@ body.leaderboard-page {
 
 .leaderboard-page .header-brand img,
 .leaderboard-page .header-sponsor img {
-  height: clamp(48px, 5vw, 72px);
+  height: clamp(48px, 4.2vw, 72px);
   max-width: 100%;
   width: auto;
   object-fit: contain;
@@ -78,13 +78,13 @@ body.leaderboard-page {
 
 .leaderboard-page .updated {
   margin-top: 6px;
-  font-size: clamp(0.95rem, 1.1vw, 1.25rem);
+  font-size: clamp(0.95rem, 1.05vw, 1.2rem);
   opacity: 0.96;
 }
 
 .leaderboard-page .top-bar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   gap: 12px;
   background: var(--panel-dark);
@@ -99,7 +99,8 @@ body.leaderboard-page {
   flex-wrap: wrap;
 }
 
-.leaderboard-page .tab-btn {
+.leaderboard-page .tab-btn,
+.leaderboard-page .back-btn {
   border: none;
   padding: 10px 16px;
   border-radius: 12px;
@@ -109,6 +110,7 @@ body.leaderboard-page {
   font-size: clamp(1rem, 1vw, 1.15rem);
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .leaderboard-page .tab-btn.active {
@@ -225,6 +227,7 @@ body.leaderboard-page {
 
   .leaderboard-page .top-bar {
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .leaderboard-page .tab-row {

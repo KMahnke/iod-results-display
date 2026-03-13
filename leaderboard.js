@@ -24,7 +24,9 @@ function initTabs() {
 
 async function loadLeaders() {
   try {
-    const response = await fetch(`${LEADERS_FILE}?t=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`${LEADERS_FILE}?t=${Date.now()}`, {
+      cache: "no-store"
+    });
 
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
@@ -40,6 +42,7 @@ async function loadLeaders() {
     const lastUpdate = document.getElementById("lastUpdate");
     const publishVersion = document.getElementById("publishVersion");
     const divisionTitle = document.getElementById("divisionTitle");
+    const sponsorLogo = document.getElementById("sponsorLogo");
 
     if (lastUpdate) {
       lastUpdate.textContent = "Last Update: unable to load leaderboard data";
@@ -53,13 +56,26 @@ async function loadLeaders() {
       divisionTitle.textContent = "Leaderboard";
     }
 
+    if (sponsorLogo) {
+      sponsorLogo.hidden = true;
+      sponsorLogo.removeAttribute("src");
+    }
+
     renderEmptyCards();
   }
 }
 
 function updateHeader() {
+  const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
   const publishVersion = document.getElementById("publishVersion");
+
+  if (eventTitle) {
+    eventTitle.textContent = firstNonEmpty(
+      leadersData?.event_title,
+      "Inspirations of Dance 2026"
+    );
+  }
 
   if (lastUpdate) {
     const updated = firstNonEmpty(
@@ -67,23 +83,26 @@ function updateHeader() {
       leadersData?.updated,
       leadersData?.last_update
     );
-
     lastUpdate.textContent = updated ? `Last Update: ${updated}` : "Last Update:";
   }
 
   if (publishVersion) {
     const version = firstNonEmpty(leadersData?.publish_version);
-    publishVersion.textContent = version ? `Publish Version: ${version}` : "";
+    publishVersion.textContent = version ? `Publish version: ${version}` : "";
   }
 }
 
 function renderDivision() {
   const divisionTitle = document.getElementById("divisionTitle");
+  const board = getBoard(currentDivision);
+
   if (divisionTitle) {
-    divisionTitle.textContent = getDivisionLabel(currentDivision);
+    divisionTitle.textContent = board?.title
+      ? `${board.title} Leaderboard`
+      : "Leaderboard";
   }
 
-  const board = getBoard(currentDivision);
+  updateSponsorLogo(board);
 
   if (!board) {
     renderEmptyCards();
@@ -117,6 +136,41 @@ function getDivisionPlaces(board, divisionName) {
   }
 
   return division.places;
+}
+
+function updateSponsorLogo(board) {
+  const sponsorLogo = document.getElementById("sponsorLogo");
+  if (!sponsorLogo) {
+    return;
+  }
+
+  const sponsorValue = firstNonEmpty(board?.sponsor_logo);
+
+  if (!sponsorValue) {
+    sponsorLogo.hidden = true;
+    sponsorLogo.removeAttribute("src");
+    return;
+  }
+
+  sponsorLogo.src = resolveSponsorPath(sponsorValue);
+  sponsorLogo.alt = `${board?.title || "Board"} sponsor logo`;
+  sponsorLogo.hidden = false;
+}
+
+function resolveSponsorPath(value) {
+  const trimmed = String(value || "").trim();
+
+  if (
+    trimmed.startsWith("img/") ||
+    trimmed.startsWith("./img/") ||
+    trimmed.startsWith("http://") ||
+    trimmed.startsWith("https://") ||
+    trimmed.startsWith("/")
+  ) {
+    return trimmed;
+  }
+
+  return `img/${trimmed}`;
 }
 
 function renderLevelCard(cardId, levelTitle, places) {
@@ -161,19 +215,6 @@ function renderEmptyCards() {
   renderLevelCard("beginnerCard", "Beginner", []);
   renderLevelCard("noviceCard", "Novice", []);
   renderLevelCard("openCard", "Open", []);
-}
-
-function getDivisionLabel(division) {
-  switch (division) {
-    case "solo":
-      return "Solo Leaderboard";
-    case "duotrio":
-      return "Duo/Trio Leaderboard";
-    case "groups":
-      return "Group Leaderboard";
-    default:
-      return "Leaderboard";
-  }
 }
 
 function ordinal(n) {
