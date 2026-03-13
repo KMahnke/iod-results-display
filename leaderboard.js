@@ -16,7 +16,6 @@ function initTabs() {
     btn.addEventListener("click", () => {
       tabs.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
-
       currentDivision = btn.dataset.division || "solo";
       renderDivision();
     });
@@ -25,23 +24,25 @@ function initTabs() {
 
 async function loadLeaders() {
   try {
-    const res = await fetch(`${LEADERS_FILE}?t=${Date.now()}`);
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`);
+    const response = await fetch(`${LEADERS_FILE}?t=${Date.now()}`, { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
     }
 
-    leadersData = await res.json();
+    leadersData = await response.json();
+
     updateHeader();
     renderDivision();
-  } catch (err) {
-    console.error("Failed to load leaders.json:", err);
+  } catch (error) {
+    console.error("Failed to load leaders.json:", error);
 
     const lastUpdate = document.getElementById("lastUpdate");
     const publishVersion = document.getElementById("publishVersion");
     const divisionTitle = document.getElementById("divisionTitle");
 
     if (lastUpdate) {
-      lastUpdate.textContent = "Last updated: unable to load leaderboard data";
+      lastUpdate.textContent = "Last Update: unable to load leaderboard data";
     }
 
     if (publishVersion) {
@@ -61,18 +62,18 @@ function updateHeader() {
   const publishVersion = document.getElementById("publishVersion");
 
   if (lastUpdate) {
-    const updated =
-      firstNonEmpty(
-        leadersData?.updated_at,
-        leadersData?.updated,
-        leadersData?.last_update
-      ) || "";
-    lastUpdate.textContent = updated ? `Last updated: ${updated}` : "Last updated:";
+    const updated = firstNonEmpty(
+      leadersData?.updated_at,
+      leadersData?.updated,
+      leadersData?.last_update
+    );
+
+    lastUpdate.textContent = updated ? `Last Update: ${updated}` : "Last Update:";
   }
 
   if (publishVersion) {
-    const version = firstNonEmpty(leadersData?.publish_version) || "";
-    publishVersion.textContent = version ? `Publish version: ${version}` : "Publish version:";
+    const version = firstNonEmpty(leadersData?.publish_version);
+    publishVersion.textContent = version ? `Publish Version: ${version}` : "";
   }
 }
 
@@ -107,12 +108,15 @@ function getDivisionPlaces(board, divisionName) {
     return [];
   }
 
-  const division =
-    board.divisions.find(
-      (item) => normalizeText(item?.name) === normalizeText(divisionName)
-    ) || null;
+  const division = board.divisions.find(
+    (item) => normalizeText(item?.name) === normalizeText(divisionName)
+  );
 
-  return Array.isArray(division?.places) ? division.places : [];
+  if (!division || !Array.isArray(division.places)) {
+    return [];
+  }
+
+  return division.places;
 }
 
 function renderLevelCard(cardId, levelTitle, places) {
@@ -123,9 +127,8 @@ function renderLevelCard(cardId, levelTitle, places) {
 
   let html = `<h3>${escapeHtml(levelTitle)}</h3>`;
 
-  for (let i = 0; i < 5; i += 1) {
-    const placeNumber = i + 1;
-    const items = Array.isArray(places[i]) ? places[i] : [];
+  for (let placeNumber = 1; placeNumber <= 5; placeNumber += 1) {
+    const items = Array.isArray(places[placeNumber - 1]) ? places[placeNumber - 1] : [];
     html += renderPlaceRow(placeNumber, items);
   }
 
@@ -163,11 +166,11 @@ function renderEmptyCards() {
 function getDivisionLabel(division) {
   switch (division) {
     case "solo":
-      return "Solo";
+      return "Solo Leaderboard";
     case "duotrio":
-      return "Duo/Trio";
+      return "Duo/Trio Leaderboard";
     case "groups":
-      return "Group";
+      return "Group Leaderboard";
     default:
       return "Leaderboard";
   }
