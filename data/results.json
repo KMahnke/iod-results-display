@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-14 00:24:35",
-    "publish_version": "2026-03-14T00:24:35+01:00",
+    "last_update": "2026-03-14 00:54:20",
+    "publish_version": "2026-03-14T00:54:20+01:00",
     "program_source": "program.json",
-    "published_count": 136,
+    "published_count": 143,
     "categories": [
         {
             "category_id": 607676400,
@@ -11730,6 +11730,39 @@
             ]
         },
         {
+            "category_id": 50645056,
+            "category_name": "OPEN AGES 15-17 ACRO DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 574,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "575",
+                    "title": "Great Balls of Fire",
+                    "studio": "Born2Dance",
+                    "program_order": 574
+                }
+            ],
+            "results": [
+                {
+                    "entry": "575",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Great Balls of Fire",
+                    "studio": "Born2Dance",
+                    "performers": "Addison Kobylansky, Kaitlyn Winter",
+                    "score": 83,
+                    "program_order": 574,
+                    "scratched": false
+                }
+            ]
+        },
+        {
             "category_id": 670006982,
             "category_name": "OPEN AGES 18 & OVER HIP HOP SOLO",
             "day_label": "Friday March 13th, 2026",
@@ -12378,6 +12411,323 @@
                     "performers": "Isaiah Artavia, Lynessa Rogers",
                     "score": 90.5,
                     "program_order": 603,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 569392981,
+            "category_name": "OPEN AGES 18 & OVER LYRICAL DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 604,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 26,
+            "entries": [
+                {
+                    "entry": "605",
+                    "title": "Look After you",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 604
+                },
+                {
+                    "entry": "606",
+                    "title": "Matilda",
+                    "studio": "Dance Plus EP",
+                    "program_order": 605
+                },
+                {
+                    "entry": "607",
+                    "title": "Help",
+                    "studio": "White City Dancing School",
+                    "program_order": 606
+                },
+                {
+                    "entry": "608",
+                    "title": "Young & Beautiful",
+                    "studio": "Valley Dance",
+                    "program_order": 607
+                }
+            ],
+            "results": [
+                {
+                    "entry": "605",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Look After you",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Izzy Edwards, Emily Edwards",
+                    "score": 88,
+                    "program_order": 604,
+                    "scratched": false
+                },
+                {
+                    "entry": "606",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Matilda",
+                    "studio": "Dance Plus EP",
+                    "performers": "Kaylee Meyer, Carmen Thies",
+                    "score": 87,
+                    "program_order": 605,
+                    "scratched": false
+                },
+                {
+                    "entry": "607",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Help",
+                    "studio": "White City Dancing School",
+                    "performers": "Jasmine Bencharski, Allegra Bencharski",
+                    "score": 84,
+                    "program_order": 606,
+                    "scratched": false
+                },
+                {
+                    "entry": "608",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Young & Beautiful",
+                    "studio": "Valley Dance",
+                    "performers": "Katie Parenteau, Sierra Pletz",
+                    "score": 83,
+                    "program_order": 607,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1476110507,
+            "category_name": "BEGINNER AGES 6-8 ACRO SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 608,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 27,
+            "entries": [
+                {
+                    "entry": "609",
+                    "title": "Try Everything",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 608
+                },
+                {
+                    "entry": "610",
+                    "title": "Witch Doctor",
+                    "studio": "Valley Dance",
+                    "program_order": 609
+                },
+                {
+                    "entry": "611",
+                    "title": "Girlz",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 610
+                },
+                {
+                    "entry": "612",
+                    "title": "Dive In The Pool",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 611
+                }
+            ],
+            "results": [
+                {
+                    "entry": "609",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Try Everything",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 608,
+                    "scratched": false
+                },
+                {
+                    "entry": "610",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Witch Doctor",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 88,
+                    "program_order": 609,
+                    "scratched": false
+                },
+                {
+                    "entry": "611",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Girlz",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 610,
+                    "scratched": false
+                },
+                {
+                    "entry": "612",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Dive In The Pool",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 611,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1644274446,
+            "category_name": "BEGINNER AGES 9-11 ACRO SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 612,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 28,
+            "entries": [
+                {
+                    "entry": "613",
+                    "title": "Shake it up",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 612
+                },
+                {
+                    "entry": "614",
+                    "title": "The Spook",
+                    "studio": "Valley Dance",
+                    "program_order": 613
+                }
+            ],
+            "results": [
+                {
+                    "entry": "613",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Shake it up",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 612,
+                    "scratched": false
+                },
+                {
+                    "entry": "614",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "The Spook",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 613,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 132520976,
+            "category_name": "OPEN AGES 15-17 ACRO SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 614,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 29,
+            "entries": [
+                {
+                    "entry": "615",
+                    "title": "Spiderman",
+                    "studio": "Born2Dance",
+                    "program_order": 614
+                }
+            ],
+            "results": [
+                {
+                    "entry": "615",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Spiderman",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 88,
+                    "program_order": 614,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1739658014,
+            "category_name": "NOVICE AGES 12-14 ACRO SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 615,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 30,
+            "entries": [
+                {
+                    "entry": "616",
+                    "title": "Skyfall",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 615
+                }
+            ],
+            "results": [
+                {
+                    "entry": "616",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Skyfall",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 615,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 863301764,
+            "category_name": "BEGINNER AGES 9-11 ACRO LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 616,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 31,
+            "entries": [
+                {
+                    "entry": "617",
+                    "title": "Real In Rio",
+                    "studio": "White City Dancing School",
+                    "program_order": 616
+                }
+            ],
+            "results": [
+                {
+                    "entry": "617",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Real In Rio",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 616,
                     "scratched": false
                 }
             ]

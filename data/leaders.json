@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance 2026",
-    "updated_at": "2026-03-14 00:24:35",
-    "publish_version": "2026-03-14T00:24:35+01:00",
+    "updated_at": "2026-03-14 00:54:20",
+    "publish_version": "2026-03-14T00:54:20+01:00",
     "boards": [
         {
             "id": "solo",
@@ -205,15 +205,41 @@
             "divisions": [
                 {
                     "name": "Beginner",
-                    "places": []
+                    "places": [
+                        [
+                            "610 - Witch Doctor"
+                        ],
+                        [
+                            "612 - Dive In The Pool"
+                        ],
+                        [
+                            "617 - Real In Rio"
+                        ],
+                        [
+                            "611 - Girlz",
+                            "613 - Shake it up",
+                            "614 - The Spook"
+                        ],
+                        [
+                            "609 - Try Everything"
+                        ]
+                    ]
                 },
                 {
                     "name": "Novice",
-                    "places": []
+                    "places": [
+                        [
+                            "616 - Skyfall"
+                        ]
+                    ]
                 },
                 {
                     "name": "Open",
-                    "places": []
+                    "places": [
+                        [
+                            "615 - Spiderman"
+                        ]
+                    ]
                 }
             ]
         }
