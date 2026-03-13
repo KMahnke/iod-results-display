@@ -2,69 +2,60 @@
   "use strict";
 
   const dataUrl = "data/leaders.json";
-  const rotateMs = 12000;
   const pollMs = 30000;
 
-  const appEl = document.getElementById("app");
+  const boardOrder = ["solo", "duotrio", "groups"];
+
   const boardCardEl = document.getElementById("boardCard");
   const boardTitleEl = document.getElementById("boardTitle");
   const eventTitleEl = document.getElementById("eventTitle");
   const updatedAtEl = document.getElementById("updatedAt");
   const divisionsWrapEl = document.getElementById("divisionsWrap");
+  const boardTabsEl = document.getElementById("boardTabs");
 
   let payload = null;
-  let currentBoardIndex = 0;
-  let rotateTimer = null;
+  let currentBoardId = "solo";
   let pollTimer = null;
-  let previousTopMap = {};
 
   async function fetchData() {
     try {
-      const res = await fetch(`${dataUrl}?_=${Date.now()}`, {
-        cache: "no-store"
-      });
+      const res = await fetch(`${dataUrl}?_=${Date.now()}`, { cache: "no-store" });
 
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`);
       }
 
       const json = await res.json();
-
       if (!json || !Array.isArray(json.boards)) {
         throw new Error("Invalid leaderboard payload");
       }
 
-      const oldTopMap = buildTopMap(payload);
       payload = json;
-      previousTopMap = oldTopMap;
 
-      if (currentBoardIndex >= payload.boards.length) {
-        currentBoardIndex = 0;
+      if (!getBoardById(currentBoardId)) {
+        currentBoardId = getDefaultBoardId();
       }
 
-      renderBoard(currentBoardIndex, false);
-      appEl.classList.remove("loading");
+      renderBoardTabs();
+      renderCurrentBoard();
     } catch (err) {
       console.error("Leaderboard fetch failed:", err);
       showErrorState("Unable to load leaderboard data");
     }
   }
 
-  function buildTopMap(data) {
-    const map = {};
-    if (!data || !Array.isArray(data.boards)) return map;
+  function getBoardById(boardId) {
+    if (!payload || !Array.isArray(payload.boards)) return null;
+    return payload.boards.find((board) => board.id === boardId) || null;
+  }
 
-    data.boards.forEach((board) => {
-      if (!board || !Array.isArray(board.divisions)) return;
+  function getDefaultBoardId() {
+    if (!payload || !Array.isArray(payload.boards) || payload.boards.length === 0) {
+      return "solo";
+    }
 
-      board.divisions.forEach((division) => {
-        const key = `${board.id}::${division.name}`;
-        const slot1 = Array.isArray(division.places) ? division.places[0] : null;
-        map[key] = JSON.stringify(normalizePlaceEntries(slot1));
-      });
-    });
-
-    return map;
+    const firstKnown = boardOrder.find((id) => getBoardById(id));
+    return firstKnown || payload.boards[0].id;
   }
 
   function showErrorState(message) {
@@ -74,44 +65,48 @@
     divisionsWrapEl.innerHTML = "";
   }
 
-  function renderBoard(index, animate = true) {
-    if (!payload || !Array.isArray(payload.boards) || payload.boards.length === 0) {
-      showErrorState("No leaderboards available");
-      return;
-    }
+  function renderBoardTabs() {
+    if (!boardTabsEl || !payload) return;
 
-    const board = payload.boards[index];
-    if (!board) return;
+    boardTabsEl.innerHTML = "";
 
-    if (!animate) {
-      fillBoard(board);
-      return;
-    }
+    const tabs = [
+      { id: "solo", label: "Solo" },
+      { id: "duotrio", label: "Duo/Trio" },
+      { id: "groups", label: "Group" }
+    ];
 
-    boardCardEl.classList.add("is-switching-out");
-
-    window.setTimeout(() => {
-      boardCardEl.classList.remove("is-switching-out");
-      boardCardEl.classList.add("is-switching-in");
-
-      fillBoard(board);
-
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          boardCardEl.classList.remove("is-switching-in");
-        });
+    tabs.forEach((tab) => {
+      const exists = !!getBoardById(tab.id);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "boardTab" + (currentBoardId === tab.id ? " active" : "") + (!exists ? " is-empty" : "");
+      btn.textContent = tab.label;
+      btn.disabled = !exists;
+      btn.addEventListener("click", () => {
+        currentBoardId = tab.id;
+        renderBoardTabs();
+        renderCurrentBoard();
       });
-    }, 300);
+      boardTabsEl.appendChild(btn);
+    });
+  }
+
+  function renderCurrentBoard() {
+    const board = getBoardById(currentBoardId);
+    if (!board) {
+      showErrorState("No leaderboard available");
+      return;
+    }
+
+    fillBoard(board);
+    fitBoardToViewport();
   }
 
   function fillBoard(board) {
     boardTitleEl.textContent = board.title || "";
     eventTitleEl.textContent = payload && payload.event_title ? payload.event_title : "";
-
-    const updatedText = payload && payload.updated_at
-      ? `Updated ${formatUpdated(payload.updated_at)}`
-      : "";
-    updatedAtEl.textContent = updatedText;
+    updatedAtEl.textContent = payload && payload.updated_at ? `Updated ${formatUpdated(payload.updated_at)}` : "";
 
     divisionsWrapEl.innerHTML = "";
 
@@ -142,14 +137,8 @@
         const nameEl = document.createElement("div");
         nameEl.className = "rankName";
 
-        const place = places[i];
-        const placeEntries = normalizePlaceEntries(place);
-
-        if (placeEntries.length === 0) {
-          nameEl.innerHTML = "&nbsp;";
-        } else {
-          nameEl.textContent = placeEntries.join(", ");
-        }
+        const placeEntries = normalizePlaceEntries(places[i]);
+        nameEl.textContent = placeEntries.length ? placeEntries.join(", ") : "";
 
         rowEl.appendChild(numEl);
         rowEl.appendChild(nameEl);
@@ -158,16 +147,12 @@
 
       divisionEl.appendChild(listEl);
       divisionsWrapEl.appendChild(divisionEl);
-
-      maybeCelebrateNewLeader(board, division);
     });
   }
 
   function normalizePlaceEntries(place) {
     if (Array.isArray(place)) {
-      return place
-        .map((v) => String(v || "").trim())
-        .filter((v) => v !== "");
+      return place.map((v) => String(v || "").trim()).filter(Boolean);
     }
 
     if (typeof place === "string") {
@@ -178,31 +163,21 @@
     return [];
   }
 
-  function maybeCelebrateNewLeader(board, division) {
-    const key = `${board.id}::${division.name}`;
-    const slot1 = Array.isArray(division.places) ? division.places[0] : null;
-    const currentTop = JSON.stringify(normalizePlaceEntries(slot1));
-    const previousTop = previousTopMap[key] || "";
+  function fitBoardToViewport() {
+    if (!boardCardEl) return;
 
-    if (!currentTop || currentTop === "[]" || !previousTop || currentTop === previousTop) {
-      return;
+    for (let i = 0; i <= 6; i += 1) {
+      boardCardEl.classList.remove(`fit-${i}`);
     }
 
-    flashCelebration();
-  }
+    let applied = 0;
+    boardCardEl.classList.add("fit-0");
 
-  function flashCelebration() {
-    document.body.animate(
-      [
-        { transform: "scale(1)", filter: "brightness(1)" },
-        { transform: "scale(1.01)", filter: "brightness(1.08)" },
-        { transform: "scale(1)", filter: "brightness(1)" }
-      ],
-      {
-        duration: 900,
-        easing: "ease-out"
-      }
-    );
+    while (applied < 6 && document.documentElement.scrollHeight > window.innerHeight) {
+      boardCardEl.classList.remove(`fit-${applied}`);
+      applied += 1;
+      boardCardEl.classList.add(`fit-${applied}`);
+    }
   }
 
   function formatUpdated(value) {
@@ -212,7 +187,6 @@
     }
 
     return dt.toLocaleString([], {
-      year: "numeric",
       month: "short",
       day: "numeric",
       hour: "numeric",
@@ -220,32 +194,9 @@
     });
   }
 
-  function startRotation() {
-    stopRotation();
-
-    rotateTimer = window.setInterval(() => {
-      if (!payload || !Array.isArray(payload.boards) || payload.boards.length < 2) {
-        return;
-      }
-
-      currentBoardIndex = (currentBoardIndex + 1) % payload.boards.length;
-      renderBoard(currentBoardIndex, true);
-    }, rotateMs);
-  }
-
-  function stopRotation() {
-    if (rotateTimer) {
-      window.clearInterval(rotateTimer);
-      rotateTimer = null;
-    }
-  }
-
   function startPolling() {
     stopPolling();
-
-    pollTimer = window.setInterval(() => {
-      fetchData();
-    }, pollMs);
+    pollTimer = window.setInterval(fetchData, pollMs);
   }
 
   function stopPolling() {
@@ -259,7 +210,8 @@
     window.location.href = "index.html";
   });
 
+  window.addEventListener("resize", fitBoardToViewport);
+
   fetchData();
-  startRotation();
   startPolling();
 })();
