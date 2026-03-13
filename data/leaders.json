@@ -1,0 +1,37 @@
+{
+  "event_title": "Inspirations of Dance",
+  "updated_at": "",
+  "publish_version": "",
+  "boards": [
+    {
+      "id": "solo",
+      "title": "Solo",
+      "sponsor_logo": "",
+      "divisions": [
+        { "name": "Beginner", "places": [] },
+        { "name": "Novice", "places": [] },
+        { "name": "Open", "places": [] }
+      ]
+    },
+    {
+      "id": "duotrio",
+      "title": "Duo/Trio",
+      "sponsor_logo": "",
+      "divisions": [
+        { "name": "Beginner", "places": [] },
+        { "name": "Novice", "places": [] },
+        { "name": "Open", "places": [] }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "Groups",
+      "sponsor_logo": "",
+      "divisions": [
+        { "name": "Beginner", "places": [] },
+        { "name": "Novice", "places": [] },
+        { "name": "Open", "places": [] }
+      ]
+    }
+  ]
+}
