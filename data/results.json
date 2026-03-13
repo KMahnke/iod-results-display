@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 19:13:49",
-    "publish_version": "2026-03-13T19:13:49+01:00",
+    "last_update": "2026-03-13 19:17:01",
+    "publish_version": "2026-03-13T19:17:01+01:00",
     "program_source": "program.json",
-    "published_count": 105,
+    "published_count": 111,
     "categories": [
         {
             "category_id": 607676400,
@@ -9910,6 +9910,442 @@
                     "performers": "Mackenzie Ash-Aikman",
                     "score": 85,
                     "program_order": 485,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1292822700,
+            "category_name": "BEGINNER AGES 18 & OVER LYRICAL SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 487,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "488",
+                    "title": "The Truth",
+                    "studio": "Born2Dance",
+                    "program_order": 487
+                },
+                {
+                    "entry": "489",
+                    "title": "You're My Recovery",
+                    "studio": "Born2Dance",
+                    "program_order": 488
+                }
+            ],
+            "results": [
+                {
+                    "entry": "488",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "The Truth",
+                    "studio": "Born2Dance",
+                    "performers": "Cassandra Rivett",
+                    "score": 82,
+                    "program_order": 487,
+                    "scratched": false
+                },
+                {
+                    "entry": "489",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "You're My Recovery",
+                    "studio": "Born2Dance",
+                    "performers": "Aubray Francis Drake",
+                    "score": 83,
+                    "program_order": 488,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1174187865,
+            "category_name": "OPEN AGES 15-17 JAZZ DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 489,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "490",
+                    "title": "On The Floor",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 489
+                },
+                {
+                    "entry": "491",
+                    "title": "We're Back Again",
+                    "studio": "Dance Plus EP",
+                    "program_order": 490
+                },
+                {
+                    "entry": "492",
+                    "title": "When Doves Cry",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 491
+                }
+            ],
+            "results": [
+                {
+                    "entry": "490",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "On The Floor",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Mira Bourassa, Kathy Huang, Jiaqi Li",
+                    "score": 90,
+                    "program_order": 489,
+                    "scratched": false
+                },
+                {
+                    "entry": "491",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "We're Back Again",
+                    "studio": "Dance Plus EP",
+                    "performers": "Alyssa Fazakas, Allie Willette",
+                    "score": 88,
+                    "program_order": 490,
+                    "scratched": false
+                },
+                {
+                    "entry": "492",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "When Doves Cry",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Izzy Edwards, Nessa Goodfellow",
+                    "score": 87,
+                    "program_order": 491,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1970279896,
+            "category_name": "NOVICE AGES 9-11 JAZZ DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 492,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "493",
+                    "title": "California",
+                    "studio": "Valley Dance",
+                    "program_order": 492
+                },
+                {
+                    "entry": "494",
+                    "title": "Womanizer",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 493
+                },
+                {
+                    "entry": "495",
+                    "title": "Queen of Kings",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 494
+                },
+                {
+                    "entry": "496",
+                    "title": "Valerie",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 495
+                },
+                {
+                    "entry": "497",
+                    "title": "Born To Be Alive",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 496
+                },
+                {
+                    "entry": "498",
+                    "title": "Fabulous!!",
+                    "studio": "Diva Dance",
+                    "program_order": 497
+                }
+            ],
+            "results": [
+                {
+                    "entry": "493",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "California",
+                    "studio": "Valley Dance",
+                    "performers": "Atlee Cappo, Kinya Wajuntah",
+                    "score": 82,
+                    "program_order": 492,
+                    "scratched": false
+                },
+                {
+                    "entry": "494",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Womanizer",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos, Everly Kallias",
+                    "score": 87,
+                    "program_order": 493,
+                    "scratched": false
+                },
+                {
+                    "entry": "495",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Queen of Kings",
+                    "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski, Emma Mitchell, Tenli Orr",
+                    "score": 86.5,
+                    "program_order": 494,
+                    "scratched": false
+                },
+                {
+                    "entry": "496",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Valerie",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Halle Barber, Calliope Payne",
+                    "score": 84,
+                    "program_order": 495,
+                    "scratched": false
+                },
+                {
+                    "entry": "497",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Born To Be Alive",
+                    "studio": "Estevan Recreational Dance Club",
+                    "performers": "Olivia Brokenshire, Presley Schachtel",
+                    "score": 83,
+                    "program_order": 496,
+                    "scratched": false
+                },
+                {
+                    "entry": "498",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Fabulous!!",
+                    "studio": "Diva Dance",
+                    "performers": "Harper Gall, Arizona Kish",
+                    "score": 84.5,
+                    "program_order": 497,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 516922869,
+            "category_name": "OPEN AGES 12-14 JAZZ DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 498,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "499",
+                    "title": "Bump",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 498
+                }
+            ],
+            "results": [
+                {
+                    "entry": "499",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Bump",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Sydney Longley, Sophia Selinger, Mia Vos",
+                    "score": 90,
+                    "program_order": 498,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2085930739,
+            "category_name": "NOVICE AGES 12-14 JAZZ DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 499,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "500",
+                    "title": "Strut",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 499
+                },
+                {
+                    "entry": "501",
+                    "title": "Do It Like This",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 500
+                },
+                {
+                    "entry": "502",
+                    "title": "Genetics",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 501
+                },
+                {
+                    "entry": "503",
+                    "title": "How to Be a Heartbreaker",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 502
+                },
+                {
+                    "entry": "504",
+                    "title": "Feminine Energy",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 503
+                },
+                {
+                    "entry": "505",
+                    "title": "Best Life",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 504
+                }
+            ],
+            "results": [
+                {
+                    "entry": "500",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Strut",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "Jaida Verhelst, Liv Zadorozniak",
+                    "score": 82,
+                    "program_order": 499,
+                    "scratched": false
+                },
+                {
+                    "entry": "501",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Do It Like This",
+                    "studio": "Estevan Recreational Dance Club",
+                    "performers": "Olivia Bembridge, Maelie Flamme",
+                    "score": 85,
+                    "program_order": 500,
+                    "scratched": false
+                },
+                {
+                    "entry": "502",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Genetics",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Penny Jeannot, Madison Sebree",
+                    "score": 84,
+                    "program_order": 501,
+                    "scratched": false
+                },
+                {
+                    "entry": "503",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "How to Be a Heartbreaker",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Esme Fafard, Jolene Vodon",
+                    "score": 83,
+                    "program_order": 502,
+                    "scratched": false
+                },
+                {
+                    "entry": "504",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Feminine Energy",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Macie Amy, Izzy Kessler",
+                    "score": 84,
+                    "program_order": 503,
+                    "scratched": false
+                },
+                {
+                    "entry": "505",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Best Life",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Kassidy Huang, Jaycee Li",
+                    "score": 86,
+                    "program_order": 504,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1798720050,
+            "category_name": "OPEN AGES 18 & OVER TAP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 505,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "506",
+                    "title": "My Way",
+                    "studio": "Diva Dance",
+                    "program_order": 505
+                },
+                {
+                    "entry": "507",
+                    "title": "Devil Inside",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 506
+                }
+            ],
+            "results": [
+                {
+                    "entry": "506",
+                    "display_place": "2nd",
+                    "gem": "DIAMOND",
+                    "title": "My Way",
+                    "studio": "Diva Dance",
+                    "performers": "Riley Rogers",
+                    "score": 90,
+                    "program_order": 505,
+                    "scratched": false
+                },
+                {
+                    "entry": "507",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Devil Inside",
+                    "studio": "Odessa Dance Club",
+                    "performers": "Lily Schneider",
+                    "score": 91,
+                    "program_order": 506,
                     "scratched": false
                 }
             ]

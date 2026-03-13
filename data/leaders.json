@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance 2026",
-    "updated_at": "2026-03-13 19:13:49",
-    "publish_version": "2026-03-13T19:13:49+01:00",
+    "updated_at": "2026-03-13 19:17:01",
+    "publish_version": "2026-03-13T19:17:01+01:00",
     "boards": [
         {
             "id": "solo",
@@ -153,10 +153,11 @@
                         ],
                         [
                             "318 - Gilbertson/Henderson",
-                            "327 - Hillier/Hillier"
+                            "327 - Hillier/Hillier",
+                            "494 - Georgacacos/Kallias"
                         ],
                         [
-                            "328 - Lipinski/Mitchell/Orr"
+                            "495 - Lipinski/Mitchell/Orr"
                         ]
                     ]
                 },
@@ -167,17 +168,21 @@
                             "366 - Breker/Reich"
                         ],
                         [
-                            "132 - Bourassa/Huang"
+                            "132 - Bourassa/Huang",
+                            "490 - Bourassa/Huang/Li",
+                            "499 - Longley/Selinger/Vos"
                         ],
                         [
                             "368 - Vos/Vos"
                         ],
                         [
                             "138 - Huang/Li",
-                            "369 - McNabb/Kirchhofer"
+                            "369 - McNabb/Kirchhofer",
+                            "491 - Fazakas/Willette"
                         ],
                         [
-                            "135 - Hack/Pocha"
+                            "135 - Hack/Pocha",
+                            "492 - Edwards/Goodfellow"
                         ]
                     ]
                 }
