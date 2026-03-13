@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 18:45:55",
-    "publish_version": "2026-03-13T18:45:55+01:00",
+    "last_update": "2026-03-13 18:49:48",
+    "publish_version": "2026-03-13T18:49:48+01:00",
     "program_source": "program.json",
-    "published_count": 97,
+    "published_count": 105,
     "categories": [
         {
             "category_id": 607676400,
@@ -8745,6 +8745,1171 @@
                     "performers": "Olivia Wilson",
                     "score": 84.5,
                     "program_order": 423,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1047817574,
+            "category_name": "BEGINNER AGES 6-8 LYRICAL SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 425,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "427",
+                    "title": "Crippled Bird",
+                    "studio": "White City Dancing School",
+                    "program_order": 425
+                }
+            ],
+            "results": [
+                {
+                    "entry": "427",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Crippled Bird",
+                    "studio": "White City Dancing School",
+                    "performers": "Aria Ryan",
+                    "score": 87,
+                    "program_order": 425,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 504043953,
+            "category_name": "NOVICE AGES 9-11 TAP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 426,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "428",
+                    "title": "Your Mama Don't Dance",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 426
+                },
+                {
+                    "entry": "429",
+                    "title": "Insane",
+                    "studio": "Valley Dance",
+                    "program_order": 427
+                },
+                {
+                    "entry": "430",
+                    "title": "Na Na Na",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 428
+                },
+                {
+                    "entry": "431",
+                    "title": "Do It Like This",
+                    "studio": "Valley Dance",
+                    "program_order": 429
+                },
+                {
+                    "entry": "432",
+                    "title": "Do My Thing",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 430
+                },
+                {
+                    "entry": "433",
+                    "title": "Let It Roll",
+                    "studio": "Dance Plus EP",
+                    "program_order": 431
+                },
+                {
+                    "entry": "434",
+                    "title": "I Ain't Worried",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 432
+                },
+                {
+                    "entry": "435",
+                    "title": "Treasure",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 433
+                },
+                {
+                    "entry": "436",
+                    "title": "Stayin' Alive",
+                    "studio": "Valley Dance",
+                    "program_order": 434
+                },
+                {
+                    "entry": "395",
+                    "title": "Good To Go",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 435
+                }
+            ],
+            "results": [
+                {
+                    "entry": "428",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Your Mama Don't Dance",
+                    "studio": "Pangman Dance Club",
+                    "performers": "Nora West",
+                    "score": 85,
+                    "program_order": 426,
+                    "scratched": false
+                },
+                {
+                    "entry": "429",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Insane",
+                    "studio": "Valley Dance",
+                    "performers": "Mia Kinvig",
+                    "score": 83,
+                    "program_order": 427,
+                    "scratched": false
+                },
+                {
+                    "entry": "430",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Na Na Na",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Adalyn Grey",
+                    "score": 85.5,
+                    "program_order": 428,
+                    "scratched": false
+                },
+                {
+                    "entry": "431",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Do It Like This",
+                    "studio": "Valley Dance",
+                    "performers": "Sofia Popiuk",
+                    "score": 85.5,
+                    "program_order": 429,
+                    "scratched": false
+                },
+                {
+                    "entry": "432",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Do My Thing",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Logan Mo\ufb00at",
+                    "score": 86,
+                    "program_order": 430,
+                    "scratched": false
+                },
+                {
+                    "entry": "433",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Let It Roll",
+                    "studio": "Dance Plus EP",
+                    "performers": "Mila Schulhauser",
+                    "score": 84,
+                    "program_order": 431,
+                    "scratched": false
+                },
+                {
+                    "entry": "434",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "I Ain't Worried",
+                    "studio": "Odessa Dance Club",
+                    "performers": "Solina Gaetz",
+                    "score": 83,
+                    "program_order": 432,
+                    "scratched": false
+                },
+                {
+                    "entry": "435",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Treasure",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos",
+                    "score": 85.5,
+                    "program_order": 433,
+                    "scratched": false
+                },
+                {
+                    "entry": "436",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Stayin' Alive",
+                    "studio": "Valley Dance",
+                    "performers": "Blake Hillier",
+                    "score": 84,
+                    "program_order": 434,
+                    "scratched": false
+                },
+                {
+                    "entry": "395",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Good To Go",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Logan Mo\ufb00at",
+                    "score": 88,
+                    "program_order": 435,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1767694553,
+            "category_name": "BEGINNER AGES 9-11 LYRICAL SOLO GROUP A",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "GROUP A",
+            "publish_state": "published",
+            "program_sort": 436,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "437",
+                    "title": "Unwritten",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 436
+                },
+                {
+                    "entry": "438",
+                    "title": "How Do I Say Good Bye",
+                    "studio": "Artemis Dance",
+                    "program_order": 437
+                },
+                {
+                    "entry": "439",
+                    "title": "Ordinary",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 438
+                },
+                {
+                    "entry": "440",
+                    "title": "You Say",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 439
+                },
+                {
+                    "entry": "441",
+                    "title": "The Middle",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 440
+                },
+                {
+                    "entry": "442",
+                    "title": "Roslyn",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 441
+                },
+                {
+                    "entry": "443",
+                    "title": "Skyscraper",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 442
+                },
+                {
+                    "entry": "444",
+                    "title": "Ordinary Miracle",
+                    "studio": "Born2Dance",
+                    "program_order": 443
+                },
+                {
+                    "entry": "445",
+                    "title": "Ordinary",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 444
+                },
+                {
+                    "entry": "446",
+                    "title": "Rescue",
+                    "studio": "Minton Dance Club",
+                    "program_order": 445
+                }
+            ],
+            "results": [
+                {
+                    "entry": "437",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Unwritten",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Khaleesi Ippilito",
+                    "score": 83,
+                    "program_order": 436,
+                    "scratched": false
+                },
+                {
+                    "entry": "438",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "How Do I Say Good Bye",
+                    "studio": "Artemis Dance",
+                    "performers": "Elsie McIntyre",
+                    "score": 85,
+                    "program_order": 437,
+                    "scratched": false
+                },
+                {
+                    "entry": "439",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Ordinary",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Tessa Matisho",
+                    "score": 84,
+                    "program_order": 438,
+                    "scratched": false
+                },
+                {
+                    "entry": "440",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "You Say",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Macie Bohnert",
+                    "score": 83.5,
+                    "program_order": 439,
+                    "scratched": false
+                },
+                {
+                    "entry": "441",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "The Middle",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Adalyn Grey",
+                    "score": 85.5,
+                    "program_order": 440,
+                    "scratched": false
+                },
+                {
+                    "entry": "442",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Roslyn",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Lexi Kessler",
+                    "score": 84,
+                    "program_order": 441,
+                    "scratched": false
+                },
+                {
+                    "entry": "443",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Skyscraper",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Athena Hein",
+                    "score": 83,
+                    "program_order": 442,
+                    "scratched": false
+                },
+                {
+                    "entry": "444",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Ordinary Miracle",
+                    "studio": "Born2Dance",
+                    "performers": "Emily Temrick",
+                    "score": 84.5,
+                    "program_order": 443,
+                    "scratched": false
+                },
+                {
+                    "entry": "445",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Ordinary",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "Lilian Bourassa",
+                    "score": 83,
+                    "program_order": 444,
+                    "scratched": false
+                },
+                {
+                    "entry": "446",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Rescue",
+                    "studio": "Minton Dance Club",
+                    "performers": "Sierra McDonald",
+                    "score": 85,
+                    "program_order": 445,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 306997655,
+            "category_name": "NOVICE AGES 12-14 TAP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 446,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "447",
+                    "title": "Rather Be",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 446
+                },
+                {
+                    "entry": "448",
+                    "title": "Cloudy Day",
+                    "studio": "Dance Plus EP",
+                    "program_order": 447
+                },
+                {
+                    "entry": "449",
+                    "title": "Stand By Me",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 448
+                },
+                {
+                    "entry": "450",
+                    "title": "Cups",
+                    "studio": "Born2Dance",
+                    "program_order": 449
+                },
+                {
+                    "entry": "451",
+                    "title": "Nice To Meet You",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 450
+                },
+                {
+                    "entry": "452",
+                    "title": "Up a Lazy River",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 451
+                },
+                {
+                    "entry": "453",
+                    "title": "Save You",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 452
+                }
+            ],
+            "results": [
+                {
+                    "entry": "447",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Rather Be",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Ava Arnason",
+                    "score": 85,
+                    "program_order": 446,
+                    "scratched": false
+                },
+                {
+                    "entry": "448",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Cloudy Day",
+                    "studio": "Dance Plus EP",
+                    "performers": "Isla Jackson",
+                    "score": 84,
+                    "program_order": 447,
+                    "scratched": false
+                },
+                {
+                    "entry": "449",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Stand By Me",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Christina Mantei",
+                    "score": 83,
+                    "program_order": 448,
+                    "scratched": false
+                },
+                {
+                    "entry": "450",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Cups",
+                    "studio": "Born2Dance",
+                    "performers": "Elina Pollock",
+                    "score": 83,
+                    "program_order": 449,
+                    "scratched": false
+                },
+                {
+                    "entry": "451",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Nice To Meet You",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Bentley Gaetz",
+                    "score": 87.5,
+                    "program_order": 450,
+                    "scratched": false
+                },
+                {
+                    "entry": "452",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Up a Lazy River",
+                    "studio": "Against the Grain Studios",
+                    "performers": "Temperance Wiebe",
+                    "score": 88,
+                    "program_order": 451,
+                    "scratched": false
+                },
+                {
+                    "entry": "453",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Save You",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "Addison Wolf",
+                    "score": 83,
+                    "program_order": 452,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1558864720,
+            "category_name": "BEGINNER AGES 9-11 LYRICAL SOLO GROUP B",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "GROUP B",
+            "publish_state": "published",
+            "program_sort": 453,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "454",
+                    "title": "Cinderella",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 453
+                },
+                {
+                    "entry": "455",
+                    "title": "Save You a Seat",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 454
+                },
+                {
+                    "entry": "456",
+                    "title": "Landslide",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 455
+                },
+                {
+                    "entry": "457",
+                    "title": "Riverside",
+                    "studio": "White City Dancing School",
+                    "program_order": 456
+                },
+                {
+                    "entry": "458",
+                    "title": "I'll Fly Away",
+                    "studio": "Born2Dance",
+                    "program_order": 457
+                },
+                {
+                    "entry": "459",
+                    "title": "Lost Boy",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 458
+                },
+                {
+                    "entry": "460",
+                    "title": "Strong",
+                    "studio": "Artemis Dance",
+                    "program_order": 459
+                },
+                {
+                    "entry": "461",
+                    "title": "Anything Worth Holding On To",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 460
+                },
+                {
+                    "entry": "462",
+                    "title": "The Middle",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 461
+                }
+            ],
+            "results": [
+                {
+                    "entry": "454",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Cinderella",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Sophie McLeod",
+                    "score": 83.5,
+                    "program_order": 453,
+                    "scratched": false
+                },
+                {
+                    "entry": "455",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Save You a Seat",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Ava Nabholz",
+                    "score": 83.5,
+                    "program_order": 454,
+                    "scratched": false
+                },
+                {
+                    "entry": "456",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Landslide",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Piper McCoy",
+                    "score": 85,
+                    "program_order": 455,
+                    "scratched": false
+                },
+                {
+                    "entry": "457",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Riverside",
+                    "studio": "White City Dancing School",
+                    "performers": "Ruby Jean Railton",
+                    "score": 84,
+                    "program_order": 456,
+                    "scratched": false
+                },
+                {
+                    "entry": "458",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "I'll Fly Away",
+                    "studio": "Born2Dance",
+                    "performers": "Annah Rivett",
+                    "score": 84.5,
+                    "program_order": 457,
+                    "scratched": false
+                },
+                {
+                    "entry": "459",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lost Boy",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Charli Pederson",
+                    "score": 83,
+                    "program_order": 458,
+                    "scratched": false
+                },
+                {
+                    "entry": "460",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Strong",
+                    "studio": "Artemis Dance",
+                    "performers": "Melody Robertson",
+                    "score": 83,
+                    "program_order": 459,
+                    "scratched": false
+                },
+                {
+                    "entry": "461",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Anything Worth Holding On To",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Abigail Stewart",
+                    "score": 86,
+                    "program_order": 460,
+                    "scratched": false
+                },
+                {
+                    "entry": "462",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Middle",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Logan Mo\ufb00at",
+                    "score": 85,
+                    "program_order": 461,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2094155504,
+            "category_name": "NOVICE AGES 12-14 TAP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 462,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "463",
+                    "title": "Nobody But Me",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 462
+                },
+                {
+                    "entry": "464",
+                    "title": "Another Cha Cha",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 463
+                },
+                {
+                    "entry": "465",
+                    "title": "Ice Ice Baby",
+                    "studio": "Diva Dance",
+                    "program_order": 464
+                },
+                {
+                    "entry": "466",
+                    "title": "Run Boy Run",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 465
+                },
+                {
+                    "entry": "467",
+                    "title": "Enter Sandman",
+                    "studio": "Minton Dance Club",
+                    "program_order": 466
+                }
+            ],
+            "results": [
+                {
+                    "entry": "463",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "Nobody But Me",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Mila McMorris",
+                    "score": null,
+                    "program_order": 462,
+                    "scratched": true
+                },
+                {
+                    "entry": "464",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Another Cha Cha",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Sawyer Morley",
+                    "score": 85,
+                    "program_order": 463,
+                    "scratched": false
+                },
+                {
+                    "entry": "465",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Ice Ice Baby",
+                    "studio": "Diva Dance",
+                    "performers": "Ava Ortt",
+                    "score": 88,
+                    "program_order": 464,
+                    "scratched": false
+                },
+                {
+                    "entry": "466",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Run Boy Run",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Victoria Roy",
+                    "score": 82,
+                    "program_order": 465,
+                    "scratched": false
+                },
+                {
+                    "entry": "467",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Enter Sandman",
+                    "studio": "Minton Dance Club",
+                    "performers": "Lindsay Meyers",
+                    "score": 83,
+                    "program_order": 466,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 787717313,
+            "category_name": "BEGINNER AGES 12-14 LYRICAL SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 467,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "468",
+                    "title": "Eternity",
+                    "studio": "Diva Dance",
+                    "program_order": 467
+                },
+                {
+                    "entry": "469",
+                    "title": "You'll Be Alright, Kid",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 468
+                },
+                {
+                    "entry": "470",
+                    "title": "Lost boy",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 469
+                },
+                {
+                    "entry": "471",
+                    "title": "Hear Me From Heaven",
+                    "studio": "Diva Dance",
+                    "program_order": 470
+                },
+                {
+                    "entry": "472",
+                    "title": "Anchor",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 471
+                },
+                {
+                    "entry": "473",
+                    "title": "Pink Skies",
+                    "studio": "Minton Dance Club",
+                    "program_order": 472
+                },
+                {
+                    "entry": "474",
+                    "title": "Compass",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 473
+                },
+                {
+                    "entry": "475",
+                    "title": "Face My Fears",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 474
+                },
+                {
+                    "entry": "476",
+                    "title": "The Village",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 475
+                }
+            ],
+            "results": [
+                {
+                    "entry": "468",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Eternity",
+                    "studio": "Diva Dance",
+                    "performers": "Leah Lerat",
+                    "score": 82,
+                    "program_order": 467,
+                    "scratched": false
+                },
+                {
+                    "entry": "469",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "You'll Be Alright, Kid",
+                    "studio": "Pangman Dance Club",
+                    "performers": "Lyrik Roncin",
+                    "score": 83,
+                    "program_order": 468,
+                    "scratched": false
+                },
+                {
+                    "entry": "470",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lost boy",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "Jaida Verhelst",
+                    "score": 82.5,
+                    "program_order": 469,
+                    "scratched": false
+                },
+                {
+                    "entry": "471",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Hear Me From Heaven",
+                    "studio": "Diva Dance",
+                    "performers": "Kaitlyn Hatzel",
+                    "score": 85,
+                    "program_order": 470,
+                    "scratched": false
+                },
+                {
+                    "entry": "472",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Anchor",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Harlow Barker",
+                    "score": 82.5,
+                    "program_order": 471,
+                    "scratched": false
+                },
+                {
+                    "entry": "473",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Pink Skies",
+                    "studio": "Minton Dance Club",
+                    "performers": "Briar Howse",
+                    "score": 84,
+                    "program_order": 472,
+                    "scratched": false
+                },
+                {
+                    "entry": "474",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Compass",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Anastacia Hein",
+                    "score": 82.5,
+                    "program_order": 473,
+                    "scratched": false
+                },
+                {
+                    "entry": "475",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Face My Fears",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Josie Glas",
+                    "score": 86,
+                    "program_order": 474,
+                    "scratched": false
+                },
+                {
+                    "entry": "476",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "The Village",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Izzy Kessler",
+                    "score": 84,
+                    "program_order": 475,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1190279289,
+            "category_name": "NOVICE AGES 15-17 TAP SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 476,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "477",
+                    "title": "Happy",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 476
+                },
+                {
+                    "entry": "478",
+                    "title": "Ain't No Other Man",
+                    "studio": "Dance Plus EP",
+                    "program_order": 477
+                },
+                {
+                    "entry": "479",
+                    "title": "I Ain't Worried",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 478
+                },
+                {
+                    "entry": "480",
+                    "title": "Stayin Alive",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 479
+                },
+                {
+                    "entry": "481",
+                    "title": "Revolution",
+                    "studio": "Born2Dance",
+                    "program_order": 480
+                },
+                {
+                    "entry": "482",
+                    "title": "Made You Look",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 481
+                },
+                {
+                    "entry": "483",
+                    "title": "Control",
+                    "studio": "Valley Dance",
+                    "program_order": 482
+                },
+                {
+                    "entry": "484",
+                    "title": "Good Vibrations",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 483
+                },
+                {
+                    "entry": "485",
+                    "title": "Vienna",
+                    "studio": "Diva Dance",
+                    "program_order": 484
+                },
+                {
+                    "entry": "486",
+                    "title": "Lets go crazy",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 485
+                }
+            ],
+            "results": [
+                {
+                    "entry": "477",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Happy",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Dawson Scrupps",
+                    "score": 83,
+                    "program_order": 476,
+                    "scratched": false
+                },
+                {
+                    "entry": "478",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Ain't No Other Man",
+                    "studio": "Dance Plus EP",
+                    "performers": "Rianna Ababei",
+                    "score": 84,
+                    "program_order": 477,
+                    "scratched": false
+                },
+                {
+                    "entry": "479",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "I Ain't Worried",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Jordyn Fellner",
+                    "score": 82,
+                    "program_order": 478,
+                    "scratched": false
+                },
+                {
+                    "entry": "480",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Stayin Alive",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Dillyn Longley",
+                    "score": 88,
+                    "program_order": 479,
+                    "scratched": false
+                },
+                {
+                    "entry": "481",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Revolution",
+                    "studio": "Born2Dance",
+                    "performers": "Abbey Fleming-Berg",
+                    "score": 85,
+                    "program_order": 480,
+                    "scratched": false
+                },
+                {
+                    "entry": "482",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Made You Look",
+                    "studio": "Ogema Dance Club",
+                    "performers": "McKenna Leonard",
+                    "score": 84,
+                    "program_order": 481,
+                    "scratched": false
+                },
+                {
+                    "entry": "483",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Control",
+                    "studio": "Valley Dance",
+                    "performers": "Sam Bear",
+                    "score": 86,
+                    "program_order": 482,
+                    "scratched": false
+                },
+                {
+                    "entry": "484",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Good Vibrations",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Haylee Scrupps",
+                    "score": 85,
+                    "program_order": 483,
+                    "scratched": false
+                },
+                {
+                    "entry": "485",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Vienna",
+                    "studio": "Diva Dance",
+                    "performers": "Chloe Rogers",
+                    "score": 84,
+                    "program_order": 484,
+                    "scratched": false
+                },
+                {
+                    "entry": "486",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Lets go crazy",
+                    "studio": "Against the Grain Studios",
+                    "performers": "Mackenzie Ash-Aikman",
+                    "score": 85,
+                    "program_order": 485,
                     "scratched": false
                 }
             ]

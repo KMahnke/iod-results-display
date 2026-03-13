@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance 2026",
-    "updated_at": "2026-03-13 18:45:55",
-    "publish_version": "2026-03-13T18:45:55+01:00",
+    "updated_at": "2026-03-13 18:49:48",
+    "publish_version": "2026-03-13T18:49:48+01:00",
     "boards": [
         {
             "id": "solo",
@@ -18,15 +18,19 @@
                             "13 - Mack the Knife"
                         ],
                         [
-                            "183 - Candyman"
+                            "183 - Candyman",
+                            "427 - Crippled Bird"
                         ],
                         [
-                            "71 - Sun Goes Down"
+                            "71 - Sun Goes Down",
+                            "461 - Anything Worth Holding On To",
+                            "475 - Face My Fears"
                         ],
                         [
                             "14 - Chaplin",
                             "304 - Imma Be",
-                            "322 - Perfect Day"
+                            "322 - Perfect Day",
+                            "441 - The Middle"
                         ]
                     ]
                 },
@@ -46,7 +50,11 @@
                             "211 - Pure Water",
                             "236 - Breakin' Dishes",
                             "245 - The Girl in 14-G",
-                            "402 - Escalate"
+                            "395 - Good To Go",
+                            "402 - Escalate",
+                            "452 - Up a Lazy River",
+                            "465 - Ice Ice Baby",
+                            "480 - Stayin Alive"
                         ],
                         [
                             "35 - Echoes Within",
@@ -56,7 +64,8 @@
                             "254 - Disco Inferno",
                             "262 - Soldier",
                             "282 - Man in the Mirror",
-                            "374 - L-O-V-E"
+                            "374 - L-O-V-E",
+                            "451 - Nice To Meet You"
                         ],
                         [
                             "74 - Bird Box",
