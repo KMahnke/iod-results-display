@@ -113,21 +113,6 @@ body.leaderboard-page {
   min-width: 0;
 }
 
-/* Sticky navbar for scroll devices */
-@media (max-width: 1024px) {
-
-  .nav-area {
-    position: sticky;
-    top: 10px;
-    z-index: 1000;
-  }
-
-  .top-bar {
-    backdrop-filter: blur(6px);
-  }
-
-}
-
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -299,9 +284,19 @@ body.leaderboard-page {
     width: 100%;
   }
 
+  .nav-area {
+    width: 100%;
+    align-self: start;
+  }
+
   .top-bar {
+    position: sticky;
+    top: 8px;
+    z-index: 1000;
     flex-wrap: wrap;
     justify-content: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
 
   .tab-row {
