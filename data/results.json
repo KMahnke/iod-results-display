@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance 2026",
     "eventsID": 119517,
-    "last_update": "2026-03-13 20:33:07",
-    "publish_version": "2026-03-13T20:33:07+01:00",
+    "last_update": "2026-03-13 21:56:33",
+    "publish_version": "2026-03-13T21:56:33+01:00",
     "program_source": "program.json",
-    "published_count": 111,
+    "published_count": 116,
     "categories": [
         {
             "category_id": 607676400,
@@ -9915,6 +9915,39 @@
             ]
         },
         {
+            "category_id": 667801684,
+            "category_name": "BEGINNER AGES 15-17 LYRICAL SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 486,
+            "day_sort": 2,
+            "session_sort": 0,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "487",
+                    "title": "Hello Love",
+                    "studio": "Valley Dance",
+                    "program_order": 486
+                }
+            ],
+            "results": [
+                {
+                    "entry": "487",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Hello Love",
+                    "studio": "Valley Dance",
+                    "performers": "Amelia Checkowy",
+                    "score": 83,
+                    "program_order": 486,
+                    "scratched": false
+                }
+            ]
+        },
+        {
             "category_id": 1292822700,
             "category_name": "BEGINNER AGES 18 & OVER LYRICAL SOLO",
             "day_label": "Friday March 13th, 2026",
@@ -10346,6 +10379,563 @@
                     "performers": "Lily Schneider",
                     "score": 91,
                     "program_order": 506,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1039157901,
+            "category_name": "BEGINNER AGES 9-11 JAZZ SOLO GROUP C",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "GROUP C",
+            "publish_state": "published",
+            "program_sort": 507,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "508",
+                    "title": "Me Too",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 507
+                },
+                {
+                    "entry": "509",
+                    "title": "Try Everything",
+                    "studio": "Valley Dance",
+                    "program_order": 508
+                },
+                {
+                    "entry": "510",
+                    "title": "Barbie Dreams",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 509
+                },
+                {
+                    "entry": "511",
+                    "title": "Just Keep Watching",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 510
+                },
+                {
+                    "entry": "512",
+                    "title": "Rock Your Body",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 511
+                },
+                {
+                    "entry": "513",
+                    "title": "Do It Like This",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 512
+                },
+                {
+                    "entry": "514",
+                    "title": "Fix My Crown",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 513
+                }
+            ],
+            "results": [
+                {
+                    "entry": "508",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Me Too",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Jorja Eberle",
+                    "score": 84,
+                    "program_order": 507,
+                    "scratched": false
+                },
+                {
+                    "entry": "509",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Try Everything",
+                    "studio": "Valley Dance",
+                    "performers": "Callie Bourget",
+                    "score": 82,
+                    "program_order": 508,
+                    "scratched": false
+                },
+                {
+                    "entry": "510",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Barbie Dreams",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Ruby Sebastian",
+                    "score": 83,
+                    "program_order": 509,
+                    "scratched": false
+                },
+                {
+                    "entry": "511",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Just Keep Watching",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "Harlow Bonnell",
+                    "score": 85,
+                    "program_order": 510,
+                    "scratched": false
+                },
+                {
+                    "entry": "512",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Rock Your Body",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Khaleesi Ippilito",
+                    "score": 82,
+                    "program_order": 511,
+                    "scratched": false
+                },
+                {
+                    "entry": "513",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Do It Like This",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Wynnie Stajniak",
+                    "score": 84,
+                    "program_order": 512,
+                    "scratched": false
+                },
+                {
+                    "entry": "514",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Fix My Crown",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "Bella Roysum",
+                    "score": 81,
+                    "program_order": 513,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1820291542,
+            "category_name": "OPEN AGES 12-14 JAZZ SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 514,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "515",
+                    "title": "I Am",
+                    "studio": "Dance Plus EP",
+                    "program_order": 514
+                },
+                {
+                    "entry": "516",
+                    "title": "Fever",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 515
+                },
+                {
+                    "entry": "517",
+                    "title": "Drag Me Out",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 516
+                }
+            ],
+            "results": [
+                {
+                    "entry": "515",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "I Am",
+                    "studio": "Dance Plus EP",
+                    "performers": "Allie Willette",
+                    "score": 87.5,
+                    "program_order": 514,
+                    "scratched": false
+                },
+                {
+                    "entry": "516",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Fever",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Sophia Selinger",
+                    "score": 87,
+                    "program_order": 515,
+                    "scratched": false
+                },
+                {
+                    "entry": "517",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Drag Me Out",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Mia Vos",
+                    "score": 88,
+                    "program_order": 516,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 348369188,
+            "category_name": "NOVICE AGES 12-14 LYRICAL SOLO GROUP B",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "GROUP B",
+            "publish_state": "published",
+            "program_sort": 517,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "518",
+                    "title": "You Are My Home",
+                    "studio": "Artemis Dance",
+                    "program_order": 517
+                },
+                {
+                    "entry": "519",
+                    "title": "Fix You",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 518
+                },
+                {
+                    "entry": "520",
+                    "title": "Iris",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 519
+                },
+                {
+                    "entry": "521",
+                    "title": "Try",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 520
+                },
+                {
+                    "entry": "522",
+                    "title": "Hold My Hand",
+                    "studio": "Diva Dance",
+                    "program_order": 521
+                },
+                {
+                    "entry": "523",
+                    "title": "Wildfire",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 522
+                },
+                {
+                    "entry": "524",
+                    "title": "She Used To Be Mine",
+                    "studio": "Dance Plus EP",
+                    "program_order": 523
+                },
+                {
+                    "entry": "525",
+                    "title": "Runaway",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 524
+                },
+                {
+                    "entry": "526",
+                    "title": "Iris",
+                    "studio": "Minton Dance Club",
+                    "program_order": 525
+                }
+            ],
+            "results": [
+                {
+                    "entry": "518",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "You Are My Home",
+                    "studio": "Artemis Dance",
+                    "performers": "Brielle Jorgensen",
+                    "score": 82,
+                    "program_order": 517,
+                    "scratched": false
+                },
+                {
+                    "entry": "519",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Fix You",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Gabrielle Bermudez",
+                    "score": 85,
+                    "program_order": 518,
+                    "scratched": false
+                },
+                {
+                    "entry": "520",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Iris",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Allison Jacobi",
+                    "score": 84,
+                    "program_order": 519,
+                    "scratched": false
+                },
+                {
+                    "entry": "521",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Try",
+                    "studio": "Ogema Dance Club",
+                    "performers": "Riese Longley",
+                    "score": 87,
+                    "program_order": 520,
+                    "scratched": false
+                },
+                {
+                    "entry": "522",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Hold My Hand",
+                    "studio": "Diva Dance",
+                    "performers": "Tennessee Kish",
+                    "score": 85,
+                    "program_order": 521,
+                    "scratched": false
+                },
+                {
+                    "entry": "523",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Wildfire",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Sydney Longley",
+                    "score": 86,
+                    "program_order": 522,
+                    "scratched": false
+                },
+                {
+                    "entry": "524",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "She Used To Be Mine",
+                    "studio": "Dance Plus EP",
+                    "performers": "Isla Jackson",
+                    "score": 84,
+                    "program_order": 523,
+                    "scratched": false
+                },
+                {
+                    "entry": "525",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Runaway",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "Sadie Jones",
+                    "score": 82,
+                    "program_order": 524,
+                    "scratched": false
+                },
+                {
+                    "entry": "526",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Iris",
+                    "studio": "Minton Dance Club",
+                    "performers": "Lindsay Meyers",
+                    "score": 82,
+                    "program_order": 525,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 2088020474,
+            "category_name": "OPEN AGES 15-17 JAZZ SOLO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 526,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "527",
+                    "title": "Breakin' Dishes",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 526
+                },
+                {
+                    "entry": "528",
+                    "title": "Dirty Diana",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 527
+                },
+                {
+                    "entry": "529",
+                    "title": "Black & Gold",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 528
+                },
+                {
+                    "entry": "530",
+                    "title": "Serve You Right",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 529
+                },
+                {
+                    "entry": "531",
+                    "title": "The Way You Make Me Feel",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 530
+                },
+                {
+                    "entry": "532",
+                    "title": "Maneater",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 531
+                },
+                {
+                    "entry": "533",
+                    "title": "Black Velvet",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 532
+                },
+                {
+                    "entry": "534",
+                    "title": "I Feel Good",
+                    "studio": "Dance Plus EP",
+                    "program_order": 533
+                },
+                {
+                    "entry": "535",
+                    "title": "Strut",
+                    "studio": "Born2Dance",
+                    "program_order": 534
+                },
+                {
+                    "entry": "536",
+                    "title": "Black and Gold",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 535
+                }
+            ],
+            "results": [
+                {
+                    "entry": "527",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Breakin' Dishes",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Katryna McKinney",
+                    "score": 86,
+                    "program_order": 526,
+                    "scratched": false
+                },
+                {
+                    "entry": "528",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Dirty Diana",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Sovannah Hack",
+                    "score": 85.5,
+                    "program_order": 527,
+                    "scratched": false
+                },
+                {
+                    "entry": "529",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Black & Gold",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Lilly Pocha",
+                    "score": 86.5,
+                    "program_order": 528,
+                    "scratched": false
+                },
+                {
+                    "entry": "530",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Serve You Right",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Pressley Barber",
+                    "score": 86.5,
+                    "program_order": 529,
+                    "scratched": false
+                },
+                {
+                    "entry": "531",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Way You Make Me Feel",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Brielle Kary",
+                    "score": 88,
+                    "program_order": 530,
+                    "scratched": false
+                },
+                {
+                    "entry": "532",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Maneater",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Mira Bourassa",
+                    "score": 90,
+                    "program_order": 531,
+                    "scratched": false
+                },
+                {
+                    "entry": "533",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Black Velvet",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Kathy Huang",
+                    "score": 88,
+                    "program_order": 532,
+                    "scratched": false
+                },
+                {
+                    "entry": "534",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "I Feel Good",
+                    "studio": "Dance Plus EP",
+                    "performers": "Natalie Kowalyshyn",
+                    "score": 86.5,
+                    "program_order": 533,
+                    "scratched": false
+                },
+                {
+                    "entry": "535",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Strut",
+                    "studio": "Born2Dance",
+                    "performers": "Addison Kobylansky",
+                    "score": 87.5,
+                    "program_order": 534,
+                    "scratched": false
+                },
+                {
+                    "entry": "536",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Black and Gold",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Sadie Vos",
+                    "score": 87,
+                    "program_order": 535,
                     "scratched": false
                 }
             ]
