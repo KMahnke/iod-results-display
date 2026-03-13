@@ -30,46 +30,57 @@ body.leaderboard-page {
   margin: 0 auto;
   padding: 18px 18px 20px;
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto 1fr;
   gap: 14px;
 }
 
-.leaderboard-page .site-header {
+.leaderboard-page .masthead {
   display: grid;
-  grid-template-columns: minmax(180px, 18vw) 1fr minmax(180px, 22vw);
-  align-items: center;
-  gap: 18px;
+  grid-template-columns: minmax(120px, 12vw) 1fr minmax(120px, 16vw);
+  grid-template-rows: auto auto;
+  gap: 12px 18px;
+  align-items: stretch;
 }
 
-.leaderboard-page .header-brand,
-.leaderboard-page .header-sponsor {
+.leaderboard-page .masthead-logo {
+  grid-row: 1 / span 2;
   display: flex;
   align-items: center;
 }
 
-.leaderboard-page .header-brand {
+.leaderboard-page .masthead-logo-left {
   justify-content: flex-start;
 }
 
-.leaderboard-page .header-sponsor {
+.leaderboard-page .masthead-logo-right {
   justify-content: flex-end;
 }
 
-.leaderboard-page .header-brand img,
-.leaderboard-page .header-sponsor img {
-  height: clamp(48px, 4.2vw, 72px);
+.leaderboard-page .masthead-logo img {
   max-width: 100%;
+  max-height: 100%;
   width: auto;
+  height: clamp(74px, 9vw, 132px);
   object-fit: contain;
   display: block;
 }
 
-.leaderboard-page .header-center {
-  text-align: center;
+.leaderboard-page .masthead-center {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 12px;
   min-width: 0;
 }
 
-.leaderboard-page .header-center h1 {
+.leaderboard-page .masthead-title-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: clamp(74px, 9vw, 132px);
+  text-align: center;
+}
+
+.leaderboard-page .masthead-title-row h1 {
   margin: 0;
   font-size: clamp(2.25rem, 4vw, 4.25rem);
   line-height: 1.05;
@@ -77,12 +88,19 @@ body.leaderboard-page {
 }
 
 .leaderboard-page .updated {
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: clamp(0.95rem, 1.05vw, 1.2rem);
   opacity: 0.96;
 }
 
+.leaderboard-page .masthead-nav-row {
+  min-width: 0;
+}
+
 .leaderboard-page .top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,29 +226,35 @@ body.leaderboard-page {
   }
 }
 
-@media (max-width: 800px) {
-  .leaderboard-page .page-shell {
-    width: min(96vw, 1200px);
-    padding: 12px;
-  }
-
-  .leaderboard-page .site-header {
+@media (max-width: 900px) {
+  .leaderboard-page .masthead {
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
     justify-items: center;
-    text-align: center;
   }
 
-  .leaderboard-page .header-brand,
-  .leaderboard-page .header-sponsor {
+  .leaderboard-page .masthead-logo {
+    grid-row: auto;
     justify-content: center;
+  }
+
+  .leaderboard-page .masthead-center {
+    width: 100%;
   }
 
   .leaderboard-page .top-bar {
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .leaderboard-page .tab-row {
     justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .leaderboard-page .page-shell {
+    width: min(96vw, 1200px);
+    padding: 12px;
   }
 }
