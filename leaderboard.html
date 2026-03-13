@@ -1,57 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-  />
-  <title>Inspirations of Dance Leaderboard</title>
-  <link rel="stylesheet" href="leaderboard.css" />
-</head>
-<body>
+<div class="page-shell">
   <header class="site-header">
-    <div class="header-left"></div>
+    <div class="header-brand">
+      <img src="img/Logo1.png" alt="Inspirations of Dance logo" />
+    </div>
 
     <div class="header-center">
-      <h1 id="eventTitle">Inspirations of Dance 2026</h1>
+      <h1>Inspirations of Dance 2026</h1>
       <div id="lastUpdate" class="updated"></div>
     </div>
 
-    <div class="header-right"></div>
+    <div class="header-sponsor">
+      <img src="img/sponsor-logo.png" alt="Sponsor logo" />
+    </div>
   </header>
 
-  <div class="container leaderboard-container">
-    <div class="sticky-controls">
-      <div class="nav-bar">
-        <div class="nav-left">
-          <div id="boardTabs" class="tabs"></div>
-        </div>
-
-        <div class="nav-right nav-right-leaderboard">
-          <button id="backToResultsBtn" class="tab-btn" type="button">Back to Results</button>
-        </div>
-      </div>
+  <div class="top-bar">
+    <div class="tab-row">
+      <button class="tab-btn active">Solo</button>
+      <button class="tab-btn">Duo/Trio</button>
+      <button class="tab-btn">Group</button>
+      <button class="tab-btn">Awards</button>
+      <button class="tab-btn">Leaderboard</button>
     </div>
 
-    <main id="leaderboardContent" class="leaderboard-content">
-      <section id="boardCard" class="board-card fit-normal">
-        <div class="board-header">
-          <div class="board-header-left">
-            <h2 id="boardTitle" class="board-title">Loading...</h2>
-            <div id="boardUpdated" class="board-updated"></div>
-          </div>
-        </div>
-
-        <div id="divisionsWrap" class="divisions-wrap"></div>
-
-        <div class="board-footer">
-          <img id="sponsorLogo" class="sponsor-logo" src="" alt="Sponsor logo" />
-        </div>
-      </section>
-    </main>
+    <div class="action-row">
+      <button class="back-btn">Back to Results</button>
+    </div>
   </div>
 
-  <script src="leaderboard.js"></script>
-</body>
-</html>
+  <section class="board-panel">
+    <div class="board-heading">
+      <h2 id="divisionTitle">Solo</h2>
+      <div id="publishVersion" class="publish-version"></div>
+    </div>
+
+    <div class="board-grid">
+      <article class="level-card" id="beginnerCard"></article>
+      <article class="level-card" id="noviceCard"></article>
+      <article class="level-card" id="openCard"></article>
+    </div>
+  </section>
+
+  <footer class="brand-footer">
+    <div class="footer-left">
+      <img src="img/Logo1.png" alt="Inspirations of Dance logo" />
+    </div>
+    <div class="footer-right">
+      <img src="img/sponsor-logo.png" alt="Sponsor logo" />
+    </div>
+  </footer>
+</div>
