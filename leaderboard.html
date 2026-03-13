@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inspirations of Dance Leaderboard</title>
-  <link rel="stylesheet" href="leaderboard.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inspirations of Dance Leaderboard</title>
+<link rel="stylesheet" href="leaderboard.css">
 </head>
+
 <body class="leaderboard-page">
-  <div class="page-shell">
-    <header class="masthead">
-      <div class="masthead-left">
-        <img src="img/Logo1.png" alt="Inspirations of Dance logo" />
-      </div>
 
-      <div class="masthead-title">
-        <h1 id="eventTitle">Inspirations of Dance 2026</h1>
-        <div id="lastUpdate" class="updated">Last Update:</div>
-      </div>
+<div class="page-shell">
 
-      <div class="masthead-right">
-        <img id="sponsorLogo" src="" alt="Sponsor logo" hidden />
-      </div>
+<header class="masthead">
 
-      <div class="masthead-nav">
-        <div class="top-bar">
-          <div class="tab-row">
-            <button class="tab-btn active" data-division="solo">Solo</button>
-            <button class="tab-btn" data-division="duotrio">Duo/Trio</button>
-            <button class="tab-btn" data-division="groups">Group</button>
-          </div>
+<div class="logo-left">
+<img src="img/Logo1.png" alt="IOD Logo">
+</div>
 
-          <div class="action-row">
-            <a href="index.html" class="back-btn">Back to Results</a>
-          </div>
-        </div>
-      </div>
-    </header>
+<div class="title-area">
+<h1 id="eventTitle">Inspirations of Dance 2026</h1>
+<div id="lastUpdate">Last Update:</div>
+</div>
 
-    <section class="board-panel">
-      <div class="board-heading">
-        <h2 id="divisionTitle">Solo Leaderboard</h2>
-        <div id="publishVersion" class="publish-version"></div>
-      </div>
+<div class="logo-right">
+<img id="sponsorLogo" src="" hidden>
+</div>
 
-      <div class="board-grid">
-        <article id="beginnerCard" class="level-card"></article>
-        <article id="noviceCard" class="level-card"></article>
-        <article id="openCard" class="level-card"></article>
-      </div>
-    </section>
-  </div>
+<div class="nav-area">
 
-  <script src="leaderboard.js"></script>
+<div class="top-bar">
+
+<div class="tab-row">
+<button class="tab-btn active" data-division="solo">Solo</button>
+<button class="tab-btn" data-division="duotrio">Duo/Trio</button>
+<button class="tab-btn" data-division="groups">Group</button>
+</div>
+
+<div class="action-row">
+<a href="index.html" class="back-btn">Back to Results</a>
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+
+<section class="board-panel">
+
+<div class="board-heading">
+<h2 id="divisionTitle">Solo Leaderboard</h2>
+<div id="publishVersion"></div>
+</div>
+
+<div class="board-grid">
+<article id="beginnerCard" class="level-card"></article>
+<article id="noviceCard" class="level-card"></article>
+<article id="openCard" class="level-card"></article>
+</div>
+
+</section>
+
+</div>
+
+<script src="leaderboard.js"></script>
+
 </body>
 </html>
