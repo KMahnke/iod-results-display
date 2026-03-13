@@ -28,6 +28,13 @@ function getDayShortLabel(dayLabel) {
   return map[firstWord] || firstPart;
 }
 
+function getCategoriesForTab(tabLabel) {
+  if (!pageData || !pageData.categories) return [];
+  return pageData.categories.filter((category) => {
+    return getDayShortLabel(category.day_label) === tabLabel;
+  });
+}
+
 async function loadResults() {
   try {
     const response = await fetch("data/results.json?" + Date.now(), { cache: "no-store" });
@@ -45,23 +52,7 @@ async function loadResults() {
     renderContent();
   } catch (err) {
     console.error("Failed to load results:", err);
-    const content = document.getElementById("content");
-    if (content) {
-      content.innerHTML = `
-        <div class="group-card">
-          <h2>Unable to load results.</h2>
-          <div class="group-subtitle">Check data/results.json</div>
-        </div>
-      `;
-    }
   }
-}
-
-function getCategoriesForTab(tabLabel) {
-  if (!pageData || !pageData.categories) return [];
-  return pageData.categories.filter((category) => {
-    return getDayShortLabel(category.day_label) === tabLabel;
-  });
 }
 
 function renderTabs() {
@@ -110,7 +101,6 @@ function renderContent() {
   content.innerHTML = "";
 
   if (!pageData) {
-    content.innerHTML = `<div class="group-card"><h2>No data loaded.</h2></div>`;
     return;
   }
 
@@ -128,7 +118,7 @@ function renderContent() {
       const ul = document.createElement("ul");
       awards.forEach((a) => {
         const li = document.createElement("li");
-        li.textContent = `${a.award} — #${a.entry} \"${a.title}\"`;
+        li.textContent = `${a.award} — #${a.entry} "${a.title}"`;
         ul.appendChild(li);
       });
       awardsCard.appendChild(ul);
@@ -185,7 +175,16 @@ function renderContent() {
     `;
 
     const tbody = table.querySelector("tbody");
-    const rows = Array.isArray(category.results) ? category.results : [];
+
+    const rows = (category.results && category.results.length)
+      ? category.results
+      : (category.entries || []).map((e) => ({
+          entry: e.entry,
+          display_place: "",
+          gem: "",
+          title: e.title,
+          studio: e.studio
+        }));
 
     rows.forEach((r) => {
       const row = document.createElement("tr");

@@ -1,217 +1,189 @@
-(() => {
-  "use strict";
+let leaderboardData = null;
+let activeBoardId = "solo";
 
-  const dataUrl = "data/leaders.json";
-  const pollMs = 30000;
+const BOARD_ORDER = ["solo", "duotrio", "groups"];
+const BOARD_LABELS = {
+  solo: "Solo",
+  duotrio: "Duo/Trio",
+  groups: "Group"
+};
 
-  const boardOrder = ["solo", "duotrio", "groups"];
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
 
-  const boardCardEl = document.getElementById("boardCard");
-  const boardTitleEl = document.getElementById("boardTitle");
-  const eventTitleEl = document.getElementById("eventTitle");
-  const updatedAtEl = document.getElementById("updatedAt");
-  const divisionsWrapEl = document.getElementById("divisionsWrap");
-  const boardTabsEl = document.getElementById("boardTabs");
+function normalizePlaceEntries(place) {
+  if (Array.isArray(place)) {
+    return place
+      .map((v) => String(v ?? "").trim())
+      .filter((v) => v !== "");
+  }
 
-  let payload = null;
-  let currentBoardId = "solo";
-  let pollTimer = null;
+  if (typeof place === "string") {
+    const trimmed = place.trim();
+    return trimmed ? [trimmed] : [];
+  }
 
-  async function fetchData() {
-    try {
-      const res = await fetch(`${dataUrl}?_=${Date.now()}`, { cache: "no-store" });
+  return [];
+}
 
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status}`);
-      }
+function getBoardById(boardId) {
+  if (!leaderboardData || !Array.isArray(leaderboardData.boards)) return null;
+  return leaderboardData.boards.find((board) => board.id === boardId) || null;
+}
 
-      const json = await res.json();
-      if (!json || !Array.isArray(json.boards)) {
-        throw new Error("Invalid leaderboard payload");
-      }
+async function loadLeaderboard() {
+  try {
+    const response = await fetch("data/leaders.json?" + Date.now(), { cache: "no-store" });
+    leaderboardData = await response.json();
 
-      payload = json;
+    document.getElementById("eventTitle").textContent =
+      leaderboardData.event_title || "Leaderboard";
 
-      if (!getBoardById(currentBoardId)) {
-        currentBoardId = getDefaultBoardId();
-      }
+    document.getElementById("lastUpdate").textContent =
+      `Last updated: ${leaderboardData.updated_at || ""}`;
 
-      renderBoardTabs();
-      renderCurrentBoard();
-    } catch (err) {
-      console.error("Leaderboard fetch failed:", err);
-      showErrorState("Unable to load leaderboard data");
+    if (!getBoardById(activeBoardId)) {
+      const firstBoard = Array.isArray(leaderboardData.boards) && leaderboardData.boards.length
+        ? leaderboardData.boards[0]
+        : null;
+      activeBoardId = firstBoard ? firstBoard.id : "solo";
     }
+
+    renderBoardTabs();
+    renderBoard();
+  } catch (err) {
+    console.error("Failed to load leaderboard:", err);
   }
+}
 
-  function getBoardById(boardId) {
-    if (!payload || !Array.isArray(payload.boards)) return null;
-    return payload.boards.find((board) => board.id === boardId) || null;
-  }
+function renderBoardTabs() {
+  const tabs = document.getElementById("boardTabs");
+  tabs.innerHTML = "";
 
-  function getDefaultBoardId() {
-    if (!payload || !Array.isArray(payload.boards) || payload.boards.length === 0) {
-      return "solo";
-    }
+  BOARD_ORDER.forEach((boardId) => {
+    const board = getBoardById(boardId);
+    const btn = document.createElement("button");
+    btn.className = "tab-btn" + (activeBoardId === boardId ? " active" : "");
 
-    const firstKnown = boardOrder.find((id) => getBoardById(id));
-    return firstKnown || payload.boards[0].id;
-  }
-
-  function showErrorState(message) {
-    boardTitleEl.textContent = message;
-    eventTitleEl.textContent = "";
-    updatedAtEl.textContent = "";
-    divisionsWrapEl.innerHTML = "";
-  }
-
-  function renderBoardTabs() {
-    if (!boardTabsEl || !payload) return;
-
-    boardTabsEl.innerHTML = "";
-
-    const tabs = [
-      { id: "solo", label: "Solo" },
-      { id: "duotrio", label: "Duo/Trio" },
-      { id: "groups", label: "Group" }
-    ];
-
-    tabs.forEach((tab) => {
-      const exists = !!getBoardById(tab.id);
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "boardTab" + (currentBoardId === tab.id ? " active" : "") + (!exists ? " is-empty" : "");
-      btn.textContent = tab.label;
-      btn.disabled = !exists;
-      btn.addEventListener("click", () => {
-        currentBoardId = tab.id;
-        renderBoardTabs();
-        renderCurrentBoard();
-      });
-      boardTabsEl.appendChild(btn);
-    });
-  }
-
-  function renderCurrentBoard() {
-    const board = getBoardById(currentBoardId);
     if (!board) {
-      showErrorState("No leaderboard available");
-      return;
+      btn.className += " tab-btn-empty";
     }
 
-    fillBoard(board);
-    fitBoardToViewport();
+    btn.textContent = BOARD_LABELS[boardId] || boardId;
+    btn.onclick = () => {
+      if (!board) return;
+      activeBoardId = boardId;
+      renderBoardTabs();
+      renderBoard();
+    };
+
+    tabs.appendChild(btn);
+  });
+}
+
+function renderBoard() {
+  const board = getBoardById(activeBoardId);
+  const boardTitle = document.getElementById("boardTitle");
+  const boardUpdated = document.getElementById("boardUpdated");
+  const divisionsWrap = document.getElementById("divisionsWrap");
+  const sponsorLogo = document.getElementById("sponsorLogo");
+  const boardCard = document.getElementById("boardCard");
+
+  if (!board) {
+    boardTitle.textContent = "No leaderboard data";
+    boardUpdated.textContent = "";
+    divisionsWrap.innerHTML = "";
+    sponsorLogo.style.display = "none";
+    return;
   }
 
-  function fillBoard(board) {
-    boardTitleEl.textContent = board.title || "";
-    eventTitleEl.textContent = payload && payload.event_title ? payload.event_title : "";
-    updatedAtEl.textContent = payload && payload.updated_at ? `Updated ${formatUpdated(payload.updated_at)}` : "";
+  boardTitle.textContent = board.title || BOARD_LABELS[board.id] || "Leaderboard";
+  boardUpdated.textContent = leaderboardData?.publish_version
+    ? `Publish version: ${leaderboardData.publish_version}`
+    : "";
 
-    divisionsWrapEl.innerHTML = "";
-
-    const divisions = Array.isArray(board.divisions) ? board.divisions : [];
-
-    divisions.forEach((division) => {
-      const divisionEl = document.createElement("section");
-      divisionEl.className = "division";
-
-      const titleEl = document.createElement("h2");
-      titleEl.className = "divisionTitle";
-      titleEl.textContent = division.name || "";
-      divisionEl.appendChild(titleEl);
-
-      const listEl = document.createElement("ol");
-      listEl.className = "rankList";
-
-      const places = Array.isArray(division.places) ? division.places : [];
-
-      for (let i = 0; i < 5; i += 1) {
-        const rowEl = document.createElement("li");
-        rowEl.className = "rankRow";
-
-        const numEl = document.createElement("div");
-        numEl.className = "rankNum";
-        numEl.textContent = `${i + 1}.`;
-
-        const nameEl = document.createElement("div");
-        nameEl.className = "rankName";
-
-        const placeEntries = normalizePlaceEntries(places[i]);
-        nameEl.textContent = placeEntries.length ? placeEntries.join(", ") : "";
-
-        rowEl.appendChild(numEl);
-        rowEl.appendChild(nameEl);
-        listEl.appendChild(rowEl);
-      }
-
-      divisionEl.appendChild(listEl);
-      divisionsWrapEl.appendChild(divisionEl);
-    });
+  if (board.sponsor_logo) {
+    sponsorLogo.src = board.sponsor_logo;
+    sponsorLogo.style.display = "block";
+  } else {
+    sponsorLogo.removeAttribute("src");
+    sponsorLogo.style.display = "none";
   }
 
-  function normalizePlaceEntries(place) {
-    if (Array.isArray(place)) {
-      return place.map((v) => String(v || "").trim()).filter(Boolean);
-    }
+  const divisions = Array.isArray(board.divisions) ? board.divisions : [];
+  divisionsWrap.innerHTML = divisions.map((division) => {
+    const places = Array.isArray(division.places) ? division.places : [];
 
-    if (typeof place === "string") {
-      const trimmed = place.trim();
-      return trimmed ? [trimmed] : [];
-    }
+    const rowsHtml = [0, 1, 2, 3, 4].map((idx) => {
+      const entries = normalizePlaceEntries(places[idx]);
+      const placeNo = idx + 1;
 
-    return [];
-  }
+      let rowClass = "rank-row";
+      if (entries.length > 1) rowClass += " rank-row-tie";
 
-  function fitBoardToViewport() {
-    if (!boardCardEl) return;
+      const valueHtml = entries.length
+        ? entries.map((entry) => `<div class="rank-entry">${escapeHtml(entry)}</div>`).join("")
+        : `<div class="rank-entry rank-entry-empty">&nbsp;</div>`;
 
-    for (let i = 0; i <= 6; i += 1) {
-      boardCardEl.classList.remove(`fit-${i}`);
-    }
+      return `
+        <div class="${rowClass}">
+          <div class="rank-num">${placeNo}.</div>
+          <div class="rank-values">${valueHtml}</div>
+        </div>
+      `;
+    }).join("");
 
-    let applied = 0;
-    boardCardEl.classList.add("fit-0");
+    return `
+      <section class="division-card">
+        <h3 class="division-title">${escapeHtml(division.name || "")}</h3>
+        <div class="rank-list">
+          ${rowsHtml}
+        </div>
+      </section>
+    `;
+  }).join("");
 
-    while (applied < 6 && document.documentElement.scrollHeight > window.innerHeight) {
-      boardCardEl.classList.remove(`fit-${applied}`);
-      applied += 1;
-      boardCardEl.classList.add(`fit-${applied}`);
-    }
-  }
+  applyDynamicFit(boardCard);
+}
 
-  function formatUpdated(value) {
-    const dt = new Date(String(value).replace(" ", "T"));
-    if (Number.isNaN(dt.getTime())) {
-      return value;
-    }
+function applyDynamicFit(boardCard) {
+  boardCard.classList.remove("fit-tight", "fit-tighter", "fit-tightest");
+  void boardCard.offsetHeight;
 
-    return dt.toLocaleString([], {
-      month: "short",
-      day: "numeric",
-      hour: "numeric",
-      minute: "2-digit"
-    });
-  }
+  const maxAllowed = window.innerHeight - 190;
+  if (boardCard.offsetHeight <= maxAllowed) return;
 
-  function startPolling() {
-    stopPolling();
-    pollTimer = window.setInterval(fetchData, pollMs);
-  }
+  boardCard.classList.add("fit-tight");
+  void boardCard.offsetHeight;
+  if (boardCard.offsetHeight <= maxAllowed) return;
 
-  function stopPolling() {
-    if (pollTimer) {
-      window.clearInterval(pollTimer);
-      pollTimer = null;
-    }
-  }
+  boardCard.classList.remove("fit-tight");
+  boardCard.classList.add("fit-tighter");
+  void boardCard.offsetHeight;
+  if (boardCard.offsetHeight <= maxAllowed) return;
 
-  document.getElementById("resultsBtn").addEventListener("click", () => {
+  boardCard.classList.remove("fit-tighter");
+  boardCard.classList.add("fit-tightest");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("backToResultsBtn").addEventListener("click", () => {
     window.location.href = "index.html";
   });
 
-  window.addEventListener("resize", fitBoardToViewport);
+  loadLeaderboard();
+  setInterval(loadLeaderboard, 10000);
 
-  fetchData();
-  startPolling();
-})();
+  window.addEventListener("resize", () => {
+    const boardCard = document.getElementById("boardCard");
+    if (boardCard) {
+      applyDynamicFit(boardCard);
+    }
+  });
+});

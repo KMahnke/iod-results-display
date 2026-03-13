@@ -2,37 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
   <title>Inspirations of Dance Leaderboard</title>
   <link rel="stylesheet" href="leaderboard.css" />
 </head>
 <body>
-  <div class="pageShell">
-    <header class="topBar">
-      <div class="topBarRow">
-        <button id="resultsBtn" class="navBtn" type="button">Results</button>
-        <div class="topBarTitle">Leaderboard</div>
-        <div class="topBarSpacer"></div>
-      </div>
+  <header class="site-header">
+    <div class="header-left"></div>
 
-      <div class="boardTabs" id="boardTabs" aria-label="Leaderboard boards"></div>
-    </header>
+    <div class="header-center">
+      <h1 id="eventTitle">Inspirations of Dance 2026</h1>
+      <div id="lastUpdate" class="updated"></div>
+    </div>
 
-    <main class="boardStage">
-      <section id="boardCard" class="boardCard fit-0" aria-live="polite">
-        <div class="boardHeaderRow">
-          <div class="boardHeaderText">
-            <h1 id="boardTitle" class="boardTitle">Loading...</h1>
-            <div id="eventTitle" class="eventTitle"></div>
-          </div>
-          <div id="updatedAt" class="updatedAt"></div>
+    <div class="header-right"></div>
+  </header>
+
+  <div class="container leaderboard-container">
+    <div class="sticky-controls">
+      <div class="nav-bar">
+        <div class="nav-left">
+          <div id="boardTabs" class="tabs"></div>
         </div>
 
-        <div id="divisionsWrap" class="divisionsWrap"></div>
+        <div class="nav-right nav-right-leaderboard">
+          <button id="backToResultsBtn" class="tab-btn" type="button">Back to Results</button>
+        </div>
+      </div>
+    </div>
 
-        <footer class="footerBar">
-          <img src="img/Logo1.png" class="eventBrandLogo" alt="Inspirations of Dance" />
-        </footer>
+    <main id="leaderboardContent" class="leaderboard-content">
+      <section id="boardCard" class="board-card fit-normal">
+        <div class="board-header">
+          <div class="board-header-left">
+            <h2 id="boardTitle" class="board-title">Loading...</h2>
+            <div id="boardUpdated" class="board-updated"></div>
+          </div>
+        </div>
+
+        <div id="divisionsWrap" class="divisions-wrap"></div>
+
+        <div class="board-footer">
+          <img id="sponsorLogo" class="sponsor-logo" src="" alt="Sponsor logo" />
+        </div>
       </section>
     </main>
   </div>
