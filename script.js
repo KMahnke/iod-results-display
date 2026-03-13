@@ -95,6 +95,14 @@ function renderTabs() {
     renderContent();
   };
   tabs.appendChild(awardsBtn);
+
+  const leaderboardBtn = document.createElement("button");
+  leaderboardBtn.className = "tab-btn";
+  leaderboardBtn.textContent = "Leaderboard";
+  leaderboardBtn.onclick = () => {
+    window.location.href = "leaderboard.html";
+  };
+  tabs.appendChild(leaderboardBtn);
 }
 
 function renderContent() {
@@ -120,7 +128,7 @@ function renderContent() {
       const ul = document.createElement("ul");
       awards.forEach((a) => {
         const li = document.createElement("li");
-        li.textContent = `${a.award} — #${a.entry} "${a.title}"`;
+        li.textContent = `${a.award} — #${a.entry} \"${a.title}\"`;
         ul.appendChild(li);
       });
       awardsCard.appendChild(ul);
@@ -255,10 +263,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("searchBtn").addEventListener("click", searchEntry);
   document.getElementById("entrySearch").addEventListener("keypress", (e) => {
     if (e.key === "Enter") searchEntry();
-  });
-
-  document.getElementById("leaderboardBtn").addEventListener("click", () => {
-    window.location.href = "leaderboard.html";
   });
 
   loadResults();
