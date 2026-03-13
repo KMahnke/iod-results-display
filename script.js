@@ -28,16 +28,9 @@ function getDayShortLabel(dayLabel) {
   return map[firstWord] || firstPart;
 }
 
-function getCategoriesForTab(tabLabel) {
-  if (!pageData || !pageData.categories) return [];
-  return pageData.categories.filter((category) => {
-    return getDayShortLabel(category.day_label) === tabLabel;
-  });
-}
-
 async function loadResults() {
   try {
-    const response = await fetch("data/results.json?" + Date.now());
+    const response = await fetch("data/results.json?" + Date.now(), { cache: "no-store" });
     pageData = await response.json();
 
     document.getElementById("eventTitle").textContent = pageData.event || "Results";
@@ -52,7 +45,23 @@ async function loadResults() {
     renderContent();
   } catch (err) {
     console.error("Failed to load results:", err);
+    const content = document.getElementById("content");
+    if (content) {
+      content.innerHTML = `
+        <div class="group-card">
+          <h2>Unable to load results.</h2>
+          <div class="group-subtitle">Check data/results.json</div>
+        </div>
+      `;
+    }
   }
+}
+
+function getCategoriesForTab(tabLabel) {
+  if (!pageData || !pageData.categories) return [];
+  return pageData.categories.filter((category) => {
+    return getDayShortLabel(category.day_label) === tabLabel;
+  });
 }
 
 function renderTabs() {
@@ -91,6 +100,11 @@ function renderTabs() {
 function renderContent() {
   const content = document.getElementById("content");
   content.innerHTML = "";
+
+  if (!pageData) {
+    content.innerHTML = `<div class="group-card"><h2>No data loaded.</h2></div>`;
+    return;
+  }
 
   if (activeTab === "awards") {
     const awardsCard = document.createElement("div");
@@ -163,16 +177,7 @@ function renderContent() {
     `;
 
     const tbody = table.querySelector("tbody");
-
-    const rows = (category.results && category.results.length)
-      ? category.results
-      : (category.entries || []).map((e) => ({
-          entry: e.entry,
-          display_place: "",
-          gem: "",
-          title: e.title,
-          studio: e.studio
-        }));
+    const rows = Array.isArray(category.results) ? category.results : [];
 
     rows.forEach((r) => {
       const row = document.createElement("tr");
@@ -195,7 +200,7 @@ function renderContent() {
 }
 
 function escapeHtml(value) {
-  return String(value)
+  return String(value ?? "")
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
@@ -250,6 +255,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("searchBtn").addEventListener("click", searchEntry);
   document.getElementById("entrySearch").addEventListener("keypress", (e) => {
     if (e.key === "Enter") searchEntry();
+  });
+
+  document.getElementById("leaderboardBtn").addEventListener("click", () => {
+    window.location.href = "leaderboard.html";
   });
 
   loadResults();
