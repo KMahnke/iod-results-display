@@ -1,37 +1,197 @@
 {
-  "event_title": "Inspirations of Dance",
-  "updated_at": "",
-  "publish_version": "",
-  "boards": [
-    {
-      "id": "solo",
-      "title": "Solo",
-      "sponsor_logo": "",
-      "divisions": [
-        { "name": "Beginner", "places": [] },
-        { "name": "Novice", "places": [] },
-        { "name": "Open", "places": [] }
-      ]
-    },
-    {
-      "id": "duotrio",
-      "title": "Duo/Trio",
-      "sponsor_logo": "",
-      "divisions": [
-        { "name": "Beginner", "places": [] },
-        { "name": "Novice", "places": [] },
-        { "name": "Open", "places": [] }
-      ]
-    },
-    {
-      "id": "groups",
-      "title": "Groups",
-      "sponsor_logo": "",
-      "divisions": [
-        { "name": "Beginner", "places": [] },
-        { "name": "Novice", "places": [] },
-        { "name": "Open", "places": [] }
-      ]
-    }
-  ]
+    "event_title": "Inspirations of Dance 2026",
+    "updated_at": "2026-03-13 18:00:38",
+    "publish_version": "2026-03-13T18:00:38+01:00",
+    "boards": [
+        {
+            "id": "solo",
+            "title": "Solo",
+            "sponsor_logo": "",
+            "divisions": [
+                {
+                    "name": "Beginner",
+                    "places": [
+                        [
+                            "16 - I want a hippopatamus for Christmas"
+                        ],
+                        [
+                            "13 - Mack the Knife"
+                        ],
+                        [
+                            "183 - Candyman"
+                        ],
+                        [
+                            "71 - Sun Goes Down"
+                        ],
+                        [
+                            "14 - Chaplin",
+                            "304 - Imma Be",
+                            "322 - Perfect Day"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Novice",
+                    "places": [
+                        [
+                            "242 - Smell of Rebellion",
+                            "251 - Money",
+                            "418 - Where Have You Been"
+                        ],
+                        [
+                            "36 - Where Light Rises"
+                        ],
+                        [
+                            "204 - Humble",
+                            "211 - Pure Water",
+                            "236 - Breakin' Dishes",
+                            "245 - The Girl in 14-G",
+                            "402 - Escalate"
+                        ],
+                        [
+                            "35 - Echoes Within",
+                            "188 - Power",
+                            "229 - Glorilla Mashup",
+                            "249 - Cali Vibes",
+                            "254 - Disco Inferno",
+                            "262 - Soldier",
+                            "282 - Man in the Mirror",
+                            "374 - L-O-V-E"
+                        ],
+                        [
+                            "74 - Bird Box",
+                            "97 - Bring the Lion Out",
+                            "186 - SWAG",
+                            "216 - Neva Play",
+                            "228 - OMG",
+                            "250 - Bounce",
+                            "253 - Roc Steady",
+                            "278 - Paralyzed",
+                            "280 - Like a Queen",
+                            "290 - Rain Dance",
+                            "379 - Together Again",
+                            "414 - Maniac"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Open",
+                    "places": [
+                        [
+                            "353 - That's Who I Praise"
+                        ],
+                        [
+                            "156 - In The Kitchen",
+                            "352 - Polyphia"
+                        ],
+                        [
+                            "92 - Far From Home",
+                            "150 - Song To The Siren"
+                        ],
+                        [
+                            "167 - Exhale Inhale"
+                        ],
+                        [
+                            "32 - Dancing Through Life"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "duotrio",
+            "title": "Duo/Trio",
+            "sponsor_logo": "",
+            "divisions": [
+                {
+                    "name": "Beginner",
+                    "places": [
+                        [
+                            "42 - Johnson/Metke/Wintonyk",
+                            "271 - Burton/McNeil"
+                        ],
+                        [
+                            "46 - Freitag/Minty",
+                            "47 - Forman/Jensen"
+                        ],
+                        [
+                            "56 - Lupastin/Reiss/Rey"
+                        ],
+                        [
+                            "43 - Cameron/Cameron",
+                            "62 - getz/Pletz",
+                            "72 - Diacon/Thompson/Wiebe",
+                            "256 - Woodland/Woodland",
+                            "270 - Kutsak/Paziuk"
+                        ],
+                        [
+                            "258 - Rey/Rey"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Novice",
+                    "places": [
+                        [
+                            "339 - Garnier/Gilbertson/Henderson"
+                        ],
+                        [
+                            "57 - Lipinski/Mitchell/Orr",
+                            "115 - Artavia/Drake"
+                        ],
+                        [
+                            "317 - Day/Reich"
+                        ],
+                        [
+                            "318 - Gilbertson/Henderson",
+                            "327 - Hillier/Hillier"
+                        ],
+                        [
+                            "328 - Lipinski/Mitchell/Orr"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Open",
+                    "places": [
+                        [
+                            "366 - Breker/Reich"
+                        ],
+                        [
+                            "132 - Bourassa/Huang"
+                        ],
+                        [
+                            "368 - Vos/Vos"
+                        ],
+                        [
+                            "138 - Huang/Li",
+                            "369 - McNabb/Kirchhofer"
+                        ],
+                        [
+                            "135 - Hack/Pocha"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "groups",
+            "title": "Groups",
+            "sponsor_logo": "",
+            "divisions": [
+                {
+                    "name": "Beginner",
+                    "places": []
+                },
+                {
+                    "name": "Novice",
+                    "places": []
+                },
+                {
+                    "name": "Open",
+                    "places": []
+                }
+            ]
+        }
+    ]
 }
