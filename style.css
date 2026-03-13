@@ -117,6 +117,21 @@ body {
   opacity: 0.55;
 }
 
+.icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon-label {
+  display: inline;
+}
+
+.day-btn {
+  min-width: 40px;
+  text-align: center;
+}
+
 .searchbox {
   display: flex;
   align-items: stretch;
