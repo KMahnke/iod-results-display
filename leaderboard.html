@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+  <title>Inspirations of Dance Leaderboard</title>
+  <link rel="stylesheet" href="leaderboard.css" />
+</head>
+<body>
+  <div id="app" class="app loading">
+    <div class="screen">
+      <header class="topBar">
+        <div class="topBarRow">
+          <button id="resultsBtn" class="resultsBtn" type="button">Results</button>
+          <div class="topBarTitle">Leaderboard</div>
+          <div class="topBarSpacer"></div>
+        </div>
+      </header>
+
+      <main class="boardStage">
+        <section id="boardCard" class="boardCard" aria-live="polite">
+          <div class="boardHeaderRow">
+            <div>
+              <h1 id="boardTitle" class="boardTitle">Loading...</h1>
+              <div id="eventTitle" class="eventTitle"></div>
+            </div>
+            <div id="updatedAt" class="updatedAt"></div>
+          </div>
+
+          <div id="divisionsWrap" class="divisionsWrap"></div>
+
+          <div class="footerBar">
+            <img src="img/Logo1.png" class="eventBrandLogo" alt="Inspirations of Dance" />
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="leaderboard.js"></script>
+</body>
+</html>
