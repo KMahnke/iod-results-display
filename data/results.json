@@ -7893,7 +7893,7 @@
             "results": [
                 {
                     "entry": "399",
-                    "display_place": "1st",
+                    "display_place": "2st",
                     "gem": "RUBY",
                     "title": "Maneater",
                     "studio": "Artemis Dance",
@@ -7913,7 +7913,7 @@
                 },
                 {
                     "entry": "401",
-                    "display_place": "3rd",
+                    "display_place": "",
                     "gem": "RUBY",
                     "title": "La Seine",
                     "studio": "En Pointe Dance Studio",
@@ -7923,17 +7923,17 @@
                 },
                 {
                     "entry": "402",
-                    "display_place": "",
-                    "gem": "EMERALD",
+                    "display_place": "1st",
+                    "gem": "RUBY",
                     "title": "Escalate",
                     "studio": "Born2Dance",
-                    "score": 82.5,
+                    "score": 88,
                     "program_order": 400,
                     "scratched": false
                 },
                 {
                     "entry": "403",
-                    "display_place": "2nd",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Get Back",
                     "studio": "Born2Dance",
