@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 22:30:51",
-    "publish_version": "2026-03-14T22:30:51+01:00",
+    "last_update": "2026-03-14 22:32:26",
+    "publish_version": "2026-03-14T22:32:26+01:00",
     "program_source": "program.json",
-    "published_count": 190,
+    "published_count": 192,
     "categories": [
         {
             "category_id": 607676400,
@@ -16829,6 +16829,164 @@
                     "performers": "",
                     "score": 84,
                     "program_order": 765,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1153074308,
+            "category_name": "BEGINNER AGES 5 & UNDER TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 766,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "767",
+                    "title": "Shake Your Boots",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 766
+                },
+                {
+                    "entry": "768",
+                    "title": "Pink Shoe Laces",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 767
+                },
+                {
+                    "entry": "769",
+                    "title": "My Boy Lollipop",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 768
+                },
+                {
+                    "entry": "770",
+                    "title": "Girl's On Minnie Street",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 769
+                },
+                {
+                    "entry": "771",
+                    "title": "Shake a Tail Feather",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 770
+                },
+                {
+                    "entry": "772",
+                    "title": "Pink Cats",
+                    "studio": "White City Dancing School",
+                    "program_order": 771
+                }
+            ],
+            "results": [
+                {
+                    "entry": "767",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Shake Your Boots",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 766,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "768",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Pink Shoe Laces",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 767,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "769",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "My Boy Lollipop",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 768,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "770",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Girl's On Minnie Street",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 83.3,
+                    "program_order": 769,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "771",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Shake a Tail Feather",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 770,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "772",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Pink Cats",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 82.8,
+                    "program_order": 771,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 650853410,
+            "category_name": "BEGINNER AGES 12-14 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 772,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "773",
+                    "title": "All I Wanna Do is Eat",
+                    "studio": "Born2Dance",
+                    "program_order": 772
+                }
+            ],
+            "results": [
+                {
+                    "entry": "773",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "All I Wanna Do is Eat",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 772,
                     "scratched": false,
                     "adjudicate_only": false
                 }
