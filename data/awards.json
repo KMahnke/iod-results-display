@@ -1,19 +1,73 @@
 {
-  "event": "Session Awards",
-  "publish_version": "",
-  "excellence": {
-    "title": "Excellence in Dance",
-    "logo": "img/Integrity.png",
-    "winners": []
-  },
-  "applause": {
-    "title": "Another Round of Applause",
-    "logo": "img/Torrent.png",
-    "winners": []
-  },
-  "smile": {
-    "title": "Smile Award",
-    "logo": "img/Whitecap.png",
-    "winners": []
-  }
+    "event": "Inspirations of Dance",
+    "eventsID": 119517,
+    "last_update": "2026-03-14 04:06:00",
+    "publish_version": "2026-03-14T04:06:00+01:00",
+    "updated_at": "2026-03-14 03:49:39",
+    "awards": [
+        {
+            "award_key": "excellence_in_dance",
+            "award_title": "Excellence in Dance",
+            "sponsor_logo": "",
+            "winner_text": "#113 Vogue \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance",
+            "winners": [
+                {
+                    "entry": "113",
+                    "title": "Vogue",
+                    "studio": "Born2Dance"
+                },
+                {
+                    "entry": "93",
+                    "title": "When I Get Where I'm Going",
+                    "studio": "Born2Dance"
+                },
+                {
+                    "entry": "32",
+                    "title": "Dancing Through Life",
+                    "studio": "Born2Dance"
+                },
+                {
+                    "entry": "80",
+                    "title": "False Confidence",
+                    "studio": "Born2Dance"
+                }
+            ]
+        },
+        {
+            "award_key": "another_round_of_applause",
+            "award_title": "Another Round of Applause",
+            "sponsor_logo": "",
+            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios",
+            "winners": [
+                {
+                    "entry": "106",
+                    "title": "Black Swan",
+                    "studio": "Against the Grain Studios"
+                }
+            ]
+        },
+        {
+            "award_key": "smile_award",
+            "award_title": "Smile Award",
+            "sponsor_logo": "",
+            "winner_text": "#88 Words Matter \u2022 Born2Dance \u2022 #135 You're the One \u2022 Marley's Dance Effex \u2022 #96 Chic \u2022 Born2Dance",
+            "winners": [
+                {
+                    "entry": "88",
+                    "title": "Words Matter",
+                    "studio": "Born2Dance"
+                },
+                {
+                    "entry": "135",
+                    "title": "You're the One",
+                    "studio": "Marley's Dance Effex"
+                },
+                {
+                    "entry": "96",
+                    "title": "Chic",
+                    "studio": "Born2Dance"
+                }
+            ]
+        }
+    ]
 }
