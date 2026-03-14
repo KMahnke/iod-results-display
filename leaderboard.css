@@ -14,7 +14,7 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 body.leaderboard-page {
@@ -22,6 +22,8 @@ body.leaderboard-page {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--white);
   background: linear-gradient(90deg, var(--bg-start), var(--bg-end));
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .page-shell {
@@ -240,9 +242,20 @@ body.leaderboard-page {
 
 /* Awards page */
 
+.awards-shell {
+  display: block;
+  min-height: 100vh;
+}
+
+.awards-shell .masthead {
+  grid-template-columns: 170px minmax(0, 1fr);
+  grid-template-areas:
+    "logoL title"
+    "logoL nav";
+}
+
 .awards-shell .board-panel {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .awards-panel {
@@ -253,7 +266,7 @@ body.leaderboard-page {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  min-height: 0;
+  align-items: start;
 }
 
 .award-card {
@@ -300,7 +313,6 @@ body.leaderboard-page {
   display: flex;
   flex-direction: column;
   gap: 0;
-  min-height: 0;
 }
 
 .award-row {
@@ -344,6 +356,10 @@ body.leaderboard-page {
     grid-template-columns: 140px minmax(0, 1fr) 180px;
   }
 
+  .awards-shell .masthead {
+    grid-template-columns: 140px minmax(0, 1fr);
+  }
+
   .logo-left img {
     max-width: 120px;
     max-height: 110px;
@@ -368,13 +384,13 @@ body.leaderboard-page {
 }
 
 @media (max-width: 900px) {
-  .masthead {
+  .masthead,
+  .awards-shell .masthead {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
       "logoL"
       "title"
-      "logoR"
       "nav";
     justify-items: center;
   }
