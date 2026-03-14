@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance",
-    "updated_at": "2026-03-14 18:46:23",
-    "publish_version": "2026-03-14T18:46:23+01:00",
+    "updated_at": "2026-03-14 19:59:23",
+    "publish_version": "2026-03-14T19:59:23+01:00",
     "boards": [
         {
             "id": "solo",
@@ -214,14 +214,16 @@
                             "612 - Dive In The Pool"
                         ],
                         [
-                            "617 - Real In Rio"
+                            "617 - Real In Rio",
+                            "694 - Hallelujah"
                         ],
                         [
                             "611 - Girlz",
                             "613 - Shake it up",
                             "614 - The Spook",
                             "620 - Mother Ginger's Children",
-                            "628 - Ordinary"
+                            "628 - Ordinary",
+                            "700 - Ballerina"
                         ],
                         [
                             "631 - Desert Nights",
@@ -239,16 +241,13 @@
                             "652 - Band Geeks"
                         ],
                         [
+                            "708 - I Wanna Rock!"
+                        ],
+                        [
+                            "710 - Hit Me Up"
+                        ],
+                        [
                             "646 - Tarantella"
-                        ],
-                        [
-                            "651 - The Lorax",
-                            "653 - Coffee In A Cardboard Cup"
-                        ],
-                        [
-                            "645 - A Waltz in the Forest",
-                            "654 - Frozen",
-                            "655 - High School Musical"
                         ]
                     ]
                 },
@@ -259,17 +258,23 @@
                             "650 - Grease"
                         ],
                         [
-                            "659 - Alma Espanola"
+                            "718 - New York"
                         ],
                         [
-                            "615 - Spiderman"
+                            "659 - Alma Espanola",
+                            "736 - I Wanna Dance With Somebody",
+                            "737 - Tainted Love"
+                        ],
+                        [
+                            "615 - Spiderman",
+                            "717 - They Don't Really Care About Us"
                         ],
                         [
                             "658 - Painted Black",
-                            "668 - Fairies"
-                        ],
-                        [
-                            "660 - The Light"
+                            "668 - Fairies",
+                            "720 - Someone to You",
+                            "721 - Welcome To My House",
+                            "722 - Wake Up Dead Man"
                         ]
                     ]
                 }

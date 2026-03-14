@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 18:46:23",
-    "publish_version": "2026-03-14T18:46:23+01:00",
+    "last_update": "2026-03-14 19:59:23",
+    "publish_version": "2026-03-14T19:59:23+01:00",
     "program_source": "program.json",
-    "published_count": 170,
+    "published_count": 184,
     "categories": [
         {
             "category_id": 607676400,
@@ -385,6 +385,40 @@
                     "performers": "Fredrick Pederson",
                     "score": 800,
                     "program_order": 15,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1421565728,
+            "category_name": "NOVICE AGES 18 OVER BALLET SOLO",
+            "day_label": "Wednesday March 11th, 2026",
+            "session_label": "Session 1 \u2022 2:00pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 16,
+            "day_sort": 0,
+            "session_sort": 0,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "17",
+                    "title": "Dance of The Knights",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 16
+                }
+            ],
+            "results": [
+                {
+                    "entry": "17",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Dance of The Knights",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Madison Storrey",
+                    "score": 83.5,
+                    "program_order": 16,
                     "scratched": false,
                     "adjudicate_only": false
                 }
@@ -15141,6 +15175,1042 @@
                     "performers": "Allison Matichuk, Kara Poelzer",
                     "score": 83,
                     "program_order": 690,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 231525406,
+            "category_name": "BEGINNER AGES 9-11 BALLET SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 691,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "692",
+                    "title": "Where the Seasons Meet",
+                    "studio": "Artemis Dance",
+                    "program_order": 691
+                },
+                {
+                    "entry": "693",
+                    "title": "Favourite Things",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 692
+                },
+                {
+                    "entry": "694",
+                    "title": "Hallelujah",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 693
+                },
+                {
+                    "entry": "695",
+                    "title": "I See The Light",
+                    "studio": "Diva Dance",
+                    "program_order": 694
+                },
+                {
+                    "entry": "696",
+                    "title": "Charms Class",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 695
+                },
+                {
+                    "entry": "697",
+                    "title": "Dream Scene",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 696
+                },
+                {
+                    "entry": "698",
+                    "title": "The horse whisperer",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 697
+                },
+                {
+                    "entry": "699",
+                    "title": "You're Still the One",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 698
+                }
+            ],
+            "results": [
+                {
+                    "entry": "692",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Where the Seasons Meet",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 691,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "693",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Favourite Things",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 80.5,
+                    "program_order": 692,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "694",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Hallelujah",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 693,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "695",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "I See The Light",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 694,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "696",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Charms Class",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 695,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "697",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Dream Scene",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82.3,
+                    "program_order": 696,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "698",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "The horse whisperer",
+                    "studio": "Against the Grain Studios",
+                    "performers": "",
+                    "score": 82.3,
+                    "program_order": 697,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "699",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "You're Still the One",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 698,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1723182061,
+            "category_name": "BEGINNER AGES 5 & UNDER BALLET SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 699,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "700",
+                    "title": "Ballerina",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 699
+                },
+                {
+                    "entry": "701",
+                    "title": "Here Comes The Sun",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 700
+                },
+                {
+                    "entry": "702",
+                    "title": "Magic Of The Garden",
+                    "studio": "White City Dancing School",
+                    "program_order": 701
+                }
+            ],
+            "results": [
+                {
+                    "entry": "700",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Ballerina",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 699,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "701",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Here Comes The Sun",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 700,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "702",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Magic Of The Garden",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 701,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1994694157,
+            "category_name": "BEGINNER AGES 5 UNDER BALLET SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 702,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "703",
+                    "title": "Dream A Little Dream",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 702
+                },
+                {
+                    "entry": "704",
+                    "title": "Jungle Jitters",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 703
+                },
+                {
+                    "entry": "705",
+                    "title": "Cruella De Vil",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 704
+                }
+            ],
+            "results": [
+                {
+                    "entry": "703",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Dream A Little Dream",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 702,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "704",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Jungle Jitters",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 703,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "705",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Cruella De Vil",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 704,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1609030245,
+            "category_name": "NOVICE AGES 9-11 TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 705,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "706",
+                    "title": "Cha Cha Heels",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 705
+                },
+                {
+                    "entry": "707",
+                    "title": "Sing",
+                    "studio": "Artemis Dance",
+                    "program_order": 706
+                }
+            ],
+            "results": [
+                {
+                    "entry": "706",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Cha Cha Heels",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 705,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "707",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Sing",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 706,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1643628974,
+            "category_name": "NOVICE AGES 12-14 TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 707,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "708",
+                    "title": "I Wanna Rock!",
+                    "studio": "Artemis Dance",
+                    "program_order": 707
+                },
+                {
+                    "entry": "709",
+                    "title": "You Can Call Me Al",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 708
+                },
+                {
+                    "entry": "710",
+                    "title": "Hit Me Up",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 709
+                }
+            ],
+            "results": [
+                {
+                    "entry": "708",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "I Wanna Rock!",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 88,
+                    "program_order": 707,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "709",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "You Can Call Me Al",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 708,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "710",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Hit Me Up",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 709,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 2011579905,
+            "category_name": "NOVICE AGES 15-17 TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 710,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "711",
+                    "title": "Don't Stop Me Now",
+                    "studio": "Born2Dance",
+                    "program_order": 710
+                }
+            ],
+            "results": [
+                {
+                    "entry": "711",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Don't Stop Me Now",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 86,
+                    "program_order": 710,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1327400877,
+            "category_name": "BEGINNER AGES 5 & UNDER BALLET LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 711,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "712",
+                    "title": "Somewhere over the Rainbow",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 711
+                },
+                {
+                    "entry": "713",
+                    "title": "Isn't She Lovely",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 712
+                },
+                {
+                    "entry": "714",
+                    "title": "Butterfly",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 713
+                },
+                {
+                    "entry": "715",
+                    "title": "Under the Sea",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 714
+                },
+                {
+                    "entry": "716",
+                    "title": "Dancing Pedals",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 715
+                }
+            ],
+            "results": [
+                {
+                    "entry": "712",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Somewhere over the Rainbow",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 711,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "713",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Isn't She Lovely",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 712,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "714",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Butterfly",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 713,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "715",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Under the Sea",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 714,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "716",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Dancing Pedals",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 715,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1581451650,
+            "category_name": "OPEN AGES 15-17 TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 716,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "717",
+                    "title": "They Don't Really Care About Us",
+                    "studio": "Artemis Dance",
+                    "program_order": 716
+                }
+            ],
+            "results": [
+                {
+                    "entry": "717",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "They Don't Really Care About Us",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 88,
+                    "program_order": 716,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 382772623,
+            "category_name": "OPEN AGES 15-17 TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 717,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "718",
+                    "title": "New York",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 717
+                },
+                {
+                    "entry": "719",
+                    "title": "Let The Groove In",
+                    "studio": "White City Dancing School",
+                    "program_order": 718
+                },
+                {
+                    "entry": "720",
+                    "title": "Someone to You",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 719
+                },
+                {
+                    "entry": "721",
+                    "title": "Welcome To My House",
+                    "studio": "Dance Plus EP",
+                    "program_order": 720
+                },
+                {
+                    "entry": "722",
+                    "title": "Wake Up Dead Man",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 721
+                }
+            ],
+            "results": [
+                {
+                    "entry": "718",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "New York",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 90,
+                    "program_order": 717,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "719",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Let The Groove In",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 718,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "720",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Someone to You",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 719,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "721",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Welcome To My House",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 720,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "722",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Wake Up Dead Man",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 721,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1766101376,
+            "category_name": "OPEN AGES 18 OVER TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 722,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "723",
+                    "title": "Fake ID",
+                    "studio": "Artemis Dance",
+                    "program_order": 722
+                }
+            ],
+            "results": [
+                {
+                    "entry": "723",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Fake ID",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 90.5,
+                    "program_order": 722,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 325090100,
+            "category_name": "NOVICE AGES 6-8 TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 723,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "724",
+                    "title": "Tightrope",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 723
+                },
+                {
+                    "entry": "725",
+                    "title": "Let's Go to Vegas",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 724
+                }
+            ],
+            "results": [
+                {
+                    "entry": "724",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Tightrope",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 723,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "725",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Let's Go to Vegas",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 724,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 101842804,
+            "category_name": "NOVICE AGES 9-11 TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 725,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "726",
+                    "title": "Suddenly I See",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 725
+                },
+                {
+                    "entry": "727",
+                    "title": "Knock on Wood",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 726
+                },
+                {
+                    "entry": "728",
+                    "title": "American Kids",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 727
+                },
+                {
+                    "entry": "729",
+                    "title": "Show Me What You Got",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 728
+                },
+                {
+                    "entry": "730",
+                    "title": "In My Way",
+                    "studio": "Diva Dance",
+                    "program_order": 729
+                },
+                {
+                    "entry": "731",
+                    "title": "Jump, Jive, Whail",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 730
+                },
+                {
+                    "entry": "732",
+                    "title": "Bahama Roller Coaster Ride",
+                    "studio": "Artemis Dance",
+                    "program_order": 731
+                },
+                {
+                    "entry": "733",
+                    "title": "A Little Party",
+                    "studio": "Reston Dance Club",
+                    "program_order": 732
+                },
+                {
+                    "entry": "734",
+                    "title": "Dance With Me Tonight",
+                    "studio": "Dance Plus EP",
+                    "program_order": 733
+                },
+                {
+                    "entry": "735",
+                    "title": "School of Rock",
+                    "studio": "Valley Dance",
+                    "program_order": 734
+                }
+            ],
+            "results": [
+                {
+                    "entry": "726",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Suddenly I See",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 725,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "727",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Knock on Wood",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 726,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "728",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "American Kids",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "",
+                    "score": 82.8,
+                    "program_order": 727,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "729",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Show Me What You Got",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 728,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "730",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "In My Way",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 729,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "731",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Jump, Jive, Whail",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 730,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "732",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Bahama Roller Coaster Ride",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 731,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "733",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "A Little Party",
+                    "studio": "Reston Dance Club",
+                    "performers": "",
+                    "score": 80.5,
+                    "program_order": 732,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "734",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Dance With Me Tonight",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 733,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "735",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "School of Rock",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 83.3,
+                    "program_order": 734,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 129546861,
+            "category_name": "OPEN AGES 12-14 TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 735,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 16,
+            "entries": [
+                {
+                    "entry": "736",
+                    "title": "I Wanna Dance With Somebody",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 735
+                },
+                {
+                    "entry": "737",
+                    "title": "Tainted Love",
+                    "studio": "Artemis Dance",
+                    "program_order": 736
+                }
+            ],
+            "results": [
+                {
+                    "entry": "736",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "I Wanna Dance With Somebody",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 88.5,
+                    "program_order": 735,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "737",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Tainted Love",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 88.5,
+                    "program_order": 736,
                     "scratched": false,
                     "adjudicate_only": false
                 }
