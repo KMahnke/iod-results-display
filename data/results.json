@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 22:00:38",
-    "publish_version": "2026-03-14T22:00:38+01:00",
+    "last_update": "2026-03-14 22:06:54",
+    "publish_version": "2026-03-14T22:06:54+01:00",
     "program_source": "program.json",
-    "published_count": 185,
+    "published_count": 187,
     "categories": [
         {
             "category_id": 607676400,
@@ -16299,6 +16299,200 @@
                     "performers": "",
                     "score": 83,
                     "program_order": 740,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1344580198,
+            "category_name": "NOVICE AGES 15-17 TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 741,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "742",
+                    "title": "Skeletons",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 741
+                },
+                {
+                    "entry": "743",
+                    "title": "Love Lockdown",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 742
+                },
+                {
+                    "entry": "744",
+                    "title": "The Greatest Showman",
+                    "studio": "Diva Dance",
+                    "program_order": 743
+                },
+                {
+                    "entry": "745",
+                    "title": "Americano",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 744
+                }
+            ],
+            "results": [
+                {
+                    "entry": "742",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Skeletons",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 88,
+                    "program_order": 741,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "743",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Love Lockdown",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 742,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "744",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Greatest Showman",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 743,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "745",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Americano",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 744,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1474119833,
+            "category_name": "BEGINNER AGES 6-8 TAP SMALL GROUP A",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "GROUP A",
+            "publish_state": "published",
+            "program_sort": 745,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "746",
+                    "title": "Route 66",
+                    "studio": "Born2Dance",
+                    "program_order": 745
+                },
+                {
+                    "entry": "747",
+                    "title": "Detectives",
+                    "studio": "Reston Dance Club",
+                    "program_order": 746
+                },
+                {
+                    "entry": "748",
+                    "title": "Smile",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 747
+                },
+                {
+                    "entry": "749",
+                    "title": "You Make My Dreams",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 748
+                },
+                {
+                    "entry": "750",
+                    "title": "Sea Cruise",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 749
+                }
+            ],
+            "results": [
+                {
+                    "entry": "746",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Route 66",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 745,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "747",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Detectives",
+                    "studio": "Reston Dance Club",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 746,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "748",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Smile",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 747,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "749",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "You Make My Dreams",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 748,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "750",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Sea Cruise",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 86,
+                    "program_order": 749,
                     "scratched": false,
                     "adjudicate_only": false
                 }
