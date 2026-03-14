@@ -3,18 +3,38 @@ const DISPLAY_TIME_ZONE = "America/Regina";
 const DISPLAY_LOCALE = "en-CA";
 
 const AWARD_SLOT_CONFIG = [
-  { slotId: "excellence", key: "excellence_in_dance", title: "Excellence in Dance" },
-  { slotId: "applause", key: "another_round_of_applause", title: "Another Round of Applause" },
-  { slotId: "smile", key: "smile_award", title: "Smile Award" },
-  { slotId: "full-throttle", key: "full_throttle", title: "Full Throttle" },
-  { slotId: "choreography", key: "choreography", title: "Choreography" }
+  {
+    slotId: "excellence",
+    key: "excellence_in_dance",
+    title: "Excellence in Dance"
+  },
+  {
+    slotId: "applause",
+    key: "another_round_of_applause",
+    title: "Another Round of Applause"
+  },
+  {
+    slotId: "smile",
+    key: "smile_award",
+    title: "Smile Award"
+  },
+  {
+    slotId: "full-throttle",
+    key: "full_throttle",
+    title: "Full Throttle"
+  },
+  {
+    slotId: "choreography",
+    key: "choreography",
+    title: "Choreography"
+  }
 ];
 
 const FALLBACK_SPONSOR_LOGOS = {
   excellence_in_dance: "img/oilwomen.png",
   another_round_of_applause: "img/anotherround.jpeg",
   smile_award: "img/liquorspot.PNG",
-  full_throttle: "img/barber.png",
+  full_throttle: "",
   choreography: ""
 };
 
@@ -47,13 +67,16 @@ function applyQueryStringToLinks() {
 
 async function loadAwards() {
   try {
-    const response = await fetch(`${AWARDS_FILE}?t=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`${AWARDS_FILE}?t=${Date.now()}`, {
+      cache: "no-store"
+    });
 
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
 
     awardsData = await response.json();
+
     updateHeader();
     renderAwards();
   } catch (error) {
@@ -65,6 +88,7 @@ async function loadAwards() {
 function updateHeader() {
   const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
+  const publishVersion = document.getElementById("publishVersion");
   const headerSponsorLogo = document.getElementById("headerSponsorLogo");
 
   if (eventTitle) {
@@ -73,6 +97,10 @@ function updateHeader() {
 
   if (lastUpdate) {
     lastUpdate.textContent = buildLastUpdateText(awardsData);
+  }
+
+  if (publishVersion) {
+    publishVersion.textContent = "";
   }
 
   if (headerSponsorLogo) {
@@ -92,12 +120,14 @@ function renderAwards() {
   const normalizedAwards = getNormalizedAwards();
 
   AWARD_SLOT_CONFIG.forEach((config) => {
-    const award = normalizedAwards.find((item) => item.key === config.key) || {
-      key: config.key,
-      title: config.title,
-      logo: resolveSponsorPath(FALLBACK_SPONSOR_LOGOS[config.key]),
-      winners: []
-    };
+    const award =
+      normalizedAwards.find((item) => item.key === config.key) ||
+      {
+        key: config.key,
+        title: config.title,
+        logo: "",
+        winners: []
+      };
 
     renderAward(config.slotId, award);
   });
@@ -125,10 +155,21 @@ function normalizeAwardFromArray(award, index) {
   const fallbackConfig = AWARD_SLOT_CONFIG[index] || null;
   const key = firstNonEmpty(award?.award_key, fallbackConfig?.key);
   const title = firstNonEmpty(award?.award_title, fallbackConfig?.title, "Award");
-  const logo = resolveSponsorPath(firstNonEmpty(award?.sponsor_logo, FALLBACK_SPONSOR_LOGOS[key]));
-  const winners = sortAwardWinnersByEntry(normalizeWinners(award));
+  const logo = resolveSponsorPath(
+    firstNonEmpty(
+      award?.sponsor_logo,
+      FALLBACK_SPONSOR_LOGOS[key]
+    )
+  );
 
-  return { key, title, logo, winners };
+  const winners = normalizeWinners(award);
+
+  return {
+    key,
+    title,
+    logo,
+    winners
+  };
 }
 
 function normalizeLegacyAward(key, award, fallbackTitle) {
@@ -144,18 +185,26 @@ function normalizeLegacyAward(key, award, fallbackTitle) {
   return {
     key,
     title: firstNonEmpty(award?.title, fallbackTitle),
-    logo: resolveSponsorPath(firstNonEmpty(award?.logo, award?.sponsor_logo, FALLBACK_SPONSOR_LOGOS[key])),
-    winners: sortAwardWinnersByEntry(normalizeLegacyWinners(award?.winners))
+    logo: resolveSponsorPath(
+      firstNonEmpty(
+        award?.logo,
+        award?.sponsor_logo,
+        FALLBACK_SPONSOR_LOGOS[key]
+      )
+    ),
+    winners: normalizeLegacyWinners(award?.winners)
   };
 }
 
 function normalizeWinners(award) {
   if (Array.isArray(award?.winners) && award.winners.length > 0) {
-    return award.winners.map((winner) => ({
-      num: firstNonEmpty(winner?.entry, winner?.num),
-      title: firstNonEmpty(winner?.title),
-      studio: firstNonEmpty(winner?.studio)
-    }));
+    return [...award.winners]
+      .map((winner) => ({
+        num: firstNonEmpty(winner?.entry, winner?.num),
+        title: firstNonEmpty(winner?.title),
+        studio: firstNonEmpty(winner?.studio)
+      }))
+      .sort((a, b) => Number(a?.num || 999999) - Number(b?.num || 999999));
   }
 
   const winnerText = firstNonEmpty(award?.winner_text);
@@ -187,33 +236,13 @@ function normalizeLegacyWinners(winners) {
     return [];
   }
 
-  return winners.map((winner) => ({
-    num: firstNonEmpty(winner?.num, winner?.entry),
-    title: firstNonEmpty(winner?.title),
-    studio: firstNonEmpty(winner?.studio)
-  }));
-}
-
-function sortAwardWinnersByEntry(winners) {
-  const rows = Array.isArray(winners) ? [...winners] : [];
-
-  rows.sort((a, b) => {
-    const aEntry = parseInt(String(a?.num ?? "").replace(/\D+/g, ""), 10);
-    const bEntry = parseInt(String(b?.num ?? "").replace(/\D+/g, ""), 10);
-    const aHas = Number.isFinite(aEntry);
-    const bHas = Number.isFinite(bEntry);
-
-    if (aHas && bHas && aEntry !== bEntry) {
-      return aEntry - bEntry;
-    }
-
-    if (aHas && !bHas) return -1;
-    if (!aHas && bHas) return 1;
-
-    return String(a?.title || "").localeCompare(String(b?.title || ""), undefined, { sensitivity: "base" });
-  });
-
-  return rows;
+  return winners
+    .map((winner) => ({
+      num: firstNonEmpty(winner?.num, winner?.entry),
+      title: firstNonEmpty(winner?.title),
+      studio: firstNonEmpty(winner?.studio)
+    }))
+    .sort((a, b) => Number(a?.num || 999999) - Number(b?.num || 999999));
 }
 
 function renderAward(slotId, award) {
@@ -250,10 +279,12 @@ function renderAward(slotId, award) {
   award.winners.forEach((winner) => {
     const row = document.createElement("div");
     row.className = "award-row";
+
     row.innerHTML = `
       <div class="award-num">${escapeHtml(firstNonEmpty(winner?.num))}</div>
       <div class="award-val">${escapeHtml(buildWinnerText(winner))}</div>
     `;
+
     winnersEl.appendChild(row);
   });
 }
@@ -272,6 +303,7 @@ function buildWinnerText(winner) {
 function renderAwardsErrorState() {
   const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
+  const publishVersion = document.getElementById("publishVersion");
   const headerSponsorLogo = document.getElementById("headerSponsorLogo");
 
   if (eventTitle) {
@@ -280,6 +312,10 @@ function renderAwardsErrorState() {
 
   if (lastUpdate) {
     lastUpdate.textContent = "Last updated: unable to load awards data";
+  }
+
+  if (publishVersion) {
+    publishVersion.textContent = "";
   }
 
   if (headerSponsorLogo) {
@@ -325,14 +361,24 @@ function formatZonedDateToRegina(value) {
 }
 
 function buildLastUpdateText(data) {
-  const zonedValue = data?.publish_version || data?.updated_at || data?.updated || data?.last_update || "";
-  const formattedZoned = formatZonedDateToRegina(zonedValue);
+  const zonedValue =
+    data?.publish_version ||
+    data?.updated_at ||
+    data?.updated ||
+    data?.last_update ||
+    "";
 
+  const formattedZoned = formatZonedDateToRegina(zonedValue);
   if (formattedZoned) {
     return `Last updated: ${formattedZoned}`;
   }
 
-  const fallback = data?.last_update || data?.updated_at || data?.updated || "";
+  const fallback =
+    data?.last_update ||
+    data?.updated_at ||
+    data?.updated ||
+    "";
+
   return fallback ? `Last updated: ${fallback}` : "Last updated:";
 }
 
@@ -342,7 +388,13 @@ function resolveSponsorPath(value) {
     return "";
   }
 
-  if (trimmed.startsWith("img/") || trimmed.startsWith("./img/") || trimmed.startsWith("http://") || trimmed.startsWith("https://") || trimmed.startsWith("/")) {
+  if (
+    trimmed.startsWith("img/") ||
+    trimmed.startsWith("./img/") ||
+    trimmed.startsWith("http://") ||
+    trimmed.startsWith("https://") ||
+    trimmed.startsWith("/")
+  ) {
     return trimmed;
   }
 
