@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 23:07:26",
-    "publish_version": "2026-03-14T23:07:26+01:00",
+    "last_update": "2026-03-14 23:44:07",
+    "publish_version": "2026-03-14T23:44:07+01:00",
     "program_source": "program.json",
-    "published_count": 197,
+    "published_count": 200,
     "categories": [
         {
             "category_id": 607676400,
@@ -17283,6 +17283,270 @@
                     "performers": "",
                     "score": 86.5,
                     "program_order": 784,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1540788362,
+            "category_name": "OPEN AGES 15-17 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 785,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "786",
+                    "title": "A Night To Remember",
+                    "studio": "Born2Dance",
+                    "program_order": 785
+                },
+                {
+                    "entry": "787",
+                    "title": "Safe, Sane & Single",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 786
+                }
+            ],
+            "results": [
+                {
+                    "entry": "786",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "A Night To Remember",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 90,
+                    "program_order": 785,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "787",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Safe, Sane & Single",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 786,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 737019702,
+            "category_name": "BEGINNER AGES 5 & UNDER TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 787,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "788",
+                    "title": "Sugar, Sugar",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 787
+                },
+                {
+                    "entry": "789",
+                    "title": "Hound Dog",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 788
+                },
+                {
+                    "entry": "790",
+                    "title": "Shimmer",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 789
+                },
+                {
+                    "entry": "791",
+                    "title": "Cute Little Tapping Mice",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 790
+                },
+                {
+                    "entry": "792",
+                    "title": "Wanna Be Like you",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 791
+                }
+            ],
+            "results": [
+                {
+                    "entry": "788",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Sugar, Sugar",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 787,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "789",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Hound Dog",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 788,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "790",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Shimmer",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 789,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "791",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Cute Little Tapping Mice",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 790,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "792",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Wanna Be Like you",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 791,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1649572854,
+            "category_name": "BEGINNER AGES 9-11 TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 792,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "793",
+                    "title": "Boogie Shoes",
+                    "studio": "White City Dancing School",
+                    "program_order": 792
+                },
+                {
+                    "entry": "794",
+                    "title": "Taking Care of Business",
+                    "studio": "Artemis Dance",
+                    "program_order": 793
+                },
+                {
+                    "entry": "795",
+                    "title": "Tulsa Time II",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 794
+                },
+                {
+                    "entry": "796",
+                    "title": "Boogie Fever",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 795
+                },
+                {
+                    "entry": "797",
+                    "title": "Tap in the Ballroom with a Wrench",
+                    "studio": "Born2Dance",
+                    "program_order": 796
+                }
+            ],
+            "results": [
+                {
+                    "entry": "793",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Boogie Shoes",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 792,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "794",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Taking Care of Business",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 793,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "795",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Tulsa Time II",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 794,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "796",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Boogie Fever",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 795,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "797",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Tap in the Ballroom with a Wrench",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 84.3,
+                    "program_order": 796,
                     "scratched": false,
                     "adjudicate_only": false
                 }
