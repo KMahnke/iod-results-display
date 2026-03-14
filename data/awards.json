@@ -1,15 +1,15 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 04:17:03",
-    "publish_version": "2026-03-14T04:17:03+01:00",
-    "updated_at": "2026-03-14 03:49:39",
+    "last_update": "2026-03-14 04:27:05",
+    "publish_version": "2026-03-14T04:27:05+01:00",
+    "updated_at": "2026-03-14 04:26:29",
     "awards": [
         {
             "award_key": "excellence_in_dance",
             "award_title": "Excellence in Dance",
             "sponsor_logo": "",
-            "winner_text": "#113 Vogue \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance",
+            "winner_text": "#113 Vogue \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance \u2022 #522 Hold My Hand \u2022 Diva Dance \u2022 #577 CROWNED \u2022 De Tricky Feet Dance Studio \u2022 #542 Concrete Angel \u2022 Born2Dance",
             "winners": [
                 {
                     "entry": "113",
@@ -30,6 +30,21 @@
                     "entry": "80",
                     "title": "False Confidence",
                     "studio": "Born2Dance"
+                },
+                {
+                    "entry": "522",
+                    "title": "Hold My Hand",
+                    "studio": "Diva Dance"
+                },
+                {
+                    "entry": "577",
+                    "title": "CROWNED",
+                    "studio": "De Tricky Feet Dance Studio"
+                },
+                {
+                    "entry": "542",
+                    "title": "Concrete Angel",
+                    "studio": "Born2Dance"
                 }
             ]
         },
@@ -37,12 +52,32 @@
             "award_key": "another_round_of_applause",
             "award_title": "Another Round of Applause",
             "sponsor_logo": "",
-            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios",
+            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios \u2022 #578 Adults Someday \u2022 Ogema Dance Club \u2022 #612 Dive In The Pool \u2022 En Pointe Dance Studio \u2022 #549 Help \u2022 White City Dancing School \u2022 #591 Say My Name \u2022 Artemis Dance",
             "winners": [
                 {
                     "entry": "106",
                     "title": "Black Swan",
                     "studio": "Against the Grain Studios"
+                },
+                {
+                    "entry": "578",
+                    "title": "Adults Someday",
+                    "studio": "Ogema Dance Club"
+                },
+                {
+                    "entry": "612",
+                    "title": "Dive In The Pool",
+                    "studio": "En Pointe Dance Studio"
+                },
+                {
+                    "entry": "549",
+                    "title": "Help",
+                    "studio": "White City Dancing School"
+                },
+                {
+                    "entry": "591",
+                    "title": "Say My Name",
+                    "studio": "Artemis Dance"
                 }
             ]
         },

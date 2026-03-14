@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 04:17:03",
-    "publish_version": "2026-03-14T04:17:03+01:00",
+    "last_update": "2026-03-14 04:27:05",
+    "publish_version": "2026-03-14T04:27:05+01:00",
     "program_source": "program.json",
-    "published_count": 145,
+    "published_count": 146,
     "categories": [
         {
             "category_id": 607676400,
@@ -12914,6 +12914,39 @@
                     "score": 84,
                     "program_order": 625,
                     "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1391098114,
+            "category_name": "OPEN AGES 18 OVER CONTEMPORARY DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 669,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 18,
+            "entries": [
+                {
+                    "entry": "670",
+                    "title": "View Between Villages",
+                    "studio": "Valley Dance",
+                    "program_order": 669
+                }
+            ],
+            "results": [
+                {
+                    "entry": "670",
+                    "display_place": "",
+                    "gem": "OUT",
+                    "title": "View Between Villages",
+                    "studio": "Valley Dance",
+                    "performers": "Isabelle Magel, Katie Parenteau",
+                    "score": null,
+                    "program_order": 669,
+                    "scratched": true
                 }
             ]
         }
