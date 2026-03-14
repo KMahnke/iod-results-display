@@ -1,0 +1,19 @@
+{
+  "event": "Session Awards",
+  "publish_version": "",
+  "excellence": {
+    "title": "Excellence in Dance",
+    "logo": "img/Integrity.png",
+    "winners": []
+  },
+  "applause": {
+    "title": "Another Round of Applause",
+    "logo": "img/Torrent.png",
+    "winners": []
+  },
+  "smile": {
+    "title": "Smile Award",
+    "logo": "img/Whitecap.png",
+    "winners": []
+  }
+}

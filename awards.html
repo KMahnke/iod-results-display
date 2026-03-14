@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inspirations of Dance Awards</title>
+  <link rel="stylesheet" href="leaderboard.css" />
+</head>
+<body class="leaderboard-page">
+  <div class="page-shell awards-shell">
+    <header class="masthead">
+      <div class="logo-left">
+        <img src="img/Logo1.png" alt="Inspirations of Dance logo" />
+      </div>
+
+      <div class="title-area">
+        <h1 id="eventTitle">Session Awards</h1>
+        <div id="lastUpdate" class="updated">Last updated:</div>
+      </div>
+
+      <div class="logo-right">
+        <img id="headerSponsorLogo" src="" alt="Sponsor logo" hidden />
+      </div>
+
+      <div class="nav-area">
+        <div class="top-bar">
+          <div class="tab-row">
+            <button class="tab-btn active" type="button">🏆 Awards</button>
+          </div>
+
+          <div class="action-row">
+            <a href="leaderboard.html" class="back-btn">Leaderboard</a>
+            <a href="index.html" class="back-btn">Back to Results</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="board-panel awards-panel">
+      <div class="board-heading">
+        <h2>Special Awards</h2>
+        <div id="publishVersion" class="publish-version"></div>
+      </div>
+
+      <div class="awards-grid">
+        <article class="award-card">
+          <div class="award-card-head">
+            <h3 id="title-excellence">Excellence in Dance</h3>
+            <img id="logo-excellence" class="award-logo" alt="Excellence in Dance sponsor logo" hidden />
+          </div>
+          <div id="winners-excellence" class="award-winners"></div>
+        </article>
+
+        <article class="award-card">
+          <div class="award-card-head">
+            <h3 id="title-applause">Another Round of Applause</h3>
+            <img id="logo-applause" class="award-logo" alt="Another Round of Applause sponsor logo" hidden />
+          </div>
+          <div id="winners-applause" class="award-winners"></div>
+        </article>
+
+        <article class="award-card">
+          <div class="award-card-head">
+            <h3 id="title-smile">Smile Award</h3>
+            <img id="logo-smile" class="award-logo" alt="Smile Award sponsor logo" hidden />
+          </div>
+          <div id="winners-smile" class="award-winners"></div>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/awards.js"></script>
+</body>
+</html>
