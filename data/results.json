@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 17:43:46",
-    "publish_version": "2026-03-14T17:43:46+01:00",
+    "last_update": "2026-03-14 18:19:23",
+    "publish_version": "2026-03-14T18:19:23+01:00",
     "program_source": "program.json",
-    "published_count": 167,
+    "published_count": 168,
     "categories": [
         {
             "category_id": 607676400,
@@ -14336,6 +14336,56 @@
                     "performers": "",
                     "score": 84,
                     "program_order": 688,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1841900783,
+            "category_name": "NOVICE AGES 9-11 LYRICAL DUO/TRIO",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 689,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "690",
+                    "title": "I Hope You Dance",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 689
+                },
+                {
+                    "entry": "691",
+                    "title": "Don't Give Up",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 690
+                }
+            ],
+            "results": [
+                {
+                    "entry": "690",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "I Hope You Dance",
+                    "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski, Emma Mitchell, Tenli Orr",
+                    "score": 82,
+                    "program_order": 689,
+                    "scratched": false
+                },
+                {
+                    "entry": "691",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Don't Give Up",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Allison Matichuk, Kara Poelzer",
+                    "score": 83,
+                    "program_order": 690,
                     "scratched": false
                 }
             ]
