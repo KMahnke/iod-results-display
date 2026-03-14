@@ -1,7 +1,6 @@
 {
-    "event_title": "Inspirations of Dance",
-    "updated_at": "2026-03-14 21:39:28",
-    "publish_version": "2026-03-14T21:39:28+01:00",
+    "event_title": "Leaderboard Finalists",
+    "updated_at": "2026-03-14 15:38:16",
     "boards": [
         {
             "id": "solo",
@@ -25,12 +24,6 @@
                             "71 - Sun Goes Down",
                             "461 - Anything Worth Holding On To",
                             "475 - Face My Fears"
-                        ],
-                        [
-                            "14 - Chaplin",
-                            "304 - Imma Be",
-                            "322 - Perfect Day",
-                            "441 - The Middle"
                         ]
                     ]
                 },
@@ -46,44 +39,6 @@
                         [
                             "36 - Where Light Rises",
                             "542 - Concrete Angel"
-                        ],
-                        [
-                            "204 - Humble",
-                            "211 - Pure Water",
-                            "236 - Breakin' Dishes",
-                            "245 - The Girl in 14-G",
-                            "395 - Good To Go",
-                            "402 - Escalate",
-                            "452 - Up a Lazy River",
-                            "465 - Ice Ice Baby",
-                            "480 - Stayin Alive"
-                        ],
-                        [
-                            "35 - Echoes Within",
-                            "188 - Power",
-                            "229 - Glorilla Mashup",
-                            "249 - Cali Vibes",
-                            "254 - Disco Inferno",
-                            "262 - Soldier",
-                            "282 - Man in the Mirror",
-                            "374 - L-O-V-E",
-                            "451 - Nice To Meet You"
-                        ],
-                        [
-                            "74 - Bird Box",
-                            "97 - Bring the Lion Out",
-                            "186 - SWAG",
-                            "216 - Neva Play",
-                            "228 - OMG",
-                            "250 - Bounce",
-                            "253 - Roc Steady",
-                            "278 - Paralyzed",
-                            "280 - Like a Queen",
-                            "290 - Rain Dance",
-                            "379 - Together Again",
-                            "414 - Maniac",
-                            "521 - Try",
-                            "557 - Grand Pas Classique"
                         ]
                     ]
                 },
@@ -100,13 +55,6 @@
                             "156 - In The Kitchen",
                             "352 - Polyphia",
                             "532 - Maneater"
-                        ],
-                        [
-                            "92 - Far From Home",
-                            "150 - Song To The Siren"
-                        ],
-                        [
-                            "167 - Exhale Inhale"
                         ]
                     ]
                 }
@@ -128,21 +76,6 @@
                             "46 - Freitag/Minty",
                             "47 - Forman/Jensen",
                             "561 - Dessert/Ferguson/Wiebe"
-                        ],
-                        [
-                            "56 - Lupastin/Reiss/Rey"
-                        ],
-                        [
-                            "43 - Cameron/Cameron",
-                            "62 - getz/Pletz",
-                            "72 - Diacon/Thompson/Wiebe",
-                            "256 - Woodland/Woodland",
-                            "270 - Kutsak/Paziuk",
-                            "560 - Baer/Wall",
-                            "574 - Franklin/Kubashek"
-                        ],
-                        [
-                            "258 - Rey/Rey"
                         ]
                     ]
                 },
@@ -164,9 +97,6 @@
                             "327 - Hillier/Hillier",
                             "494 - Georgacacos/Kallias",
                             "676 - Huang/Weger"
-                        ],
-                        [
-                            "495 - Lipinski/Mitchell/Orr"
                         ]
                     ]
                 },
@@ -185,15 +115,6 @@
                             "490 - Bourassa/Huang/Li",
                             "499 - Longley/Selinger/Vos",
                             "602 - Jordens/Patzer"
-                        ],
-                        [
-                            "368 - Vos/Vos"
-                        ],
-                        [
-                            "138 - Huang/Li",
-                            "369 - McNabb/Kirchhofer",
-                            "491 - Fazakas/Willette",
-                            "603 - Drake/Kobylansky"
                         ]
                     ]
                 }
@@ -214,20 +135,12 @@
                             "612 - Dive In The Pool"
                         ],
                         [
+                            "773 - All I Wanna Do is Eat"
+                        ],
+                        [
                             "617 - Real In Rio",
-                            "694 - Hallelujah"
-                        ],
-                        [
-                            "611 - Girlz",
-                            "613 - Shake it up",
-                            "614 - The Spook",
-                            "620 - Mother Ginger's Children",
-                            "628 - Ordinary",
-                            "700 - Ballerina"
-                        ],
-                        [
-                            "631 - Desert Nights",
-                            "685 - Sailors"
+                            "694 - Hallelujah",
+                            "759 - Build Me Up Buttercup"
                         ]
                     ]
                 },
@@ -241,13 +154,12 @@
                             "652 - Band Geeks"
                         ],
                         [
-                            "708 - I Wanna Rock!"
+                            "708 - I Wanna Rock!",
+                            "742 - Skeletons"
                         ],
                         [
-                            "710 - Hit Me Up"
-                        ],
-                        [
-                            "646 - Tarantella"
+                            "710 - Hit Me Up",
+                            "744 - The Greatest Showman"
                         ]
                     ]
                 },
@@ -264,17 +176,6 @@
                             "659 - Alma Espanola",
                             "736 - I Wanna Dance With Somebody",
                             "737 - Tainted Love"
-                        ],
-                        [
-                            "615 - Spiderman",
-                            "717 - They Don't Really Care About Us"
-                        ],
-                        [
-                            "658 - Painted Black",
-                            "668 - Fairies",
-                            "720 - Someone to You",
-                            "721 - Welcome To My House",
-                            "722 - Wake Up Dead Man"
                         ]
                     ]
                 }
