@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 22:06:54",
-    "publish_version": "2026-03-14T22:06:54+01:00",
+    "last_update": "2026-03-14 22:12:10",
+    "publish_version": "2026-03-14T22:12:10+01:00",
     "program_source": "program.json",
-    "published_count": 187,
+    "published_count": 188,
     "categories": [
         {
             "category_id": 607676400,
@@ -16493,6 +16493,130 @@
                     "performers": "",
                     "score": 86,
                     "program_order": 749,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1422855594,
+            "category_name": "BEGINNER AGES 6-8 TAP SMALL GROUP B",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "GROUP B",
+            "publish_state": "published",
+            "program_sort": 750,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "751",
+                    "title": "Man on the Moon",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 750
+                },
+                {
+                    "entry": "752",
+                    "title": "Hot, Hot, Hot",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 751
+                },
+                {
+                    "entry": "753",
+                    "title": "Boogie Shoes",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 752
+                },
+                {
+                    "entry": "754",
+                    "title": "Dig a Little Deeper",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 753
+                },
+                {
+                    "entry": "755",
+                    "title": "Fabulous Feet",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 754
+                },
+                {
+                    "entry": "756",
+                    "title": "Funky Monkey",
+                    "studio": "Dance Plus EP",
+                    "program_order": 755
+                }
+            ],
+            "results": [
+                {
+                    "entry": "751",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Man on the Moon",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 750,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "752",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Hot, Hot, Hot",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 751,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "753",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Boogie Shoes",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 752,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "754",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Dig a Little Deeper",
+                    "studio": "Pangman Dance Club",
+                    "performers": "",
+                    "score": 82.3,
+                    "program_order": 753,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "755",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Fabulous Feet",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 754,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "756",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Funky Monkey",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 81.3,
+                    "program_order": 755,
                     "scratched": false,
                     "adjudicate_only": false
                 }
