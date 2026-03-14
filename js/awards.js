@@ -76,13 +76,31 @@ async function loadAwards() {
 function updateHeader() {
   const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
+  const publishVersion = document.getElementById("publishVersion");
+  const headerSponsorLogo = document.getElementById("headerSponsorLogo");
 
   if (eventTitle) {
-    eventTitle.textContent = firstNonEmpty(awardsData?.event, "Inspirations of Dance");
+    eventTitle.textContent = firstNonEmpty(awardsData?.event, "Session Awards");
   }
 
   if (lastUpdate) {
     lastUpdate.textContent = buildLastUpdateText(awardsData);
+  }
+
+  if (publishVersion) {
+    publishVersion.textContent = "";
+  }
+
+  if (headerSponsorLogo) {
+    const firstAwardWithLogo = getNormalizedAwards().find((award) => award.logo);
+    if (firstAwardWithLogo && firstAwardWithLogo.logo) {
+      headerSponsorLogo.src = firstAwardWithLogo.logo;
+      headerSponsorLogo.alt = `${firstAwardWithLogo.title} sponsor logo`;
+      headerSponsorLogo.hidden = false;
+    } else {
+      headerSponsorLogo.hidden = true;
+      headerSponsorLogo.removeAttribute("src");
+    }
   }
 }
 
@@ -130,11 +148,13 @@ function normalizeAwardFromArray(award, index) {
     )
   );
 
+  const winners = normalizeWinners(award);
+
   return {
     key,
     title,
     logo,
-    winners: normalizeWinners(award)
+    winners
   };
 }
 
@@ -256,7 +276,7 @@ function buildWinnerText(winner) {
   const studio = firstNonEmpty(winner?.studio);
 
   if (title && studio) {
-    return `${title} - ${studio}`;
+    return `${title} • ${studio}`;
   }
 
   return title || studio || "";
@@ -265,13 +285,24 @@ function buildWinnerText(winner) {
 function renderAwardsErrorState() {
   const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
+  const publishVersion = document.getElementById("publishVersion");
+  const headerSponsorLogo = document.getElementById("headerSponsorLogo");
 
   if (eventTitle) {
-    eventTitle.textContent = "Inspirations of Dance";
+    eventTitle.textContent = "Session Awards";
   }
 
   if (lastUpdate) {
     lastUpdate.textContent = "Last updated: unable to load awards data";
+  }
+
+  if (publishVersion) {
+    publishVersion.textContent = "";
+  }
+
+  if (headerSponsorLogo) {
+    headerSponsorLogo.hidden = true;
+    headerSponsorLogo.removeAttribute("src");
   }
 
   AWARD_SLOT_CONFIG.forEach((config) => {
@@ -301,10 +332,14 @@ function formatZonedDateToRegina(value) {
     day: "2-digit",
     hour: "numeric",
     minute: "2-digit",
-    hour12: true
+    hour12: true,
+    timeZoneName: "short"
   });
 
-  return formatter.format(date);
+  const parts = formatter.formatToParts(date);
+  const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return `${map.year}-${map.month}-${map.day} ${map.hour}:${map.minute} ${map.dayPeriod} ${map.timeZoneName}`;
 }
 
 function buildLastUpdateText(data) {
