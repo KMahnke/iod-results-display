@@ -14,7 +14,7 @@ const FALLBACK_SPONSOR_LOGOS = {
   excellence_in_dance: "img/oilwomen.png",
   another_round_of_applause: "img/anotherround.jpeg",
   smile_award: "img/liquorspot.PNG",
-  full_throttle: "",
+  full_throttle: "img/barber.png",
   choreography: ""
 };
 
