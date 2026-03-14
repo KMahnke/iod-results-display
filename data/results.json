@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 17:26:56",
-    "publish_version": "2026-03-14T17:26:56+01:00",
+    "last_update": "2026-03-14 17:40:42",
+    "publish_version": "2026-03-14T17:40:42+01:00",
     "program_source": "program.json",
-    "published_count": 164,
+    "published_count": 167,
     "categories": [
         {
             "category_id": 607676400,
@@ -13999,6 +13999,343 @@
                     "performers": "Cherise Erdmann, Aubray Francis Drake, Jennifer Meyer",
                     "score": 82,
                     "program_order": 670,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1971756088,
+            "category_name": "NOVICE AGES 9-11 LYRICAL SOLO",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 672,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "673",
+                    "title": "What the World Needs",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 672
+                },
+                {
+                    "entry": "674",
+                    "title": "Rescue",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 673
+                },
+                {
+                    "entry": "675",
+                    "title": "Anchor",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 674
+                }
+            ],
+            "results": [
+                {
+                    "entry": "673",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "What the World Needs",
+                    "studio": "Cupar Dance Club",
+                    "performers": "Ava Lipinski",
+                    "score": 85.6,
+                    "program_order": 672,
+                    "scratched": false
+                },
+                {
+                    "entry": "674",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Rescue",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Kara Poelzer",
+                    "score": 85.5,
+                    "program_order": 673,
+                    "scratched": false
+                },
+                {
+                    "entry": "675",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Anchor",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Arianna Georgacacos",
+                    "score": 85,
+                    "program_order": 674,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 88589620,
+            "category_name": "NOVICE AGES 12-14 LYRICAL DUO/TRIO",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 675,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "676",
+                    "title": "Good Stuff",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 675
+                },
+                {
+                    "entry": "677",
+                    "title": "Bulletproof",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 676
+                },
+                {
+                    "entry": "678",
+                    "title": "You Say",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 677
+                },
+                {
+                    "entry": "679",
+                    "title": "Let It All Go",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 678
+                },
+                {
+                    "entry": "680",
+                    "title": "Footprints",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 679
+                },
+                {
+                    "entry": "681",
+                    "title": "Grow As We Go",
+                    "studio": "Estevan Recreational Dance Club",
+                    "program_order": 680
+                },
+                {
+                    "entry": "682",
+                    "title": "Homesick",
+                    "studio": "White City Dancing School",
+                    "program_order": 681
+                }
+            ],
+            "results": [
+                {
+                    "entry": "676",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Good Stuff",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Kassidy Huang, Abigail Weger",
+                    "score": 87,
+                    "program_order": 675,
+                    "scratched": false
+                },
+                {
+                    "entry": "677",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Bulletproof",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "Macie Amy, Izzy Kessler",
+                    "score": 83,
+                    "program_order": 676,
+                    "scratched": false
+                },
+                {
+                    "entry": "678",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "You Say",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "Jaida Verhelst, Liv Zadorozniak",
+                    "score": 81,
+                    "program_order": 677,
+                    "scratched": false
+                },
+                {
+                    "entry": "679",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Let It All Go",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "Camryn Fingas, Lexi Schneider",
+                    "score": 84,
+                    "program_order": 678,
+                    "scratched": false
+                },
+                {
+                    "entry": "680",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Footprints",
+                    "studio": "Estevan Recreational Dance Club",
+                    "performers": "Haylee Lohse, Kadence Lohse",
+                    "score": 83.5,
+                    "program_order": 679,
+                    "scratched": false
+                },
+                {
+                    "entry": "681",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Grow As We Go",
+                    "studio": "Estevan Recreational Dance Club",
+                    "performers": "Maize de Rook, Sian Deatherage",
+                    "score": 83,
+                    "program_order": 680,
+                    "scratched": false
+                },
+                {
+                    "entry": "682",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Homesick",
+                    "studio": "White City Dancing School",
+                    "performers": "Kiana Amyotte, McKenzie Geis, Grace Slinn",
+                    "score": 84,
+                    "program_order": 681,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1037231251,
+            "category_name": "BEGINNER AGES 6-8 BALLET SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 682,
+            "day_sort": 3,
+            "session_sort": 0,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "683",
+                    "title": "Lilo And Stitch",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 682
+                },
+                {
+                    "entry": "684",
+                    "title": "Rainbow Connection",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 683
+                },
+                {
+                    "entry": "685",
+                    "title": "Sailors",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 684
+                },
+                {
+                    "entry": "686",
+                    "title": "Music Box Dancer",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 685
+                },
+                {
+                    "entry": "687",
+                    "title": "A Dream is a Wish Your Heart Makes",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 686
+                },
+                {
+                    "entry": "688",
+                    "title": "Once Upon a Dream",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 687
+                },
+                {
+                    "entry": "689",
+                    "title": "The Old Ball Game",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 688
+                }
+            ],
+            "results": [
+                {
+                    "entry": "683",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Lilo And Stitch",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 81,
+                    "program_order": 682,
+                    "scratched": false
+                },
+                {
+                    "entry": "684",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Rainbow Connection",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 80,
+                    "program_order": 683,
+                    "scratched": false
+                },
+                {
+                    "entry": "685",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Sailors",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 684,
+                    "scratched": false
+                },
+                {
+                    "entry": "686",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Music Box Dancer",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 685,
+                    "scratched": false
+                },
+                {
+                    "entry": "687",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "A Dream is a Wish Your Heart Makes",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 686,
+                    "scratched": false
+                },
+                {
+                    "entry": "688",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Once Upon a Dream",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 687,
+                    "scratched": false
+                },
+                {
+                    "entry": "689",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "The Old Ball Game",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 688,
                     "scratched": false
                 }
             ]
