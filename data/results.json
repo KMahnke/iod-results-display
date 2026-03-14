@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 02:49:41",
-    "publish_version": "2026-03-14T02:49:41+01:00",
+    "last_update": "2026-03-14 03:15:34",
+    "publish_version": "2026-03-14T03:15:34+01:00",
     "program_source": "program.json",
-    "published_count": 143,
+    "published_count": 145,
     "categories": [
         {
             "category_id": 607676400,
@@ -12728,6 +12728,191 @@
                     "performers": "",
                     "score": 85.5,
                     "program_order": 616,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 912753296,
+            "category_name": "BEGINNER AGES 6-8 BALLET LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 617,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "618",
+                    "title": "Toy March",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 617
+                },
+                {
+                    "entry": "619",
+                    "title": "Sea Cruise",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 618
+                },
+                {
+                    "entry": "620",
+                    "title": "Mother Ginger's Children",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 619
+                },
+                {
+                    "entry": "621",
+                    "title": "Catching Cowgirls",
+                    "studio": "Dance Plus EP",
+                    "program_order": 620
+                },
+                {
+                    "entry": "622",
+                    "title": "Once Upon a December",
+                    "studio": "Reston Dance Club",
+                    "program_order": 621
+                },
+                {
+                    "entry": "623",
+                    "title": "Defying Gravity",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 622
+                },
+                {
+                    "entry": "624",
+                    "title": "Camp Chaos",
+                    "studio": "Born2Dance",
+                    "program_order": 623
+                },
+                {
+                    "entry": "625",
+                    "title": "Wizard of Oz",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 624
+                }
+            ],
+            "results": [
+                {
+                    "entry": "618",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Toy March",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 617,
+                    "scratched": false
+                },
+                {
+                    "entry": "619",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Sea Cruise",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 618,
+                    "scratched": false
+                },
+                {
+                    "entry": "620",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Mother Ginger's Children",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 619,
+                    "scratched": false
+                },
+                {
+                    "entry": "621",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Catching Cowgirls",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 620,
+                    "scratched": false
+                },
+                {
+                    "entry": "622",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Once Upon a December",
+                    "studio": "Reston Dance Club",
+                    "performers": "",
+                    "score": 81.8,
+                    "program_order": 621,
+                    "scratched": false
+                },
+                {
+                    "entry": "623",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Defying Gravity",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 622,
+                    "scratched": false
+                },
+                {
+                    "entry": "624",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Camp Chaos",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 623,
+                    "scratched": false
+                },
+                {
+                    "entry": "625",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Wizard of Oz",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 82.8,
+                    "program_order": 624,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1472136334,
+            "category_name": "NOVICE AGES 6-8 BALLET SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 625,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "626",
+                    "title": "Test Drive",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 625
+                }
+            ],
+            "results": [
+                {
+                    "entry": "626",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Test Drive",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 625,
                     "scratched": false
                 }
             ]

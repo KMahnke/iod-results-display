@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance",
-    "updated_at": "2026-03-14 02:49:41",
-    "publish_version": "2026-03-14T02:49:41+01:00",
+    "updated_at": "2026-03-14 03:15:34",
+    "publish_version": "2026-03-14T03:15:34+01:00",
     "boards": [
         {
             "id": "solo",
@@ -218,10 +218,11 @@
                         [
                             "611 - Girlz",
                             "613 - Shake it up",
-                            "614 - The Spook"
+                            "614 - The Spook",
+                            "620 - Mother Ginger's Children"
                         ],
                         [
-                            "609 - Try Everything"
+                            "624 - Camp Chaos"
                         ]
                     ]
                 },
@@ -230,6 +231,9 @@
                     "places": [
                         [
                             "616 - Skyfall"
+                        ],
+                        [
+                            "626 - Test Drive"
                         ]
                     ]
                 },
