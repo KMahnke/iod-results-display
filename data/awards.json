@@ -1,8 +1,8 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 16:48:20",
-    "publish_version": "2026-03-14T16:48:20+01:00",
+    "last_update": "2026-03-14 16:58:51",
+    "publish_version": "2026-03-14T16:58:51+01:00",
     "updated_at": "2026-03-14 04:26:29",
     "awards": [
         {
@@ -10,6 +10,8 @@
             "award_title": "Excellence in Dance",
             "sponsor_logo": "",
             "winner_text": "#32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #113 Vogue \u2022 Born2Dance \u2022 #522 Hold My Hand \u2022 Diva Dance \u2022 #542 Concrete Angel \u2022 Born2Dance \u2022 #577 CROWNED \u2022 De Tricky Feet Dance Studio",
+            "current_winner_text": "",
+            "current_winner": null,
             "winners": [
                 {
                     "entry": "32",
@@ -53,6 +55,8 @@
             "award_title": "Another Round of Applause",
             "sponsor_logo": "",
             "winner_text": "#106 Black Swan \u2022 Against the Grain Studios \u2022 #549 Help \u2022 White City Dancing School \u2022 #578 Adults Someday \u2022 Ogema Dance Club \u2022 #591 Say My Name \u2022 Artemis Dance \u2022 #612 Dive In The Pool \u2022 En Pointe Dance Studio",
+            "current_winner_text": "",
+            "current_winner": null,
             "winners": [
                 {
                     "entry": "106",
@@ -86,6 +90,8 @@
             "award_title": "Smile Award",
             "sponsor_logo": "",
             "winner_text": "#88 Words Matter \u2022 Born2Dance \u2022 #96 Chic \u2022 Born2Dance \u2022 #135 You're the One \u2022 Marley's Dance Effex",
+            "current_winner_text": "",
+            "current_winner": null,
             "winners": [
                 {
                     "entry": "88",
@@ -109,6 +115,8 @@
             "award_title": "Full Throttle",
             "sponsor_logo": "",
             "winner_text": "",
+            "current_winner_text": "",
+            "current_winner": null,
             "winners": []
         },
         {
@@ -116,6 +124,8 @@
             "award_title": "Choreography",
             "sponsor_logo": "",
             "winner_text": "",
+            "current_winner_text": "",
+            "current_winner": null,
             "winners": []
         }
     ]
