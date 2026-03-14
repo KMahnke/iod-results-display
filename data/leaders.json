@@ -1,6 +1,6 @@
 {
     "event_title": "Leaderboard Finalists",
-    "updated_at": "2026-03-14 15:59:35",
+    "updated_at": "2026-03-14 16:07:26",
     "boards": [
         {
             "id": "solo",
@@ -149,7 +149,8 @@
                     "name": "Novice",
                     "places": [
                         [
-                            "647 - The List is Life"
+                            "647 - The List is Life",
+                            "784 - The Treblemakers"
                         ],
                         [
                             "652 - Band Geeks"
@@ -157,10 +158,6 @@
                         [
                             "708 - I Wanna Rock!",
                             "742 - Skeletons"
-                        ],
-                        [
-                            "710 - Hit Me Up",
-                            "744 - The Greatest Showman"
                         ]
                     ]
                 },

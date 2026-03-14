@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 22:59:35",
-    "publish_version": "2026-03-14T22:59:35+01:00",
+    "last_update": "2026-03-14 23:07:26",
+    "publish_version": "2026-03-14T23:07:26+01:00",
     "program_source": "program.json",
-    "published_count": 193,
+    "published_count": 197,
     "categories": [
         {
             "category_id": 607676400,
@@ -17075,6 +17075,214 @@
                     "performers": "",
                     "score": 83,
                     "program_order": 776,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1486545881,
+            "category_name": "NOVICE AGES 12-14 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 777,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "778",
+                    "title": "Mamma Mia",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 777
+                },
+                {
+                    "entry": "779",
+                    "title": "Haus of Holbein",
+                    "studio": "Dance Plus EP",
+                    "program_order": 778
+                },
+                {
+                    "entry": "780",
+                    "title": "Where is Betty",
+                    "studio": "Born2Dance",
+                    "program_order": 779
+                },
+                {
+                    "entry": "781",
+                    "title": "Save the City",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 780
+                }
+            ],
+            "results": [
+                {
+                    "entry": "778",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Mamma Mia",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 777,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "779",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Haus of Holbein",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 778,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "780",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Where is Betty",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 84.8,
+                    "program_order": 779,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "781",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Save the City",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 780,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1130504915,
+            "category_name": "BEGINNER AGES 6-8 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 781,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "782",
+                    "title": "It's Friendship Day",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 781
+                }
+            ],
+            "results": [
+                {
+                    "entry": "782",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "It's Friendship Day",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 781,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 516153394,
+            "category_name": "NOVICE AGES 15-17 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 782,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "783",
+                    "title": "Let It Grow",
+                    "studio": "Diva Dance",
+                    "program_order": 782
+                },
+                {
+                    "entry": "784",
+                    "title": "The Treblemakers",
+                    "studio": "Born2Dance",
+                    "program_order": 783
+                }
+            ],
+            "results": [
+                {
+                    "entry": "783",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Let It Grow",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 782,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "784",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "The Treblemakers",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 90,
+                    "program_order": 783,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 2128339927,
+            "category_name": "NOVICE AGES 9-11 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 784,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "785",
+                    "title": "Dear Santa",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 784
+                }
+            ],
+            "results": [
+                {
+                    "entry": "785",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Dear Santa",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 784,
                     "scratched": false,
                     "adjudicate_only": false
                 }
