@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 23:44:07",
-    "publish_version": "2026-03-14T23:44:07+01:00",
+    "last_update": "2026-03-15 00:52:40",
+    "publish_version": "2026-03-15T00:52:40+01:00",
     "program_source": "program.json",
-    "published_count": 200,
+    "published_count": 204,
     "categories": [
         {
             "category_id": 607676400,
@@ -17547,6 +17547,286 @@
                     "performers": "",
                     "score": 84.3,
                     "program_order": 796,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 735889441,
+            "category_name": "BEGINNER AGES 6-8 TAP LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 797,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 16,
+            "entries": [
+                {
+                    "entry": "798",
+                    "title": "Banana Split for My Baby",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 797
+                },
+                {
+                    "entry": "799",
+                    "title": "Centerfield",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 798
+                },
+                {
+                    "entry": "800",
+                    "title": "Cool Cat In Town",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 799
+                },
+                {
+                    "entry": "801",
+                    "title": "Old Time Rock & Roll",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 800
+                }
+            ],
+            "results": [
+                {
+                    "entry": "798",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Banana Split for My Baby",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85.3,
+                    "program_order": 797,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "799",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Centerfield",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 798,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "800",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Cool Cat In Town",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 799,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "801",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Old Time Rock & Roll",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 83.3,
+                    "program_order": 800,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1714667068,
+            "category_name": "OPEN AGES 15-17 LYRICAL SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 801,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 17,
+            "entries": [
+                {
+                    "entry": "802",
+                    "title": "Control",
+                    "studio": "Dance Plus EP",
+                    "program_order": 801
+                },
+                {
+                    "entry": "803",
+                    "title": "Last Bit of Us",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 802
+                },
+                {
+                    "entry": "804",
+                    "title": "When We Were Young",
+                    "studio": "Born2Dance",
+                    "program_order": 803
+                }
+            ],
+            "results": [
+                {
+                    "entry": "802",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Control",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 87.8,
+                    "program_order": 801,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "803",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Last Bit of Us",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 90,
+                    "program_order": 802,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "804",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "When We Were Young",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 86,
+                    "program_order": 803,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1574421236,
+            "category_name": "OPEN AGES 18 & OVER LYRICAL SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 804,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 18,
+            "entries": [
+                {
+                    "entry": "805",
+                    "title": "Bottom Of The River",
+                    "studio": "White City Dancing School",
+                    "program_order": 804
+                },
+                {
+                    "entry": "806",
+                    "title": "Something In The Heaven's",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 805
+                }
+            ],
+            "results": [
+                {
+                    "entry": "805",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Bottom Of The River",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 86,
+                    "program_order": 804,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "806",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Something In The Heaven's",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 90.5,
+                    "program_order": 805,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1500080041,
+            "category_name": "NOVICE AGES 15-17 JAZZ LARGE GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 806,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 19,
+            "entries": [
+                {
+                    "entry": "807",
+                    "title": "Rupaul",
+                    "studio": "Artemis Dance",
+                    "program_order": 806
+                },
+                {
+                    "entry": "808",
+                    "title": "Cooler Than Me",
+                    "studio": "Diva Dance",
+                    "program_order": 807
+                },
+                {
+                    "entry": "809",
+                    "title": "Thunderstruck",
+                    "studio": "Born2Dance",
+                    "program_order": 808
+                }
+            ],
+            "results": [
+                {
+                    "entry": "807",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Rupaul",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 87.3,
+                    "program_order": 806,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "808",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Cooler Than Me",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 89,
+                    "program_order": 807,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "809",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Thunderstruck",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 808,
                     "scratched": false,
                     "adjudicate_only": false
                 }
