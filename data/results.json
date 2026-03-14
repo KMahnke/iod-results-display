@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 22:53:34",
-    "publish_version": "2026-03-14T22:53:34+01:00",
+    "last_update": "2026-03-14 22:59:35",
+    "publish_version": "2026-03-14T22:59:35+01:00",
     "program_source": "program.json",
-    "published_count": 192,
+    "published_count": 193,
     "categories": [
         {
             "category_id": 607676400,
@@ -16987,6 +16987,94 @@
                     "performers": "",
                     "score": 86.5,
                     "program_order": 772,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1285619768,
+            "category_name": "BEGINNER AGES 9-11 MUSICAL THEATRE SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 773,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "774",
+                    "title": "Smurfs",
+                    "studio": "Artemis Dance",
+                    "program_order": 773
+                },
+                {
+                    "entry": "775",
+                    "title": "Transylvania Mania",
+                    "studio": "Dance Plus EP",
+                    "program_order": 774
+                },
+                {
+                    "entry": "776",
+                    "title": "Magic School Bus",
+                    "studio": "Born2Dance",
+                    "program_order": 775
+                },
+                {
+                    "entry": "777",
+                    "title": "Nicest Kids In Town",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 776
+                }
+            ],
+            "results": [
+                {
+                    "entry": "774",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Smurfs",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 773,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "775",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Transylvania Mania",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 774,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "776",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Magic School Bus",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 775,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "777",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Nicest Kids In Town",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 776,
                     "scratched": false,
                     "adjudicate_only": false
                 }
