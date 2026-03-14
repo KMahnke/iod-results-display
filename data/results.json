@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 04:37:01",
-    "publish_version": "2026-03-14T04:37:01+01:00",
+    "last_update": "2026-03-14 04:58:30",
+    "publish_version": "2026-03-14T04:58:30+01:00",
     "program_source": "program.json",
-    "published_count": 146,
+    "published_count": 164,
     "categories": [
         {
             "category_id": 607676400,
@@ -11395,6 +11395,39 @@
             ]
         },
         {
+            "category_id": 835864332,
+            "category_name": "NOVICE AGES 15-17 POINTE DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 558,
+            "day_sort": 2,
+            "session_sort": 1,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "559",
+                    "title": "Masquerade",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 558
+                }
+            ],
+            "results": [
+                {
+                    "entry": "559",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Masquerade",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Jasmine Davison, Rayanne Englot, Journey Froese",
+                    "score": 82.5,
+                    "program_order": 558,
+                    "scratched": false
+                }
+            ]
+        },
+        {
             "category_id": 918073575,
             "category_name": "BEGINNER AGES 9-11 MUSICAL THEATRE DUO/TRIO",
             "day_label": "Friday March 13th, 2026",
@@ -12918,6 +12951,993 @@
             ]
         },
         {
+            "category_id": 829766234,
+            "category_name": "BEGINNER AGES 9-11 BALLET LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 626,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "627",
+                    "title": "Defying Gravity",
+                    "studio": "Valley Dance",
+                    "program_order": 626
+                },
+                {
+                    "entry": "628",
+                    "title": "Ordinary",
+                    "studio": "Diva Dance",
+                    "program_order": 627
+                },
+                {
+                    "entry": "629",
+                    "title": "Welcome to Hogwarts II",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 628
+                },
+                {
+                    "entry": "630",
+                    "title": "Kettentanz",
+                    "studio": "White City Dancing School",
+                    "program_order": 629
+                },
+                {
+                    "entry": "631",
+                    "title": "Desert Nights",
+                    "studio": "Born2Dance",
+                    "program_order": 630
+                }
+            ],
+            "results": [
+                {
+                    "entry": "627",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Defying Gravity",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 626,
+                    "scratched": false
+                },
+                {
+                    "entry": "628",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Ordinary",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 627,
+                    "scratched": false
+                },
+                {
+                    "entry": "629",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Welcome to Hogwarts II",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 628,
+                    "scratched": false
+                },
+                {
+                    "entry": "630",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Kettentanz",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 629,
+                    "scratched": false
+                },
+                {
+                    "entry": "631",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Desert Nights",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 630,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 815951817,
+            "category_name": "NOVICE AGES 9-11 BALLET LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 631,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "632",
+                    "title": "Magicians In Training",
+                    "studio": "Dance Plus EP",
+                    "program_order": 631
+                },
+                {
+                    "entry": "633",
+                    "title": "Material Girls",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 632
+                }
+            ],
+            "results": [
+                {
+                    "entry": "632",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Magicians In Training",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 83.3,
+                    "program_order": 631,
+                    "scratched": false
+                },
+                {
+                    "entry": "633",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Material Girls",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 632,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1665803851,
+            "category_name": "BEGINNER AGES 9-11 MUSICAL THEATRE LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 633,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "634",
+                    "title": "Pretty Bird",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 633
+                }
+            ],
+            "results": [
+                {
+                    "entry": "634",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Pretty Bird",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 633,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 657737472,
+            "category_name": "BEGINNER AGES 6-8 MUSICAL THEATRE LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 634,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "635",
+                    "title": "When You're a Wimp",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 634
+                },
+                {
+                    "entry": "636",
+                    "title": "Footloose",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 635
+                }
+            ],
+            "results": [
+                {
+                    "entry": "635",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "When You're a Wimp",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 634,
+                    "scratched": false
+                },
+                {
+                    "entry": "636",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Footloose",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 82.8,
+                    "program_order": 635,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1014026185,
+            "category_name": "NOVICE AGES 9-11 BALLET SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 636,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "637",
+                    "title": "Yellow",
+                    "studio": "Valley Dance",
+                    "program_order": 636
+                },
+                {
+                    "entry": "638",
+                    "title": "Good Luck, Babe!",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 637
+                },
+                {
+                    "entry": "639",
+                    "title": "Swans",
+                    "studio": "Reston Dance Club",
+                    "program_order": 638
+                },
+                {
+                    "entry": "640",
+                    "title": "Be Our Guest",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 639
+                },
+                {
+                    "entry": "641",
+                    "title": "Sail Away",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 640
+                },
+                {
+                    "entry": "642",
+                    "title": "The Painter",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 641
+                },
+                {
+                    "entry": "643",
+                    "title": "Light",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 642
+                }
+            ],
+            "results": [
+                {
+                    "entry": "637",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Yellow",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 636,
+                    "scratched": false
+                },
+                {
+                    "entry": "638",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Good Luck, Babe!",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 82.3,
+                    "program_order": 637,
+                    "scratched": false
+                },
+                {
+                    "entry": "639",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Swans",
+                    "studio": "Reston Dance Club",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 638,
+                    "scratched": false
+                },
+                {
+                    "entry": "640",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Be Our Guest",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 639,
+                    "scratched": false
+                },
+                {
+                    "entry": "641",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Sail Away",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 83.3,
+                    "program_order": 640,
+                    "scratched": false
+                },
+                {
+                    "entry": "642",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "The Painter",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 641,
+                    "scratched": false
+                },
+                {
+                    "entry": "643",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Light",
+                    "studio": "Pangman Dance Club",
+                    "performers": "",
+                    "score": 82.8,
+                    "program_order": 642,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 920015193,
+            "category_name": "NOVICE AGES 12-14 BALLET LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 643,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "644",
+                    "title": "Mazurka",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 643
+                },
+                {
+                    "entry": "645",
+                    "title": "A Waltz in the Forest",
+                    "studio": "Born2Dance",
+                    "program_order": 644
+                },
+                {
+                    "entry": "646",
+                    "title": "Tarantella",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 645
+                }
+            ],
+            "results": [
+                {
+                    "entry": "644",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Mazurka",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 643,
+                    "scratched": false
+                },
+                {
+                    "entry": "645",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "A Waltz in the Forest",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 644,
+                    "scratched": false
+                },
+                {
+                    "entry": "646",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Tarantella",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 86.8,
+                    "program_order": 645,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1472563034,
+            "category_name": "NOVICE AGES 15-17 BALLET LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 646,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "647",
+                    "title": "The List is Life",
+                    "studio": "Born2Dance",
+                    "program_order": 646
+                },
+                {
+                    "entry": "648",
+                    "title": "The Sound of Silence",
+                    "studio": "Diva Dance",
+                    "program_order": 647
+                },
+                {
+                    "entry": "649",
+                    "title": "The Whisp Sings",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 648
+                }
+            ],
+            "results": [
+                {
+                    "entry": "647",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "The List is Life",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 90,
+                    "program_order": 646,
+                    "scratched": false
+                },
+                {
+                    "entry": "648",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Sound of Silence",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 647,
+                    "scratched": false
+                },
+                {
+                    "entry": "649",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "The Whisp Sings",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 648,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1639255955,
+            "category_name": "OPEN AGES 15-17 MUSICAL THEATRE LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 649,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "650",
+                    "title": "Grease",
+                    "studio": "Artemis Dance",
+                    "program_order": 649
+                }
+            ],
+            "results": [
+                {
+                    "entry": "650",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Grease",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 91,
+                    "program_order": 649,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 972105423,
+            "category_name": "NOVICE AGES 12-14 MUSICAL THEATRE LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 650,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "651",
+                    "title": "The Lorax",
+                    "studio": "Artemis Dance",
+                    "program_order": 650
+                },
+                {
+                    "entry": "652",
+                    "title": "Band Geeks",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 651
+                },
+                {
+                    "entry": "653",
+                    "title": "Coffee In A Cardboard Cup",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 652
+                }
+            ],
+            "results": [
+                {
+                    "entry": "651",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "The Lorax",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 650,
+                    "scratched": false
+                },
+                {
+                    "entry": "652",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Band Geeks",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 89,
+                    "program_order": 651,
+                    "scratched": false
+                },
+                {
+                    "entry": "653",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Coffee In A Cardboard Cup",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 652,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 559189646,
+            "category_name": "NOVICE AGES 9-11 MUSICAL THEATRE LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 653,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "654",
+                    "title": "Frozen",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 653
+                },
+                {
+                    "entry": "655",
+                    "title": "High School Musical",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 654
+                },
+                {
+                    "entry": "656",
+                    "title": "Jungle Book",
+                    "studio": "Artemis Dance",
+                    "program_order": 655
+                },
+                {
+                    "entry": "657",
+                    "title": "Footloose",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 656
+                }
+            ],
+            "results": [
+                {
+                    "entry": "654",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Frozen",
+                    "studio": "Pangman Dance Club",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 653,
+                    "scratched": false
+                },
+                {
+                    "entry": "655",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "High School Musical",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 654,
+                    "scratched": false
+                },
+                {
+                    "entry": "656",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Jungle Book",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 655,
+                    "scratched": false
+                },
+                {
+                    "entry": "657",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Footloose",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 656,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 428827925,
+            "category_name": "OPEN AGES 15-17 BALLET LARGE GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 657,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "658",
+                    "title": "Painted Black",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 657
+                },
+                {
+                    "entry": "659",
+                    "title": "Alma Espanola",
+                    "studio": "Born2Dance",
+                    "program_order": 658
+                },
+                {
+                    "entry": "660",
+                    "title": "The Light",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 659
+                }
+            ],
+            "results": [
+                {
+                    "entry": "658",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Painted Black",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 657,
+                    "scratched": false
+                },
+                {
+                    "entry": "659",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Alma Espanola",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 88.5,
+                    "program_order": 658,
+                    "scratched": false
+                },
+                {
+                    "entry": "660",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "The Light",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 86.8,
+                    "program_order": 659,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1528471777,
+            "category_name": "NOVICE AGES 12-14 BALLET SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 660,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "661",
+                    "title": "Arabian Nights",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 660
+                },
+                {
+                    "entry": "662",
+                    "title": "Nothing Else Matters",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 661
+                },
+                {
+                    "entry": "663",
+                    "title": "Pirates of the Caribbean",
+                    "studio": "Diva Dance",
+                    "program_order": 662
+                },
+                {
+                    "entry": "664",
+                    "title": "Viva La Vida",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 663
+                },
+                {
+                    "entry": "665",
+                    "title": "Dance of the Knights",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 664
+                }
+            ],
+            "results": [
+                {
+                    "entry": "661",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Arabian Nights",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 660,
+                    "scratched": false
+                },
+                {
+                    "entry": "662",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Nothing Else Matters",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 661,
+                    "scratched": false
+                },
+                {
+                    "entry": "663",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Pirates of the Caribbean",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 662,
+                    "scratched": false
+                },
+                {
+                    "entry": "664",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Viva La Vida",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 663,
+                    "scratched": false
+                },
+                {
+                    "entry": "665",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Dance of the Knights",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 664,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1732146612,
+            "category_name": "NOVICE AGES 18 OVER POINTE SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 665,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "666",
+                    "title": "Pointe",
+                    "studio": "White City Dancing School",
+                    "program_order": 665
+                }
+            ],
+            "results": [
+                {
+                    "entry": "666",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Pointe",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 665,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1118758409,
+            "category_name": "OPEN AGES 12-14 BALLET SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 666,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "667",
+                    "title": "Spanish Flame",
+                    "studio": "Dance Plus EP",
+                    "program_order": 666
+                }
+            ],
+            "results": [
+                {
+                    "entry": "667",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Spanish Flame",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 666,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 1388932349,
+            "category_name": "OPEN AGES 15-17 BALLET SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 667,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 16,
+            "entries": [
+                {
+                    "entry": "668",
+                    "title": "Fairies",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 667
+                }
+            ],
+            "results": [
+                {
+                    "entry": "668",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Fairies",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 667,
+                    "scratched": false
+                }
+            ]
+        },
+        {
+            "category_id": 71810382,
+            "category_name": "NOVICE AGES 15-17 POINTE SMALL GROUP",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 668,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 17,
+            "entries": [
+                {
+                    "entry": "669",
+                    "title": "Ta-ka Ta-ka Ta",
+                    "studio": "White City Dancing School",
+                    "program_order": 668
+                }
+            ],
+            "results": [
+                {
+                    "entry": "669",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Ta-ka Ta-ka Ta",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 668,
+                    "scratched": false
+                }
+            ]
+        },
+        {
             "category_id": 1391098114,
             "category_name": "OPEN AGES 18 OVER CONTEMPORARY DUO/TRIO",
             "day_label": "Friday March 13th, 2026",
@@ -12947,6 +13967,39 @@
                     "score": null,
                     "program_order": 669,
                     "scratched": true
+                }
+            ]
+        },
+        {
+            "category_id": 1570665284,
+            "category_name": "BEGINNER AGES 18 OVER BALLET DUO/TRIO",
+            "day_label": "Friday March 13th, 2026",
+            "session_label": "Session 3 \u2022 6:30 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 670,
+            "day_sort": 2,
+            "session_sort": 2,
+            "group_sort": 19,
+            "entries": [
+                {
+                    "entry": "671",
+                    "title": "In Quiet Grace",
+                    "studio": "Born2Dance",
+                    "program_order": 670
+                }
+            ],
+            "results": [
+                {
+                    "entry": "671",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "In Quiet Grace",
+                    "studio": "Born2Dance",
+                    "performers": "Cherise Erdmann, Aubray Francis Drake, Jennifer Meyer",
+                    "score": 82,
+                    "program_order": 670,
+                    "scratched": false
                 }
             ]
         }

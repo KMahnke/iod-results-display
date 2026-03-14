@@ -1,7 +1,7 @@
 {
     "event_title": "Inspirations of Dance",
-    "updated_at": "2026-03-14 04:37:01",
-    "publish_version": "2026-03-14T04:37:01+01:00",
+    "updated_at": "2026-03-14 04:58:30",
+    "publish_version": "2026-03-14T04:58:30+01:00",
     "boards": [
         {
             "id": "solo",
@@ -219,10 +219,11 @@
                             "611 - Girlz",
                             "613 - Shake it up",
                             "614 - The Spook",
-                            "620 - Mother Ginger's Children"
+                            "620 - Mother Ginger's Children",
+                            "628 - Ordinary"
                         ],
                         [
-                            "624 - Camp Chaos"
+                            "631 - Desert Nights"
                         ]
                     ]
                 },
@@ -230,10 +231,22 @@
                     "name": "Novice",
                     "places": [
                         [
-                            "616 - Skyfall"
+                            "647 - The List is Life"
                         ],
                         [
-                            "626 - Test Drive"
+                            "652 - Band Geeks"
+                        ],
+                        [
+                            "646 - Tarantella"
+                        ],
+                        [
+                            "651 - The Lorax",
+                            "653 - Coffee In A Cardboard Cup"
+                        ],
+                        [
+                            "645 - A Waltz in the Forest",
+                            "654 - Frozen",
+                            "655 - High School Musical"
                         ]
                     ]
                 },
@@ -241,7 +254,20 @@
                     "name": "Open",
                     "places": [
                         [
+                            "650 - Grease"
+                        ],
+                        [
+                            "659 - Alma Espanola"
+                        ],
+                        [
                             "615 - Spiderman"
+                        ],
+                        [
+                            "658 - Painted Black",
+                            "668 - Fairies"
+                        ],
+                        [
+                            "660 - The Light"
                         ]
                     ]
                 }
