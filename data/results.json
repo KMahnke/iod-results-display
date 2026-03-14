@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-14 19:59:28",
-    "publish_version": "2026-03-14T19:59:28+01:00",
+    "last_update": "2026-03-14 20:39:20",
+    "publish_version": "2026-03-14T20:39:20+01:00",
     "program_source": "program.json",
-    "published_count": 184,
+    "published_count": 185,
     "categories": [
         {
             "category_id": 607676400,
@@ -16211,6 +16211,94 @@
                     "performers": "",
                     "score": 88.5,
                     "program_order": 736,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1177888203,
+            "category_name": "NOVICE AGES 12-14 TAP SMALL GROUP",
+            "day_label": "Saturday March 14th, 2026",
+            "session_label": "Session 2 \u2022 1:00 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 737,
+            "day_sort": 3,
+            "session_sort": 1,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "738",
+                    "title": "Shake, Rumble and Quake",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 737
+                },
+                {
+                    "entry": "739",
+                    "title": "My Shot",
+                    "studio": "Born2Dance",
+                    "program_order": 738
+                },
+                {
+                    "entry": "740",
+                    "title": "Let's Dance Tonight",
+                    "studio": "Dance Plus EP",
+                    "program_order": 739
+                },
+                {
+                    "entry": "741",
+                    "title": "Vienna",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 740
+                }
+            ],
+            "results": [
+                {
+                    "entry": "738",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Shake, Rumble and Quake",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 737,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "739",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "My Shot",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 738,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "740",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Let's Dance Tonight",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 739,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "741",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Vienna",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 740,
                     "scratched": false,
                     "adjudicate_only": false
                 }
