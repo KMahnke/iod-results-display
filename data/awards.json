@@ -1,15 +1,15 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 19:06:38",
-    "publish_version": "2026-03-15T19:06:38+01:00",
-    "updated_at": "2026-03-14 17:24:53",
+    "last_update": "2026-03-15 19:19:57",
+    "publish_version": "2026-03-15T19:19:57+01:00",
+    "updated_at": "2026-03-15 19:19:55",
     "awards": [
         {
             "award_key": "excellence_in_dance",
             "award_title": "Excellence in Dance",
             "sponsor_logo": "",
-            "winner_text": "#32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #113 Vogue \u2022 Born2Dance \u2022 #193 Let's Get Loud \u2022 Artemis Dance \u2022 #367 Singing In The Rain \u2022 En Pointe Dance Studio \u2022 #450 Cups \u2022 Born2Dance \u2022 #522 Hold My Hand \u2022 Diva Dance \u2022 #542 Concrete Angel \u2022 Born2Dance \u2022 #577 CROWNED \u2022 De Tricky Feet Dance Studio \u2022 #617 Real In Rio \u2022 White City Dancing School \u2022 #650 Grease \u2022 Artemis Dance",
+            "winner_text": "#32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #113 Vogue \u2022 Born2Dance \u2022 #193 Let's Get Loud \u2022 Artemis Dance \u2022 #367 Singing In The Rain \u2022 En Pointe Dance Studio \u2022 #450 Cups \u2022 Born2Dance \u2022 #522 Hold My Hand \u2022 Diva Dance \u2022 #542 Concrete Angel \u2022 Born2Dance \u2022 #577 CROWNED \u2022 De Tricky Feet Dance Studio \u2022 #617 Real In Rio \u2022 White City Dancing School \u2022 #650 Grease \u2022 Artemis Dance \u2022 #783 Let It Grow \u2022 Diva Dance \u2022 #844 Back to the Boombox \u2022 De Tricky Feet Dance Studio",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -72,6 +72,16 @@
                     "entry": "650",
                     "title": "Grease",
                     "studio": "Artemis Dance"
+                },
+                {
+                    "entry": "783",
+                    "title": "Let It Grow",
+                    "studio": "Diva Dance"
+                },
+                {
+                    "entry": "844",
+                    "title": "Back to the Boombox",
+                    "studio": "De Tricky Feet Dance Studio"
                 }
             ]
         },
@@ -79,7 +89,7 @@
             "award_key": "another_round_of_applause",
             "award_title": "Another Round of Applause",
             "sponsor_logo": "",
-            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios \u2022 #169 Sax \u2022 Vibank Dance Expressions \u2022 #549 Help \u2022 White City Dancing School \u2022 #578 Adults Someday \u2022 Ogema Dance Club \u2022 #591 Say My Name \u2022 Artemis Dance \u2022 #612 Dive In The Pool \u2022 En Pointe Dance Studio",
+            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios \u2022 #169 Sax \u2022 Vibank Dance Expressions \u2022 #549 Help \u2022 White City Dancing School \u2022 #578 Adults Someday \u2022 Ogema Dance Club \u2022 #591 Say My Name \u2022 Artemis Dance \u2022 #612 Dive In The Pool \u2022 En Pointe Dance Studio \u2022 #692 Where the Seasons Meet \u2022 Artemis Dance \u2022 #705 Cruella De Vil \u2022 Ogema Dance Club \u2022 #761 Can't Steal My Joy \u2022 Diva Dance",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -112,6 +122,21 @@
                     "entry": "612",
                     "title": "Dive In The Pool",
                     "studio": "En Pointe Dance Studio"
+                },
+                {
+                    "entry": "692",
+                    "title": "Where the Seasons Meet",
+                    "studio": "Artemis Dance"
+                },
+                {
+                    "entry": "705",
+                    "title": "Cruella De Vil",
+                    "studio": "Ogema Dance Club"
+                },
+                {
+                    "entry": "761",
+                    "title": "Can't Steal My Joy",
+                    "studio": "Diva Dance"
                 }
             ]
         },
@@ -119,7 +144,7 @@
             "award_key": "smile_award",
             "award_title": "Smile Award",
             "sponsor_logo": "",
-            "winner_text": "#88 Words Matter \u2022 Born2Dance \u2022 #96 Chic \u2022 Born2Dance \u2022 #135 You're the One \u2022 Marley's Dance Effex \u2022 #652 Band Geeks \u2022 Ogema Dance Club",
+            "winner_text": "#88 Words Matter \u2022 Born2Dance \u2022 #96 Chic \u2022 Born2Dance \u2022 #135 You're the One \u2022 Marley's Dance Effex \u2022 #652 Band Geeks \u2022 Ogema Dance Club \u2022 #830 Shake Your Groove Thing \u2022 Vibank Dance Expressions \u2022 #840 Ordinary \u2022 Ogema Dance Club",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -142,6 +167,16 @@
                     "entry": "652",
                     "title": "Band Geeks",
                     "studio": "Ogema Dance Club"
+                },
+                {
+                    "entry": "830",
+                    "title": "Shake Your Groove Thing",
+                    "studio": "Vibank Dance Expressions"
+                },
+                {
+                    "entry": "840",
+                    "title": "Ordinary",
+                    "studio": "Ogema Dance Club"
                 }
             ]
         },
@@ -149,7 +184,7 @@
             "award_key": "full_throttle",
             "award_title": "Full Throttle",
             "sponsor_logo": "",
-            "winner_text": "#75 Nothing New \u2022 En Pointe Dance Studio \u2022 #280 Like a Queen \u2022 Balgonie Dance & Twirl \u2022 #656 Jungle Book \u2022 Artemis Dance \u2022 #668 Fairies \u2022 Marley's Dance Effex",
+            "winner_text": "#75 Nothing New \u2022 En Pointe Dance Studio \u2022 #280 Like a Queen \u2022 Balgonie Dance & Twirl \u2022 #656 Jungle Book \u2022 Artemis Dance \u2022 #668 Fairies \u2022 Marley's Dance Effex \u2022 #723 Fake ID \u2022 Artemis Dance \u2022 #737 Tainted Love \u2022 Artemis Dance",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -172,6 +207,16 @@
                     "entry": "668",
                     "title": "Fairies",
                     "studio": "Marley's Dance Effex"
+                },
+                {
+                    "entry": "723",
+                    "title": "Fake ID",
+                    "studio": "Artemis Dance"
+                },
+                {
+                    "entry": "737",
+                    "title": "Tainted Love",
+                    "studio": "Artemis Dance"
                 }
             ]
         },
@@ -179,7 +224,7 @@
             "award_key": "choreography",
             "award_title": "Choreography",
             "sponsor_logo": "",
-            "winner_text": "#570 Mac Mash \u2022 Balgonie Dance & Twirl \u2022 #599 When We Were Young \u2022 De Tricky Feet Dance Studio \u2022 #646 Tarantella \u2022 En Pointe Dance Studio",
+            "winner_text": "#570 Mac Mash \u2022 Balgonie Dance & Twirl \u2022 #599 When We Were Young \u2022 De Tricky Feet Dance Studio \u2022 #646 Tarantella \u2022 En Pointe Dance Studio \u2022 #685 Sailors \u2022 En Pointe Dance Studio \u2022 #708 I Wanna Rock! \u2022 Artemis Dance \u2022 #718 New York \u2022 En Pointe Dance Studio \u2022 #742 Skeletons \u2022 Ogema Dance Club \u2022 #779 Haus of Holbein \u2022 Dance Plus EP \u2022 #796 Boogie Fever \u2022 En Pointe Dance Studio",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -196,6 +241,36 @@
                 {
                     "entry": "646",
                     "title": "Tarantella",
+                    "studio": "En Pointe Dance Studio"
+                },
+                {
+                    "entry": "685",
+                    "title": "Sailors",
+                    "studio": "En Pointe Dance Studio"
+                },
+                {
+                    "entry": "708",
+                    "title": "I Wanna Rock!",
+                    "studio": "Artemis Dance"
+                },
+                {
+                    "entry": "718",
+                    "title": "New York",
+                    "studio": "En Pointe Dance Studio"
+                },
+                {
+                    "entry": "742",
+                    "title": "Skeletons",
+                    "studio": "Ogema Dance Club"
+                },
+                {
+                    "entry": "779",
+                    "title": "Haus of Holbein",
+                    "studio": "Dance Plus EP"
+                },
+                {
+                    "entry": "796",
+                    "title": "Boogie Fever",
                     "studio": "En Pointe Dance Studio"
                 }
             ]
