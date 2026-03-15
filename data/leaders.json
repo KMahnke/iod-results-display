@@ -1,6 +1,6 @@
 {
     "event_title": "Leaderboard Finalists",
-    "updated_at": "2026-03-15 12:53:26",
+    "updated_at": "2026-03-15 12:56:41",
     "boards": [
         {
             "id": "solo",
@@ -142,16 +142,13 @@
                     "name": "Novice",
                     "places": [
                         [
+                            "925 - Let it be Hope"
+                        ],
+                        [
                             "647 - The List is Life",
                             "784 - The Treblemakers",
-                            "823 - A Touch of Snow"
-                        ],
-                        [
-                            "861 - Femininomenon"
-                        ],
-                        [
-                            "652 - Band Geeks",
-                            "808 - Cooler Than Me"
+                            "823 - A Touch of Snow",
+                            "921 - Butterfly Goodbye"
                         ]
                     ]
                 },

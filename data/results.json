@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 19:53:26",
-    "publish_version": "2026-03-15T19:53:26+01:00",
+    "last_update": "2026-03-15 19:56:41",
+    "publish_version": "2026-03-15T19:56:41+01:00",
     "program_source": "program.json",
-    "published_count": 233,
+    "published_count": 238,
     "categories": [
         {
             "category_id": 607676400,
@@ -20019,6 +20019,500 @@
                     "performers": "",
                     "score": 82.5,
                     "program_order": 904,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 180088134,
+            "category_name": "BEGINNER AGES 12-14 JAZZ SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 905,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "906",
+                    "title": "ManEater",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 905
+                },
+                {
+                    "entry": "907",
+                    "title": "Work For It",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 906
+                },
+                {
+                    "entry": "908",
+                    "title": "Shot Gun",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 907
+                },
+                {
+                    "entry": "909",
+                    "title": "Amazing Life",
+                    "studio": "Dance Plus EP",
+                    "program_order": 908
+                },
+                {
+                    "entry": "910",
+                    "title": "Attention",
+                    "studio": "Minton Dance Club",
+                    "program_order": 909
+                }
+            ],
+            "results": [
+                {
+                    "entry": "906",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "ManEater",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 905,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "907",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Work For It",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 906,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "908",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Shot Gun",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 907,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "909",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Amazing Life",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 908,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "910",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Attention",
+                    "studio": "Minton Dance Club",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 909,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1660244832,
+            "category_name": "NOVICE AGES 9-11 LYRICAL SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 910,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "911",
+                    "title": "Dancing Queen",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 910
+                },
+                {
+                    "entry": "912",
+                    "title": "Right Kind Of Reckless",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 911
+                },
+                {
+                    "entry": "913",
+                    "title": "Friends",
+                    "studio": "Reston Dance Club",
+                    "program_order": 912
+                }
+            ],
+            "results": [
+                {
+                    "entry": "911",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Dancing Queen",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 910,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "912",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Right Kind Of Reckless",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 911,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "913",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Friends",
+                    "studio": "Reston Dance Club",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 912,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1901574342,
+            "category_name": "NOVICE AGES 12-14 LYRICAL SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 913,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "914",
+                    "title": "Bittersweet Symphony",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 913
+                },
+                {
+                    "entry": "915",
+                    "title": "Light Me Up",
+                    "studio": "Dance Plus EP",
+                    "program_order": 914
+                },
+                {
+                    "entry": "916",
+                    "title": "Flowers",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 915
+                },
+                {
+                    "entry": "917",
+                    "title": "A Letter To My Mom",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 916
+                },
+                {
+                    "entry": "918",
+                    "title": "Salvation",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 917
+                },
+                {
+                    "entry": "919",
+                    "title": "Turning Tables",
+                    "studio": "Diva Dance",
+                    "program_order": 918
+                }
+            ],
+            "results": [
+                {
+                    "entry": "914",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Bittersweet Symphony",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 913,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "915",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Light Me Up",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 85.8,
+                    "program_order": 914,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "916",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Flowers",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 86,
+                    "program_order": 915,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "917",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "A Letter To My Mom",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 916,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "918",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Salvation",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 917,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "919",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Turning Tables",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 85.8,
+                    "program_order": 918,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 691764075,
+            "category_name": "NOVICE AGES 15-17 LYRICAL SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 919,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "920",
+                    "title": "We'll Be Fine",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 919
+                },
+                {
+                    "entry": "921",
+                    "title": "Butterfly Goodbye",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 920
+                },
+                {
+                    "entry": "922",
+                    "title": "Set Me Free",
+                    "studio": "Artemis Dance",
+                    "program_order": 921
+                },
+                {
+                    "entry": "923",
+                    "title": "Ruby Blue",
+                    "studio": "Valley Dance",
+                    "program_order": 922
+                },
+                {
+                    "entry": "924",
+                    "title": "Carry Me Home",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 923
+                },
+                {
+                    "entry": "925",
+                    "title": "Let it be Hope",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 924
+                },
+                {
+                    "entry": "926",
+                    "title": "California Dreamin'",
+                    "studio": "White City Dancing School",
+                    "program_order": 925
+                }
+            ],
+            "results": [
+                {
+                    "entry": "920",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "We'll Be Fine",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 919,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "921",
+                    "display_place": "2nd",
+                    "gem": "DIAMOND",
+                    "title": "Butterfly Goodbye",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 90,
+                    "program_order": 920,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "922",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Set Me Free",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 921,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "923",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Ruby Blue",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 922,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "924",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Carry Me Home",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 923,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "925",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Let it be Hope",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 91.5,
+                    "program_order": 924,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "926",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "California Dreamin'",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 925,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1510903289,
+            "category_name": "NOVICE AGES 12-14 LYRICAL LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 926,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "927",
+                    "title": "Brighter Days",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 926
+                },
+                {
+                    "entry": "928",
+                    "title": "Hold on Me",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 927
+                }
+            ],
+            "results": [
+                {
+                    "entry": "927",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Brighter Days",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 926,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "928",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Hold on Me",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 86,
+                    "program_order": 927,
                     "scratched": false,
                     "adjudicate_only": false
                 }
