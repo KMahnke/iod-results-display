@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 19:58:40",
-    "publish_version": "2026-03-15T19:58:40+01:00",
+    "last_update": "2026-03-15 20:00:20",
+    "publish_version": "2026-03-15T20:00:20+01:00",
     "program_source": "program.json",
-    "published_count": 245,
+    "published_count": 246,
     "categories": [
         {
             "category_id": 607676400,
@@ -21021,6 +21021,40 @@
                     "performers": "",
                     "score": 85.8,
                     "program_order": 949,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 275353097,
+            "category_name": "OPEN AGES 18 OVER HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 1043,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 27,
+            "entries": [
+                {
+                    "entry": "1044",
+                    "title": "DJ Turn it Up",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 1043
+                }
+            ],
+            "results": [
+                {
+                    "entry": "1044",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "DJ Turn it Up",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 88.5,
+                    "program_order": 1043,
                     "scratched": false,
                     "adjudicate_only": false
                 }
