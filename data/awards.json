@@ -1,15 +1,15 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 23:54:48",
-    "publish_version": "2026-03-15T23:54:48+01:00",
-    "updated_at": "2026-03-15 19:19:55",
+    "last_update": "2026-03-16 00:27:00",
+    "publish_version": "2026-03-16T00:27:00+01:00",
+    "updated_at": "2026-03-16 00:26:56",
     "awards": [
         {
             "award_key": "excellence_in_dance",
             "award_title": "Excellence in Dance",
             "sponsor_logo": "",
-            "winner_text": "#32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #113 Vogue \u2022 Born2Dance \u2022 #193 Let's Get Loud \u2022 Artemis Dance \u2022 #367 Singing In The Rain \u2022 En Pointe Dance Studio \u2022 #450 Cups \u2022 Born2Dance \u2022 #522 Hold My Hand \u2022 Diva Dance \u2022 #542 Concrete Angel \u2022 Born2Dance \u2022 #577 CROWNED \u2022 De Tricky Feet Dance Studio \u2022 #617 Real In Rio \u2022 White City Dancing School \u2022 #650 Grease \u2022 Artemis Dance \u2022 #783 Let It Grow \u2022 Diva Dance \u2022 #844 Back to the Boombox \u2022 De Tricky Feet Dance Studio",
+            "winner_text": "#32 Dancing Through Life \u2022 Born2Dance \u2022 #80 False Confidence \u2022 Born2Dance \u2022 #93 When I Get Where I'm Going \u2022 Born2Dance \u2022 #113 Vogue \u2022 Born2Dance \u2022 #193 Let's Get Loud \u2022 Artemis Dance \u2022 #367 Singing In The Rain \u2022 En Pointe Dance Studio \u2022 #450 Cups \u2022 Born2Dance \u2022 #522 Hold My Hand \u2022 Diva Dance \u2022 #542 Concrete Angel \u2022 Born2Dance \u2022 #577 CROWNED \u2022 De Tricky Feet Dance Studio \u2022 #617 Real In Rio \u2022 White City Dancing School \u2022 #650 Grease \u2022 Artemis Dance \u2022 #783 Let It Grow \u2022 Diva Dance \u2022 #844 Back to the Boombox \u2022 De Tricky Feet Dance Studio \u2022 #921 Butterfly Goodbye \u2022 Cupar Dance Club",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -82,6 +82,11 @@
                     "entry": "844",
                     "title": "Back to the Boombox",
                     "studio": "De Tricky Feet Dance Studio"
+                },
+                {
+                    "entry": "921",
+                    "title": "Butterfly Goodbye",
+                    "studio": "Cupar Dance Club"
                 }
             ]
         },
@@ -89,7 +94,7 @@
             "award_key": "another_round_of_applause",
             "award_title": "Another Round of Applause",
             "sponsor_logo": "",
-            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios \u2022 #169 Sax \u2022 Vibank Dance Expressions \u2022 #549 Help \u2022 White City Dancing School \u2022 #578 Adults Someday \u2022 Ogema Dance Club \u2022 #591 Say My Name \u2022 Artemis Dance \u2022 #612 Dive In The Pool \u2022 En Pointe Dance Studio \u2022 #692 Where the Seasons Meet \u2022 Artemis Dance \u2022 #705 Cruella De Vil \u2022 Ogema Dance Club \u2022 #761 Can't Steal My Joy \u2022 Diva Dance",
+            "winner_text": "#106 Black Swan \u2022 Against the Grain Studios \u2022 #169 Sax \u2022 Vibank Dance Expressions \u2022 #549 Help \u2022 White City Dancing School \u2022 #578 Adults Someday \u2022 Ogema Dance Club \u2022 #591 Say My Name \u2022 Artemis Dance \u2022 #612 Dive In The Pool \u2022 En Pointe Dance Studio \u2022 #692 Where the Seasons Meet \u2022 Artemis Dance \u2022 #705 Cruella De Vil \u2022 Ogema Dance Club \u2022 #761 Can't Steal My Joy \u2022 Diva Dance \u2022 #934 Praying \u2022 Marley's Dance Effex",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -137,6 +142,11 @@
                     "entry": "761",
                     "title": "Can't Steal My Joy",
                     "studio": "Diva Dance"
+                },
+                {
+                    "entry": "934",
+                    "title": "Praying",
+                    "studio": "Marley's Dance Effex"
                 }
             ]
         },
@@ -144,7 +154,7 @@
             "award_key": "smile_award",
             "award_title": "Smile Award",
             "sponsor_logo": "",
-            "winner_text": "#88 Words Matter \u2022 Born2Dance \u2022 #96 Chic \u2022 Born2Dance \u2022 #135 You're the One \u2022 Marley's Dance Effex \u2022 #652 Band Geeks \u2022 Ogema Dance Club \u2022 #830 Shake Your Groove Thing \u2022 Vibank Dance Expressions \u2022 #840 Ordinary \u2022 Ogema Dance Club",
+            "winner_text": "#88 Words Matter \u2022 Born2Dance \u2022 #96 Chic \u2022 Born2Dance \u2022 #135 You're the One \u2022 Marley's Dance Effex \u2022 #652 Band Geeks \u2022 Ogema Dance Club \u2022 #830 Shake Your Groove Thing \u2022 Vibank Dance Expressions \u2022 #840 Ordinary \u2022 Ogema Dance Club \u2022 #885 Cotton Eyed Joe \u2022 Marley's Dance Effex",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -177,6 +187,11 @@
                     "entry": "840",
                     "title": "Ordinary",
                     "studio": "Ogema Dance Club"
+                },
+                {
+                    "entry": "885",
+                    "title": "Cotton Eyed Joe",
+                    "studio": "Marley's Dance Effex"
                 }
             ]
         },
@@ -184,7 +199,7 @@
             "award_key": "full_throttle",
             "award_title": "Full Throttle",
             "sponsor_logo": "",
-            "winner_text": "#75 Nothing New \u2022 En Pointe Dance Studio \u2022 #280 Like a Queen \u2022 Balgonie Dance & Twirl \u2022 #656 Jungle Book \u2022 Artemis Dance \u2022 #668 Fairies \u2022 Marley's Dance Effex \u2022 #723 Fake ID \u2022 Artemis Dance \u2022 #737 Tainted Love \u2022 Artemis Dance",
+            "winner_text": "#75 Nothing New \u2022 En Pointe Dance Studio \u2022 #280 Like a Queen \u2022 Balgonie Dance & Twirl \u2022 #656 Jungle Book \u2022 Artemis Dance \u2022 #668 Fairies \u2022 Marley's Dance Effex \u2022 #723 Fake ID \u2022 Artemis Dance \u2022 #737 Tainted Love \u2022 Artemis Dance \u2022 #933 Piece of my Heart \u2022 De Tricky Feet Dance Studio",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -217,6 +232,11 @@
                     "entry": "737",
                     "title": "Tainted Love",
                     "studio": "Artemis Dance"
+                },
+                {
+                    "entry": "933",
+                    "title": "Piece of my Heart",
+                    "studio": "De Tricky Feet Dance Studio"
                 }
             ]
         },
