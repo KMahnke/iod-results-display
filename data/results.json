@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 19:56:41",
-    "publish_version": "2026-03-15T19:56:41+01:00",
+    "last_update": "2026-03-15 19:58:12",
+    "publish_version": "2026-03-15T19:58:12+01:00",
     "program_source": "program.json",
-    "published_count": 238,
+    "published_count": 245,
     "categories": [
         {
             "category_id": 607676400,
@@ -20513,6 +20513,514 @@
                     "performers": "",
                     "score": 86,
                     "program_order": 927,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 39997016,
+            "category_name": "NOVICE AGES 15-17 LYRICAL LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 928,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "929",
+                    "title": "Waves",
+                    "studio": "Artemis Dance",
+                    "program_order": 928
+                },
+                {
+                    "entry": "930",
+                    "title": "Watch",
+                    "studio": "Diva Dance",
+                    "program_order": 929
+                }
+            ],
+            "results": [
+                {
+                    "entry": "929",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Waves",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 89,
+                    "program_order": 928,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "930",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Watch",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 87.8,
+                    "program_order": 929,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1711612152,
+            "category_name": "NOVICE AGES 9-11 LYRICAL LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 930,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "931",
+                    "title": "Bless the Broken Road",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 930
+                }
+            ],
+            "results": [
+                {
+                    "entry": "931",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Bless the Broken Road",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 930,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 400063060,
+            "category_name": "BEGINNER AGES 6-8 LYRICAL SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 931,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "932",
+                    "title": "Better Place",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 931
+                }
+            ],
+            "results": [
+                {
+                    "entry": "932",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Better Place",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 931,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 388778227,
+            "category_name": "OPEN AGES 15-17 LYRICAL LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 932,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "933",
+                    "title": "Piece of my Heart",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 932
+                },
+                {
+                    "entry": "934",
+                    "title": "Praying",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 933
+                },
+                {
+                    "entry": "935",
+                    "title": "Sign of The Times",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 934
+                }
+            ],
+            "results": [
+                {
+                    "entry": "933",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Piece of my Heart",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 89,
+                    "program_order": 932,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "934",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Praying",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 91.5,
+                    "program_order": 933,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "935",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Sign of The Times",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 89,
+                    "program_order": 934,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1118513487,
+            "category_name": "BEGINNER AGES 9-11 LYRICAL LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 935,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "936",
+                    "title": "Girls",
+                    "studio": "White City Dancing School",
+                    "program_order": 935
+                },
+                {
+                    "entry": "937",
+                    "title": "The Gift of a Friend",
+                    "studio": "Artemis Dance",
+                    "program_order": 936
+                },
+                {
+                    "entry": "938",
+                    "title": "Don't Give Up on Me",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 937
+                },
+                {
+                    "entry": "939",
+                    "title": "Human",
+                    "studio": "Diva Dance",
+                    "program_order": 938
+                }
+            ],
+            "results": [
+                {
+                    "entry": "936",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Girls",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 935,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "937",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "The Gift of a Friend",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 936,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "938",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Don't Give Up on Me",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 937,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "939",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Human",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 938,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 855387182,
+            "category_name": "BEGINNER AGES 12-14 LYRICAL SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 939,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 16,
+            "entries": [
+                {
+                    "entry": "940",
+                    "title": "Dancing in the Sky",
+                    "studio": "Artemis Dance",
+                    "program_order": 939
+                },
+                {
+                    "entry": "941",
+                    "title": "Fearless",
+                    "studio": "Dance Plus EP",
+                    "program_order": 940
+                },
+                {
+                    "entry": "942",
+                    "title": "Dancing Queen",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 941
+                },
+                {
+                    "entry": "943",
+                    "title": "The Days",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 942
+                },
+                {
+                    "entry": "944",
+                    "title": "Wildflowers",
+                    "studio": "Minton Dance Club",
+                    "program_order": 943
+                }
+            ],
+            "results": [
+                {
+                    "entry": "940",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Dancing in the Sky",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 939,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "941",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Fearless",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 940,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "942",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Dancing Queen",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 83.3,
+                    "program_order": 941,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "943",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "The Days",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 942,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "944",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Wildflowers",
+                    "studio": "Minton Dance Club",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 943,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1826640155,
+            "category_name": "BEGINNER AGES 9-11 LYRICAL SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 944,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 17,
+            "entries": [
+                {
+                    "entry": "945",
+                    "title": "Supermarket Flowers",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 944
+                },
+                {
+                    "entry": "946",
+                    "title": "Girls",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 945
+                },
+                {
+                    "entry": "947",
+                    "title": "The Most Beautiful Things II",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 946
+                },
+                {
+                    "entry": "948",
+                    "title": "Forever Young",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 947
+                },
+                {
+                    "entry": "949",
+                    "title": "A Million Dreams",
+                    "studio": "Dance Plus EP",
+                    "program_order": 948
+                },
+                {
+                    "entry": "950",
+                    "title": "Clara Bow",
+                    "studio": "Valley Dance",
+                    "program_order": 949
+                }
+            ],
+            "results": [
+                {
+                    "entry": "945",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Supermarket Flowers",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 944,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "946",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Girls",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84.8,
+                    "program_order": 945,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "947",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "The Most Beautiful Things II",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 84.3,
+                    "program_order": 946,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "948",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Forever Young",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 947,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "949",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "A Million Dreams",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 85.3,
+                    "program_order": 948,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "950",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Clara Bow",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 85.8,
+                    "program_order": 949,
                     "scratched": false,
                     "adjudicate_only": false
                 }

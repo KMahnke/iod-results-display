@@ -1,6 +1,6 @@
 {
     "event_title": "Leaderboard Finalists",
-    "updated_at": "2026-03-15 12:56:41",
+    "updated_at": "2026-03-15 12:58:12",
     "boards": [
         {
             "id": "solo",
@@ -155,6 +155,9 @@
                 {
                     "name": "Open",
                     "places": [
+                        [
+                            "934 - Praying"
+                        ],
                         [
                             "650 - Grease"
                         ],
