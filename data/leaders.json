@@ -1,6 +1,6 @@
 {
     "event_title": "Leaderboard Finalists",
-    "updated_at": "2026-03-14 17:52:40",
+    "updated_at": "2026-03-14 18:18:34",
     "boards": [
         {
             "id": "solo",
@@ -146,15 +146,12 @@
                     "places": [
                         [
                             "647 - The List is Life",
-                            "784 - The Treblemakers"
+                            "784 - The Treblemakers",
+                            "823 - A Touch of Snow"
                         ],
                         [
                             "652 - Band Geeks",
                             "808 - Cooler Than Me"
-                        ],
-                        [
-                            "708 - I Wanna Rock!",
-                            "742 - Skeletons"
                         ]
                     ]
                 },
@@ -166,7 +163,9 @@
                         ],
                         [
                             "718 - New York",
-                            "786 - A Night To Remember",
+                            "786 - A Night To Remember"
+                        ],
+                        [
                             "803 - Last Bit of Us"
                         ],
                         [
