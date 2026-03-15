@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 20:00:20",
-    "publish_version": "2026-03-15T20:00:20+01:00",
+    "last_update": "2026-03-15 23:54:48",
+    "publish_version": "2026-03-15T23:54:48+01:00",
     "program_source": "program.json",
-    "published_count": 246,
+    "published_count": 258,
     "categories": [
         {
             "category_id": 607676400,
@@ -18947,7 +18947,7 @@
                     "title": "I Don't Speak French",
                     "studio": "Marley's Dance Effex",
                     "performers": "",
-                    "score": null,
+                    "score": 87,
                     "program_order": 855,
                     "scratched": true,
                     "adjudicate_only": false
@@ -21021,6 +21021,972 @@
                     "performers": "",
                     "score": 85.8,
                     "program_order": 949,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 241342531,
+            "category_name": "NOVICE AGES 6-8 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 950,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "951",
+                    "title": "Lil Bit",
+                    "studio": "Kaylee Ohnander  IND",
+                    "program_order": 950
+                }
+            ],
+            "results": [
+                {
+                    "entry": "951",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Lil Bit",
+                    "studio": "Kaylee Ohnander  IND",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 950,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1197607676,
+            "category_name": "NOVICE AGES 9-11 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 951,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "952",
+                    "title": "DJ Got Us Fallin In Love",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 951
+                },
+                {
+                    "entry": "953",
+                    "title": "Tricky",
+                    "studio": "Against the Grain Studios",
+                    "program_order": 952
+                }
+            ],
+            "results": [
+                {
+                    "entry": "952",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "DJ Got Us Fallin In Love",
+                    "studio": "Pangman Dance Club",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 951,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "953",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Tricky",
+                    "studio": "Against the Grain Studios",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 952,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1641911918,
+            "category_name": "NOVICE AGES 12-14 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 953,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 2,
+            "entries": [
+                {
+                    "entry": "954",
+                    "title": "Power",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 953
+                },
+                {
+                    "entry": "955",
+                    "title": "JUMPIN",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 954
+                },
+                {
+                    "entry": "956",
+                    "title": "Move",
+                    "studio": "Dance Plus EP",
+                    "program_order": 955
+                }
+            ],
+            "results": [
+                {
+                    "entry": "954",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Power",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 953,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "955",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "JUMPIN",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 954,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "956",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Move",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 87.5,
+                    "program_order": 955,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1410453354,
+            "category_name": "BEGINNER AGES 5 UNDER HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 956,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 3,
+            "entries": [
+                {
+                    "entry": "957",
+                    "title": "Witchdoctor",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 956
+                }
+            ],
+            "results": [
+                {
+                    "entry": "957",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Witchdoctor",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 956,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 201317579,
+            "category_name": "BEGINNER AGES 12-14 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 957,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 4,
+            "entries": [
+                {
+                    "entry": "958",
+                    "title": "Lose Control",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 957
+                }
+            ],
+            "results": [
+                {
+                    "entry": "958",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Lose Control",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 957,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1881995406,
+            "category_name": "BEGINNER AGES 12-14 HIP HOP LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 958,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 5,
+            "entries": [
+                {
+                    "entry": "959",
+                    "title": "Bossy",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 958
+                }
+            ],
+            "results": [
+                {
+                    "entry": "959",
+                    "display_place": "1st",
+                    "gem": "EMERALD",
+                    "title": "Bossy",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 958,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 215757371,
+            "category_name": "BEGINNER AGES 6-8 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 959,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 6,
+            "entries": [
+                {
+                    "entry": "960",
+                    "title": "23",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 959
+                },
+                {
+                    "entry": "961",
+                    "title": "Missy's Mix",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 960
+                },
+                {
+                    "entry": "962",
+                    "title": "In The Light",
+                    "studio": "Born2Dance",
+                    "program_order": 961
+                },
+                {
+                    "entry": "963",
+                    "title": "TTYLXOX",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 962
+                },
+                {
+                    "entry": "964",
+                    "title": "Monster High",
+                    "studio": "Pangman Dance Club",
+                    "program_order": 963
+                }
+            ],
+            "results": [
+                {
+                    "entry": "960",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "23",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 86.5,
+                    "program_order": 959,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "961",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Missy's Mix",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 960,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "962",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "In The Light",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 961,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "963",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "TTYLXOX",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 962,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "964",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Monster High",
+                    "studio": "Pangman Dance Club",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 963,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 438634828,
+            "category_name": "BEGINNER AGES 9-11 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 964,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 7,
+            "entries": [
+                {
+                    "entry": "965",
+                    "title": "Bubble Gum Boy",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 964
+                },
+                {
+                    "entry": "966",
+                    "title": "Feelin' Myself",
+                    "studio": "Vibank Dance Expressions",
+                    "program_order": 965
+                },
+                {
+                    "entry": "967",
+                    "title": "Salon",
+                    "studio": "Born2Dance",
+                    "program_order": 966
+                },
+                {
+                    "entry": "968",
+                    "title": "That's What I Like",
+                    "studio": "Diva Dance",
+                    "program_order": 967
+                },
+                {
+                    "entry": "969",
+                    "title": "Men In Black",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 968
+                },
+                {
+                    "entry": "970",
+                    "title": "Avengers",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 969
+                }
+            ],
+            "results": [
+                {
+                    "entry": "965",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Bubble Gum Boy",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 86.8,
+                    "program_order": 964,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "966",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Feelin' Myself",
+                    "studio": "Vibank Dance Expressions",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 965,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "967",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Salon",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 966,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "968",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "That's What I Like",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 967,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "969",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Men In Black",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 968,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "970",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Avengers",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 84.3,
+                    "program_order": 969,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 113479043,
+            "category_name": "BEGINNER AGES 6-8 HIP HOP LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 970,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 8,
+            "entries": [
+                {
+                    "entry": "971",
+                    "title": "Men In Black",
+                    "studio": "Diva Dance",
+                    "program_order": 970
+                },
+                {
+                    "entry": "972",
+                    "title": "Who's Afraid of the Big Bad Wolf",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 971
+                },
+                {
+                    "entry": "973",
+                    "title": "SUPA GOOD!",
+                    "studio": "Reston Dance Club",
+                    "program_order": 972
+                },
+                {
+                    "entry": "974",
+                    "title": "Can You Keep Up",
+                    "studio": "Valley Dance",
+                    "program_order": 973
+                },
+                {
+                    "entry": "975",
+                    "title": "Fired Up",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 974
+                },
+                {
+                    "entry": "976",
+                    "title": "Trendsetter",
+                    "studio": "Dance Plus EP",
+                    "program_order": 975
+                },
+                {
+                    "entry": "977",
+                    "title": "Everything Goes With Blue",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 976
+                },
+                {
+                    "entry": "978",
+                    "title": "How It's Done",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 977
+                }
+            ],
+            "results": [
+                {
+                    "entry": "971",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Men In Black",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 970,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "972",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Who's Afraid of the Big Bad Wolf",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 971,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "973",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "SUPA GOOD!",
+                    "studio": "Reston Dance Club",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 972,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "974",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Can You Keep Up",
+                    "studio": "Valley Dance",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 973,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "975",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Fired Up",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 974,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "976",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Trendsetter",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 87.8,
+                    "program_order": 975,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "977",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Everything Goes With Blue",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 976,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "978",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "How It's Done",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 977,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 262841110,
+            "category_name": "BEGINNER AGES 9-11 HIP HOP LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 978,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 9,
+            "entries": [
+                {
+                    "entry": "979",
+                    "title": "Trendsetters",
+                    "studio": "Artemis Dance",
+                    "program_order": 978
+                },
+                {
+                    "entry": "980",
+                    "title": "Late!",
+                    "studio": "White City Dancing School",
+                    "program_order": 979
+                },
+                {
+                    "entry": "981",
+                    "title": "Working Class Heroes II",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 980
+                },
+                {
+                    "entry": "982",
+                    "title": "Fuego",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 981
+                },
+                {
+                    "entry": "983",
+                    "title": "TTYLXOX",
+                    "studio": "Christa Vermeulen  IND",
+                    "program_order": 982
+                },
+                {
+                    "entry": "984",
+                    "title": "Backstreets Back",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 983
+                },
+                {
+                    "entry": "985",
+                    "title": "Feelin' Good",
+                    "studio": "Odessa Dance Club",
+                    "program_order": 984
+                }
+            ],
+            "results": [
+                {
+                    "entry": "979",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Trendsetters",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 978,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "980",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Late!",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 979,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "981",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Working Class Heroes II",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 84.3,
+                    "program_order": 980,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "982",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Fuego",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 85.5,
+                    "program_order": 981,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "983",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "TTYLXOX",
+                    "studio": "Christa Vermeulen  IND",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 982,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "984",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Backstreets Back",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 983,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "985",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Feelin' Good",
+                    "studio": "Odessa Dance Club",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 984,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1982868769,
+            "category_name": "NOVICE AGES 12-14 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 985,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 10,
+            "entries": [
+                {
+                    "entry": "986",
+                    "title": "OMG",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 985
+                },
+                {
+                    "entry": "987",
+                    "title": "Swiper No Swiping",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 986
+                },
+                {
+                    "entry": "988",
+                    "title": "Coming In Hot",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 987
+                },
+                {
+                    "entry": "989",
+                    "title": "What A Girl Likes",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 988
+                }
+            ],
+            "results": [
+                {
+                    "entry": "986",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "OMG",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 985,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "987",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Swiper No Swiping",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 986,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "988",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Coming In Hot",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 987,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "989",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "What A Girl Likes",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 988,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 777842318,
+            "category_name": "NOVICE AGES 15-17 HIP HOP SMALL GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 989,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 11,
+            "entries": [
+                {
+                    "entry": "990",
+                    "title": "Never Gonna",
+                    "studio": "Ogema Dance Club",
+                    "program_order": 989
+                },
+                {
+                    "entry": "991",
+                    "title": "Small Talk",
+                    "studio": "Diva Dance",
+                    "program_order": 990
+                },
+                {
+                    "entry": "992",
+                    "title": "T8",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 991
+                },
+                {
+                    "entry": "993",
+                    "title": "Destiny",
+                    "studio": "Cupar Dance Club",
+                    "program_order": 992
+                }
+            ],
+            "results": [
+                {
+                    "entry": "990",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Never Gonna",
+                    "studio": "Ogema Dance Club",
+                    "performers": "",
+                    "score": 88,
+                    "program_order": 989,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "991",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Small Talk",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 84.8,
+                    "program_order": 990,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "992",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "T8",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 991,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "993",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Destiny",
+                    "studio": "Cupar Dance Club",
+                    "performers": "",
+                    "score": 87,
+                    "program_order": 992,
                     "scratched": false,
                     "adjudicate_only": false
                 }
