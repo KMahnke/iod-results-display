@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-15 05:02:13",
-    "publish_version": "2026-03-15T05:02:13+01:00",
+    "last_update": "2026-03-15 19:06:38",
+    "publish_version": "2026-03-15T19:06:38+01:00",
     "program_source": "program.json",
-    "published_count": 227,
+    "published_count": 229,
     "categories": [
         {
             "category_id": 607676400,
@@ -19527,6 +19527,272 @@
                     "performers": "Madison Storrey",
                     "score": 86,
                     "program_order": 882,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 594344587,
+            "category_name": "BEGINNER AGES 6-8 JAZZ LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 883,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 0,
+            "entries": [
+                {
+                    "entry": "884",
+                    "title": "What Dreams Are Made Of",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 883
+                },
+                {
+                    "entry": "885",
+                    "title": "Cotton Eyed Joe",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 884
+                },
+                {
+                    "entry": "886",
+                    "title": "Shake Your Groove Thing",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 885
+                },
+                {
+                    "entry": "887",
+                    "title": "Superstar",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 886
+                },
+                {
+                    "entry": "888",
+                    "title": "Queen Of The Waves",
+                    "studio": "Dance Plus EP",
+                    "program_order": 887
+                }
+            ],
+            "results": [
+                {
+                    "entry": "884",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "What Dreams Are Made Of",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 82,
+                    "program_order": 883,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "885",
+                    "display_place": "2nd",
+                    "gem": "EMERALD",
+                    "title": "Cotton Eyed Joe",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 84.5,
+                    "program_order": 884,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "886",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Shake Your Groove Thing",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 81.5,
+                    "program_order": 885,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "887",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Superstar",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 85,
+                    "program_order": 886,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "888",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Queen Of The Waves",
+                    "studio": "Dance Plus EP",
+                    "performers": "",
+                    "score": 82.5,
+                    "program_order": 887,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1757769138,
+            "category_name": "BEGINNER AGES 9-11 JAZZ LARGE GROUP",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 1 \u2022 9:00am",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 888,
+            "day_sort": 4,
+            "session_sort": 0,
+            "group_sort": 1,
+            "entries": [
+                {
+                    "entry": "889",
+                    "title": "Take You To Rio",
+                    "studio": "Diva Dance",
+                    "program_order": 888
+                },
+                {
+                    "entry": "890",
+                    "title": "Me & My Girls",
+                    "studio": "Artemis Dance",
+                    "program_order": 889
+                },
+                {
+                    "entry": "891",
+                    "title": "Que Sera Sera",
+                    "studio": "White City Dancing School",
+                    "program_order": 890
+                },
+                {
+                    "entry": "892",
+                    "title": "Vogue",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 891
+                },
+                {
+                    "entry": "893",
+                    "title": "We've Got The Fever",
+                    "studio": "Born2Dance",
+                    "program_order": 892
+                },
+                {
+                    "entry": "894",
+                    "title": "Ay Caramba II",
+                    "studio": "Artemis Dance Moosomin",
+                    "program_order": 893
+                },
+                {
+                    "entry": "895",
+                    "title": "Locomotion",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 894
+                },
+                {
+                    "entry": "896",
+                    "title": "Telephone",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 895
+                }
+            ],
+            "results": [
+                {
+                    "entry": "889",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Take You To Rio",
+                    "studio": "Diva Dance",
+                    "performers": "",
+                    "score": 83,
+                    "program_order": 888,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "890",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Me & My Girls",
+                    "studio": "Artemis Dance",
+                    "performers": "",
+                    "score": 85.8,
+                    "program_order": 889,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "891",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Que Sera Sera",
+                    "studio": "White City Dancing School",
+                    "performers": "",
+                    "score": 83.8,
+                    "program_order": 890,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "892",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Vogue",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "",
+                    "score": 85.8,
+                    "program_order": 891,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "893",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "We've Got The Fever",
+                    "studio": "Born2Dance",
+                    "performers": "",
+                    "score": 84,
+                    "program_order": 892,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "894",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Ay Caramba II",
+                    "studio": "Artemis Dance Moosomin",
+                    "performers": "",
+                    "score": 85.3,
+                    "program_order": 893,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "895",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Locomotion",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "",
+                    "score": 83.5,
+                    "program_order": 894,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "896",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "Telephone",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "",
+                    "score": 82.8,
+                    "program_order": 895,
                     "scratched": false,
                     "adjudicate_only": false
                 }
