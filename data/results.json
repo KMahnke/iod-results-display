@@ -1,10 +1,10 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-16 01:43:03",
-    "publish_version": "2026-03-16T01:43:03+01:00",
+    "last_update": "2026-03-16 03:53:48",
+    "publish_version": "2026-03-16T03:53:48+01:00",
     "program_source": "program.json",
-    "published_count": 272,
+    "published_count": 276,
     "categories": [
         {
             "category_id": 607676400,
@@ -21209,7 +21209,7 @@
                     "title": "Witchdoctor",
                     "studio": "Marley's Dance Effex",
                     "performers": "",
-                    "score": 82.5,
+                    "score": 82,
                     "program_order": 956,
                     "scratched": false,
                     "adjudicate_only": false
@@ -21578,7 +21578,7 @@
             "results": [
                 {
                     "entry": "971",
-                    "display_place": "3rd",
+                    "display_place": "2nd",
                     "gem": "EMERALD",
                     "title": "Men In Black",
                     "studio": "Diva Dance",
@@ -21626,7 +21626,7 @@
                 },
                 {
                     "entry": "975",
-                    "display_place": "",
+                    "display_place": "3rd",
                     "gem": "EMERALD",
                     "title": "Fired Up",
                     "studio": "Marley's Dance Effex",
@@ -21638,12 +21638,12 @@
                 },
                 {
                     "entry": "976",
-                    "display_place": "1st",
-                    "gem": "RUBY",
+                    "display_place": "",
+                    "gem": "EMERALD",
                     "title": "Trendsetter",
                     "studio": "Dance Plus EP",
                     "performers": "",
-                    "score": 87.8,
+                    "score": 82.8,
                     "program_order": 975,
                     "scratched": false,
                     "adjudicate_only": false
@@ -21662,7 +21662,7 @@
                 },
                 {
                     "entry": "978",
-                    "display_place": "2nd",
+                    "display_place": "1st",
                     "gem": "EMERALD",
                     "title": "How It's Done",
                     "studio": "Cupar Dance Club",
@@ -21993,6 +21993,358 @@
             ]
         },
         {
+            "category_id": 467022547,
+            "category_name": "OPEN AGES 12-14 HIP HOP DUO/TRIO",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 993,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 12,
+            "entries": [
+                {
+                    "entry": "994",
+                    "title": "Squabble Squad",
+                    "studio": "Artemis Dance",
+                    "program_order": 993
+                }
+            ],
+            "results": [
+                {
+                    "entry": "994",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Squabble Squad",
+                    "studio": "Artemis Dance",
+                    "performers": "Hadley Garnier, Rylee Garnier",
+                    "score": 85,
+                    "program_order": 993,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 315071986,
+            "category_name": "OPEN AGES 15-17 HIP HOP DUO/TRIO",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 994,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 13,
+            "entries": [
+                {
+                    "entry": "995",
+                    "title": "Get Krazy",
+                    "studio": "Artemis Dance",
+                    "program_order": 994
+                },
+                {
+                    "entry": "996",
+                    "title": "Rolex",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "program_order": 995
+                },
+                {
+                    "entry": "997",
+                    "title": "Stayin' Alive",
+                    "studio": "Artemis Dance",
+                    "program_order": 996
+                },
+                {
+                    "entry": "998",
+                    "title": "Neva Play",
+                    "studio": "Dance Plus EP",
+                    "program_order": 997
+                },
+                {
+                    "entry": "999",
+                    "title": "Twinning",
+                    "studio": "Born2Dance",
+                    "program_order": 998
+                }
+            ],
+            "results": [
+                {
+                    "entry": "995",
+                    "display_place": "1st",
+                    "gem": "DIAMOND",
+                    "title": "Get Krazy",
+                    "studio": "Artemis Dance",
+                    "performers": "Andie Carriere, Lilli Husband",
+                    "score": 90,
+                    "program_order": 994,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "996",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Rolex",
+                    "studio": "De Tricky Feet Dance Studio",
+                    "performers": "Kassa Branvold, Rylea Eckel",
+                    "score": 89,
+                    "program_order": 995,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "997",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Stayin' Alive",
+                    "studio": "Artemis Dance",
+                    "performers": "Madison Cameron, Alli Urschel",
+                    "score": 87,
+                    "program_order": 996,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "998",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Neva Play",
+                    "studio": "Dance Plus EP",
+                    "performers": "Alyssa Fazakas, Allie Willette",
+                    "score": 88,
+                    "program_order": 997,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "999",
+                    "display_place": "",
+                    "gem": "RUBY",
+                    "title": "Twinning",
+                    "studio": "Born2Dance",
+                    "performers": "Beau Ansell, Kaitlyn Winter",
+                    "score": 85,
+                    "program_order": 998,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 479880802,
+            "category_name": "NOVICE AGES 15-17 JAZZ DUO/TRIO",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 999,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 14,
+            "entries": [
+                {
+                    "entry": "1000",
+                    "title": "Dreamer",
+                    "studio": "Marley's Dance Effex",
+                    "program_order": 999
+                },
+                {
+                    "entry": "1001",
+                    "title": "Fabulous",
+                    "studio": "Born2Dance",
+                    "program_order": 1000
+                },
+                {
+                    "entry": "1002",
+                    "title": "Body Language",
+                    "studio": "Artemis Dance",
+                    "program_order": 1001
+                },
+                {
+                    "entry": "1003",
+                    "title": "Black Car",
+                    "studio": "En Pointe Dance Studio",
+                    "program_order": 1002
+                },
+                {
+                    "entry": "1004",
+                    "title": "Not Okay",
+                    "studio": "Diva Dance",
+                    "program_order": 1003
+                }
+            ],
+            "results": [
+                {
+                    "entry": "1000",
+                    "display_place": "",
+                    "gem": "",
+                    "title": "Dreamer",
+                    "studio": "Marley's Dance Effex",
+                    "performers": "Sovannah Hack, Jola Ho\ufb00",
+                    "score": null,
+                    "program_order": 999,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1001",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Fabulous",
+                    "studio": "Born2Dance",
+                    "performers": "Zahara Francis Drake, Lily Gilroy, Isobella Rogers",
+                    "score": 86,
+                    "program_order": 1000,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1002",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Body Language",
+                    "studio": "Artemis Dance",
+                    "performers": "Arianna Gilbertson, Jaydee Henderson",
+                    "score": 86.5,
+                    "program_order": 1001,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1003",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Black Car",
+                    "studio": "En Pointe Dance Studio",
+                    "performers": "Jasmine Davison, Andria Englot",
+                    "score": 85,
+                    "program_order": 1002,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1004",
+                    "display_place": "3rd",
+                    "gem": "RUBY",
+                    "title": "Not Okay",
+                    "studio": "Diva Dance",
+                    "performers": "Emily Paliuk, Peyton Thomlinson",
+                    "score": 85,
+                    "program_order": 1003,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
+            "category_id": 1542326511,
+            "category_name": "NOVICE AGES 12-14 JAZZ DUO/TRIO",
+            "day_label": "Sunday March 15th, 2026",
+            "session_label": "Session 2 \u2022 1:15 pm",
+            "group_label": "",
+            "publish_state": "published",
+            "program_sort": 1004,
+            "day_sort": 4,
+            "session_sort": 1,
+            "group_sort": 15,
+            "entries": [
+                {
+                    "entry": "1005",
+                    "title": "Like Jenny",
+                    "studio": "Balgonie Dance & Twirl",
+                    "program_order": 1004
+                },
+                {
+                    "entry": "1006",
+                    "title": "Stop, Drop & Roll",
+                    "studio": "White City Dancing School",
+                    "program_order": 1005
+                },
+                {
+                    "entry": "1007",
+                    "title": "Telephone",
+                    "studio": "Valley Dance",
+                    "program_order": 1006
+                },
+                {
+                    "entry": "1008",
+                    "title": "One Way or Another",
+                    "studio": "Full Out Dance Studio",
+                    "program_order": 1007
+                },
+                {
+                    "entry": "1009",
+                    "title": "Get On the Floor",
+                    "studio": "Artemis Dance",
+                    "program_order": 1008
+                }
+            ],
+            "results": [
+                {
+                    "entry": "1005",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Like Jenny",
+                    "studio": "Balgonie Dance & Twirl",
+                    "performers": "Addisyn Bonnell, Eastyn Bonnell",
+                    "score": 85,
+                    "program_order": 1004,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1006",
+                    "display_place": "2nd",
+                    "gem": "RUBY",
+                    "title": "Stop, Drop & Roll",
+                    "studio": "White City Dancing School",
+                    "performers": "Kiana Amyotte, McKenzie Geis, Grace Slinn",
+                    "score": 85,
+                    "program_order": 1005,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1007",
+                    "display_place": "3rd",
+                    "gem": "EMERALD",
+                    "title": "Telephone",
+                    "studio": "Valley Dance",
+                    "performers": "Angelina Cooper, Jovie Wolaniuk",
+                    "score": 83,
+                    "program_order": 1006,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1008",
+                    "display_place": "",
+                    "gem": "EMERALD",
+                    "title": "One Way or Another",
+                    "studio": "Full Out Dance Studio",
+                    "performers": "Emerson Siebert, McKinley Siebert",
+                    "score": 82,
+                    "program_order": 1007,
+                    "scratched": false,
+                    "adjudicate_only": false
+                },
+                {
+                    "entry": "1009",
+                    "display_place": "1st",
+                    "gem": "RUBY",
+                    "title": "Get On the Floor",
+                    "studio": "Artemis Dance",
+                    "performers": "Hadley Garnier, Rylee Garnier",
+                    "score": 86,
+                    "program_order": 1008,
+                    "scratched": false,
+                    "adjudicate_only": false
+                }
+            ]
+        },
+        {
             "category_id": 1709439148,
             "category_name": "NOVICE AGES 12-14 CONTEMPORARY SMALL GROUP",
             "day_label": "Sunday March 15th, 2026",
@@ -22260,12 +22612,12 @@
                 },
                 {
                     "entry": "1021",
-                    "display_place": "2nd",
+                    "display_place": "3rd",
                     "gem": "RUBY",
                     "title": "Knocking on Heaven's Door",
                     "studio": "Artemis Dance",
                     "performers": "",
-                    "score": 88,
+                    "score": 87,
                     "program_order": 1020,
                     "scratched": false,
                     "adjudicate_only": false

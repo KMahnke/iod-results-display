@@ -1,9 +1,9 @@
 {
     "event": "Inspirations of Dance",
     "eventsID": 119517,
-    "last_update": "2026-03-16 01:43:03",
-    "publish_version": "2026-03-16T01:43:03+01:00",
-    "updated_at": "2026-03-16 00:26:56",
+    "last_update": "2026-03-16 03:53:48",
+    "publish_version": "2026-03-16T03:53:48+01:00",
+    "updated_at": "2026-03-16 02:22:18",
     "awards": [
         {
             "award_key": "excellence_in_dance",
@@ -199,7 +199,7 @@
             "award_key": "full_throttle",
             "award_title": "Full Throttle",
             "sponsor_logo": "",
-            "winner_text": "#75 Nothing New \u2022 En Pointe Dance Studio \u2022 #280 Like a Queen \u2022 Balgonie Dance & Twirl \u2022 #656 Jungle Book \u2022 Artemis Dance \u2022 #668 Fairies \u2022 Marley's Dance Effex \u2022 #723 Fake ID \u2022 Artemis Dance \u2022 #737 Tainted Love \u2022 Artemis Dance \u2022 #933 Piece of my Heart \u2022 De Tricky Feet Dance Studio",
+            "winner_text": "#75 Nothing New \u2022 En Pointe Dance Studio \u2022 #280 Like a Queen \u2022 Balgonie Dance & Twirl \u2022 #656 Jungle Book \u2022 Artemis Dance \u2022 #668 Fairies \u2022 Marley's Dance Effex \u2022 #723 Fake ID \u2022 Artemis Dance \u2022 #737 Tainted Love \u2022 Artemis Dance \u2022 #933 Piece of my Heart \u2022 De Tricky Feet Dance Studio \u2022 #1040 Be About It \u2022 Marley's Dance Effex",
             "current_winner_text": "",
             "current_winner": null,
             "winners": [
@@ -237,6 +237,11 @@
                     "entry": "933",
                     "title": "Piece of my Heart",
                     "studio": "De Tricky Feet Dance Studio"
+                },
+                {
+                    "entry": "1040",
+                    "title": "Be About It",
+                    "studio": "Marley's Dance Effex"
                 }
             ]
         },
