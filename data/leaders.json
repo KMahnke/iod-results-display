@@ -1,179 +1,118 @@
 {
-    "event_title": "Leaderboard Finalists",
-    "updated_at": "2026-03-15 21:52:41",
-    "boards": [
+  "event_title": "Inspirations of Dance",
+  "updated_at": "2026-03-14 21:39:28",
+  "publish_version": "2026-03-14T21:39:28+01:00",
+  "boards": [
+    {
+      "id": "solo",
+      "title": "Solo",
+      "sponsor_logo": "img/Integrity.png",
+      "divisions": [
         {
-            "id": "solo",
-            "title": "Solo",
-            "sponsor_logo": "img/Integrity.png",
-            "divisions": [
-                {
-                    "name": "Beginner",
-                    "places": [
-                        [
-                            "13 - Mack the Knife"
-                        ],
-                        [
-                            "183 - Candyman",
-                            "427 - Crippled Bird"
-                        ],
-                        [
-                            "71 - Sun Goes Down",
-                            "461 - Anything Worth Holding On To",
-                            "475 - Face My Fears"
-                        ]
-                    ]
-                },
-                {
-                    "name": "Novice",
-                    "places": [
-                        [
-                            "242 - Smell of Rebellion",
-                            "251 - Money",
-                            "418 - Where Have You Been",
-                            "537 - My Way"
-                        ],
-                        [
-                            "36 - Where Light Rises",
-                            "542 - Concrete Angel"
-                        ]
-                    ]
-                },
-                {
-                    "name": "Open",
-                    "places": [
-                        [
-                            "570 - Mac Mash"
-                        ],
-                        [
-                            "353 - That's Who I Praise"
-                        ],
-                        [
-                            "156 - In The Kitchen",
-                            "352 - Polyphia",
-                            "532 - Maneater"
-                        ]
-                    ]
-                }
-            ]
+          "name": "Beginner",
+          "places": [
+            ["13 - Mack the Knife"],
+            ["183 - Candyman"],
+            ["427 - Crippled Bird"],
+            ["461 - Anything Worth Holding On To"],
+            ["71 - Sun Goes Down"]
+          ]
         },
         {
-            "id": "duotrio",
-            "title": "Duo/Trio",
-            "sponsor_logo": "img/Torrent.png",
-            "divisions": [
-                {
-                    "name": "Beginner",
-                    "places": [
-                        [
-                            "42 - Johnson/Metke/Wintonyk",
-                            "271 - Burton/McNeil"
-                        ],
-                        [
-                            "46 - Freitag/Minty",
-                            "47 - Forman/Jensen",
-                            "561 - Dessert/Ferguson/Wiebe"
-                        ]
-                    ]
-                },
-                {
-                    "name": "Novice",
-                    "places": [
-                        [
-                            "339 - Garnier/Gilbertson/Henderson"
-                        ],
-                        [
-                            "57 - Lipinski/Mitchell/Orr",
-                            "115 - Artavia/Drake"
-                        ],
-                        [
-                            "317 - Day/Reich"
-                        ],
-                        [
-                            "318 - Gilbertson/Henderson",
-                            "327 - Hillier/Hillier",
-                            "494 - Georgacacos/Kallias",
-                            "676 - Huang/Weger"
-                        ]
-                    ]
-                },
-                {
-                    "name": "Open",
-                    "places": [
-                        [
-                            "366 - Breker/Reich",
-                            "599 - Branvold/Branvold"
-                        ],
-                        [
-                            "604 - Artavia/Rogers"
-                        ],
-                        [
-                            "132 - Bourassa/Huang",
-                            "490 - Bourassa/Huang/Li",
-                            "499 - Longley/Selinger/Vos",
-                            "602 - Jordens/Patzer",
-                            "995 - Carriere/Husband"
-                        ]
-                    ]
-                }
-            ]
+          "name": "Novice",
+          "places": [
+            ["418 - Where Have You Been"],
+            ["251 - Money"],
+            ["242 - Smell of Rebellion"],
+            ["36 - Where Light Rises"],
+            ["542 - Concrete Angel"]
+          ]
         },
         {
-            "id": "groups",
-            "title": "Groups",
-            "sponsor_logo": "img/Whitecap.png",
-            "divisions": [
-                {
-                    "name": "Beginner",
-                    "places": [
-                        [
-                            "610 - Witch Doctor"
-                        ],
-                        [
-                            "612 - Dive In The Pool",
-                            "776 - Magic School Bus"
-                        ],
-                        [
-                            "965 - Bubble Gum Boy"
-                        ],
-                        [
-                            "773 - All I Wanna Do is Eat",
-                            "796 - Boogie Fever",
-                            "960 - 23"
-                        ]
-                    ]
-                },
-                {
-                    "name": "Novice",
-                    "places": [
-                        [
-                            "925 - Let it be Hope"
-                        ],
-                        [
-                            "647 - The List is Life",
-                            "784 - The Treblemakers",
-                            "823 - A Touch of Snow",
-                            "921 - Butterfly Goodbye"
-                        ]
-                    ]
-                },
-                {
-                    "name": "Open",
-                    "places": [
-                        [
-                            "934 - Praying"
-                        ],
-                        [
-                            "650 - Grease",
-                            "1037 - Missy!",
-                            "1046 - Boy Problems"
-                        ],
-                        [
-                            "878 - Kill of the Night"
-                        ]
-                    ]
-                }
-            ]
+          "name": "Open",
+          "places": [
+            ["570 - Mac Mash"],
+            ["353 - That's Who I Praise"],
+            ["532 - Maneater"],
+            ["156 - In The Kitchen"],
+            ["352 - Polyphia"]
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "duotrio",
+      "title": "Duo/Trio",
+      "sponsor_logo": "img/Torrent.png",
+      "divisions": [
+        {
+          "name": "Beginner",
+          "places": [
+            ["271 - Burton/McNeil"],
+            ["42 - Johnson/Metke/Wintonyk"],
+            ["47 - Forman/Jensen"],
+            ["46 - Freitag/Minty"],
+            ["561 - Dessert/Ferguson/Wiebe"]
+          ]
+        },
+        {
+          "name": "Novice",
+          "places": [
+            ["339 - Garnier/Gilbertson/Henderson"],
+            ["115 - Artavia/Drake"],
+            ["317 - Day/Reich"],
+            ["318 - Gilbertson/Henderson"],
+            ["676 - Huang/Weger"]
+          ]
+        },
+        {
+          "name": "Open",
+          "places": [
+            ["366 - Breker/Reich"],
+            ["604 - Artavia/Rogers"],
+            ["490 - Bourassa/Huang/Li"],
+            ["499 - Longley/Selinger/Vos"],
+            ["132 - Bourassa/Huang"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "Groups",
+      "sponsor_logo": "img/Whitecap.png",
+      "divisions": [
+        {
+          "name": "Beginner",
+          "places": [
+            ["610 - Witch Doctor"],
+            ["976 - Trendsetter"],
+            ["776 - Magic School Bus"],
+            ["612 - Dive In The Pool"],
+            ["965 - Bubble Gum Boy"]
+          ]
+        },
+        {
+          "name": "Novice",
+          "places": [
+            ["925 - Let It Be Hope"],
+            ["647 - The List is Life"],
+            ["921 - Butterfly Goodbye"],
+            ["784 - The Treblemakers"],
+            ["823 - A Touch of Snow"]
+          ]
+        },
+        {
+          "name": "Open",
+          "places": [
+            ["934 - Praying"],
+            ["1046 - Boy Problems"],
+            ["1037 - Missy!"],
+            ["650 - Grease"],
+            ["878 - Kill of the Night"]
+          ]
+        }
+      ]
+    }
+  ]
 }
