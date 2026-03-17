@@ -1,4 +1,5 @@
 const AWARDS_FILE = "data/awards.json";
+const PUBLISHED_AWARDS_FILE = "data/published_awards.json";
 const DISPLAY_TIME_ZONE = "America/Regina";
 const DISPLAY_LOCALE = "en-CA";
 
@@ -39,8 +40,10 @@ const FALLBACK_SPONSOR_LOGOS = {
 };
 
 const FULL_AWARD_SECTIONS = ["Solos", "Duo/Trio", "Groups", "Special Awards"];
+const PUBLISHED_AWARD_SECTIONS = ["Solos", "Duo/Trios", "Groups", "Special Awards/Scholarships"];
 
 let awardsData = null;
+let publishedAwardsData = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   applyQueryStringToLinks();
@@ -69,23 +72,28 @@ function applyQueryStringToLinks() {
 
 async function loadAwards() {
   try {
-    const response = await fetch(`${AWARDS_FILE}?t=${Date.now()}`, {
-      cache: "no-store"
-    });
+    const cacheBust = Date.now();
+    const [sessionResponse, publishedResponse] = await Promise.all([
+      fetch(`${AWARDS_FILE}?t=${cacheBust}`, { cache: "no-store" }),
+      fetch(`${PUBLISHED_AWARDS_FILE}?t=${cacheBust}`, { cache: "no-store" })
+    ]);
 
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+    if (!sessionResponse.ok) {
+      throw new Error(`HTTP ${sessionResponse.status}`);
     }
 
-    awardsData = await response.json();
+    awardsData = await sessionResponse.json();
+    publishedAwardsData = publishedResponse.ok ? await publishedResponse.json() : null;
 
     updateHeader();
     renderAwards();
     renderFullAwardsList();
+    renderPublishedAwardsList();
   } catch (error) {
     console.error("Unable to load awards.json:", error);
     renderAwardsErrorState();
     renderFullAwardsErrorState();
+    renderPublishedAwardsErrorState();
   }
 }
 
@@ -345,6 +353,112 @@ function renderFullAwardsList() {
   cardEl.hidden = false;
 }
 
+function renderPublishedAwardsList() {
+  const cardEl = document.getElementById("publishedAwardsCard");
+  const sectionsEl = document.getElementById("publishedAwardsSections");
+
+  if (!cardEl || !sectionsEl) {
+    return;
+  }
+
+  const fullAwards = Array.isArray(publishedAwardsData?.full_awards)
+    ? publishedAwardsData.full_awards
+    : [];
+
+  if (!fullAwards.length) {
+    cardEl.hidden = true;
+    sectionsEl.innerHTML = "";
+    return;
+  }
+
+  const grouped = {};
+  PUBLISHED_AWARD_SECTIONS.forEach((section) => {
+    grouped[section] = [];
+  });
+
+  fullAwards.forEach((award) => {
+    const normalizedSection = normalizePublishedSectionName(firstNonEmpty(award?.section));
+    const section = grouped[normalizedSection] ? normalizedSection : "Special Awards/Scholarships";
+    grouped[section].push(award);
+  });
+
+  const html = PUBLISHED_AWARD_SECTIONS.map((section) => {
+    const rows = grouped[section] || [];
+    const itemsHtml = rows
+      .map((award) => {
+        const winnerText = buildPublishedAwardWinnerText(award?.winner);
+        return `
+          <li class="full-award-item">
+            <div class="full-award-name">${escapeHtml(firstNonEmpty(award?.award, "Award"))}</div>
+            <div class="full-award-winner ${winnerText ? "" : "is-empty"}">${escapeHtml(
+              winnerText || "Winner to be announced"
+            )}</div>
+          </li>
+        `;
+      })
+      .join("");
+
+    return `
+      <section class="full-award-section">
+        <h3>${escapeHtml(section)}</h3>
+        <ul class="full-award-list">
+          ${
+            itemsHtml ||
+            '<li class="full-award-item"><div class="full-award-winner is-empty">No awards in this section.</div></li>'
+          }
+        </ul>
+      </section>
+    `;
+  }).join("");
+
+  sectionsEl.innerHTML = html;
+  cardEl.hidden = false;
+}
+
+function normalizePublishedSectionName(value) {
+  const text = String(value || "").trim();
+  const lower = text.toLowerCase();
+
+  if (!lower) {
+    return "Special Awards/Scholarships";
+  }
+
+  if (lower.includes("solo")) {
+    return "Solos";
+  }
+
+  if (lower.includes("duo") || lower.includes("trio")) {
+    return "Duo/Trios";
+  }
+
+  if (lower.includes("group")) {
+    return "Groups";
+  }
+
+  if (lower.includes("scholar")) {
+    return "Special Awards/Scholarships";
+  }
+
+  if (lower.includes("special")) {
+    return "Special Awards/Scholarships";
+  }
+
+  return "Special Awards/Scholarships";
+}
+
+function buildPublishedAwardWinnerText(winner) {
+  if (!winner || typeof winner !== "object") {
+    return "";
+  }
+
+  const displayText = firstNonEmpty(winner?.display_text);
+  if (displayText) {
+    return displayText;
+  }
+
+  return buildFullAwardWinnerText(winner);
+}
+
 function buildFullAwardWinnerText(winner) {
   if (!winner || typeof winner !== "object") {
     return "";
@@ -418,6 +532,18 @@ function renderAwardsErrorState() {
 function renderFullAwardsErrorState() {
   const cardEl = document.getElementById("fullAwardsCard");
   const sectionsEl = document.getElementById("fullAwardsSections");
+
+  if (!cardEl || !sectionsEl) {
+    return;
+  }
+
+  cardEl.hidden = true;
+  sectionsEl.innerHTML = "";
+}
+
+function renderPublishedAwardsErrorState() {
+  const cardEl = document.getElementById("publishedAwardsCard");
+  const sectionsEl = document.getElementById("publishedAwardsSections");
 
   if (!cardEl || !sectionsEl) {
     return;
