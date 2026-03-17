@@ -1454,7 +1454,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "Nora Rygh"
+            "winner": {"display_text": "Nora Rygh"}
         },
         {
             "award_id": "dance_city_tuition_for_xcite_dance_intensive_ages_6_13__106",
@@ -1463,7 +1463,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "Aria Ryan"
+            "winner": {"display_text": "Aria Ryan"}
         },
         {
             "award_id": "dance_city_tuition_for_xcite_dance_intensive_ages_12_17__106b",
@@ -1472,7 +1472,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "Mira Bourassa"
+            "winner": {"display_text": "Mira Bourassa"}
         },
         {
             "award_id": "dance_dimensions_summer_intensive_11_yrs_up__107",
@@ -1481,7 +1481,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "Collins Moffat"
+            "winner": {"display_text": "Collins Moffat"}
         },
         {
             "award_id": "1820_dance_convention_scholarship_340_value_12_and_under__108",
@@ -1499,7 +1499,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "Kathy Huang"
+            "winner": {"display_text": "Kathy Huang"}
         },
         {
             "award_id": "form_dance_convention_free_tuition__110",
@@ -1508,7 +1508,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "Mia Vos"
+            "winner": {"display_text": "Mia Vos"}
         },
         {
             "award_id": "form_dance_convention_studio_scholarship__111",
@@ -1517,7 +1517,7 @@
             "section": "Special Awards",
             "style": "",
             "level": "",
-            "winner": "En Pointe Dance Academy"
+            "winner": {"display_text": "En Pointe Dance Academy"}
         },
         {
             "award_id": "hillberg_berk_choreography_award_1__112",
