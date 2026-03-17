@@ -462,3 +462,87 @@ body.leaderboard-page {
   z-index: 1000;
   box-shadow: 0 -4px 10px rgba(0,0,0,0.25);
 }
+
+.award-list-card {
+  margin-top: 20px;
+  background: var(--white);
+  color: var(--dark);
+  border-radius: 22px;
+  padding: 22px 20px 20px;
+}
+
+.award-list-head {
+  margin-bottom: 16px;
+}
+
+.award-list-head h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
+  line-height: 1.05;
+  font-weight: 900;
+}
+
+.award-list-subtitle {
+  margin-top: 6px;
+  font-size: clamp(0.95rem, 1vw, 1.1rem);
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+.award-list-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.full-award-section h3 {
+  margin: 0 0 10px;
+  font-size: clamp(1.35rem, 1.8vw, 2rem);
+  font-weight: 900;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--line);
+}
+
+.full-award-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.full-award-item {
+  display: grid;
+  grid-template-columns: minmax(260px, 38%) 1fr;
+  gap: 14px;
+  align-items: start;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.full-award-item:first-child {
+  border-top: none;
+}
+
+.full-award-name {
+  font-size: clamp(1rem, 1.08vw, 1.2rem);
+  font-weight: 900;
+  line-height: 1.22;
+}
+
+.full-award-winner {
+  font-size: clamp(1rem, 1.04vw, 1.18rem);
+  font-weight: 700;
+  line-height: 1.24;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.full-award-winner.is-empty {
+  opacity: 0.58;
+}
+
+@media (max-width: 900px) {
+  .full-award-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}

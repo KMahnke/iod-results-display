@@ -38,6 +38,8 @@ const FALLBACK_SPONSOR_LOGOS = {
   choreography: ""
 };
 
+const FULL_AWARD_SECTIONS = ["Solos", "Duo/Trio", "Groups", "Special Awards"];
+
 let awardsData = null;
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -79,9 +81,11 @@ async function loadAwards() {
 
     updateHeader();
     renderAwards();
+    renderFullAwardsList();
   } catch (error) {
     console.error("Unable to load awards.json:", error);
     renderAwardsErrorState();
+    renderFullAwardsErrorState();
   }
 }
 
@@ -289,6 +293,84 @@ function renderAward(slotId, award) {
   });
 }
 
+function renderFullAwardsList() {
+  const cardEl = document.getElementById("fullAwardsCard");
+  const sectionsEl = document.getElementById("fullAwardsSections");
+
+  if (!cardEl || !sectionsEl) {
+    return;
+  }
+
+  const fullAwards = Array.isArray(awardsData?.full_awards) ? awardsData.full_awards : [];
+
+  if (!fullAwards.length) {
+    cardEl.hidden = true;
+    sectionsEl.innerHTML = "";
+    return;
+  }
+
+  const grouped = {};
+  FULL_AWARD_SECTIONS.forEach((section) => {
+    grouped[section] = [];
+  });
+
+  fullAwards.forEach((award) => {
+    const section = grouped[award?.section] ? award.section : "Special Awards";
+    grouped[section].push(award);
+  });
+
+  const html = FULL_AWARD_SECTIONS.map((section) => {
+    const rows = grouped[section] || [];
+    const itemsHtml = rows.map((award) => {
+      const winnerText = buildFullAwardWinnerText(award?.winner);
+      return `
+        <li class="full-award-item">
+          <div class="full-award-name">${escapeHtml(firstNonEmpty(award?.award, "Award"))}</div>
+          <div class="full-award-winner ${winnerText ? "" : "is-empty"}">${escapeHtml(winnerText || "Winner to be announced")}</div>
+        </li>
+      `;
+    }).join("");
+
+    return `
+      <section class="full-award-section">
+        <h3>${escapeHtml(section)}</h3>
+        <ul class="full-award-list">
+          ${itemsHtml || '<li class="full-award-item"><div class="full-award-winner is-empty">No awards in this section.</div></li>'}
+        </ul>
+      </section>
+    `;
+  }).join("");
+
+  sectionsEl.innerHTML = html;
+  cardEl.hidden = false;
+}
+
+function buildFullAwardWinnerText(winner) {
+  if (!winner || typeof winner !== "object") {
+    return "";
+  }
+
+  const entry = firstNonEmpty(winner?.entry);
+  const title = firstNonEmpty(winner?.title);
+  const lastNames = Array.isArray(winner?.dance_last_names)
+    ? winner.dance_last_names.map((value) => String(value || "").trim()).filter(Boolean)
+    : [];
+
+  let text = "";
+
+  if (entry && title) {
+    text = `${entry} - ${title}`;
+  } else if (entry || title) {
+    text = entry || title;
+  }
+
+  if (lastNames.length) {
+    text += `${text ? " - " : ""}${lastNames.join(", ")}`;
+  }
+
+  return text;
+}
+
 function buildWinnerText(winner) {
   const title = firstNonEmpty(winner?.title);
   const studio = firstNonEmpty(winner?.studio);
@@ -333,88 +415,84 @@ function renderAwardsErrorState() {
   });
 }
 
+function renderFullAwardsErrorState() {
+  const cardEl = document.getElementById("fullAwardsCard");
+  const sectionsEl = document.getElementById("fullAwardsSections");
+
+  if (!cardEl || !sectionsEl) {
+    return;
+  }
+
+  cardEl.hidden = true;
+  sectionsEl.innerHTML = "";
+}
+
 function formatZonedDateToRegina(value) {
   if (!value) {
     return "";
   }
 
-  const date = new Date(String(value).trim());
-  if (Number.isNaN(date.getTime())) {
-    return "";
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) {
+    return String(value);
   }
 
-  const formatter = new Intl.DateTimeFormat(DISPLAY_LOCALE, {
+  return new Intl.DateTimeFormat(DISPLAY_LOCALE, {
     timeZone: DISPLAY_TIME_ZONE,
     year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
+    month: "short",
+    day: "numeric",
     hour: "numeric",
-    minute: "2-digit",
-    hour12: true,
-    timeZoneName: "short"
-  });
-
-  const parts = formatter.formatToParts(date);
-  const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-
-  return `${map.year}-${map.month}-${map.day} ${map.hour}:${map.minute} ${map.dayPeriod} ${map.timeZoneName}`;
+    minute: "2-digit"
+  }).format(parsed);
 }
 
 function buildLastUpdateText(data) {
-  const zonedValue =
-    data?.publish_version ||
-    data?.updated_at ||
-    data?.updated ||
-    data?.last_update ||
-    "";
-
-  const formattedZoned = formatZonedDateToRegina(zonedValue);
-  if (formattedZoned) {
-    return `Last updated: ${formattedZoned}`;
+  const lastUpdateValue = firstNonEmpty(data?.last_update, data?.updated_at, data?.publish_version);
+  if (!lastUpdateValue) {
+    return "Last updated:";
   }
 
-  const fallback =
-    data?.last_update ||
-    data?.updated_at ||
-    data?.updated ||
-    "";
-
-  return fallback ? `Last updated: ${fallback}` : "Last updated:";
+  return `Last updated: ${formatZonedDateToRegina(lastUpdateValue)}`;
 }
 
 function resolveSponsorPath(value) {
-  const trimmed = String(value || "").trim();
-  if (!trimmed) {
+  const path = firstNonEmpty(value);
+  if (!path) {
     return "";
   }
 
-  if (
-    trimmed.startsWith("img/") ||
-    trimmed.startsWith("./img/") ||
-    trimmed.startsWith("http://") ||
-    trimmed.startsWith("https://") ||
-    trimmed.startsWith("/")
-  ) {
-    return trimmed;
+  if (/^(https?:)?\/\//i.test(path) || path.startsWith("data:")) {
+    return path;
   }
 
-  return `img/${trimmed}`;
+  if (path.startsWith("./") || path.startsWith("../") || path.startsWith("img/")) {
+    return path;
+  }
+
+  return `img/${path.replace(/^\/+/, "")}`;
 }
 
 function firstNonEmpty(...values) {
   for (const value of values) {
-    if (value !== null && value !== undefined && String(value).trim() !== "") {
-      return String(value).trim();
+    if (value === null || value === undefined) {
+      continue;
+    }
+
+    const text = String(value).trim();
+    if (text !== "") {
+      return text;
     }
   }
+
   return "";
 }
 
 function escapeHtml(value) {
-  return String(value || "")
+  return String(value ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
