@@ -75,12 +75,44 @@
         </article>
       </div>
 
+      <!-- Existing full list for SESSION awards (awards.json) -->
       <article id="fullAwardsCard" class="award-list-card" hidden>
         <div class="award-list-head">
           <h2>Full Awards List</h2>
           <div class="award-list-subtitle">Published in original award JSON order</div>
         </div>
         <div id="fullAwardsSections" class="award-list-sections"></div>
+      </article>
+
+      <!-- NEW: Published / Finals awards list (published_awards.json) - full width -->
+      <article id="publishedAwardsCard" class="award-list-card">
+        <div class="award-list-head">
+          <h2>Final Awards</h2>
+          <div class="award-list-subtitle">Published awards / finals list</div>
+        </div>
+
+        <!-- Big long list with required headers -->
+        <div id="publishedAwardsSections" class="award-list-sections">
+          <section class="award-list-section" data-section="solos">
+            <h3 class="award-list-title">Solos</h3>
+            <div id="publishedAwardsSolos" class="award-list-items"></div>
+          </section>
+
+          <section class="award-list-section" data-section="duo_trios">
+            <h3 class="award-list-title">Duo/Trios</h3>
+            <div id="publishedAwardsDuoTrios" class="award-list-items"></div>
+          </section>
+
+          <section class="award-list-section" data-section="groups">
+            <h3 class="award-list-title">Groups</h3>
+            <div id="publishedAwardsGroups" class="award-list-items"></div>
+          </section>
+
+          <section class="award-list-section" data-section="special">
+            <h3 class="award-list-title">Special Awards / Scholarships</h3>
+            <div id="publishedAwardsSpecial" class="award-list-items"></div>
+          </section>
+        </div>
       </article>
     </section>
   </div>
