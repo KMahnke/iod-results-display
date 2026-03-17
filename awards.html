@@ -6,7 +6,7 @@
   <title>Inspirations of Dance Awards</title>
   <link rel="stylesheet" href="leaderboard.css" />
 </head>
-<body class="leaderboard-page">
+<body class="leaderboard-page" data-awards-mode="published">
   <div class="page-shell awards-shell">
     <header class="masthead">
       <div class="logo-left">
@@ -14,14 +14,15 @@
       </div>
 
       <div class="title-area">
-        <h1 id="eventTitle">Session Awards</h1>
+        <h1 id="eventTitle">Published Awards</h1>
         <div id="lastUpdate" class="updated">Last updated:</div>
       </div>
 
       <div class="nav-area">
         <div class="top-bar">
           <div class="tab-row">
-            <button class="tab-btn active" type="button">🏆 Awards</button>
+            <a href="sessions.html" class="tab-btn">🏆 Sessions</a>
+            <button class="tab-btn active" type="button">⭐ Awards</button>
           </div>
 
           <div class="action-row">
@@ -33,86 +34,12 @@
     </header>
 
     <section class="board-panel awards-panel">
-      <div class="awards-grid">
-        <article class="award-card">
-          <div class="award-card-head">
-            <h3 id="title-excellence">Excellence in Dance</h3>
-            <img id="logo-excellence" class="award-logo" alt="Excellence in Dance sponsor logo" hidden />
-          </div>
-          <div id="winners-excellence" class="award-winners"></div>
-        </article>
-
-        <article class="award-card">
-          <div class="award-card-head">
-            <h3 id="title-applause">Another Round of Applause</h3>
-            <img id="logo-applause" class="award-logo" alt="Another Round of Applause sponsor logo" hidden />
-          </div>
-          <div id="winners-applause" class="award-winners"></div>
-        </article>
-
-        <article class="award-card">
-          <div class="award-card-head">
-            <h3 id="title-smile">Smile Award</h3>
-            <img id="logo-smile" class="award-logo" alt="Smile Award sponsor logo" hidden />
-          </div>
-          <div id="winners-smile" class="award-winners"></div>
-        </article>
-
-        <article class="award-card">
-          <div class="award-card-head">
-            <h3 id="title-full-throttle">Full Throttle</h3>
-            <img id="logo-full-throttle" class="award-logo" alt="Full Throttle sponsor logo" hidden />
-          </div>
-          <div id="winners-full-throttle" class="award-winners"></div>
-        </article>
-
-        <article class="award-card">
-          <div class="award-card-head">
-            <h3 id="title-choreography">Choreography</h3>
-            <img id="logo-choreography" class="award-logo" alt="Choreography sponsor logo" hidden />
-          </div>
-          <div id="winners-choreography" class="award-winners"></div>
-        </article>
-      </div>
-
-      <!-- Existing full list for SESSION awards (awards.json) -->
-      <article id="fullAwardsCard" class="award-list-card" hidden>
+      <article id="publishedAwardsCard" class="award-list-card" hidden>
         <div class="award-list-head">
-          <h2>Full Awards List</h2>
-          <div class="award-list-subtitle">Published in original award JSON order</div>
+          <h2>Published Awards / Finals</h2>
+          <div class="award-list-subtitle">Loaded from data/published_awards.json</div>
         </div>
-        <div id="fullAwardsSections" class="award-list-sections"></div>
-      </article>
-
-      <!-- NEW: Published / Finals awards list (published_awards.json) - full width -->
-      <article id="publishedAwardsCard" class="award-list-card">
-        <div class="award-list-head">
-          <h2>Final Awards</h2>
-          <div class="award-list-subtitle">Published awards / finals list</div>
-        </div>
-
-        <!-- Big long list with required headers -->
-        <div id="publishedAwardsSections" class="award-list-sections">
-          <section class="award-list-section" data-section="solos">
-            <h3 class="award-list-title">Solos</h3>
-            <div id="publishedAwardsSolos" class="award-list-items"></div>
-          </section>
-
-          <section class="award-list-section" data-section="duo_trios">
-            <h3 class="award-list-title">Duo/Trios</h3>
-            <div id="publishedAwardsDuoTrios" class="award-list-items"></div>
-          </section>
-
-          <section class="award-list-section" data-section="groups">
-            <h3 class="award-list-title">Groups</h3>
-            <div id="publishedAwardsGroups" class="award-list-items"></div>
-          </section>
-
-          <section class="award-list-section" data-section="special">
-            <h3 class="award-list-title">Special Awards / Scholarships</h3>
-            <div id="publishedAwardsSpecial" class="award-list-items"></div>
-          </section>
-        </div>
+        <div id="publishedAwardsSections" class="award-list-sections"></div>
       </article>
     </section>
   </div>

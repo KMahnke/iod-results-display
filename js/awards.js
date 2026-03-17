@@ -3,6 +3,8 @@ const PUBLISHED_AWARDS_FILE = "data/published_awards.json";
 const DISPLAY_TIME_ZONE = "America/Regina";
 const DISPLAY_LOCALE = "en-CA";
 
+const PAGE_MODE = document.body?.dataset?.awardsMode === "published" ? "published" : "session";
+
 const AWARD_SLOT_CONFIG = [
   {
     slotId: "excellence",
@@ -57,9 +59,9 @@ function getQueryString() {
 
 function applyQueryStringToLinks() {
   const qs = getQueryString();
-
   const leaderboardLink = document.getElementById("leaderboardLink");
   const resultsLink = document.getElementById("resultsLink");
+  const tabLinks = document.querySelectorAll('.tab-row a[href$=".html"]');
 
   if (leaderboardLink) {
     leaderboardLink.href = `leaderboard.html${qs}`;
@@ -68,63 +70,72 @@ function applyQueryStringToLinks() {
   if (resultsLink) {
     resultsLink.href = `index.html${qs}`;
   }
+
+  tabLinks.forEach((link) => {
+    const href = link.getAttribute("href") || "";
+    if (href.endsWith(".html")) {
+      link.href = `${href}${qs}`;
+    }
+  });
 }
 
 async function loadAwards() {
   try {
     const cacheBust = Date.now();
-    const [sessionResponse, publishedResponse] = await Promise.all([
-      fetch(`${AWARDS_FILE}?t=${cacheBust}`, { cache: "no-store" }),
-      fetch(`${PUBLISHED_AWARDS_FILE}?t=${cacheBust}`, { cache: "no-store" })
-    ]);
 
+    if (PAGE_MODE === "published") {
+      const publishedResponse = await fetch(`${PUBLISHED_AWARDS_FILE}?t=${cacheBust}`, { cache: "no-store" });
+      if (!publishedResponse.ok) {
+        throw new Error(`HTTP ${publishedResponse.status}`);
+      }
+
+      publishedAwardsData = await publishedResponse.json();
+      awardsData = null;
+
+      updateHeader();
+      renderPublishedAwardsList();
+      return;
+    }
+
+    const sessionResponse = await fetch(`${AWARDS_FILE}?t=${cacheBust}`, { cache: "no-store" });
     if (!sessionResponse.ok) {
       throw new Error(`HTTP ${sessionResponse.status}`);
     }
 
     awardsData = await sessionResponse.json();
-    publishedAwardsData = publishedResponse.ok ? await publishedResponse.json() : null;
+    publishedAwardsData = null;
 
     updateHeader();
     renderAwards();
     renderFullAwardsList();
-    renderPublishedAwardsList();
   } catch (error) {
-    console.error("Unable to load awards.json:", error);
-    renderAwardsErrorState();
-    renderFullAwardsErrorState();
-    renderPublishedAwardsErrorState();
+    console.error("Unable to load awards data:", error);
+
+    if (PAGE_MODE === "published") {
+      renderPublishedAwardsErrorState();
+    } else {
+      renderAwardsErrorState();
+      renderFullAwardsErrorState();
+    }
   }
 }
 
 function updateHeader() {
   const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
-  const publishVersion = document.getElementById("publishVersion");
-  const headerSponsorLogo = document.getElementById("headerSponsorLogo");
 
   if (eventTitle) {
-    eventTitle.textContent = firstNonEmpty(awardsData?.event, "Session Awards");
+    if (PAGE_MODE === "published") {
+      eventTitle.textContent = firstNonEmpty(publishedAwardsData?.event, "Published Awards");
+    } else {
+      eventTitle.textContent = firstNonEmpty(awardsData?.event, "Session Awards");
+    }
   }
 
   if (lastUpdate) {
-    lastUpdate.textContent = buildLastUpdateText(awardsData);
-  }
-
-  if (publishVersion) {
-    publishVersion.textContent = "";
-  }
-
-  if (headerSponsorLogo) {
-    const firstAwardWithLogo = getNormalizedAwards().find((award) => award.logo);
-    if (firstAwardWithLogo && firstAwardWithLogo.logo) {
-      headerSponsorLogo.src = firstAwardWithLogo.logo;
-      headerSponsorLogo.alt = `${firstAwardWithLogo.title} sponsor logo`;
-      headerSponsorLogo.hidden = false;
-    } else {
-      headerSponsorLogo.hidden = true;
-      headerSponsorLogo.removeAttribute("src");
-    }
+    lastUpdate.textContent = PAGE_MODE === "published"
+      ? buildLastUpdateText(publishedAwardsData)
+      : buildLastUpdateText(awardsData);
   }
 }
 
@@ -499,24 +510,13 @@ function buildWinnerText(winner) {
 function renderAwardsErrorState() {
   const eventTitle = document.getElementById("eventTitle");
   const lastUpdate = document.getElementById("lastUpdate");
-  const publishVersion = document.getElementById("publishVersion");
-  const headerSponsorLogo = document.getElementById("headerSponsorLogo");
 
   if (eventTitle) {
     eventTitle.textContent = "Session Awards";
   }
 
   if (lastUpdate) {
-    lastUpdate.textContent = "Last updated: unable to load awards data";
-  }
-
-  if (publishVersion) {
-    publishVersion.textContent = "";
-  }
-
-  if (headerSponsorLogo) {
-    headerSponsorLogo.hidden = true;
-    headerSponsorLogo.removeAttribute("src");
+    lastUpdate.textContent = "Last updated: unable to load session awards data";
   }
 
   AWARD_SLOT_CONFIG.forEach((config) => {
@@ -542,8 +542,18 @@ function renderFullAwardsErrorState() {
 }
 
 function renderPublishedAwardsErrorState() {
+  const eventTitle = document.getElementById("eventTitle");
+  const lastUpdate = document.getElementById("lastUpdate");
   const cardEl = document.getElementById("publishedAwardsCard");
   const sectionsEl = document.getElementById("publishedAwardsSections");
+
+  if (eventTitle) {
+    eventTitle.textContent = "Published Awards";
+  }
+
+  if (lastUpdate) {
+    lastUpdate.textContent = "Last updated: unable to load published awards data";
+  }
 
   if (!cardEl || !sectionsEl) {
     return;

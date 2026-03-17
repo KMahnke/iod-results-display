@@ -141,9 +141,17 @@ function renderTabs() {
     tabs.appendChild(btn);
   });
 
+  const sessionsBtn = document.createElement("button");
+  sessionsBtn.className = "tab-btn icon-btn";
+  sessionsBtn.innerHTML = `🏆 <span class="icon-label">Sessions</span>`;
+  sessionsBtn.onclick = () => {
+    window.location.href = buildPageUrl("sessions.html");
+  };
+  tabs.appendChild(sessionsBtn);
+
   const awardsBtn = document.createElement("button");
   awardsBtn.className = "tab-btn icon-btn";
-  awardsBtn.innerHTML = `🏆 <span class="icon-label">Awards</span>`;
+  awardsBtn.innerHTML = `⭐ <span class="icon-label">Awards</span>`;
   awardsBtn.onclick = () => {
     window.location.href = buildPageUrl("awards.html");
   };
@@ -167,7 +175,6 @@ function renderContent() {
   const categories = getCategoriesForTab(activeTab);
 
   categories.forEach((category) => {
-
     const card = document.createElement("div");
     card.className = "group-card";
 
@@ -194,7 +201,6 @@ function renderContent() {
     const tbody = table.querySelector("tbody");
 
     (category.results || []).forEach((r) => {
-
       const row = document.createElement("tr");
 
       row.innerHTML = `
@@ -210,14 +216,10 @@ function renderContent() {
 
     card.appendChild(table);
     content.appendChild(card);
-
   });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-
   loadResults();
-
   setInterval(loadResults, 10000);
-
 });
