@@ -1,0 +1,1565 @@
+{
+    "event": "Inspirations of Dance 2026",
+    "eventsID": 119517,
+    "last_update": "2026-03-17 03:35:47",
+    "publish_version": "2026-03-17T03:35:47+01:00",
+    "updated_at": "2026-03-17 03:35:47",
+    "full_awards": [
+        {
+            "award_id": "promising_beginner_ballet_solo__1",
+            "award": "Promising Beginner Ballet Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Ballet",
+            "level": "Beginner",
+            "winner": {
+                "entry": "13",
+                "title": "Mack the Knife",
+                "dance_last_names": [],
+                "display_text": "13 - Mack the Knife"
+            }
+        },
+        {
+            "award_id": "promising_novice_pointe_ballet_solo__2",
+            "award": "Promising Novice/Pointe Ballet Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Ballet",
+            "level": "Novice",
+            "winner": {
+                "entry": "35",
+                "title": "Echoes Within",
+                "dance_last_names": [],
+                "display_text": "35 - Echoes Within"
+            }
+        },
+        {
+            "award_id": "promising_open_pointe_ballet_solo__3",
+            "award": "Promising Open/Pointe Ballet Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Ballet",
+            "level": "Open",
+            "winner": {
+                "entry": "65",
+                "title": "A Whisper of Joy",
+                "dance_last_names": [],
+                "display_text": "65 - A Whisper of Joy"
+            }
+        },
+        {
+            "award_id": "promising_beginner_lyrical_solo__4",
+            "award": "Promising Beginner Lyrical Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Lyrical",
+            "level": "Beginner",
+            "winner": {
+                "entry": "427",
+                "title": "Crippled Bird",
+                "dance_last_names": [],
+                "display_text": "427 - Crippled Bird"
+            }
+        },
+        {
+            "award_id": "promising_novice_lyrical_solo_14_under__5",
+            "award": "Promising Novice Lyrical Solo (14 & Under)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Lyrical",
+            "level": "Novice",
+            "winner": {
+                "entry": "521",
+                "title": "Try",
+                "dance_last_names": [],
+                "display_text": "521 - Try"
+            }
+        },
+        {
+            "award_id": "promising_novice_lyrical_solo_15_over__6",
+            "award": "Promising Novice Lyrical Solo (15 & Over)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Lyrical",
+            "level": "Novice",
+            "winner": {
+                "entry": "553",
+                "title": "Eternity",
+                "dance_last_names": [],
+                "display_text": "553 - Eternity"
+            }
+        },
+        {
+            "award_id": "promising_open_lyrical_solo__7",
+            "award": "Promising Open Lyrical Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Lyrical",
+            "level": "Open",
+            "winner": {
+                "entry": "150",
+                "title": "Song To The Siren",
+                "dance_last_names": [],
+                "display_text": "150 - Song To The Siren"
+            }
+        },
+        {
+            "award_id": "promising_open_lyrical_solo__8",
+            "award": "Promising Open Lyrical Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Lyrical",
+            "level": "Open",
+            "winner": {
+                "entry": "156",
+                "title": "In The Kitchen",
+                "dance_last_names": [],
+                "display_text": "156 - In The Kitchen"
+            }
+        },
+        {
+            "award_id": "promising_novice_jazz_solo__9",
+            "award": "Promising Novice Jazz Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Novice",
+            "winner": {
+                "entry": "374",
+                "title": "L-O-V-E",
+                "dance_last_names": [],
+                "display_text": "374 - L-O-V-E"
+            }
+        },
+        {
+            "award_id": "promising_novice_jazz_solo__10",
+            "award": "Promising Novice Jazz Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Novice",
+            "winner": {
+                "entry": "379",
+                "title": "Together Again",
+                "dance_last_names": [],
+                "display_text": "379 - Together Again"
+            }
+        },
+        {
+            "award_id": "promising_beginner_jazz_solo__11",
+            "award": "Promising Beginner Jazz Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Beginner",
+            "winner": {
+                "entry": "322",
+                "title": "Perfect Day",
+                "dance_last_names": [],
+                "display_text": "322 - Perfect Day"
+            }
+        },
+        {
+            "award_id": "promising_beginner_jazz_solo__12",
+            "award": "Promising Beginner Jazz Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Beginner",
+            "winner": {
+                "entry": "511",
+                "title": "Just Keep Watching",
+                "dance_last_names": [],
+                "display_text": "511 - Just Keep Watching"
+            }
+        },
+        {
+            "award_id": "promising_open_jazz_solo__13",
+            "award": "Promising Open Jazz Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "531",
+                "title": "The Way You Make Me Feel",
+                "dance_last_names": [],
+                "display_text": "531 - The Way You Make Me Feel"
+            }
+        },
+        {
+            "award_id": "high_mark_open_jazz_solo_14_under__14",
+            "award": "High Mark Open Jazz Solo (14 & Under)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "517",
+                "title": "Drag Me Out",
+                "dance_last_names": [],
+                "display_text": "517 - Drag Me Out"
+            }
+        },
+        {
+            "award_id": "high_mark_open_jazz_solo_15_over__15",
+            "award": "High Mark Open Jazz Solo (15 & Over)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "532",
+                "title": "Maneater",
+                "dance_last_names": [],
+                "display_text": "532 - Maneater"
+            }
+        },
+        {
+            "award_id": "promising_open_jazz_solo_all_ages__16",
+            "award": "Promising Open Jazz Solo (All Ages)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "516",
+                "title": "Fever",
+                "dance_last_names": [],
+                "display_text": "516 - Fever"
+            }
+        },
+        {
+            "award_id": "promising_beginner_tap_solo__17",
+            "award": "Promising Beginner Tap Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Tap",
+            "level": "Beginner",
+            "winner": {
+                "entry": "168",
+                "title": "You Make My Dreams",
+                "dance_last_names": [],
+                "display_text": "168 - You Make My Dreams"
+            }
+        },
+        {
+            "award_id": "promising_novice_tap_solo__18",
+            "award": "Promising Novice Tap Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Tap",
+            "level": "Novice",
+            "winner": {
+                "entry": "451",
+                "title": "Nice To Meet You",
+                "dance_last_names": [],
+                "display_text": "451 - Nice To Meet You"
+            }
+        },
+        {
+            "award_id": "promising_novice_tap_solo__19",
+            "award": "Promising Novice Tap Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Tap",
+            "level": "Novice",
+            "winner": {
+                "entry": "452",
+                "title": "Up a Lazy River",
+                "dance_last_names": [],
+                "display_text": "452 - Up a Lazy River"
+            }
+        },
+        {
+            "award_id": "promising_open_tap_solo__20",
+            "award": "Promising Open Tap Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Tap",
+            "level": "Open",
+            "winner": {
+                "entry": "344",
+                "title": "How It's Done",
+                "dance_last_names": [],
+                "display_text": "344 - How It's Done"
+            }
+        },
+        {
+            "award_id": "promising_tap_solo_all_ages__21",
+            "award": "Promising Tap Solo (All Ages)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Tap",
+            "level": "",
+            "winner": {
+                "entry": "180",
+                "title": "IBTWYPDB",
+                "dance_last_names": [],
+                "display_text": "180 - IBTWYPDB"
+            }
+        },
+        {
+            "award_id": "promising_musical_theatre_solo__22",
+            "award": "Promising Musical Theatre Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Musical Theatre",
+            "level": "",
+            "winner": {
+                "entry": "23",
+                "title": "Belle",
+                "dance_last_names": [],
+                "display_text": "23 - Belle"
+            }
+        },
+        {
+            "award_id": "promising_beginner_hip_hop_solo__23",
+            "award": "Promising Beginner Hip Hop Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Hip Hop",
+            "level": "Beginner",
+            "winner": {
+                "entry": "304",
+                "title": "Imma Be",
+                "dance_last_names": [],
+                "display_text": "304 - Imma Be"
+            }
+        },
+        {
+            "award_id": "promising_novice_hip_hop_solo__24",
+            "award": "Promising Novice Hip Hop Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Hip Hop",
+            "level": "Novice",
+            "winner": {
+                "entry": "251",
+                "title": "Money",
+                "dance_last_names": [],
+                "display_text": "251 - Money"
+            }
+        },
+        {
+            "award_id": "promising_open_hip_hop_sol__25",
+            "award": "Promising Open Hip Hop Sol",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "Hip Hop",
+            "level": "Open",
+            "winner": {
+                "entry": "576",
+                "title": "Bola Rebola",
+                "dance_last_names": [],
+                "display_text": "576 - Bola Rebola"
+            }
+        },
+        {
+            "award_id": "high_mark_open_hip_hop_solo__26",
+            "award": "High Mark Open Hip Hop Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Hip Hop",
+            "level": "Open",
+            "winner": {
+                "entry": "570",
+                "title": "Mac Mash",
+                "dance_last_names": [],
+                "display_text": "570 - Mac Mash"
+            }
+        },
+        {
+            "award_id": "most_outstanding_hip_hop_solo_all_ages__27",
+            "award": "Most Outstanding Hip Hop Solo (All Ages)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Hip Hop",
+            "level": "",
+            "winner": {
+                "entry": "576",
+                "title": "Bola Rebola",
+                "dance_last_names": [],
+                "display_text": "576 - Bola Rebola"
+            }
+        },
+        {
+            "award_id": "promising_contemporary_solo__28",
+            "award": "Promising Contemporary Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Contemporary",
+            "level": "",
+            "winner": {
+                "entry": "262",
+                "title": "Soldier",
+                "dance_last_names": [],
+                "display_text": "262 - Soldier"
+            }
+        },
+        {
+            "award_id": "promising_contemporary_solo__29",
+            "award": "Promising Contemporary Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Contemporary",
+            "level": "",
+            "winner": {
+                "entry": "278",
+                "title": "Paralyzed",
+                "dance_last_names": [],
+                "display_text": "278 - Paralyzed"
+            }
+        },
+        {
+            "award_id": "high_mark_contemporary_solo__30",
+            "award": "High Mark Contemporary Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Contemporary",
+            "level": "",
+            "winner": {
+                "entry": "92",
+                "title": "Far From Home",
+                "dance_last_names": [],
+                "display_text": "92 - Far From Home"
+            }
+        },
+        {
+            "award_id": "promising_acro_solo__31",
+            "award": "Promising Acro Solo",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "Acro",
+            "level": "",
+            "winner": {
+                "entry": "97",
+                "title": "Bring the Lion Out",
+                "dance_last_names": [],
+                "display_text": "97 - Bring the Lion Out"
+            }
+        },
+        {
+            "award_id": "outstanding_beginner_solo_all_ages__32",
+            "award": "Outstanding Beginner Solo (All Ages)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "",
+            "level": "Beginner",
+            "winner": {
+                "entry": "461",
+                "title": "Anything Worth Holding On To",
+                "dance_last_names": [],
+                "display_text": "461 - Anything Worth Holding On To"
+            }
+        },
+        {
+            "award_id": "outstanding_novice_solo_all_ages__33",
+            "award": "Outstanding Novice Solo (All Ages)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "",
+            "level": "Novice",
+            "winner": {
+                "entry": "418",
+                "title": "Where Have You Been",
+                "dance_last_names": [],
+                "display_text": "418 - Where Have You Been"
+            }
+        },
+        {
+            "award_id": "outstanding_open_solo_all_ages__34",
+            "award": "Outstanding Open Solo (All Ages)",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "",
+            "level": "Open",
+            "winner": {
+                "entry": "535",
+                "title": "Strut",
+                "dance_last_names": [],
+                "display_text": "535 - Strut"
+            }
+        },
+        {
+            "award_id": "outstanding_solo_18_yrs_over__35",
+            "award": "Outstanding Solo 18 yrs & Over",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "577",
+                "title": "CROWNED",
+                "dance_last_names": [],
+                "display_text": "577 - CROWNED"
+            }
+        },
+        {
+            "award_id": "high_mark_solo_18_yrs_over__36",
+            "award": "High Mark Solo 18 yrs & Over",
+            "type": "Solo",
+            "section": "Solos",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "507",
+                "title": "Devil Inside",
+                "dance_last_names": [],
+                "display_text": "507 - Devil Inside"
+            }
+        },
+        {
+            "award_id": "promising_ballet_pointe_duo_trio_all_ages__37",
+            "award": "Promising Ballet/Pointe Duo/Trio All Ages",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Ballet",
+            "level": "",
+            "winner": {
+                "entry": "57",
+                "title": "Charlie",
+                "dance_last_names": [],
+                "display_text": "57 - Charlie"
+            }
+        },
+        {
+            "award_id": "promising_lyrical_duo_trio_all_ages__38",
+            "award": "Promising Lyrical Duo/Trio All Ages",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Lyrical",
+            "level": "",
+            "winner": {
+                "entry": "46",
+                "title": "Rescue",
+                "dance_last_names": [],
+                "display_text": "46 - Rescue"
+            }
+        },
+        {
+            "award_id": "promising_lyrical_duo_trio_all_ages__39",
+            "award": "Promising Lyrical Duo/Trio All Ages",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Lyrical",
+            "level": "",
+            "winner": {
+                "entry": "115",
+                "title": "Can I Have This Dance",
+                "dance_last_names": [],
+                "display_text": "115 - Can I Have This Dance"
+            }
+        },
+        {
+            "award_id": "promising_musical_theatre_duo_trio__40",
+            "award": "Promising Musical Theatre Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Musical Theatre",
+            "level": "",
+            "winner": {
+                "entry": "581",
+                "title": "Mama I'm A Big Girl Now",
+                "dance_last_names": [],
+                "display_text": "581 - Mama I'm A Big Girl Now"
+            }
+        },
+        {
+            "award_id": "promising_open_jazz_duo_trio__41",
+            "award": "Promising Open Jazz Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "499",
+                "title": "Bump",
+                "dance_last_names": [],
+                "display_text": "499 - Bump"
+            }
+        },
+        {
+            "award_id": "promising_open_tap_duo_trio__42",
+            "award": "Promising Open Tap Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Tap",
+            "level": "Open",
+            "winner": {
+                "entry": "366",
+                "title": "Come On Eileen",
+                "dance_last_names": [],
+                "display_text": "366 - Come On Eileen"
+            }
+        },
+        {
+            "award_id": "promising_hip_hop_duo_trio__43",
+            "award": "Promising Hip Hop Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Hip Hop",
+            "level": "",
+            "winner": {
+                "entry": "995",
+                "title": "Get Krazy",
+                "dance_last_names": [],
+                "display_text": "995 - Get Krazy"
+            }
+        },
+        {
+            "award_id": "promising_contemporary_duo_trio__44",
+            "award": "Promising Contemporary Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Contemporary",
+            "level": "",
+            "winner": {
+                "entry": "599",
+                "title": "When We Were Young",
+                "dance_last_names": [],
+                "display_text": "599 - When We Were Young"
+            }
+        },
+        {
+            "award_id": "promising_beginner_jazz_duo_trio__45",
+            "award": "Promising Beginner Jazz Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Jazz",
+            "level": "Beginner",
+            "winner": {
+                "entry": "56",
+                "title": "No Excuses",
+                "dance_last_names": [],
+                "display_text": "56 - No Excuses"
+            }
+        },
+        {
+            "award_id": "promising_novice_jazz_duo_trio__46",
+            "award": "Promising Novice Jazz Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Jazz",
+            "level": "Novice",
+            "winner": {
+                "entry": "494",
+                "title": "Womanizer",
+                "dance_last_names": [],
+                "display_text": "494 - Womanizer"
+            }
+        },
+        {
+            "award_id": "promising_beginner_tap_duo_trio__47",
+            "award": "Promising Beginner Tap Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Tap",
+            "level": "Beginner",
+            "winner": {
+                "entry": "208",
+                "title": "Little Bitty Pretty One",
+                "dance_last_names": [],
+                "display_text": "208 - Little Bitty Pretty One"
+            }
+        },
+        {
+            "award_id": "promising_novice_tap_duo_trio__48",
+            "award": "Promising Novice Tap Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Tap",
+            "level": "Novice",
+            "winner": {
+                "entry": "389",
+                "title": "Abracadabra",
+                "dance_last_names": [],
+                "display_text": "389 - Abracadabra"
+            }
+        },
+        {
+            "award_id": "promising_open_tap_duo_trio__49",
+            "award": "Promising Open Tap Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "Tap",
+            "level": "Open",
+            "winner": {
+                "entry": "368",
+                "title": "Feels This Good",
+                "dance_last_names": [],
+                "display_text": "368 - Feels This Good"
+            }
+        },
+        {
+            "award_id": "outstanding_beginner_duo_trio__50",
+            "award": "Outstanding Beginner Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "",
+            "level": "Beginner",
+            "winner": {
+                "entry": "271",
+                "title": "Addams Family Monsters",
+                "dance_last_names": [],
+                "display_text": "271 - Addams Family Monsters"
+            }
+        },
+        {
+            "award_id": "outstanding_novice_duo_trio__51",
+            "award": "Outstanding Novice Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "",
+            "level": "Novice",
+            "winner": {
+                "entry": "339",
+                "title": "Switchin Lanes in Paris",
+                "dance_last_names": [],
+                "display_text": "339 - Switchin Lanes in Paris"
+            }
+        },
+        {
+            "award_id": "outstanding_open_duo_trio__52",
+            "award": "Outstanding Open Duo/Trio",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "",
+            "level": "Open",
+            "winner": {
+                "entry": "490",
+                "title": "On The Floor",
+                "dance_last_names": [],
+                "display_text": "490 - On The Floor"
+            }
+        },
+        {
+            "award_id": "outstanding_duo_trio_18_yrs_over__53",
+            "award": "Outstanding Duo/Trio 18 yrs & Over",
+            "type": "Duo Trio",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "378",
+                "title": "Sleeping on the Blacktop",
+                "dance_last_names": [],
+                "display_text": "378 - Sleeping on the Blacktop"
+            }
+        },
+        {
+            "award_id": "promising_beginner_ballet_group__54",
+            "award": "Promising Beginner Ballet Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Ballet",
+            "level": "Beginner",
+            "winner": {
+                "entry": "620",
+                "title": "Mother Ginger's Children",
+                "dance_last_names": [],
+                "display_text": "620 - Mother Ginger's Children"
+            }
+        },
+        {
+            "award_id": "promising_beginner_ballet_group__55",
+            "award": "Promising Beginner Ballet Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Ballet",
+            "level": "Beginner",
+            "winner": {
+                "entry": "700",
+                "title": "Ballerina",
+                "dance_last_names": [],
+                "display_text": "700 - Ballerina"
+            }
+        },
+        {
+            "award_id": "promising_beginner_ballet_group__56",
+            "award": "Promising Beginner Ballet Group_",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Ballet",
+            "level": "Beginner",
+            "winner": {
+                "entry": "694",
+                "title": "Hallelujah",
+                "dance_last_names": [],
+                "display_text": "694 - Hallelujah"
+            }
+        },
+        {
+            "award_id": "high_mark_novice_ballet_group__57",
+            "award": "High Mark Novice Ballet Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Ballet",
+            "level": "Novice",
+            "winner": {
+                "entry": "647",
+                "title": "The List is Life",
+                "dance_last_names": [],
+                "display_text": "647 - The List is Life"
+            }
+        },
+        {
+            "award_id": "promising_novice_ballet_group__58",
+            "award": "Promising Novice Ballet Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Ballet",
+            "level": "Novice",
+            "winner": {
+                "entry": "640",
+                "title": "Be Our Guest",
+                "dance_last_names": [],
+                "display_text": "640 - Be Our Guest"
+            }
+        },
+        {
+            "award_id": "high_mark_open_ballet_group__59",
+            "award": "High Mark Open Ballet Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Ballet",
+            "level": "Open",
+            "winner": {
+                "entry": "659",
+                "title": "Alma Espanola",
+                "dance_last_names": [],
+                "display_text": "659 - Alma Espanola"
+            }
+        },
+        {
+            "award_id": "promising_tap_group_0_5yrs__60",
+            "award": "Promising Tap Group (0-5yrs)",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "",
+            "winner": {
+                "entry": "768",
+                "title": "Pink Shoe Laces",
+                "dance_last_names": [],
+                "display_text": "768 - Pink Shoe Laces"
+            }
+        },
+        {
+            "award_id": "high_mark_beginner_tap_group__61",
+            "award": "High Mark Beginner Tap group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "Beginner",
+            "winner": {
+                "entry": "796",
+                "title": "Boogie Fever",
+                "dance_last_names": [],
+                "display_text": "796 - Boogie Fever"
+            }
+        },
+        {
+            "award_id": "promising_beginner_tap_group__62",
+            "award": "Promising Beginner Tap Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "Beginner",
+            "winner": {
+                "entry": "750",
+                "title": "Sea Cruise",
+                "dance_last_names": [],
+                "display_text": "750 - Sea Cruise"
+            }
+        },
+        {
+            "award_id": "promising_open_tap_group__63",
+            "award": "Promising Open Tap Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "Open",
+            "winner": {
+                "entry": "720",
+                "title": "Someone to You",
+                "dance_last_names": [],
+                "display_text": "720 - Someone to You"
+            }
+        },
+        {
+            "award_id": "promising_novice_tap_group__64",
+            "award": "Promising Novice Tap Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "Novice",
+            "winner": {
+                "entry": "708",
+                "title": "I Wanna Rock!",
+                "dance_last_names": [],
+                "display_text": "708 - I Wanna Rock!"
+            }
+        },
+        {
+            "award_id": "high_mark_novice_tap_group__65",
+            "award": "High Mark Novice Tap Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "Novice",
+            "winner": {
+                "entry": "742",
+                "title": "Skeletons",
+                "dance_last_names": [],
+                "display_text": "742 - Skeletons"
+            }
+        },
+        {
+            "award_id": "promising_open_tap_group__66",
+            "award": "Promising Open Tap Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Tap",
+            "level": "Open",
+            "winner": {
+                "entry": "718",
+                "title": "New York",
+                "dance_last_names": [],
+                "display_text": "718 - New York"
+            }
+        },
+        {
+            "award_id": "high_mark_contemporary_group__67",
+            "award": "High Mark Contemporary Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Contemporary",
+            "level": "",
+            "winner": {
+                "entry": "832",
+                "title": "You Will Be Found",
+                "dance_last_names": [],
+                "display_text": "832 - You Will Be Found"
+            }
+        },
+        {
+            "award_id": "promising_contemporary_group__68",
+            "award": "Promising Contemporary Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Contemporary",
+            "level": "",
+            "winner": {
+                "entry": "1018",
+                "title": "Someone That I Used to Know",
+                "dance_last_names": [],
+                "display_text": "1018 - Someone That I Used to Know"
+            }
+        },
+        {
+            "award_id": "promising_musical_theatre_group__69",
+            "award": "Promising Musical Theatre Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Musical Theatre",
+            "level": "",
+            "winner": {
+                "entry": "652",
+                "title": "Band Geeks",
+                "dance_last_names": [],
+                "display_text": "652 - Band Geeks"
+            }
+        },
+        {
+            "award_id": "promising_musical_theatre_group__70",
+            "award": "Promising Musical Theatre Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Musical Theatre",
+            "level": "",
+            "winner": {
+                "entry": "650",
+                "title": "Grease",
+                "dance_last_names": [],
+                "display_text": "650 - Grease"
+            }
+        },
+        {
+            "award_id": "high_mark_beginner_lyrical_group__71",
+            "award": "High Mark Beginner Lyrical Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Lyrical",
+            "level": "Beginner",
+            "winner": {
+                "entry": "950",
+                "title": "Clara Bow",
+                "dance_last_names": [],
+                "display_text": "950 - Clara Bow"
+            }
+        },
+        {
+            "award_id": "high_mark_novice_lyrical_group__72",
+            "award": "High Mark Novice Lyrical Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Lyrical",
+            "level": "Novice",
+            "winner": {
+                "entry": "925",
+                "title": "Let it be Hope",
+                "dance_last_names": [],
+                "display_text": "925 - Let it be Hope"
+            }
+        },
+        {
+            "award_id": "promising_novice_lyrical_group__73",
+            "award": "Promising Novice Lyrical Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Lyrical",
+            "level": "Novice",
+            "winner": {
+                "entry": "921",
+                "title": "Butterfly Goodbye",
+                "dance_last_names": [],
+                "display_text": "921 - Butterfly Goodbye"
+            }
+        },
+        {
+            "award_id": "high_mark_open_lyrical_group__74",
+            "award": "High Mark Open Lyrical Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Lyrical",
+            "level": "Open",
+            "winner": {
+                "entry": "934",
+                "title": "Praying",
+                "dance_last_names": [],
+                "display_text": "934 - Praying"
+            }
+        },
+        {
+            "award_id": "promising_open_lyrical_group__75",
+            "award": "Promising Open Lyrical Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Lyrical",
+            "level": "Open",
+            "winner": {
+                "entry": "803",
+                "title": "Last Bit of Us",
+                "dance_last_names": [],
+                "display_text": "803 - Last Bit of Us"
+            }
+        },
+        {
+            "award_id": "high_mark_beginner_jazz_group__76",
+            "award": "High Mark Beginner Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Beginner",
+            "winner": {
+                "entry": "892",
+                "title": "Vogue",
+                "dance_last_names": [],
+                "display_text": "892 - Vogue"
+            }
+        },
+        {
+            "award_id": "promising_beginner_jazz_group__77",
+            "award": "Promising Beginner Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Beginner",
+            "winner": {
+                "entry": "902",
+                "title": "Tarzan",
+                "dance_last_names": [],
+                "display_text": "902 - Tarzan"
+            }
+        },
+        {
+            "award_id": "promising_beginner_jazz_group__78",
+            "award": "Promising Beginner Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Beginner",
+            "winner": {
+                "entry": "887",
+                "title": "Superstar",
+                "dance_last_names": [],
+                "display_text": "887 - Superstar"
+            }
+        },
+        {
+            "award_id": "high_mark_novice_jazz_group__79",
+            "award": "High Mark Novice Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Novice",
+            "winner": {
+                "entry": "861",
+                "title": "Femininomenon",
+                "dance_last_names": [],
+                "display_text": "861 - Femininomenon"
+            }
+        },
+        {
+            "award_id": "promising_novice_jazz_group__80",
+            "award": "Promising Novice Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Novice",
+            "winner": {
+                "entry": "815",
+                "title": "Bulletproof",
+                "dance_last_names": [],
+                "display_text": "815 - Bulletproof"
+            }
+        },
+        {
+            "award_id": "promising_novice_jazz_group__81",
+            "award": "Promising Novice Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Novice",
+            "winner": {
+                "entry": "808",
+                "title": "Cooler Than Me",
+                "dance_last_names": [],
+                "display_text": "808 - Cooler Than Me"
+            }
+        },
+        {
+            "award_id": "promising_open_jazz_group__82",
+            "award": "Promising Open Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "855",
+                "title": "Dolls",
+                "dance_last_names": [],
+                "display_text": "855 - Dolls"
+            }
+        },
+        {
+            "award_id": "promising_open_jazz_group__83",
+            "award": "Promising Open Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "877",
+                "title": "Magalenha",
+                "dance_last_names": [],
+                "display_text": "877 - Magalenha"
+            }
+        },
+        {
+            "award_id": "high_mark_open_jazz_group__84",
+            "award": "High Mark Open Jazz Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Jazz",
+            "level": "Open",
+            "winner": {
+                "entry": "878",
+                "title": "Kill of the Night",
+                "dance_last_names": [],
+                "display_text": "878 - Kill of the Night"
+            }
+        },
+        {
+            "award_id": "high_mark_beginner_hip_hop_group__85",
+            "award": "High Mark Beginner Hip Hop Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Hip Hop",
+            "level": "Beginner",
+            "winner": {
+                "entry": "965",
+                "title": "Bubble Gum Boy",
+                "dance_last_names": [],
+                "display_text": "965 - Bubble Gum Boy"
+            }
+        },
+        {
+            "award_id": "promising_beginner_hip_hop_group__86",
+            "award": "Promising Beginner Hip Hop Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Hip Hop",
+            "level": "Beginner",
+            "winner": {
+                "entry": "960",
+                "title": "23",
+                "dance_last_names": [],
+                "display_text": "960 - 23"
+            }
+        },
+        {
+            "award_id": "high_mark_novice_hip_hop_group__87",
+            "award": "High Mark Novice Hip Hop Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Hip Hop",
+            "level": "Novice",
+            "winner": {
+                "entry": "1045",
+                "title": "Let's Go",
+                "dance_last_names": [],
+                "display_text": "1045 - Let's Go"
+            }
+        },
+        {
+            "award_id": "promising_novice_hip_hop_group__88",
+            "award": "Promising Novice Hip Hop Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Hip Hop",
+            "level": "Novice",
+            "winner": {
+                "entry": "956",
+                "title": "Move",
+                "dance_last_names": [],
+                "display_text": "956 - Move"
+            }
+        },
+        {
+            "award_id": "high_mark_open_hip_hop_group__89",
+            "award": "High Mark Open Hip Hop Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Hip Hop",
+            "level": "Open",
+            "winner": {
+                "entry": "1046",
+                "title": "Boy Problems",
+                "dance_last_names": [],
+                "display_text": "1046 - Boy Problems"
+            }
+        },
+        {
+            "award_id": "promising_open_hip_hop_group__90",
+            "award": "Promising Open Hip Hop Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "Hip Hop",
+            "level": "Open",
+            "winner": {
+                "entry": "1037",
+                "title": "Missy!",
+                "dance_last_names": [],
+                "display_text": "1037 - Missy!"
+            }
+        },
+        {
+            "award_id": "promising_acro_group__91",
+            "award": "Promising Acro Group",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "610",
+                "title": "Witch Doctor",
+                "dance_last_names": [],
+                "display_text": "610 - Witch Doctor"
+            }
+        },
+        {
+            "award_id": "promising_group_18_yrs_over__92",
+            "award": "Promising Group 18 yrs & Over",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "806",
+                "title": "Something In The Heaven's",
+                "dance_last_names": [],
+                "display_text": "806 - Something In The Heaven's"
+            }
+        },
+        {
+            "award_id": "high_mark_group_18_yrs_over__93",
+            "award": "High Mark Group 18 yrs & Over",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "723",
+                "title": "Fake ID",
+                "dance_last_names": [],
+                "display_text": "723 - Fake ID"
+            }
+        },
+        {
+            "award_id": "outstanding_beginner_group_adjudicator_1__94",
+            "award": "Outstanding Beginner Group Adjudicator 1",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "Beginner",
+            "winner": {
+                "entry": "776",
+                "title": "Magic School Bus",
+                "dance_last_names": [],
+                "display_text": "776 - Magic School Bus"
+            }
+        },
+        {
+            "award_id": "outstanding_beginner_group_adjudicator_2__95",
+            "award": "Outstanding Beginner Group Adjudicator 2",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "Beginner",
+            "winner": {
+                "entry": "796",
+                "title": "Boogie Fever",
+                "dance_last_names": [],
+                "display_text": "796 - Boogie Fever"
+            }
+        },
+        {
+            "award_id": "outstanding_novice_group_adjudicator_1__96",
+            "award": "Outstanding Novice Group Adjudicator 1",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "Novice",
+            "winner": {
+                "entry": "872",
+                "title": "Feel it Still",
+                "dance_last_names": [],
+                "display_text": "872 - Feel it Still"
+            }
+        },
+        {
+            "award_id": "outstanding_novice_group_adjudicator_2__97",
+            "award": "Outstanding Novice Group Adjudicator 2",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "Novice",
+            "winner": {
+                "entry": "821",
+                "title": "Attention",
+                "dance_last_names": [],
+                "display_text": "821 - Attention"
+            }
+        },
+        {
+            "award_id": "outstanding_open_group_adjudicator_1__98",
+            "award": "Outstanding Open Group Adjudicator 1",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "Open",
+            "winner": {
+                "entry": "875",
+                "title": "Tainted Love",
+                "dance_last_names": [],
+                "display_text": "875 - Tainted Love"
+            }
+        },
+        {
+            "award_id": "outstanding_open_group_adjudicator_2__99",
+            "award": "Outstanding Open Group Adjudicator 2",
+            "type": "Group",
+            "section": "Groups",
+            "style": "",
+            "level": "Open",
+            "winner": {
+                "entry": "1014",
+                "title": "It's Getting Bad Again",
+                "dance_last_names": [],
+                "display_text": "1014 - It's Getting Bad Again"
+            }
+        },
+        {
+            "award_id": "adjudicators_choice__100",
+            "award": "Adjudicators Choice",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "736",
+                "title": "I Wanna Dance With Somebody",
+                "dance_last_names": [],
+                "display_text": "736 - I Wanna Dance With Somebody"
+            }
+        },
+        {
+            "award_id": "adjudicators_choice__101",
+            "award": "Adjudicators Choice",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "1032",
+                "title": "Willy Wonka",
+                "dance_last_names": [],
+                "display_text": "1032 - Willy Wonka"
+            }
+        },
+        {
+            "award_id": "adjudicators_choice__102",
+            "award": "Adjudicators Choice",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "925",
+                "title": "Let it be Hope",
+                "dance_last_names": [],
+                "display_text": "925 - Let it be Hope"
+            }
+        },
+        {
+            "award_id": "most_entertaining__103",
+            "award": "Most Entertaining",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "784",
+                "title": "The Treblemakers",
+                "dance_last_names": [],
+                "display_text": "784 - The Treblemakers"
+            }
+        },
+        {
+            "award_id": "stardom_dance_costume_scholarship__105",
+            "award": "Stardom Dance Costume Scholarship",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "Nora Rygh"
+        },
+        {
+            "award_id": "dance_city_tuition_for_xcite_dance_intensive_ages_6_13__106",
+            "award": "Dance City Tuition for Xcite Dance Intensive (ages 6-13)",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "Aria Ryan"
+        },
+        {
+            "award_id": "dance_city_tuition_for_xcite_dance_intensive_ages_12_17__106b",
+            "award": "Dance City Tuition for Xcite Dance Intensive (ages 12-17)",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "Mira Bourassa"
+        },
+        {
+            "award_id": "dance_dimensions_summer_intensive_11_yrs_up__107",
+            "award": "Dance Dimensions Summer Intensive 11 yrs & Up",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "Collins Moffat"
+        },
+        {
+            "award_id": "1820_dance_convention_scholarship_340_value_12_and_under__108",
+            "award": "1820 Dance Convention Scholarship ($340 Value) 12 and Under",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": null
+        },
+        {
+            "award_id": "1820_dance_convention_scholarship_340_value_13_up__109",
+            "award": "1820 Dance Convention Scholarship ($340 Value) 13 & Up",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "Kathy Huang"
+        },
+        {
+            "award_id": "form_dance_convention_free_tuition__110",
+            "award": "FORM Dance Convention - Free Tuition",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "Mia Vos"
+        },
+        {
+            "award_id": "form_dance_convention_studio_scholarship__111",
+            "award": "FORM Dance convention - Studio Scholarship",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": "En Pointe Dance Academy"
+        },
+        {
+            "award_id": "hillberg_berk_choreography_award_1__112",
+            "award": "Hillberg & Berk Choreography Award #1",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "803",
+                "title": "Last Bit of Us",
+                "dance_last_names": [],
+                "display_text": "803 - Last Bit of Us"
+            }
+        },
+        {
+            "award_id": "hillberg_berk_choreography_award_2__113",
+            "award": "Hillberg & Berk Choreography Award #2",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "1018",
+                "title": "Someone That I Used to Know",
+                "dance_last_names": [],
+                "display_text": "1018 - Someone That I Used to Know"
+            }
+        },
+        {
+            "award_id": "hillberg_berk_choreography_award_3__114",
+            "award": "Hillberg & Berk Choreography Award #3",
+            "type": "Special Award",
+            "section": "Special Awards",
+            "style": "",
+            "level": "",
+            "winner": {
+                "entry": "1046",
+                "title": "Boy Problems",
+                "dance_last_names": [],
+                "display_text": "1046 - Boy Problems"
+            }
+        }
+    ]
+}
